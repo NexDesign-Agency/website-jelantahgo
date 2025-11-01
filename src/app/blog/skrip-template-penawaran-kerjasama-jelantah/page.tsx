@@ -1,6 +1,5 @@
 "use client"
 
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
@@ -9,7 +8,7 @@ import { MessageSquare, Mail, Phone, FileText, Copy, DollarSign, TrendingDown, C
 
 export default function SkripTemplatePage() {
   return (
-    <React.Fragment>
+    <>
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -228,7 +227,6 @@ export default function SkripTemplatePage() {
                     <li><strong>Track Your Results:</strong> Catat mana template yang paling efektif untuk area Anda</li>
                   </ul>
                 </div>
-              </div>
 
                 {/* CTA */}
                 <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
@@ -258,7 +256,7 @@ export default function SkripTemplatePage() {
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </>
   )
 }
 

@@ -1,6 +1,5 @@
 "use client"
 
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
@@ -9,7 +8,7 @@ import { BookOpen, Target, TrendingUp, CheckCircle } from 'lucide-react'
 
 export default function PanduanBisnisPengepulPage() {
   return (
-    <React.Fragment>
+    <>
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -201,7 +200,6 @@ export default function PanduanBisnisPengepulPage() {
                     </div>
                   </div>
                 </div>
-              </div>
 
                 {/* CTA */}
                 <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
@@ -231,7 +229,7 @@ export default function PanduanBisnisPengepulPage() {
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </>
   )
 }
 
