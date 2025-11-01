@@ -182,13 +182,12 @@ export default function ManajemenLogistikPage() {
                 <li><strong>Track Biaya:</strong> Catat konsumsi bensin dan waktu untuk setiap zona, kemudian evaluasi mana yang paling efisien.</li>
               </ul>
             </div>
-          </div>  {/* Close space-y-6 div */}
 
-            {/* CTA */}}
+            {/* CTA */}
             <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <TrendingUp className="w-8 h-8 text-[#0F3D2E]" />
-                <h2 className="text-2xl font-bold text-[#0F3D2E">Maksimalkan Keuntungan dengan Logistik yang Efisien</h2>
+                <h2 className="text-2xl font-bold text-[#0F3D2E]">Maksimalkan Keuntungan dengan Logistik yang Efisien</h2>
               </div>
               <p className="text-gray-700 mb-6">
                 Setiap kilometer yang Anda hemat adalah rupiah yang masuk ke kantong keuntungan. Dengan manajemen logistik yang baik, operasional Anda akan lebih efisien dan profitabilitas akan meningkat secara signifikan.

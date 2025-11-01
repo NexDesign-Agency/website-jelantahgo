@@ -207,9 +207,8 @@ export default function JakartaBaratGratisPage() {
                 <li><strong>Profesional & Bersih:</strong> Tim kami terlatih untuk bekerja dengan bersih dan tidak meninggalkan bekas atau bau di area penjemputan.</li>
               </ul>
             </div>
-          </div>  {/* Close space-y-6 div */}
 
-            {/* CTA */}}
+            {/* CTA */}
             <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
               <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
                 Dapatkan Layanan Jemput Gratis Sekarang!
@@ -233,7 +232,7 @@ export default function JakartaBaratGratisPage() {
                   Hubungi JelantahGO Sekarang
                 </a>
               </div>
-              </div>
+            </div>
               </div>
             </div>
           </div>

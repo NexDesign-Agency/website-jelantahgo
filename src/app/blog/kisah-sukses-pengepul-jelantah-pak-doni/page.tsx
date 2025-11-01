@@ -166,9 +166,8 @@ export default function KisahSuksesPakDoniPage() {
                 <li><strong>Konsistensi:</strong> Kesuksesan tidak datang dalam semalam. Butuh ketekunan dan konsistensi.</li>
               </ul>
             </div>
-          </div>  {/* Close space-y-6 div */}
 
-            {/* CTA */}}
+            {/* CTA */}
             <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <Award className="w-8 h-8 text-[#0F3D2E]" />

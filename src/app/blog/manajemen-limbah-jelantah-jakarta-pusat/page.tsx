@@ -183,9 +183,8 @@ export default function JakartaPusatManajemenPage() {
                 <li><strong>Dukungan CSR:</strong> Membantu Anda membangun narasi sustainability dan lingkungan yang positif</li>
               </ul>
             </div>
-          </div>  {/* Close space-y-6 div */}
 
-            {/* CTA */}}
+            {/* CTA */}
             <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
               <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
                 Solusi Profesional untuk Manajemen Limbah Korporat

@@ -170,9 +170,8 @@ export default function NegosiasiHargaPage() {
                 Pada akhirnya, negosiasi adalah tentang menciptakan hubungan bisnis yang saling menguntungkan. Namun, dengan persiapan yang matang, Anda bisa memastikan bahwa keuntungan tersebut lebih maksimal untuk Anda.
               </p>
             </div>
-          </div>  {/* Close space-y-6 div */}
 
-            {/* CTA */}}
+            {/* CTA */}
             <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
               <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
                 Harga Transparan, Tidak Perlu Nego!
