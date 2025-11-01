@@ -52,7 +52,7 @@ export default function JakartaTimurPage() {
               Jakarta Timur adalah wilayah yang unik dan dinamis. Di satu sisi, ia adalah rumah bagi jutaan warga yang tinggal di kawasan pemukiman yang luas dan padat, dari Duren Sawit hingga Cibubur. Di sisi lain, ia adalah pusat bagi ribuan industri rumahan, pabrik makanan, dan bisnis katering yang beroperasi di area seperti Cakung dan Pulogadung.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Keragaman ini menciptakan satu kesamaan: produksi minyak jelantah dalam volume yang sangat besar. JelantahGO hadir dengan solusi yang dirancang khusus untuk memenuhi kebutuhan kedua segmen ini.
+              Keragaman ini menciptakan satu kesamaan: produksi minyak jelantah dalam volume yang sangat besar. JelantahGO hadir dengan solusi yang dirancang khusus untuk memenuhi kebutuhan kedua segmen ini. Artikel ini adalah bagian dari <Link href="/blog/jual-minyak-jelantah-jakarta" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah Jakarta</Link>.
             </p>
 
             {/* Potensi Ganda */}

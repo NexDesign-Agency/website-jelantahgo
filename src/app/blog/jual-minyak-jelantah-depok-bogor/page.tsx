@@ -1,10 +1,37 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025',
+  title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025 | JelantahGO',
   description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
+  keywords: 'jual jelantah depok, jual jelantah bogor, pengepul depok, pengepul bogor, harga jelantah depok, jemput jelantah bogor, pengepul depok terpercaya',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
+  },
+  openGraph: {
+    title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025 | JelantahGO',
+    description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
+    url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_11_vic3dh.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Jual Minyak Jelantah Depok & Bogor',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025',
+    description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_11_vic3dh.webp'],
+  },
 }
 
 export default function JualDepokBogorPage() {

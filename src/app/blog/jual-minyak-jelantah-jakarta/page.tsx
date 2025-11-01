@@ -3,15 +3,61 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ReadingTime from '@/components/ReadingTime'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025',
+  title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025 | JelantahGO',
   description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta.',
+  keywords: 'jual minyak jelantah jakarta, pengepul jelantah jakarta, harga jelantah jakarta, jual jelantah jakarta selatan, jemput jelantah jakarta, pengepul jelantah terpercaya jakarta',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
+  },
+  openGraph: {
+    title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025 | JelantahGO',
+    description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta.',
+    url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Jual Minyak Jelantah Jakarta',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+    publishedTime: '2025-11-15T00:00:00+07:00',
+    modifiedTime: '2025-11-15T00:00:00+07:00',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025',
+    description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp'],
+  },
 }
 
 export default function JualJakartaPage() {
   return (
     <>
+      <ArticleSchema
+        title="Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025"
+        description="Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp"
+        datePublished="2025-11-15"
+        dateModified="2025-11-15"
+        articleUrl="https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Jual Minyak Jelantah Jakarta', url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -25,7 +71,10 @@ export default function JualJakartaPage() {
             <p className="text-lg text-white/90 leading-relaxed">
               Panduan Lengkap & Harga Terbaru 2025
             </p>
-            <p className="text-sm text-white/80 mt-2">Terakhir diperbarui: 15 November 2025</p>
+            <div className="flex items-center gap-4 mt-4">
+              <p className="text-sm text-white/80">Terakhir diperbarui: 15 November 2025</p>
+              <ReadingTime wordCount={3500} />
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +178,7 @@ export default function JualJakartaPage() {
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">Jakarta Selatan: Pusat Gaya Hidup & Kuliner</h3>
                   <p className="text-gray-700 mb-2">
-                    Dengan denyut kehidupan malam dan ribuan kafe serta restorannya, Jakarta Selatan adalah penghasil jelantah volume tinggi. Kami menawarkan solusi yang cepat dan profesional untuk area sibuk ini.
+                    Dengan denyut kehidupan malam dan ribuan kafe serta restorannya, Jakarta Selatan adalah penghasil jelantah volume tinggi. Kami menawarkan solusi yang cepat dan profesional untuk area sibuk ini. Baca panduan lengkap untuk <Link href="/blog/pengepul-jelantah-jakarta-selatan" className="text-[#0F3D2E] font-semibold hover:underline">pengepul jelantah Jakarta Selatan</Link>.
                   </p>
                   <p className="text-gray-600 text-sm">
                     <strong>Wilayah:</strong> Kebayoran Baru, Kebayoran Lama, Pesanggrahan, Cilandak, Pasar Minggu, Jagakarsa, Mampang Prapatan, Pancoran, Tebet, Setiabudi.
@@ -139,7 +188,7 @@ export default function JualJakartaPage() {
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">Jakarta Pusat: Jantung Bisnis & Pemerintahan</h3>
                   <p className="text-gray-700 mb-2">
-                    Hotel, mal, dan gedung perkantoran di Jakarta Pusat membutuhkan lebih dari sekadar pengepul; mereka butuh partner manajemen limbah yang profesional dan patuh regulasi.
+                    Hotel, mal, dan gedung perkantoran di Jakarta Pusat membutuhkan lebih dari sekadar pengepul; mereka butuh partner manajemen limbah yang profesional dan patuh regulasi. Pelajari detail <Link href="/blog/manajemen-limbah-jelantah-jakarta-pusat" className="text-[#0F3D2E] font-semibold hover:underline">manajemen limbah jelantah Jakarta Pusat</Link> untuk lingkungan korporat.
                   </p>
                   <p className="text-gray-600 text-sm">
                     <strong>Wilayah:</strong> Gambir, Tanah Abang, Menteng, Senen, Cempaka Putih, Johar Baru, Kemayoran, Sawah Besar.
@@ -149,7 +198,7 @@ export default function JualJakartaPage() {
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">Jakarta Barat: Dinamika Perumahan & Komersial</h3>
                   <p className="text-gray-700 mb-2">
-                    Dari komplek perumahan hingga UKM kuliner, Jakarta Barat memiliki kebutuhan yang beragam. Kami menyediakan solusi fleksibel untuk semua.
+                    Dari komplek perumahan hingga UKM kuliner, Jakarta Barat memiliki kebutuhan yang beragam. Kami menyediakan solusi fleksibel untuk semua. Informasi lengkap tentang <Link href="/blog/jemput-jelantah-gratis-jakarta-barat" className="text-[#0F3D2E] font-semibold hover:underline">jemput jelantah gratis Jakarta Barat</Link> tersedia untuk Anda.
                   </p>
                   <p className="text-gray-600 text-sm">
                     <strong>Wilayah:</strong> Cengkareng, Grogol Petamburan, Taman Sari, Tambora, Kebon Jeruk, Kalideres, Palmerah, Kembangan.
@@ -159,7 +208,7 @@ export default function JualJakartaPage() {
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">Jakarta Timur: Area Industri & Pemukiman Padat</h3>
                   <p className="text-gray-700 mb-2">
-                    Kekuatan Jakarta Timur terletak pada komunitas warganya yang solid dan banyaknya industri rumahan. Kami menawarkan program kolektif dan layanan B2B yang disesuaikan.
+                    Kekuatan Jakarta Timur terletak pada komunitas warganya yang solid dan banyaknya industri rumahan. Kami menawarkan program kolektif dan layanan B2B yang disesuaikan. Baca panduan spesifik untuk <Link href="/blog/jual-minyak-jelantah-jakarta-timur" className="text-[#0F3D2E] font-semibold hover:underline">jual minyak jelantah Jakarta Timur</Link>.
                   </p>
                   <p className="text-gray-600 text-sm">
                     <strong>Wilayah:</strong> Matraman, Jatinegara, Pulogadung, Cakung, Kramat Jati, Makasar, Pasar Rebo, Ciracas, Cipayung, Duren Sawit.
@@ -169,7 +218,7 @@ export default function JualJakartaPage() {
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">Jakarta Utara: Sentra Perdagangan & Kuliner Pesisir</h3>
                   <p className="text-gray-700 mb-2">
-                    Bagi para pebisnis di surga kuliner Kelapa Gading, PIK, dan Muara Karang, mendapatkan harga terbaik adalah kunci.
+                    Bagi para pebisnis di surga kuliner Kelapa Gading, PIK, dan Muara Karang, mendapatkan harga terbaik adalah kunci. Cek <Link href="/blog/harga-jual-minyak-jelantah-jakarta-utara" className="text-[#0F3D2E] font-semibold hover:underline">harga jual minyak jelantah Jakarta Utara</Link> terbaru.
                   </p>
                   <p className="text-gray-600 text-sm">
                     <strong>Wilayah:</strong> Penjaringan, Pademangan, Tanjung Priok, Koja, Kelapa Gading, Cilincing.

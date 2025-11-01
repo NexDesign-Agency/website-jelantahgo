@@ -52,7 +52,7 @@ export default function ManajemenLogistikPage() {
               Anda sudah berhasil mendapatkan pemasok. Jeriken Anda mulai terisi, dan telepon Anda mulai berdering dengan permintaan penjemputan. Selamat, Anda telah melewati fase awal dan kini masuk ke jantung operasional bisnis ini.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Namun, di sinilah banyak pengepul pemula terjebak: mereka sibuk "berlari" dari satu titik ke titik lain tanpa strategi, menghabiskan keuntungan mereka untuk bensin dan waktu yang terbuang di jalan. Logistik bukan sekadar "mengambil dan mengantar barang". Dalam bisnis pengepul jelantah, manajemen logistik adalah <strong>pusat keuntungan (profit center)</strong> Anda.
+              Namun, di sinilah banyak pengepul pemula terjebak: mereka sibuk "berlari" dari satu titik ke titik lain tanpa strategi, menghabiskan keuntungan mereka untuk bensin dan waktu yang terbuang di jalan. Logistik bukan sekadar "mengambil dan mengantar barang". Dalam bisnis pengepul jelantah, manajemen logistik adalah <strong>pusat keuntungan (profit center)</strong> Anda. Panduan ini adalah bagian penting dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">blueprint lengkap peluang bisnis pengepul jelantah</Link>.
             </p>
 
             {/* Mindset */}
@@ -198,7 +198,7 @@ export default function ManajemenLogistikPage() {
                   href="/blog/peluang-bisnis-pengepul-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Pelajari Bisnis Pengepul →
+                  Peluang Bisnis Pengepul 2025 →
                 </Link>
                 <Link
                   href="/mitra"

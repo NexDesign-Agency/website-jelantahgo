@@ -50,7 +50,7 @@ export default function KesalahanMenyimpanPage() {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 leading-relaxed mb-6">
-              Mengumpulkan minyak jelantah adalah langkah pertama yang bagus untuk menjaga lingkungan dan mendapatkan penghasilan tambahan. Namun, tahukah Anda bahwa cara Anda menyimpannya sangat menentukan kualitas dan harga jualnya? Banyak orang tanpa sadar melakukan kesalahan fatal yang membuat jelantah mereka dihargai rendah, atau bahkan ditolak oleh pengepul.
+              Mengumpulkan minyak jelantah adalah langkah pertama yang bagus untuk menjaga lingkungan dan mendapatkan penghasilan tambahan. Namun, tahukah Anda bahwa cara Anda menyimpannya sangat menentukan kualitas dan harga jualnya? Banyak orang tanpa sadar melakukan kesalahan fatal yang membuat jelantah mereka dihargai rendah, atau bahkan ditolak oleh pengepul. Panduan ini adalah bagian penting dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
               Hindari lima kesalahan berikut ini untuk memastikan usaha Anda tidak sia-sia.

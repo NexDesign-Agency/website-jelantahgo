@@ -52,7 +52,7 @@ export default function RegulasiB3Page() {
               Bagi seorang pengusaha di industri Makanan & Minuman (F&B), kata "limbah" seringkali identik dengan biaya dan kerepotan. Namun, ada satu jenis limbah dapur yang statusnya jauh lebih serius dari sisa makanan biasa: minyak jelantah.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Mungkin terdengar mengejutkan, tetapi menurut hukum di Indonesia, minyak goreng bekas yang dihasilkan oleh restoran, hotel, dan katering Anda diklasifikasikan sebagai <strong>Limbah Bahan Berbahaya dan Beracun (B3)</strong>. Memahami kewajiban hukum Anda adalah kunci untuk operasional bisnis yang aman dan berkelanjutan.
+              Mungkin terdengar mengejutkan, tetapi menurut hukum di Indonesia, minyak goreng bekas yang dihasilkan oleh restoran, hotel, dan katering Anda diklasifikasikan sebagai <strong>Limbah Bahan Berbahaya dan Beracun (B3)</strong>. Memahami kewajiban hukum Anda adalah kunci untuk operasional bisnis yang aman dan berkelanjutan. Artikel ini adalah bagian dari eksplorasi lengkap tentang <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">bahaya dan peluang emas minyak jelantah</Link>.
             </p>
 
             {/* Dasar Hukum */}

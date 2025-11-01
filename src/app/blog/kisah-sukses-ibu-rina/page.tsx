@@ -52,7 +52,7 @@ export default function KisahSuksesIbuRinaPage() {
               Di tengah kesibukannya sebagai seorang ibu rumah tangga di Tangerang, Ibu Rina menemukan sebuah peluang bisnis yang tidak hanya menambah pundi-pundi keluarga tetapi juga berkontribusi pada kelestarian lingkungan. Kisahnya adalah bukti nyata bahwa dari dapur rumah pun, seorang perempuan bisa membangun usaha yang sukses dan menginspirasi banyak orang.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Ini adalah perjalanan Ibu Rina, dari mengumpulkan jelantah tetangga hingga menjadi mitra pengepul sukses dengan omzet jutaan rupiah per bulan.
+              Ini adalah perjalanan Ibu Rina, dari mengumpulkan jelantah tetangga hingga menjadi mitra pengepul sukses dengan omzet jutaan rupiah per bulan. Kisah inspiratif ini adalah contoh nyata dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">peluang bisnis pengepul jelantah</Link> yang bisa dimulai dari skala kecil.
             </p>
 
             {/* Awal Mula */}
@@ -162,7 +162,7 @@ export default function KisahSuksesIbuRinaPage() {
                   href="/blog/peluang-bisnis-pengepul-jelantah"
                   className="inline-block bg-white text-[#0F3D2E] border-2 border-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft hover:shadow-soft-lg"
                 >
-                  Pelajari Bisnis Pengepul →
+                  Mulai Bisnis Pengepul Jelantah →
                 </Link>
               </div>
             </div>

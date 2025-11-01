@@ -1,11 +1,38 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Tangerang & Tangsel: Panduan Lengkap 2025',
+  title: 'Jual Minyak Jelantah Tangerang & Tangsel: Panduan Lengkap 2025 | JelantahGO',
   description: 'Panduan spesifik untuk warga dan bisnis di Tangerang Raya (Kota, Tangsel, Kabupaten) yang ingin menjual jelantah dengan harga terbaik dan layanan profesional.',
+  keywords: 'jual jelantah tangerang, jual jelantah tangsel, pengepul tangerang, harga jelantah tangerang, jemput jelantah tangerang, pengepul tangsel',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-tangerang',
+  },
+  openGraph: {
+    title: 'Jual Minyak Jelantah Tangerang & Tangsel: Panduan Lengkap 2025 | JelantahGO',
+    description: 'Panduan spesifik untuk warga dan bisnis di Tangerang Raya (Kota, Tangsel, Kabupaten) yang ingin menjual jelantah dengan harga terbaik dan layanan profesional.',
+    url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-tangerang',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_14_tvh1jt.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Jual Minyak Jelantah Tangerang & Tangsel',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jual Minyak Jelantah Tangerang & Tangsel: Panduan Lengkap 2025',
+    description: 'Panduan spesifik untuk warga dan bisnis di Tangerang Raya (Kota, Tangsel, Kabupaten) yang ingin menjual jelantah dengan harga terbaik.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_14_tvh1jt.webp'],
+  },
 }
 
 export default function JualTangerangPage() {

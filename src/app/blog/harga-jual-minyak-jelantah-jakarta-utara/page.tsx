@@ -52,7 +52,7 @@ export default function JakartaUtaraHargaPage() {
               Jakarta Utara adalah episentrum kuliner dan perdagangan. Dari surga makanan di Kelapa Gading, deretan restoran modern di Pantai Indah Kapuk (PIK), hingga pusat seafood legendaris di Muara Karang, setiap sudutnya menghasilkan volume minyak jelantah yang luar biasa.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Bagi para pebisnis F&B dan warga di area ini, pertanyaan utamanya bukanlah "apakah jelantah saya laku?", melainkan "bagaimana cara mendapatkan harga jual minyak jelantah terbaik di Jakarta Utara?"
+              Bagi para pebisnis F&B dan warga di area ini, pertanyaan utamanya bukanlah "apakah jelantah saya laku?", melainkan "bagaimana cara mendapatkan harga jual minyak jelantah terbaik di Jakarta Utara?" Artikel ini adalah bagian dari <Link href="/blog/jual-minyak-jelantah-jakarta" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah Jakarta</Link>.
             </p>
 
             {/* Harga */}
@@ -168,40 +168,39 @@ export default function JakartaUtaraHargaPage() {
                 <li><strong>Pilih Pengepul Terpercaya:</strong> Harga jujur lebih berharga daripada harga tinggi yang penuh tipu daya</li>
               </ul>
             </div>
-          </div>  {/* Close space-y-6 div */}
-
-            {/* CTA */}}
-            <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
-              <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
-                Dapatkan Harga Terbaik dengan Kejujuran 100%
-              </h2>
-              <p className="text-gray-700 mb-6">
-                Di JelantahGO, harga yang kami komunikasikan adalah harga yang benar-benar akan Anda terima. Tidak ada permainan angka, tidak ada manipulasi timbangan. Hanya kejujuran dan transparansi penuh.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/blog/jual-minyak-jelantah-jakarta"
-                  className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
-                >
-                  Panduan Lengkap Jakarta →
-                </Link>
-                <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20di%20Jakarta%20Utara%20dan%20ingin%20jual%20minyak%20jelantah"
-                  target="_blank"
-                  rel="noopener"
-                  className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
-                >
-                  Hubungi JelantahGO
-                </a>
               </div>
-            </div>
+
+              {/* CTA */}
+              <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
+                <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
+                  Dapatkan Harga Terbaik dengan Kejujuran 100%
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  Di JelantahGO, harga yang kami komunikasikan adalah harga yang benar-benar akan Anda terima. Tidak ada permainan angka, tidak ada manipulasi timbangan. Hanya kejujuran dan transparansi penuh.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link
+                    href="/blog/jual-minyak-jelantah-jakarta"
+                    className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
+                  >
+                    Panduan Lengkap Jakarta →
+                  </Link>
+                  <a
+                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20di%20Jakarta%20Utara%20dan%20ingin%20jual%20minyak%20jelantah"
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
+                  >
+                    Hubungi JelantahGO
+                  </a>
+                </div>
+              </div>
+
+              {/* Article Footer */}
+              <BlogArticleFooter currentSlug="harga-jual-minyak-jelantah-jakarta-utara" />
             </div>
 
-            {/* Article Footer */}
-            <BlogArticleFooter currentSlug="harga-jual-minyak-jelantah-jakarta-utara" />
-          </div>
-
-          {/* Sidebar */}
+            {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-24">
                 <BlogSidebar />

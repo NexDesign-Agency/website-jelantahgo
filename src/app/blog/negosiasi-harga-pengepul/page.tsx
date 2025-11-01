@@ -49,7 +49,7 @@ export default function NegosiasiHargaPage() {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 leading-relaxed mb-6">
-              Dalam bisnis jual beli minyak jelantah, harga bisa menjadi sangat fleksibel. Kemampuan Anda untuk bernegosiasi seringkali menjadi penentu utama seberapa besar keuntungan yang bisa Anda dapatkan. Berhadapan dengan pengepul, terutama yang berskala kecil, memerlukan strategi agar Anda tidak dirugikan.
+              Dalam bisnis jual beli minyak jelantah, harga bisa menjadi sangat fleksibel. Kemampuan Anda untuk bernegosiasi seringkali menjadi penentu utama seberapa besar keuntungan yang bisa Anda dapatkan. Berhadapan dengan pengepul, terutama yang berskala kecil, memerlukan strategi agar Anda tidak dirugikan. Panduan ini adalah bagian dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">blueprint lengkap peluang bisnis pengepul jelantah</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
               Berikut adalah lima langkah jitu untuk menguatkan posisi tawar Anda dan mendapatkan harga terbaik.

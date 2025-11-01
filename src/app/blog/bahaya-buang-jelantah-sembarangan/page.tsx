@@ -147,14 +147,14 @@ export default function BahayaBuangSembaranganPage() {
                     Solusi: Jangan Buang, Jual Saja!
                   </h2>
                   <p className="text-gray-700 mb-6">
-                    Setelah memahami betapa berbahayanya membuang jelantah sembarangan, solusinya sangat sederhana: <strong>jangan buang, jual saja!</strong> Dengan menjual jelantah, Anda tidak hanya mencegah kerusakan lingkungan, tetapi juga mendapatkan penghasilan tambahan.
+                    Setelah memahami betapa berbahayanya membuang jelantah sembarangan, solusinya sangat sederhana: <strong>jangan buang, jual saja!</strong> Dengan menjual jelantah, Anda tidak hanya mencegah kerusakan lingkungan, tetapi juga mendapatkan penghasilan tambahan. Artikel ini adalah bagian dari eksplorasi lengkap tentang <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">bahaya dan peluang emas minyak jelantah</Link>.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link
                       href="/blog/panduan-jual-minyak-jelantah"
                       className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl text-center"
                     >
-                      Pelajari Cara Jual Jelantah →
+                      Panduan Jual Minyak Jelantah →
                     </Link>
                     <a
                       href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

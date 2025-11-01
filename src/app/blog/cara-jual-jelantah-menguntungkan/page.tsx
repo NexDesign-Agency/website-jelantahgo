@@ -4,11 +4,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
 import { TrendingUp, DollarSign, Target, CheckCircle } from 'lucide-react'
 
 export default function CaraJualMenguntungkanPage() {
   return (
     <>
+      <ArticleSchema
+        title="Cara Jual Minyak Jelantah yang Paling Menguntungkan: 5 Strategi Terbukti"
+        description="Pelajari 5 strategi jual minyak jelantah yang paling menguntungkan. Tips memilih pengepul, negosiasi harga, dan cara dapat harga terbaik untuk jelantah Anda."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_5_r4hdb5.webp"
+        datePublished="2025-09-30"
+        dateModified="2025-09-30"
+        articleUrl="https://jelantahgo.com/blog/cara-jual-jelantah-menguntungkan"
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -50,7 +59,7 @@ export default function CaraJualMenguntungkanPage() {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 leading-relaxed mb-6">
-              Menjual minyak jelantah bisa menjadi sumber penghasilan tambahan yang menguntungkan, tetapi banyak orang tidak mendapatkan hasil maksimal karena tidak memahami strategi yang tepat. Artikel ini akan memberikan panduan praktis untuk memaksimalkan keuntungan dari penjualan jelantah Anda.
+              Menjual minyak jelantah bisa menjadi sumber penghasilan tambahan yang menguntungkan, tetapi banyak orang tidak mendapatkan hasil maksimal karena tidak memahami strategi yang tepat. Artikel ini adalah bagian dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan terlengkap jual minyak jelantah 2025</Link> yang akan memberikan panduan praktis untuk memaksimalkan keuntungan dari penjualan jelantah Anda.
             </p>
 
             {/* Strategi */}
@@ -164,7 +173,7 @@ export default function CaraJualMenguntungkanPage() {
                   href="/blog/panduan-jual-minyak-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Baca Panduan Lengkap →
+                  Panduan Lengkap Jual Jelantah →
                 </Link>
                 <a
                   href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

@@ -52,7 +52,7 @@ export default function KesalahanPemulaPage() {
               Anda telah mengambil keputusan cerdas: berhenti membuang minyak jelantah dan mulai menjualnya. Anda bersemangat untuk berkontribusi pada lingkungan sekaligus mendapatkan penghasilan tambahan. Namun, di tengah antusiasme itu, ada banyak jebakan kecil yang bisa mengubah potensi keuntungan menjadi kerugian dan kekecewaan.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Menjual minyak jelantah itu mudah, tetapi menjualnya dengan benar dan menguntungkan membutuhkan sedikit pengetahuan. Banyak pemula, karena ketidaktahuan, melakukan kesalahan-kesalahan yang sebenarnya sangat bisa dihindari. Artikel ini adalah 'peta ranjau' Anda.
+              Menjual minyak jelantah itu mudah, tetapi menjualnya dengan benar dan menguntungkan membutuhkan sedikit pengetahuan. Banyak pemula, karena ketidaktahuan, melakukan kesalahan-kesalahan yang sebenarnya sangat bisa dihindari. Artikel ini adalah 'peta ranjau' Anda dan bagian dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan terlengkap jual minyak jelantah 2025</Link>.
             </p>
 
             {/* 7 Kesalahan */}
@@ -227,7 +227,7 @@ export default function KesalahanPemulaPage() {
                   href="/blog/panduan-jual-minyak-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Baca Panduan Lengkap →
+                  Panduan Komprehensif Jual Jelantah →
                 </Link>
                 <a
                   href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

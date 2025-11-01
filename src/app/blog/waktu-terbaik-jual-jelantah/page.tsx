@@ -4,11 +4,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
 import { Calendar, TrendingUp, DollarSign, Clock } from 'lucide-react'
 
 export default function WaktuTerbaikPage() {
   return (
     <>
+      <ArticleSchema
+        title="Kapan Waktu Terbaik untuk Jual Minyak Jelantah? Strategi Waktu Optimal"
+        description="Pelajari kapan waktu terbaik menjual minyak jelantah untuk dapat harga tertinggi. Strategi musim, volume, dan faktor domestik yang mempengaruhi harga jelantah."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761171105/jelantah-go_13_ok4gma.webp"
+        datePublished="2025-09-28"
+        dateModified="2025-09-28"
+        articleUrl="https://jelantahgo.com/blog/waktu-terbaik-jual-jelantah"
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -52,7 +61,7 @@ export default function WaktuTerbaikPage() {
               Dalam dunia komoditas, waktu adalah segalanya. Prinsip ini tidak hanya berlaku untuk emas atau saham, tetapi juga untuk minyak jelantah. Menjual jelantah pada waktu yang tepat dapat memberikan perbedaan harga yang signifikan, memaksimalkan keuntungan dari usaha yang Anda jalankan.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Jadi, kapan sebenarnya waktu terbaik untuk mengubah jeriken-jeriken berisi jelantah Anda menjadi uang tunai?
+              Jadi, kapan sebenarnya waktu terbaik untuk mengubah jeriken-jeriken berisi jelantah Anda menjadi uang tunai? Artikel ini adalah bagian dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah</Link> yang kami sediakan untuk membantu Anda mendapatkan keuntungan maksimal.
             </p>
 
             {/* Aturan Emas */}
@@ -70,7 +79,7 @@ export default function WaktuTerbaikPage() {
                 </p>
               </div>
               <p className="text-gray-700 leading-relaxed mt-4">
-                Jadi, prioritas utama Anda adalah mengumpulkan jelantah hingga mencapai volume yang signifikan (minimal 20-30 liter) sebelum berpikir untuk menjualnya.
+                Jadi, prioritas utama Anda adalah mengumpulkan jelantah hingga mencapai volume yang signifikan (minimal 20-30 liter) sebelum berpikir untuk menjualnya. Jika Anda kesulitan mencapai target volume, baca panduan kami tentang <Link href="/blog/cara-kumpulkan-100-liter-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara mengumpulkan 100 liter jelantah per bulan</Link>.
               </p>
             </section>
 
@@ -81,7 +90,7 @@ export default function WaktuTerbaikPage() {
                 <h2 className="text-3xl font-bold text-[#0F3D2E]">Musim Emas: Manfaatkan Permintaan Global di Kuartal Keempat</h2>
               </div>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Waktu terbaik secara musiman untuk menjual jelantah adalah pada <strong>Kuartal Keempat (Oktober - Desember)</strong>. Mengapa? Jawabannya terletak pada permintaan dari belahan bumi utara, terutama Eropa.
+                Waktu terbaik secara musiman untuk menjual jelantah adalah pada <strong>Kuartal Keempat (Oktober - Desember)</strong>. Mengapa? Jawabannya terletak pada permintaan dari belahan bumi utara, terutama Eropa. Untuk mengetahui <Link href="/blog/harga-jelantah-oktober-2025" className="text-[#0F3D2E] font-semibold hover:underline">update harga jelantah oktober 2025</Link> secara detail, baca artikel terkait kami.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="card-premium">

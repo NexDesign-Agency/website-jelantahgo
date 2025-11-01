@@ -52,7 +52,7 @@ export default function JakartaSelatanPage() {
               Jakarta Selatan. Sebuah nama yang identik dengan gaya hidup, tren kuliner, dan denyut bisnis yang tidak pernah berhenti. Dari kafe-kafe estetis di Kemang, restoran fine dining di Senopati, hingga surga jajanan kekinian di Tebet, setiap sudutnya adalah panggung bagi para pelaku industri F&B.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Bagi bisnis di Jaksel, pengelolaan limbah jelantah bukan sekadar masalah kebersihan, melainkan sebuah tantangan operasional yang kompleks. Anda butuh solusi yang cepat, tidak mengganggu estetika tempat usaha, dan profesional.
+              Bagi bisnis di Jaksel, pengelolaan limbah jelantah bukan sekadar masalah kebersihan, melainkan sebuah tantangan operasional yang kompleks. Anda butuh solusi yang cepat, tidak mengganggu estetika tempat usaha, dan profesional. Artikel ini adalah bagian dari <Link href="/blog/jual-minyak-jelantah-jakarta" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah Jakarta</Link>.
             </p>
 
             {/* Kebutuhan Jaksel */}

@@ -207,40 +207,39 @@ export default function DIYSabunLilinPage() {
                 <strong>Catatan Penting:</strong> Proses DIY ini memerlukan ketelitian, kesabaran, dan perhatian terhadap keselamatan. Jika Anda lebih tertarik untuk mendapatkan nilai ekonomi dari jelantah tanpa kerumitan, menjual jelantah kepada pengepul profesional seperti JelantahGO adalah pilihan yang lebih praktis dan menguntungkan.
               </p>
             </div>
-          </div>  {/* Close space-y-6 div */}
-
-            {/* CTA */}}
-            <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
-              <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
-                Ingin Cara yang Lebih Praktis?
-              </h2>
-              <p className="text-gray-700 mb-6">
-                Jika DIY terlalu rumit atau Anda lebih tertarik untuk mendapatkan nilai ekonomi langsung dari jelantah, menjual jelantah kepada pengepul profesional adalah pilihan yang lebih praktis dan menguntungkan. Anda mendapatkan uang tunai tanpa perlu repot dengan proses kimia yang rumit.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/blog/panduan-jual-minyak-jelantah"
-                  className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
-                >
-                  Pelajari Cara Jual Jelantah →
-                </Link>
-                <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
-                  target="_blank"
-                  rel="noopener"
-                  className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
-                >
-                  Hubungi JelantahGO
-                </a>
               </div>
-            </div>
+
+              {/* CTA */}
+              <div className="card-premium bg-gradient-to-br from-[#E8F0E3] to-[#D9E3D3] border-l-4 border-l-[#0F3D2E] text-center mt-12">
+                <h2 className="text-2xl font-bold text-[#0F3D2E] mb-4">
+                  Ingin Cara yang Lebih Praktis?
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  Jika DIY terlalu rumit atau Anda lebih tertarik untuk mendapatkan nilai ekonomi langsung dari jelantah, menjual jelantah kepada pengepul profesional adalah pilihan yang lebih praktis dan menguntungkan. Anda mendapatkan uang tunai tanpa perlu repot dengan proses kimia yang rumit.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link
+                    href="/blog/panduan-jual-minyak-jelantah"
+                    className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
+                  >
+                    Panduan Jual Minyak Jelantah →
+                  </Link>
+                  <a
+                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
+                  >
+                    Hubungi JelantahGO
+                  </a>
+                </div>
+              </div>
+
+              {/* Article Footer */}
+              <BlogArticleFooter currentSlug="diy-sabun-lilin-minyak-jelantah" />
             </div>
 
-            {/* Article Footer */}
-            <BlogArticleFooter currentSlug="diy-sabun-lilin-minyak-jelantah" />
-          </div>
-
-          {/* Sidebar */}
+            {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-24">
                 <BlogSidebar />

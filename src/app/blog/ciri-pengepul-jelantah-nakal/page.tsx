@@ -52,7 +52,7 @@ export default function CiriPengepulNakalPage() {
               Bayangkan skenario ini: Anda telah dengan teliti mengumpulkan minyak jelantah selama berbulan-bulan. Anda merasa bangga bisa berkontribusi pada lingkungan dan berharap mendapatkan imbalan yang adil. Namun, saat tim penjemput datang, harga yang dijanjikan tiba-tiba anjlok, timbangan terlihat meragukan, dan uang yang Anda terima jauh di bawah ekspektasi.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Sayangnya, skenario ini bukanlah fiksi. Di balik citra bisnis daur ulang yang mulia, ada oknum-oknum "pengepul nakal" yang memanfaatkan ketidaktahuan penjual pemula untuk meraup keuntungan secara tidak jujur. Artikel ini adalah panduan pertahanan diri Anda. Kami akan membongkar 5 modus operandi paling umum yang digunakan pengepul nakal dan membekali Anda dengan pengetahuan untuk menghindarinya.
+              Sayangnya, skenario ini bukanlah fiksi. Di balik citra bisnis daur ulang yang mulia, ada oknum-oknum "pengepul nakal" yang memanfaatkan ketidaktahuan penjual pemula untuk meraup keuntungan secara tidak jujur. Artikel ini adalah panduan pertahanan diri Anda dan bagian penting dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan terlengkap jual minyak jelantah</Link>. Kami akan membongkar 5 modus operandi paling umum yang digunakan pengepul nakal dan membekali Anda dengan pengetahuan untuk menghindarinya.
             </p>
 
             {/* 5 Ciri Nakal */}
@@ -191,7 +191,7 @@ export default function CiriPengepulNakalPage() {
                   href="/blog/panduan-jual-minyak-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl text-center"
                 >
-                  Baca Panduan Lengkap →
+                  Panduan Terlengkap Jual Minyak Jelantah →
                 </Link>
                 <a
                   href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

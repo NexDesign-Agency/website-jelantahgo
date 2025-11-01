@@ -52,7 +52,7 @@ export default function DampakEkosistemPage() {
               Satu liter minyak jelantah yang dibuang ke saluran air dapat mencemari hingga satu juta liter air bersih. Angka ini bukan sekadar statistik, melainkan sebuah peringatan keras tentang daya rusak limbah dapur yang sering kita anggap sepele.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Ketika jelantah memasuki ekosistem air, ia memicu serangkaian kerusakan berantai yang mematikan bagi kehidupan di dalamnya.
+              Ketika jelantah memasuki ekosistem air, ia memicu serangkaian kerusakan berantai yang mematikan bagi kehidupan di dalamnya. Ini adalah bagian penting dari diskusi tentang <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">bahaya dan peluang emas minyak jelantah</Link> yang perlu dipahami semua pihak.
             </p>
 
             {/* Lapisan Maut */}

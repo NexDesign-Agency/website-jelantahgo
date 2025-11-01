@@ -52,7 +52,7 @@ export default function BahayaKesehatanPage() {
                   Di banyak dapur, baik rumah tangga maupun warung makan, ada satu kebiasaan yang diwariskan turun-temurun demi penghematan: menggunakan minyak goreng berulang kali hingga tetes terakhir. Minyak yang tadinya berwarna keemasan jernih perlahan berubah menjadi cokelat gelap, kental, dan berbau tengik.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-8">
-                  Tindakan yang tampaknya 'hemat' ini, menurut para ahli gizi, sebenarnya adalah undangan terbuka bagi serangkaian masalah kesehatan serius. Minyak jelantah bukan sekadar minyak bekas. Dari sudut pandang kimia, ia adalah produk yang telah terdegradasi secara fundamental. Mari kita bedah 5 bahaya utama menggunakan minyak jelantah berulang kali bagi kesehatan Anda.
+                  Tindakan yang tampaknya 'hemat' ini, menurut para ahli gizi, sebenarnya adalah undangan terbuka bagi serangkaian masalah kesehatan serius. Minyak jelantah bukan sekadar minyak bekas. Dari sudut pandang kimia, ia adalah produk yang telah terdegradasi secara fundamental. Artikel ini adalah bagian dari <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">eksplorasi lengkap bahaya dan peluang minyak jelantah</Link>. Mari kita bedah 5 bahaya utama menggunakan minyak jelantah berulang kali bagi kesehatan Anda.
                 </p>
 
                 {/* 5 Bahaya */}

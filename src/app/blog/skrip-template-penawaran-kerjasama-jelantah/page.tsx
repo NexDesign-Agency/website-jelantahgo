@@ -52,7 +52,7 @@ export default function SkripTemplatePage() {
               Anda sudah punya peralatan. Anda sudah punya semangat. Tapi kemudian Anda dihadapkan pada tantangan terbesar bagi setiap pengepul jelantah pemula: mendapatkan pemasok (supplier). Bagaimana cara mendekati pemilik restoran yang sibuk? Apa yang harus dikatakan agar penawaran Anda didengar dan tidak langsung ditolak?
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Kunci dari akuisisi pemasok adalah komunikasi yang efektif. Artikel ini adalah "buku contekan" Anda. Kami telah merancang 5 skrip dan template yang teruji di lapangan, mulai dari pendekatan informal via WhatsApp hingga email penawaran formal.
+              Kunci dari akuisisi pemasok adalah komunikasi yang efektif. Artikel ini adalah "buku contekan" Anda dan bagian dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">blueprint lengkap peluang bisnis pengepul jelantah</Link>. Kami telah merancang 5 skrip dan template yang teruji di lapangan, mulai dari pendekatan informal via WhatsApp hingga email penawaran formal.
             </p>
 
             {/* Psikologi */}
@@ -242,7 +242,7 @@ export default function SkripTemplatePage() {
                       href="/blog/peluang-bisnis-pengepul-jelantah"
                       className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                     >
-                      Pelajari Bisnis Pengepul →
+                      Peluang Bisnis Pengepul Jelantah →
                     </Link>
                     <Link
                       href="/mitra"

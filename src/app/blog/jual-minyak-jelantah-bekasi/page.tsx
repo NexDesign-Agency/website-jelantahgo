@@ -1,10 +1,37 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025',
+  title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025 | JelantahGO',
   description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
+  keywords: 'jual jelantah bekasi, pengepul bekasi, harga jelantah bekasi, jemput jelantah bekasi gratis, pengepul bekasi terpercaya, jual jelantah bekasi kota',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
+  },
+  openGraph: {
+    title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025 | JelantahGO',
+    description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
+    url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_6_y74rop.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Jual Minyak Jelantah Bekasi',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025',
+    description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_6_y74rop.webp'],
+  },
 }
 
 export default function JualBekasiPage() {

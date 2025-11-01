@@ -52,7 +52,7 @@ export default function ChecklistPeralatanPage() {
               Anda sudah membaca dan memahami potensi besar di industri ini. Anda termotivasi untuk mengambil langkah pertama. Sekarang, saatnya beralih dari ide ke aksi. Dan aksi pertama dalam bisnis apapun adalah mempersiapkan "senjata" atau peralatan kerja Anda.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Dalam bisnis pengepul jelantah, peralatan yang tepat bukan hanya soal kemudahan kerja; ini soal <strong>profesionalisme, kepercayaan, dan profitabilitas</strong>. Menggunakan alat yang benar akan membuat Anda terlihat lebih kredibel di mata pemasok, memastikan setiap transaksi berjalan adil, dan melindungi keuntungan Anda dari kerugian yang tidak perlu.
+              Dalam bisnis pengepul jelantah, peralatan yang tepat bukan hanya soal kemudahan kerja; ini soal <strong>profesionalisme, kepercayaan, dan profitabilitas</strong>. Menggunakan alat yang benar akan membuat Anda terlihat lebih kredibel di mata pemasok, memastikan setiap transaksi berjalan adil, dan melindungi keuntungan Anda dari kerugian yang tidak perlu. Checklist ini adalah bagian penting dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">blueprint lengkap peluang bisnis pengepul jelantah</Link>.
             </p>
 
             {/* Kategori 1 */}
@@ -233,7 +233,7 @@ export default function ChecklistPeralatanPage() {
                   href="/blog/peluang-bisnis-pengepul-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Pelajari Bisnis Pengepul →
+                  Blueprint Lengkap Bisnis Pengepul →
                 </Link>
                 <Link
                   href="/mitra"
@@ -243,13 +243,13 @@ export default function ChecklistPeralatanPage() {
                 </Link>
               </div>
             </div>
+              </div>
+
+              {/* Article Footer */}
+              <BlogArticleFooter currentSlug="checklist-peralatan-pengepul-jelantah" />
             </div>
 
-            {/* Article Footer */}
-            <BlogArticleFooter currentSlug="checklist-peralatan-pengepul-jelantah" />
-          </div>
-
-          {/* Sidebar */}
+            {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-24">
                 <BlogSidebar />

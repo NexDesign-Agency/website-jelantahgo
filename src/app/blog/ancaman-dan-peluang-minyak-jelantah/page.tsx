@@ -2,15 +2,61 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ReadingTime from '@/components/ReadingTime'
 
 export const metadata: Metadata = {
-  title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi',
+  title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi | JelantahGO',
   description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa.',
+  keywords: 'bahaya minyak jelantah, dampak jelantah lingkungan, peluang bisnis jelantah, fatberg jelantah, daur ulang jelantah, biodiesel dari jelantah, ekonomi sirkular jelantah',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah',
+  },
+  openGraph: {
+    title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi | JelantahGO',
+    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa.',
+    url: 'https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_13_ellxu3.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Bahaya & Peluang Emas Minyak Jelantah',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+    publishedTime: '2025-10-15T00:00:00+07:00',
+    modifiedTime: '2025-10-15T00:00:00+07:00',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi',
+    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_13_ellxu3.webp'],
+  },
 }
 
 export default function AncamanDanPeluangPage() {
   return (
     <>
+      <ArticleSchema
+        title="Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi"
+        description="Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_13_ellxu3.webp"
+        datePublished="2025-10-15"
+        dateModified="2025-10-15"
+        articleUrl="https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Bahaya & Peluang Minyak Jelantah', url: 'https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -24,6 +70,9 @@ export default function AncamanDanPeluangPage() {
             <p className="text-lg text-white/90 leading-relaxed">
               Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa.
             </p>
+            <div className="flex items-center gap-4 mt-4">
+              <ReadingTime wordCount={3800} />
+            </div>
           </div>
         </div>
       </section>
@@ -75,7 +124,7 @@ export default function AncamanDanPeluangPage() {
             <section id="ancaman" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">BAGIAN I: ANCAMAN TERSEMBUNYI DI BALIK WASTAFEL ANDA</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Di Indonesia, Kementerian Lingkungan Hidup dan Kehutanan (KLHK) mengklasifikasikan minyak jelantah sebagai <strong>Limbah B3 (Bahan Berbahaya dan Beracun)</strong> dengan kode limbah B105d. Klasifikasi ini bukan tanpa alasan; sifatnya yang destruktif saat dibuang ke lingkungan menjadikannya ancaman serius.
+                Di Indonesia, Kementerian Lingkungan Hidup dan Kehutanan (KLHK) mengklasifikasikan minyak jelantah sebagai <strong>Limbah B3 (Bahan Berbahaya dan Beracun)</strong> dengan kode limbah B105d. Klasifikasi ini bukan tanpa alasan; sifatnya yang destruktif saat dibuang ke lingkungan menjadikannya ancaman serius. Untuk bisnis kuliner, penting memahami <Link href="/blog/regulasi-limbah-b3-jelantah-bisnis-kuliner" className="text-[#0F3D2E] font-semibold hover:underline">regulasi limbah B3 untuk bisnis kuliner</Link>.
               </p>
 
               <h3 id="fatberg" className="text-2xl font-bold text-[#0F3D2E] mt-8 mb-4">Dampak pada Infrastruktur: Lahirnya Monster 'Fatberg'</h3>
@@ -83,7 +132,7 @@ export default function AncamanDanPeluangPage() {
                 Ketika Anda menuang jelantah panas ke wastafel, ia mengalir dengan lancar. Namun, begitu bertemu dengan suhu yang lebih dingin di dalam pipa pembuangan, keajaiban fisika yang merusak pun terjadi. Minyak mulai mendingin, membeku, dan mengeras. Proses ini diperparah saat gumpalan lemak ini bertemu dengan sampah lain yang seharusnya tidak ada di saluran air, seperti tisu basah, sisa makanan, dan rambut.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Gabungan lengket ini membentuk gumpalan raksasa yang dikenal sebagai <strong>fatberg</strong>. Fenomena ini bukan lagi fiksi ilmiah dan telah menjadi masalah infrastruktur yang sangat mahal.
+                Gabungan lengket ini membentuk gumpalan raksasa yang dikenal sebagai <strong>fatberg</strong>. Fenomena ini bukan lagi fiksi ilmiah dan telah menjadi masalah infrastruktur yang sangat mahal. Untuk memahami lebih dalam, baca artikel kami tentang <Link href="/blog/fatberg-monster-bawah-tanah-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">Fatberg: monster bawah tanah dari jelantah</Link>.
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
                 <li><strong>Studi Kasus London:</strong> Pada tahun 2017, sebuah fatberg seberat <strong>130 ton</strong> dan sepanjang 250 meter (lebih panjang dari Jembatan Tower Bridge) ditemukan menyumbat sistem pembuangan limbah London. Butuh tim khusus yang bekerja selama sembilan minggu dengan biaya jutaan poundsterling untuk menghancurkannya.</li>
@@ -92,7 +141,7 @@ export default function AncamanDanPeluangPage() {
 
               <h3 id="ekologis" className="text-2xl font-bold text-[#0F3D2E] mt-8 mb-4">Bencana Ekologis Skala Makro: Air, Tanah, dan Kehidupan</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Jika berhasil melewati pipa dan mencapai badan air, dampak destruktif jelantah justru semakin meluas. Statistik yang sering dikutip—<strong>1 liter jelantah dapat mencemari 1.000 liter air bersih</strong>—hanyalah puncak dari gunung es.
+                Jika berhasil melewati pipa dan mencapai badan air, dampak destruktif jelantah justru semakin meluas. Statistik yang sering dikutip—<strong>1 liter jelantah dapat mencemari 1.000 liter air bersih</strong>—hanyalah puncak dari gunung es. Pelajari lebih detail tentang <Link href="/blog/dampak-jelantah-ekosistem" className="text-[#0F3D2E] font-semibold hover:underline">dampak jelantah pada ekosistem air</Link>.
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
                 <li><strong>Penciptaan 'Dead Zones':</strong> Minyak membentuk lapisan tipis di permukaan air, menghalangi penetrasi oksigen dan sinar matahari. Tanpa oksigen (kondisi hipoksia), ikan dan organisme air lainnya akan mati lemas. Tanpa sinar matahari, fotosintesis oleh tanaman air dan alga terhenti, menghancurkan dasar rantai makanan ekosistem perairan. Fenomena ini menciptakan "zona mati" atau <em>dead zones</em>.</li>
@@ -102,7 +151,7 @@ export default function AncamanDanPeluangPage() {
 
               <h3 id="kesehatan" className="text-2xl font-bold text-[#0F3D2E] mt-8 mb-4">Ancaman bagi Kesehatan Manusia</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Ancaman jelantah tidak hanya terbatas pada lingkungan. Ada dua jalur utama bagaimana ia membahayakan kesehatan manusia:
+                Ancaman jelantah tidak hanya terbatas pada lingkungan. Ada dua jalur utama bagaimana ia membahayakan kesehatan manusia. Pelajari <Link href="/blog/bahaya-minyak-jelantah-kesehatan" className="text-[#0F3D2E] font-semibold hover:underline">5 bahaya minyak jelantah bagi kesehatan</Link> secara detail.
               </p>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
                 <li><strong>Penggunaan Berulang:</strong> Praktik menggunakan minyak goreng yang sama berulang kali sangat berbahaya, termasuk pembentukan senyawa karsinogenik seperti <em>akrolein</em>.</li>
@@ -131,7 +180,7 @@ export default function AncamanDanPeluangPage() {
                 Meskipun biodiesel adalah pasar terbesar, potensi jelantah tidak berhenti di situ. Kreativitas dan inovasi telah melahirkan berbagai produk lain dari limbah ini:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-                <li><strong>Sabun & Lilin:</strong> Jelantah dapat diubah menjadi produk rumah tangga yang berguna secara aman di rumah.</li>
+                <li><strong>Sabun & Lilin:</strong> Jelantah dapat diubah menjadi produk rumah tangga yang berguna secara aman di rumah. Pelajari <Link href="/blog/diy-sabun-lilin-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara membuat sabun dan lilin dari jelantah</Link>.</li>
                 <li><strong>Bahan Tambahan Kompos:</strong> Dalam jumlah yang sangat terkontrol dan diproses dengan benar, jelantah dapat ditambahkan ke dalam tumpukan kompos untuk memperkaya kandungan energinya bagi mikroorganisme pengurai.</li>
               </ul>
 

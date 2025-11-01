@@ -50,7 +50,7 @@ export default function HargaOktober2025Page() {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 leading-relaxed mb-6">
-              Harga minyak jelantah di Indonesia terus mengalami fluktuasi seiring dengan perubahan kondisi pasar global dan domestik. Memahami tren harga dan faktor-faktor yang mempengaruhinya akan membantu Anda menjual jelantah pada waktu yang tepat untuk mendapatkan keuntungan maksimal.
+              Harga minyak jelantah di Indonesia terus mengalami fluktuasi seiring dengan perubahan kondisi pasar global dan domestik. Memahami tren harga dan faktor-faktor yang mempengaruhinya akan membantu Anda menjual jelantah pada waktu yang tepat untuk mendapatkan keuntungan maksimal. Artikel ini adalah bagian dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah</Link> yang kami sediakan.
             </p>
 
             {/* Harga */}

@@ -4,11 +4,29 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ReadingTime from '@/components/ReadingTime'
 import { TrendingUp, DollarSign, Users, Target, BarChart3, Lightbulb } from 'lucide-react'
 
 export default function PeluangBisnisPage() {
   return (
     <>
+      <ArticleSchema
+        title="Bisnis Pengepul Jelantah 2025: Modal, Untung & Pemasaran"
+        description="Ingin jadi pengepul minyak jelantah? Panduan bisnis A-Z ini membahas rincian modal, simulasi keuntungan puluhan juta, dan strategi pemasaran untuk sukses di 2025."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761171105/jelantah-go_13_ok4gma.webp"
+        datePublished="2025-09-01"
+        dateModified="2025-09-01"
+        articleUrl="https://jelantahgo.com/blog/peluang-bisnis-pengepul-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Peluang Bisnis Pengepul Jelantah', url: 'https://jelantahgo.com/blog/peluang-bisnis-pengepul-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -22,7 +40,10 @@ export default function PeluangBisnisPage() {
             <p className="text-lg text-white/90 leading-relaxed">
               Panduan Lengkap Modal, Keuntungan, & Pemasaran
             </p>
-            <p className="text-sm text-white/80 mt-2">Terakhir diperbarui: 24 Oktober 2025</p>
+            <div className="flex items-center gap-4 mt-4">
+              <p className="text-sm text-white/80">Terakhir diperbarui: 24 Oktober 2025</p>
+              <ReadingTime wordCount={4200} />
+            </div>
           </div>
         </div>
       </section>
@@ -116,7 +137,7 @@ export default function PeluangBisnisPage() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed font-semibold">
-                <strong>Rekomendasi kami untuk pemula:</strong> Mulailah sebagai Agen Mitra. Ini adalah cara terbaik untuk mempelajari seluk-beluk industri ini tanpa harus menanggung risiko finansial yang besar.
+                <strong>Rekomendasi kami untuk pemula:</strong> Mulailah sebagai Agen Mitra. Ini adalah cara terbaik untuk mempelajari seluk-beluk industri ini tanpa harus menanggung risiko finansial yang besar. Untuk detail lengkap perbandingan, baca artikel kami tentang <Link href="/blog/mitra-jelantahgo-vs-mandiri" className="text-[#0F3D2E] font-semibold hover:underline">perbandingan mitra vs mandiri</Link>.
               </p>
             </section>
 
@@ -124,7 +145,7 @@ export default function PeluangBisnisPage() {
             <section id="blueprint" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">3. Blueprint 5 Langkah Membangun Bisnis Pengepul Jelantah</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Berikut adalah peta jalan praktis untuk memulai, terlepas dari model bisnis yang Anda pilih.
+                Berikut adalah peta jalan praktis untuk memulai, terlepas dari model bisnis yang Anda pilih. Untuk panduan lebih detail, baca <Link href="/blog/panduan-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan memulai bisnis pengepul jelantah</Link>.
               </p>
               
               <div className="space-y-4">
@@ -135,17 +156,17 @@ export default function PeluangBisnisPage() {
 
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">Langkah 2: Siapkan Modal & Perlengkapan</h3>
-                  <p className="text-gray-700">Alokasikan dana Anda sesuai dengan rincian yang akan kita bahas di bagian selanjutnya. Beli perlengkapan esensial: timbangan digital yang akurat, jeriken berkualitas, dan pastikan kendaraan operasional Anda siap.</p>
+                  <p className="text-gray-700">Alokasikan dana Anda sesuai dengan rincian yang akan kita bahas di bagian selanjutnya. Beli perlengkapan esensial: timbangan digital yang akurat, jeriken berkualitas, dan pastikan kendaraan operasional Anda siap. Gunakan <Link href="/blog/checklist-peralatan-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">checklist peralatan pengepul jelantah</Link> untuk memastikan tidak ada yang terlewat.</p>
                 </div>
 
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">Langkah 3: Akuisisi Pemasok (Supplier)</h3>
-                  <p className="text-gray-700">Ini adalah jantung dari bisnis Anda. Mulailah memasarkan jasa Anda. Tawarkan layanan penjemputan yang andal, harga yang kompetitif, dan bangun hubungan baik. Pemasok pertama Anda adalah aset paling berharga.</p>
+                  <p className="text-gray-700">Ini adalah jantung dari bisnis Anda. Mulailah memasarkan jasa Anda. Tawarkan layanan penjemputan yang andal, harga yang kompetitif, dan bangun hubungan baik. Pemasok pertama Anda adalah aset paling berharga. Gunakan <Link href="/blog/skrip-template-penawaran-kerjasama-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">skrip penawaran kerjasama jelantah</Link> untuk membantu pendekatan Anda.</p>
                 </div>
 
                 <div className="card-premium">
                   <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">Langkah 4: Jalankan Operasi Pengumpulan</h3>
-                  <p className="text-gray-700">Buat sistem yang efisien. Kelompokkan jadwal penjemputan berdasarkan area untuk menghemat waktu dan bensin. Lakukan quality control sederhana saat menerima jelantah. Catat setiap transaksi dengan rapi.</p>
+                  <p className="text-gray-700">Buat sistem yang efisien. Kelompokkan jadwal penjemputan berdasarkan area untuk menghemat waktu dan bensin. Lakukan quality control sederhana saat menerima jelantah. Catat setiap transaksi dengan rapi. Optimalkan rute dengan membaca <Link href="/blog/manajemen-logistik-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">manajemen logistik pengepul</Link>.</p>
                 </div>
 
                 <div className="card-premium">

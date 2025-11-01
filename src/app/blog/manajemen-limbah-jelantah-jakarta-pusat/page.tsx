@@ -53,7 +53,7 @@ export default function JakartaPusatManajemenPage() {
               Di jantung bisnis dan pemerintahan Indonesia, Jakarta Pusat adalah rumah bagi hotel-hotel internasional, gedung perkantoran pencakar langit, dan pusat perbelanjaan premium. Bagi para manajer gedung, manajer operasional hotel, dan divisi General Affairs di kawasan ini, "manajemen limbah" adalah sebuah disiplin ilmu yang kompleks.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Salah satu komponen limbah yang paling menantang adalah minyak jelantah, yang dihasilkan dalam volume masif dari dapur hotel, katering gedung, dan puluhan tenant food court. Mengelola limbah ini bukan lagi sekadar urusan kebersihan. Ini adalah masalah kepatuhan regulasi Limbah B3, efisiensi operasional, dan yang terpenting, reputasi korporat.
+              Salah satu komponen limbah yang paling menantang adalah minyak jelantah, yang dihasilkan dalam volume masif dari dapur hotel, katering gedung, dan puluhan tenant food court. Mengelola limbah ini bukan lagi sekadar urusan kebersihan. Ini adalah masalah kepatuhan regulasi Limbah B3, efisiensi operasional, dan yang terpenting, reputasi korporat. Panduan ini adalah bagian dari <Link href="/blog/jual-minyak-jelantah-jakarta" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah Jakarta</Link>.
             </p>
 
             {/* Tantangan Korporat */}

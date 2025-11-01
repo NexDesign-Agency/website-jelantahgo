@@ -52,7 +52,7 @@ export default function JakartaBaratGratisPage() {
               Bagi warga dan pelaku Usaha Kecil Menengah (UKM) di Jakarta Barat, dari padatnya perumahan di Cengkareng hingga pusat kuliner di sekitar Kebon Jeruk, mengelola minyak jelantah seringkali menjadi dilema. Dibuang ke selokan? Itu berarti mengundang masalah pipa mampet dan bau. Disimpan terus-menerus? Memakan tempat dan berisiko tumpah.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Kami di JelantahGO memahami sepenuhnya tantangan ini. Oleh karena itu, kami merancang sebuah layanan yang menjawab semua keresahan Anda: <strong>layanan jemput jelantah gratis di seluruh wilayah Jakarta Barat</strong>. Ini adalah bagian dari komitmen kami yang lebih besar untuk mempermudah proses penjualan minyak jelantah di seluruh Jakarta.
+              Kami di JelantahGO memahami sepenuhnya tantangan ini. Oleh karena itu, kami merancang sebuah layanan yang menjawab semua keresahan Anda: <strong>layanan jemput jelantah gratis di seluruh wilayah Jakarta Barat</strong>. Ini adalah bagian dari komitmen kami yang lebih besar untuk mempermudah proses penjualan minyak jelantah di seluruh Jakarta. Panduan ini adalah bagian dari <Link href="/blog/jual-minyak-jelantah-jakarta" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah Jakarta</Link>.
             </p>
 
             {/* Mengapa Jakbar */}

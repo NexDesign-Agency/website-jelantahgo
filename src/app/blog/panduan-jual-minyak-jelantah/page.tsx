@@ -4,10 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ReadingTime from '@/components/ReadingTime'
 
 export default function PanduanJualPage() {
   return (
     <>
+      <ArticleSchema
+        title="Panduan Terlengkap Jual Minyak Jelantah 2025: Harga & Pengepul"
+        description="Punya minyak jelantah? Jangan dibuang! Pelajari cara menjualnya dengan harga terbaik di tahun 2025. Panduan lengkap cara kumpul, cek harga, & pilih pengepul terpercaya."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163995/jelantahgo_14_bfmpp8.webp"
+        datePublished="2025-10-22"
+        dateModified="2025-10-22"
+        articleUrl="https://jelantahgo.com/blog/panduan-jual-minyak-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Panduan Jual Minyak Jelantah', url: 'https://jelantahgo.com/blog/panduan-jual-minyak-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -21,7 +39,10 @@ export default function PanduanJualPage() {
             <p className="text-lg text-white/90 leading-relaxed">
               Dari Harga Hingga Pengepul Terpercaya
             </p>
-            <p className="text-sm text-white/80 mt-2">Terakhir diperbarui: 22 Oktober 2025</p>
+            <div className="flex items-center gap-4 mt-4">
+              <p className="text-sm text-white/80">Terakhir diperbarui: 22 Oktober 2025</p>
+              <ReadingTime wordCount={4500} />
+            </div>
           </div>
         </div>
       </section>
@@ -146,12 +167,12 @@ export default function PanduanJualPage() {
 
               <h3 className="text-2xl font-bold text-[#0F3D2E] mt-6 mb-4">Langkah 2: Capai Volume Minimal</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Pengepul menyukai volume besar. Jika Anda kesulitan mencapai target, kami telah merangkum cara kreatif untuk mengumpulkan 100 liter jelantah per bulan.
+                Pengepul menyukai volume besar. Jika Anda kesulitan mencapai target, kami telah merangkum <Link href="/blog/cara-kumpulkan-100-liter-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara kreatif mengumpulkan 100 liter jelantah per bulan</Link>.
               </p>
 
               <h3 className="text-2xl font-bold text-[#0F3D2E] mt-6 mb-4">Langkah 3: Cari & Hubungi Pengepul Terpercaya</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Gunakan Google dengan kata kunci seperti "jual minyak jelantah Jakarta". Pilih pengepul yang profesional. Namun, waspadalah terhadap oknum nakal. Pelajari <Link href="/blog/ciri-pengepul-jelantah-nakal" className="text-[#0F3D2E] font-semibold hover:underline">5 ciri pengepul jelantah nakal</Link> untuk melindungi diri Anda dari penipuan.
+                Gunakan Google dengan kata kunci seperti "jual minyak jelantah Jakarta". Pilih pengepul yang profesional. Namun, waspadalah terhadap oknum nakal. Pelajari <Link href="/blog/ciri-pengepul-jelantah-nakal" className="text-[#0F3D2E] font-semibold hover:underline">5 ciri pengepul jelantah nakal</Link> untuk melindungi diri Anda dari penipuan. Selain itu, hindari <Link href="/blog/kesalahan-penjual-jelantah-pemula" className="text-[#0F3D2E] font-semibold hover:underline">kesalahan fatal penjual jelantah pemula</Link> yang sering terjadi.
               </p>
 
               <h3 className="text-2xl font-bold text-[#0F3D2E] mt-6 mb-4">Langkah 4: Proses Penjemputan & Penimbangan</h3>
@@ -169,7 +190,7 @@ export default function PanduanJualPage() {
             <section id="memahami-harga" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">4. Memahami Faktor yang Mempengaruhi Harga Jelantah</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Harga minyak jelantah tidak tetap. Memahami faktor-faktor yang mempengaruhinya akan membantu Anda mendapatkan harga terbaik.
+                Harga minyak jelantah tidak tetap. Memahami faktor-faktor yang mempengaruhinya akan membantu Anda mendapatkan harga terbaik. Untuk informasi terkini, baca <Link href="/blog/harga-jelantah-oktober-2025" className="text-[#0F3D2E] font-semibold hover:underline">update harga jelantah terbaru</Link> kami.
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li><strong>Volume Penjualan:</strong> Semakin banyak Anda menjual, semakin tinggi harga per liternya.</li>

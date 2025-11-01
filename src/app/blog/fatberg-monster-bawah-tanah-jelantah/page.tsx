@@ -52,7 +52,7 @@ export default function FatbergPage() {
               Jauh di bawah jalanan kota yang ramai, di dalam labirin pipa pembuangan yang gelap dan lembap, sesosok monster sedang tumbuh. Ia tidak memiliki mata, tidak bernapas, dan tidak bersuara, tetapi ia mampu melumpuhkan sebuah kota dari bawah ke atas. Monster ini bernama <strong>Fatberg</strong>, sebuah gumpalan raksasa sekeras beton yang lahir dari kebiasaan kita sehari-hari di dapur.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Setiap kali Anda menuang sisa minyak jelantah ke wastafel, Anda sedang memberinya makan. Fenomena fatberg adalah salah satu <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">ancaman lingkungan paling nyata</Link> dari pengelolaan limbah yang buruk.
+              Setiap kali Anda menuang sisa minyak jelantah ke wastafel, Anda sedang memberinya makan. Fenomena fatberg adalah salah satu <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">ancaman lingkungan paling nyata</Link> dari pengelolaan limbah yang buruk. Artikel ini adalah bagian dari eksplorasi lengkap tentang <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">bahaya dan peluang emas minyak jelantah</Link>.
             </p>
 
             {/* Anatomi */}
@@ -195,7 +195,7 @@ export default function FatbergPage() {
                   href="/blog/panduan-jual-minyak-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Pelajari Cara Jual Jelantah →
+                  Panduan Jual Minyak Jelantah →
                 </Link>
                 <a
                   href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

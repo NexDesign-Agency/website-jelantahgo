@@ -4,11 +4,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
 import { Users, Store, School, Calendar, Package, Gift, Lightbulb } from 'lucide-react'
 
 export default function CaraKumpulkanPage() {
   return (
     <>
+      <ArticleSchema
+        title="10 Cara Mengumpulkan 100 Liter Jelantah per Bulan: Strategi Praktis"
+        description="Ingin dapat 100 liter jelantah per bulan? Pelajari 10 strategi praktis dari komunitas, warung makan, hingga program kolektif RT/RW untuk mencapai target volume."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_26_hmnqjl.webp"
+        datePublished="2025-10-01"
+        dateModified="2025-10-01"
+        articleUrl="https://jelantahgo.com/blog/cara-kumpulkan-100-liter-jelantah"
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -52,7 +61,7 @@ export default function CaraKumpulkanPage() {
               Mencapai target 100 liter jelantah per bulan dari rumah mungkin terdengar sulit, tetapi dengan strategi yang tepat, hal ini sangat mungkin dicapai. Kuncinya adalah memperluas jaringan Anda dan membuat sistem pengumpulan yang efisien.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Berikut adalah 10 cara praktis yang bisa Anda terapkan untuk mengumpulkan jelantah dalam jumlah besar setiap bulannya.
+              Berikut adalah 10 cara praktis yang bisa Anda terapkan untuk mengumpulkan jelantah dalam jumlah besar setiap bulannya. Strategi ini adalah bagian dari <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan lengkap jual minyak jelantah</Link> yang kami sediakan.
             </p>
 
             {/* 10 Cara */}
@@ -238,7 +247,7 @@ export default function CaraKumpulkanPage() {
                   href="/blog/panduan-jual-minyak-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Baca Panduan Lengkap →
+                  Blueprint Lengkap Jual Jelantah →
                 </Link>
                 <a
                   href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

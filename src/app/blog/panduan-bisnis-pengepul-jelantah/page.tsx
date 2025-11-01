@@ -52,7 +52,7 @@ export default function PanduanBisnisPengepulPage() {
               Melihat tumpukan jeriken berisi minyak jelantah mungkin bukan gambaran bisnis yang glamor, tetapi di baliknya tersimpan potensi keuntungan yang solid dengan dampak lingkungan yang positif. Bisnis sebagai pengepul jelantah adalah salah satu peluang usaha dengan modal minim, risiko rendah, dan pasar yang pasti.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Jika Anda mencari cara untuk memulai wirausaha yang fleksibel dan berkelanjutan, panduan ini akan memandu Anda langkah demi langkah.
+              Jika Anda mencari cara untuk memulai wirausaha yang fleksibel dan berkelanjutan, panduan ini akan memandu Anda langkah demi langkah. Artikel ini adalah bagian dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">blueprint lengkap peluang bisnis pengepul jelantah 2025</Link>.
             </p>
 
             {/* Fase 1 */}
@@ -215,7 +215,7 @@ export default function PanduanBisnisPengepulPage() {
                       href="/blog/peluang-bisnis-pengepul-jelantah"
                       className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                     >
-                      Pelajari Peluang Bisnis →
+                      Peluang Bisnis Pengepul Jelantah 2025 →
                     </Link>
                     <Link
                       href="/mitra"

@@ -52,7 +52,7 @@ export default function KisahSuksesPakDoniPage() {
               Di tengah hiruk pikuk kawasan industri Bekasi, Doni Ramadhan (38) dulunya adalah satu dari ribuan wajah yang setiap pagi berpacu dengan waktu, masuk ke dalam gerbang pabrik otomotif dengan rutinitas yang monoton. Selama lebih dari 10 tahun, hidupnya ditentukan oleh jam shift, target produksi, dan upah bulanan yang terasa selalu pas-pasan.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Hari ini, "kantornya" adalah jalanan Bekasi dan Cikarang, "mesin produksinya" adalah motor bebek yang dimodifikasi, dan "produknya" adalah limbah yang oleh banyak orang dianggap tidak berguna: minyak jelantah. Dalam waktu kurang dari dua tahun, Pak Doni berhasil mentransformasi dirinya dari seorang karyawan pabrik menjadi wirausahawan mandiri dengan omzet bisnis pengumpulan jelantah yang stabil di angka 20 juta rupiah per bulan.
+              Hari ini, "kantornya" adalah jalanan Bekasi dan Cikarang, "mesin produksinya" adalah motor bebek yang dimodifikasi, dan "produknya" adalah limbah yang oleh banyak orang dianggap tidak berguna: minyak jelantah. Dalam waktu kurang dari dua tahun, Pak Doni berhasil mentransformasi dirinya dari seorang karyawan pabrik menjadi wirausahawan mandiri dengan omzet bisnis pengumpulan jelantah yang stabil di angka 20 juta rupiah per bulan. Kisah inspiratif ini adalah contoh nyata dari <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">peluang bisnis pengepul jelantah</Link> yang kami dokumentasikan.
             </p>
 
             {/* Titik Balik */}
@@ -182,7 +182,7 @@ export default function KisahSuksesPakDoniPage() {
                   href="/blog/peluang-bisnis-pengepul-jelantah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Pelajari Bisnis Pengepul →
+                  Pelajari Bisnis Pengepul Lengkap →
                 </Link>
                 <Link
                   href="/mitra"
