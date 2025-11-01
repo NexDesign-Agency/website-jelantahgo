@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
@@ -8,7 +9,7 @@ import { BookOpen, Target, TrendingUp, CheckCircle } from 'lucide-react'
 
 export default function PanduanBisnisPengepulPage() {
   return (
-    <>
+    <React.Fragment>
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -230,7 +231,7 @@ export default function PanduanBisnisPengepulPage() {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   )
 }
 

@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
@@ -8,7 +9,7 @@ import { MessageSquare, Mail, Phone, FileText, Copy, DollarSign, TrendingDown, C
 
 export default function SkripTemplatePage() {
   return (
-    <>
+    <React.Fragment>
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
@@ -257,7 +258,7 @@ export default function SkripTemplatePage() {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   )
 }
 
