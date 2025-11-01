@@ -36,10 +36,10 @@ export default function AboutPage() {
               { icon: <Target />, number: 'Rp 1.2M+', label: 'Dibayarkan' },
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="bg-gradient-to-br from-[#134E4A] to-[#0D9488] w-16 h-16 rounded-full flex items-center justify-center text-white mx-auto mb-4">
+                <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-full flex items-center justify-center text-white mx-auto mb-4">
                   {stat.icon}
                 </div>
-                <div className="text-3xl font-bold text-[#0D9488] mb-2">{stat.number}</div>
+                <div className="text-3xl font-bold text-[#0F3D2E] mb-2">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -56,7 +56,7 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="bg-gradient-to-br from-[#134E4A] to-[#0D9488] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
+              <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
                 🎯
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Visi Kami</h3>
@@ -68,7 +68,7 @@ export default function AboutPage() {
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="bg-gradient-to-br from-[#134E4A] to-[#0D9488] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
+              <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
                 🚀
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Misi Kami</h3>
@@ -166,7 +166,7 @@ export default function AboutPage() {
               },
             ].map((milestone, index) => (
               <div key={index} className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#134E4A] to-[#0D9488] text-white rounded-full flex items-center justify-center font-bold text-sm">
+                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-full flex items-center justify-center font-bold text-sm">
                   {milestone.year}
                 </div>
                 <div className="flex-grow bg-white rounded-lg p-6 shadow-sm">
@@ -180,19 +180,19 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-[#134E4A] to-[#0D9488] text-white">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-6">
+      <section className="py-20 hero-bg-dots">
+        <div className="container-custom text-center relative z-10">
+          <h2 className="text-3xl font-bold mb-6 text-white">
             Mari Bersama Selamatkan Lingkungan!
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-white/90">
             Setiap liter minyak jelantah yang Anda jual adalah kontribusi nyata untuk bumi yang lebih bersih dan hijau!
           </p>
           <a
             href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
             target="_blank"
             rel="noopener"
-            className="inline-block bg-white text-[#134E4A] px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-all"
+            className="inline-block bg-[#0F3D2E] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#134E3A] transition-all shadow-soft-lg hover:shadow-soft-xl"
           >
             Hubungi Kami Sekarang
           </a>
