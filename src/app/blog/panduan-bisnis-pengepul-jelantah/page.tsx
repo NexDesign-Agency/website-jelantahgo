@@ -166,7 +166,7 @@ export default function PanduanBisnisPengepulPage() {
                 </div>
               </div>
             </section>
-              </div>
+            </div>
 
             {/* Article Footer */}
             <BlogArticleFooter currentSlug="panduan-bisnis-pengepul-jelantah" />

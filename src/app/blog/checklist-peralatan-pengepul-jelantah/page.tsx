@@ -207,7 +207,6 @@ export default function ChecklistPeralatanPage() {
                 *Harga dapat bervariasi tergantung lokasi dan kualitas barang. Tidak termasuk kendaraan.
               </p>
             </div>
-          </div>
 
             {/* Tips */}
             <div className="card-premium bg-[#E8F0E3] border-l-4 border-l-[#0F3D2E]">
@@ -245,8 +244,8 @@ export default function ChecklistPeralatanPage() {
             </div>
               </div>
 
-              {/* Article Footer */}
-              <BlogArticleFooter currentSlug="checklist-peralatan-pengepul-jelantah" />
+            {/* Article Footer */}
+            <BlogArticleFooter currentSlug="checklist-peralatan-pengepul-jelantah" />
             </div>
 
             {/* Sidebar */}

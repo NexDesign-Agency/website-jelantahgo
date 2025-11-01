@@ -195,7 +195,7 @@ export default function SkripTemplatePage() {
                 </div>
               </div>
             </section>
-              </div>
+            </div>
 
             {/* Article Footer */}
             <BlogArticleFooter currentSlug="skrip-template-penawaran-kerjasama-jelantah" />
