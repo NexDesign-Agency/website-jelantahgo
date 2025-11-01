@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
@@ -8,6 +9,37 @@ export const metadata: Metadata = {
 }
 
 export default function CaraKerjaPage() {
+  const faqsData = [
+    {
+      question: 'Apakah penjemputan 100% gratis?',
+      answer: 'Ya, penjemputan 100% gratis tanpa biaya apapun untuk volume minimal 40 liter di seluruh area Jabodetabek, termasuk Jakarta, Tangerang, Bekasi, Depok, dan Bogor. Tidak ada biaya transport, biaya parkir, atau biaya tersembunyi lainnya. Kami jemput langsung ke lokasi Anda dengan kendaraan khusus yang dilengkapi timbangan digital.',
+    },
+    {
+      question: 'Berapa lama proses penjemputan di lokasi saya?',
+      answer: 'Proses penjemputan sangat cepat dan efisien. Untuk volume 40-100 liter, biasanya memakan waktu sekitar 15-30 menit dari mulai timbang hingga selesai pembayaran. Untuk volume 100-200 liter, proses sekitar 30-45 menit. Untuk volume di atas 200 liter, proses sekitar 45-60 menit. Tim kami sudah berpengalaman dan profesional, sehingga proses berjalan lancar tanpa membuang waktu Anda.',
+    },
+    {
+      question: 'Apakah saya harus di rumah saat penjemputan?',
+      answer: 'Ya, Anda atau perwakilan yang bertanggung jawab harus hadir saat penjemputan untuk menyaksikan proses penimbangan secara langsung, memverifikasi jumlah liter, dan menerima pembayaran tunai. Ini untuk memastikan transparansi dan keamanan transaksi. Jika Anda berhalangan, bisa minta perwakilan yang memahami volume jelantah Anda.',
+    },
+    {
+      question: 'Bagaimana jika volume jelantah saya kurang dari 40 liter?',
+      answer: 'Tidak masalah! Ada beberapa opsi: 1) Anda bisa terus mengumpulkan jelantah sampai mencapai minimal 40 liter, 2) Bergabung dengan tetangga atau warga sekitar untuk mengumpulkan bersama-sama, atau 3) Mengantar langsung ke drop point kami jika volume cukup besar (minimal 20 liter untuk drop point). Kami juga menyarankan untuk menjadwalkan penjemputan rutin setiap bulan agar volume selalu mencukupi.',
+    },
+    {
+      question: 'Bagaimana cara melakukan booking penjemputan?',
+      answer: 'Booking penjemputan sangat mudah! Hubungi kami via WhatsApp di nomor 0851-8303-3995 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam selama jam kerja (08:00-20:00 WIB) untuk mengkonfirmasi jadwal penjemputan.',
+    },
+    {
+      question: 'Apakah bisa jadwal penjemputan di luar jam kerja atau weekend?',
+      answer: 'Ya, kami melayani penjemputan di luar jam kerja dan weekend untuk memenuhi kebutuhan pelanggan. Silakan sebutkan preferensi waktu Anda saat booking via WhatsApp. Kami akan berusaha mengakomodasi jadwal yang Anda inginkan, termasuk pagi hari (sebelum 08:00) atau malam hari (setelah 20:00) jika diperlukan. Untuk jadwal khusus seperti ini, biasanya kami akan konfirmasi 1-2 hari sebelumnya.',
+    },
+    {
+      question: 'Bagaimana jika saya butuh penjemputan urgent atau same-day?',
+      answer: 'Untuk penjemputan urgent same-day, kami akan berusaha mengakomodasi jika masih ada slot jadwal tersedia. Prioritas diberikan untuk volume besar (100+ liter) dan pelanggan rutin. Silakan sebutkan "urgent" atau "same-day" saat booking via WhatsApp. Tim kami akan segera merespons dan mengkonfirmasi apakah bisa dijadwalkan hari yang sama atau maksimal keesokan harinya.',
+    },
+  ]
+
   const steps = [
     {
       number: 1,
@@ -110,6 +142,7 @@ Total: 85 * 7.500 = Rp 637.500`,
 
   return (
     <>
+      <FAQSchema faqs={faqsData} />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -277,33 +310,25 @@ Total: 85 * 7.500 = Rp 637.500`,
       <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
           <div className="text-center mb-16">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              FAQ
+            </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               ❓ Pertanyaan yang Sering Diajukan
             </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Jawaban untuk pertanyaan umum tentang cara kerja layanan JelantahGO
+            </p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
-            {[
-              {
-                question: 'Apakah penjemputan 100% gratis?',
-                answer: 'Ya, untuk volume minimal 40 liter, kami jemput gratis tanpa biaya apapun di seluruh area Jabodetabek.',
-              },
-              {
-                question: 'Berapa lama proses di lokasi?',
-                answer: 'Untuk volume 40-100 liter sekitar 15-30 menit. Proses sangat cepat dan efisien.',
-              },
-              {
-                question: 'Apakah saya harus di rumah saat dijemput?',
-                answer: 'Ya, Anda atau perwakilan harus ada untuk menyaksikan penimbangan dan menerima pembayaran tunai.',
-              },
-              {
-                question: 'Bagaimana jika volume kurang dari 40 liter?',
-                answer: 'Anda bisa terus mengumpulkan, gabung dengan tetangga, atau antar langsung ke drop point kami.',
-              },
-            ].map((faq, index) => (
-              <div key={index} className="card-premium">
-                <h3 className="font-bold text-[#0F3D2E] mb-2">{faq.question}</h3>
-                <p className="text-gray-600">{faq.answer}</p>
+            {faqsData.map((faq, index) => (
+              <div
+                key={index}
+                className="card-premium overflow-hidden transition-smooth"
+              >
+                <h3 className="font-bold text-[#0F3D2E] mb-2 text-lg">{faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>

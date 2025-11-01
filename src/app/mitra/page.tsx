@@ -87,6 +87,7 @@ export default function MitraPage() {
 
   return (
     <>
+      <FAQSchema faqs={faqs} />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">

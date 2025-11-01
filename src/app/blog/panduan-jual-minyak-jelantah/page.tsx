@@ -7,10 +7,27 @@ import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ReadingTime from '@/components/ReadingTime'
+import FAQSchema from '@/components/FAQSchema'
 
 export default function PanduanJualPage() {
+  const faqsData = [
+    {
+      question: 'Berapa harga minyak jelantah per liter saat ini?',
+      answer: 'Harga minyak jelantah sangat fluktuatif. Namun, sebagai acuan di tahun 2025, kisaran harga dari pengepul terpercaya berada antara Rp 7.500 hingga Rp 8.500 per liter, sangat bergantung pada volume dan kualitas.',
+    },
+    {
+      question: 'Apakah minyak jelantah harus disaring bersih?',
+      answer: 'Tidak perlu disaring sangat halus. Cukup gunakan saringan dapur biasa untuk membuang sisa makanan kasar. Sedikit endapan halus di dasar jeriken adalah hal wajar.',
+    },
+    {
+      question: 'Jelantah dari gorengan apa yang harganya paling bagus?',
+      answer: 'Jelantah dari makanan yang tidak mengandung banyak protein hewani atau tepung, seperti kentang goreng atau tahu/tempe, cenderung memiliki kualitas terbaik dan dihargai paling tinggi.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqsData} />
       <ArticleSchema
         title="Panduan Terlengkap Jual Minyak Jelantah 2025: Harga & Pengepul"
         description="Punya minyak jelantah? Jangan dibuang! Pelajari cara menjualnya dengan harga terbaik di tahun 2025. Panduan lengkap cara kumpul, cek harga, & pilih pengepul terpercaya."

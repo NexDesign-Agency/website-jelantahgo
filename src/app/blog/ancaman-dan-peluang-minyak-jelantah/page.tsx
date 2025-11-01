@@ -6,6 +6,7 @@ import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ReadingTime from '@/components/ReadingTime'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi | JelantahGO',
@@ -218,6 +219,20 @@ export default function AncamanDanPeluangPage() {
               </p>
             </section>
 
+            <FAQSchema faqs={[
+              {
+                question: 'Mengapa minyak jelantah dianggap sebagai Limbah B3 (Bahan Berbahaya dan Beracun)?',
+                answer: 'Minyak jelantah diklasifikasikan sebagai Limbah B3 (kode limbah B105d) karena sifatnya yang tidak stabil, mudah teroksidasi, dan kemampuannya untuk merusak ekosistem secara luas jika dibuang sembarangan. Kandungan seperti asam lemak bebas yang tinggi dan senyawa karsinogenik hasil pemanasan berulang membuatnya berbahaya bagi lingkungan dan kesehatan.',
+              },
+              {
+                question: 'Apakah biodiesel dari jelantah benar-benar jauh lebih baik daripada solar biasa?',
+                answer: 'Ya, secara signifikan. Menurut berbagai studi, biodiesel yang diproduksi dari minyak jelantah (UCO) dapat mengurangi emisi gas rumah kaca hingga 88% dibandingkan dengan diesel fosil. Selain itu, biodiesel memiliki kandungan sulfur yang jauh lebih rendah, pembakaran yang lebih bersih, dan bersifat biodegradable jika tumpah.',
+              },
+              {
+                question: 'Bisakah saya membuat biodiesel atau sabun sendiri dari jelantah di rumah?',
+                answer: 'Secara teknis bisa, namun sangat tidak disarankan untuk pemula tanpa pengawasan ahli. Proses pembuatan biodiesel dan sabun melibatkan bahan kimia berbahaya seperti metanol dan natrium hidroksida (soda api) yang bersifat korosif dan mudah terbakar. Cara paling aman dan menguntungkan untuk mengelola jelantah adalah dengan menjualnya ke pengepul profesional seperti JelantahGO.',
+              },
+            ]} />
             <section id="faq" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">BAGIAN IV: PERTANYAAN YANG SERING DIAJUKAN (FAQ)</h2>
               

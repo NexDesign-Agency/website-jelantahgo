@@ -7,6 +7,7 @@ import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ReadingTime from '@/components/ReadingTime'
+import FAQSchema from '@/components/FAQSchema'
 import { TrendingUp, DollarSign, Users, Target, BarChart3, Lightbulb } from 'lucide-react'
 
 export default function PeluangBisnisPage() {
@@ -372,6 +373,20 @@ export default function PeluangBisnisPage() {
             </section>
 
             {/* Section 8 - FAQ */}
+            <FAQSchema faqs={[
+              {
+                question: 'Apakah saya perlu izin khusus untuk menjadi pengepul jelantah?',
+                answer: 'Untuk skala kecil (Agen/Mitra), biasanya tidak diperlukan izin khusus selain izin usaha standar (NIB). Namun, untuk menjadi Pengepul Skala Penuh dengan gudang penyimpanan, Anda mungkin perlu mendaftar sebagai Pengumpul Limbah B3 ke Dinas Lingkungan Hidup setempat. Sebaiknya konsultasikan dengan instansi terkait di daerah Anda.',
+              },
+              {
+                question: 'Berapa margin keuntungan rata-rata dalam bisnis ini?',
+                answer: 'Margin keuntungan (selisih harga jual dan harga beli) biasanya berkisar antara Rp 1.000 hingga Rp 2.500 per liter. Margin ini sangat bergantung pada volume, kemampuan negosiasi Anda dengan pemasok dan pembeli, serta efisiensi biaya operasional Anda.',
+              },
+              {
+                question: 'Bagaimana cara bersaing dengan pengepul lain yang sudah ada?',
+                answer: 'Diferensiasi adalah kunci. Anda bisa bersaing dengan memberikan layanan yang lebih unggul: penjemputan lebih cepat, komunikasi lebih ramah dan profesional, timbangan yang terjamin jujur, atau dengan menawarkan program kemitraan yang lebih menarik bagi pemasok Anda. Membangun kepercayaan adalah senjata utama Anda.',
+              },
+            ]} />
             <section id="faq" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">8. Pertanyaan yang Sering Diajukan (FAQ)</h2>
               

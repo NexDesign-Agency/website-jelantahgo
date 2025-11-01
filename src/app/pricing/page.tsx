@@ -1,17 +1,60 @@
-import type { Metadata } from 'next'
+'use client'
+
 import Image from 'next/image'
 import Calculator from '@/components/Calculator'
 import Link from 'next/link'
-
-export const metadata: Metadata = {
-  title: 'Harga Minyak Jelantah Terbaru 2025 | Rp 7.500–8.500/L | JelantahGO',
-  description: 'Update harga minyak jelantah terbaru 2025 di Jakarta & Jabodetabek: Rp 7.500–8.500 per liter. Penjemputan gratis, bayar tunai langsung. Cek harga berdasarkan volume Anda!',
-  keywords: 'harga minyak jelantah, jual jelantah jakarta, pengepul jelantah harga, harga jelantah 2025, jual minyak goreng bekas',
-}
+import { useState } from 'react'
+import FAQSchema from '@/components/FAQSchema'
 
 export default function PricingPage() {
+  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null)
+
+  const faqs = [
+    {
+      question: 'Berapa harga minyak jelantah per liter di tahun 2025?',
+      answer: 'Harga minyak jelantah di JelantahGO untuk tahun 2025 adalah: Rp 7.500 per liter untuk volume 40-99 liter, Rp 8.000 per liter untuk volume 100-199 liter, dan Rp 8.500 per liter untuk volume 200 liter ke atas. Harga ini merupakan harga tertinggi di pasaran Jabodetabek dan sudah termasuk semua biaya tanpa potongan apapun.',
+    },
+    {
+      question: 'Apakah harga berbeda antar wilayah di Jabodetabek?',
+      answer: 'Tidak, harga sama untuk seluruh wilayah Jabodetabek (Jakarta, Tangerang, Bekasi, Depok, Bogor) tanpa ada perbedaan. Hanya volume yang menentukan harga per liter Anda, bukan lokasi. Baik Anda di Jakarta Pusat, Jakarta Selatan, Bekasi, atau Depok, harga tetap mengikuti tabel volume yang sama.',
+    },
+    {
+      question: 'Kenapa harga berbeda per volume?',
+      answer: 'Semakin besar volume yang Anda jual, semakin efisien biaya operasional kami dalam hal transport, waktu, dan sumber daya. Kami memberikan efisiensi tersebut kembali kepada Anda dalam bentuk harga yang lebih tinggi. Ini adalah win-win solution: Anda dapat harga lebih tinggi, kami dapat efisiensi operasional yang lebih baik.',
+    },
+    {
+      question: 'Apakah harga bisa nego atau diskon?',
+      answer: 'Harga yang tertera sudah merupakan harga final dan transparan untuk transaksi standar. Namun, untuk volume sangat besar di atas 1.000 liter atau kontrak jangka panjang minimal 6 bulan dengan volume konsisten, kami terbuka untuk diskusi harga khusus dengan manajemen. Silakan hubungi kami untuk negosiasi volume besar.',
+    },
+    {
+      question: 'Bagaimana cara menghitung total harga yang akan saya terima?',
+      answer: 'Total harga dihitung berdasarkan: Volume (liter) × Harga per liter sesuai kategori. Contoh: Jika Anda menjual 150 liter, maka 150L × Rp 8.000 = Rp 1.200.000. Kami akan menimbang jelantah Anda di tempat menggunakan timbangan digital yang akurat dan transparan, kemudian menghitung total harga yang akan Anda terima tunai langsung.',
+    },
+    {
+      question: 'Apakah ada potongan harga untuk volume besar?',
+      answer: 'Tidak ada potongan, malah sebaliknya - semakin besar volume Anda, semakin tinggi harga per liternya! Untuk volume 200+ liter, harga naik menjadi Rp 8.500 per liter. Selain itu, untuk pelanggan rutin dengan volume besar, kami memberikan benefit tambahan seperti prioritas penjemputan, jadwal tetap, dan potensi bonus loyalitas di bulan-bulan tertentu.',
+    },
+    {
+      question: 'Kapan harga di-update? Apakah bisa berubah sewaktu-waktu?',
+      answer: 'Harga kami di-update secara berkala mengikuti fluktuasi pasar dan kondisi ekonomi. Namun, perubahan harga tidak terjadi sewaktu-waktu - biasanya diumumkan minimal 1 bulan sebelumnya. Harga yang tertera di website adalah harga terbaru yang berlaku saat ini. Untuk konfirmasi harga terbaru, selalu bisa hubungi kami via WhatsApp sebelum penjemputan.',
+    },
+    {
+      question: 'Apakah harga sudah termasuk biaya penjemputan?',
+      answer: 'Ya, harga yang tertera sudah final dan tidak ada biaya tambahan apapun. Biaya penjemputan gratis untuk volume minimal 40 liter, tidak ada biaya transport, biaya parkir, atau biaya admin. Yang Anda lihat di harga, itulah yang Anda terima - tidak ada potongan atau biaya tersembunyi.',
+    },
+    {
+      question: 'Bagaimana jika kualitas jelantah kurang baik atau tercampur?',
+      answer: 'Jika jelantah tercampur dengan air, sabun, atau bahan kimia lainnya, atau jika kualitas minyak sangat buruk (bau busuk, banyak endapan), maka harga bisa dikurangi atau bahkan ditolak oleh tim kami. Namun, jika hanya ada sedikit endapan normal atau warna sedikit gelap, masih bisa diterima dengan harga normal. Tim kami akan menilai kualitas saat penjemputan.',
+    },
+    {
+      question: 'Apakah harga bisa berubah selama proses booking sampai penjemputan?',
+      answer: 'Tidak, setelah kami konfirmasi booking dan menyepakati volume serta harga, harga tersebut dijamin tidak akan berubah hingga proses penjemputan selesai. Komitmen harga ini berlaku selama maksimal 7 hari dari tanggal booking. Jika ada perubahan harga selama masa tunggu yang panjang, kami akan komunikasikan terlebih dahulu.',
+    },
+  ]
+
   return (
     <>
+      <FAQSchema faqs={faqs} />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -292,25 +335,42 @@ export default function PricingPage() {
       <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
           <div className="text-center mb-16">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              FAQ
+            </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               ❓ FAQ Harga Minyak Jelantah
             </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Jawaban lengkap untuk pertanyaan seputar harga minyak jelantah
+            </p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
-            {[
-              {
-                question: 'Apakah harga bisa nego?',
-                answer: 'Harga sudah transparan. Untuk volume >1.000L atau kontrak jangka panjang, bisa diskusi dengan manajemen.',
-              },
-              {
-                question: 'Kenapa harga berbeda per volume?',
-                answer: 'Semakin besar volume, semakin efisien biaya operasional kami – dan kami berikan keuntungan itu ke Anda.',
-              },
-            ].map((faq, index) => (
-              <div key={index} className="card-premium">
-                <h3 className="font-bold text-[#0F3D2E] mb-2">{faq.question}</h3>
-                <p className="text-gray-600">{faq.answer}</p>
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className="card-premium overflow-hidden transition-smooth"
+              >
+                <button
+                  onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
+                  className="w-full text-left flex items-center justify-between gap-4 group"
+                >
+                  <span className="font-semibold text-[#0F3D2E] text-lg group-hover:text-[#134E3A] transition-smooth">
+                    {faq.question}
+                  </span>
+                  <span className={`text-2xl text-[#0F3D2E] transition-smooth flex-shrink-0 ${openFaqIndex === index ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
+                </button>
+                
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    openFaqIndex === index ? 'max-h-96 mt-4 pt-4 border-t border-gray-200' : 'max-h-0'
+                  }`}
+                >
+                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                </div>
               </div>
             ))}
           </div>

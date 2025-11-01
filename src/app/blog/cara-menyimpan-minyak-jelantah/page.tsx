@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import FAQSchema from '@/components/FAQSchema'
 
 export default function CaraMenyimpanPage() {
   return (
@@ -130,6 +131,20 @@ export default function CaraMenyimpanPage() {
             </section>
 
             {/* FAQ */}
+            <FAQSchema faqs={[
+              {
+                question: 'Bolehkah saya mencampur jelantah dari ayam dan kentang dalam satu wadah?',
+                answer: 'Ya, tentu saja boleh. Untuk penjual skala rumah tangga atau warung, mencampur berbagai jenis jelantah adalah hal yang wajar. Namun, perlu diketahui bahwa jelantah dari gorengan bertepung atau protein hewani tinggi dapat sedikit menurunkan kualitas keseluruhan campuran tersebut.',
+              },
+              {
+                question: 'Berapa lama saya bisa menyimpan jelantah sebelum dijual?',
+                answer: 'Jika disimpan dengan benar dalam wadah tertutup rapat, sejuk, dan gelap, jelantah bisa bertahan selama 3 hingga 6 bulan tanpa penurunan kualitas yang signifikan. Namun, kami menyarankan untuk menjualnya segera setelah volume minimal tercapai untuk mendapatkan harga terbaik dan menghindari risiko bau.',
+              },
+              {
+                question: 'Jeriken saya berbau tidak sedap, bagaimana cara membersihkannya?',
+                answer: 'Untuk membersihkan jeriken bekas jelantah, bilas dulu sisa minyak dengan air panas. Kemudian, masukkan sedikit sabun cuci piring dan beberapa genggam beras atau pasir kasar. Isi air seperempat, tutup rapat, lalu kocok dengan kuat. Butiran beras/pasir akan bekerja sebagai scrub. Bilas hingga bersih dan pastikan jeriken 100% kering sebelum digunakan kembali.',
+              },
+            ]} />
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">Pertanyaan yang Sering Diajukan (FAQ)</h2>
               

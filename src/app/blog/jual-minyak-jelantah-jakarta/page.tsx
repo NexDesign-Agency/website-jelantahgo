@@ -6,6 +6,7 @@ import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ReadingTime from '@/components/ReadingTime'
+import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025 | JelantahGO',
@@ -253,6 +254,20 @@ export default function JualJakartaPage() {
             </section>
 
             {/* FAQ */}
+            <FAQSchema faqs={[
+              {
+                question: 'Berapa harga minyak jelantah per liter di Jakarta saat ini?',
+                answer: 'Pada akhir tahun 2025, harga minyak jelantah di Jakarta berkisar antara Rp 7.800 hingga Rp 8.800 per liter. Harga ini dipengaruhi oleh volume penjualan, kualitas jelantah, dan lokasi penjemputan Anda di Jakarta. JelantahGO selalu menawarkan harga yang kompetitif dan transparan.',
+              },
+              {
+                question: 'Apakah ada biaya penjemputan untuk area gang sempit di Jakarta?',
+                answer: 'Tidak ada. Selama volume penjualan Anda memenuhi syarat minimal 40 liter, layanan penjemputan kami di seluruh wilayah Jakarta tetap GRATIS, termasuk untuk lokasi di dalam gang yang hanya bisa diakses oleh motor.',
+              },
+              {
+                question: 'Bagaimana cara jual minyak jelantah di apartemen Jakarta?',
+                answer: 'Sangat mudah. Anda bisa mengumpulkan jelantah secara kolektif bersama tetangga satu lantai atau satu tower. Setelah terkumpul minimal 40 liter, hubungi kami. Tim kami akan berkoordinasi dengan Anda untuk melakukan penjemputan di lobi atau area loading dock apartemen Anda.',
+              },
+            ]} />
             <section id="faq" className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">6. Pertanyaan Umum (FAQ) Seputar Jual Jelantah di Jakarta</h2>
               

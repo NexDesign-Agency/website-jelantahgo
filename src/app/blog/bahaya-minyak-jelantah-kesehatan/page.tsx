@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import FAQSchema from '@/components/FAQSchema'
 import { AlertTriangle, Heart, Brain, ShieldOff } from 'lucide-react'
 
 export default function BahayaKesehatanPage() {
@@ -154,6 +155,20 @@ export default function BahayaKesehatanPage() {
             </section>
 
             {/* FAQ */}
+            <FAQSchema faqs={[
+              {
+                question: 'Berapa kali maksimal minyak goreng boleh dipakai?',
+                answer: 'Tidak ada aturan pasti, tetapi sebagian besar ahli gizi dan lembaga keamanan pangan merekomendasikan untuk tidak menggunakan minyak goreng lebih dari 2-3 kali pemakaian. Perhatikan tanda-tanda kerusakan seperti warna yang sangat gelap, munculnya buih berlebih, bau tengik, dan titik asap yang menurun drastis.',
+              },
+              {
+                question: 'Apakah ada cara untuk membersihkan minyak jelantah agar aman dipakai lagi?',
+                answer: 'Meskipun ada trik rumah tangga seperti menggunakan nasi untuk menyerap kotoran, cara ini hanya membersihkan sisa makanan fisik, BUKAN memperbaiki kerusakan kimia yang sudah terjadi. Senyawa berbahaya seperti radikal bebas dan akrolein yang sudah terbentuk tidak dapat dihilangkan dengan cara sederhana. Cara teraman adalah dengan tidak menggunakannya kembali untuk konsumsi.',
+              },
+              {
+                question: 'Apakah semua jenis minyak sama berbahayanya jika dipakai berulang?',
+                answer: 'Minyak dengan titik asap tinggi (high smoke point) seperti minyak kelapa sawit atau minyak kanola cenderung lebih stabil dan tahan terhadap pemanasan berulang dibandingkan minyak dengan titik asap rendah seperti minyak zaitun extra virgin. Namun, pada akhirnya, SEMUA jenis minyak akan terdegradasi dan membentuk senyawa berbahaya jika dipanaskan berulang kali melewati titik asapnya.',
+              },
+            ]} />
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-[#0F3D2E] mb-6">Pertanyaan yang Sering Diajukan (FAQ)</h2>
               
