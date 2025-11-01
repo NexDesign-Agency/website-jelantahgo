@@ -30,9 +30,13 @@ export default function Home() {
                 🌱 PENGEPUL JELANTAH • JAKARTA • TANGERANG • DEPOK • BEKASI • BOGOR
               </div>
               
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-                Jual Minyak Jelantah Jakarta | Harga Tinggi, Jemput Gratis & Dibayar Tunai
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4">
+                Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L, Jemput Gratis
               </h1>
+              
+              <h2 className="text-xl lg:text-2xl text-white/90 mb-6 font-semibold">
+                Gratis Penjemputan & Langsung Bayar di Tempat
+              </h2>
               
               <p className="text-lg text-white/90 mb-8 leading-relaxed">
                 Kami membeli rumah tangga Anda dengan harga jaminan Rp 7.500-8.500 per liter dan proses jemput gratis ke lokasi. Tim kami cepat tangan, terpercaya, dan bayar tunai.

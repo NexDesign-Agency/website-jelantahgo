@@ -5,12 +5,12 @@ import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L | Jemput Gratis | Bayar Tunai - JelantahGO',
-  description: 'Jual minyak jelantah Jakarta dapat uang tunai HINGGA Rp 8.500/liter. Dijemput GRATIS ke lokasi Anda. Bayar langsung di tempat. Hubungi kami untuk harga terbaru!',
+  title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
+  description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat. Hubungi untuk harga terbaru!',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat',
   openGraph: {
-    title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L | Jemput Gratis | Bayar Tunai',
-    description: 'Pengepul minyak jelantah terpercaya di Jakarta. Harga hingga Rp 8.500/liter, dijemput gratis, bayar langsung. Melayani Jakarta & sekitarnya.',
+    title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
+    description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat.',
     url: 'https://jelantahgo.com',
     siteName: 'JelantahGO',
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L | Jemput Gratis',
-    description: 'Pengepul jelantah terpercaya. Harga tertinggi Rp 8.500/L. Bayar tunai di tempat.',
+    title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
+    description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS, bayar tunai langsung di tempat.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
   robots: {
