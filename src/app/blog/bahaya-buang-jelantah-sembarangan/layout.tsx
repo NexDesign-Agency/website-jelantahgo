@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 
 export const metadata: Metadata = {
-  title: 'Bahaya Buang Jelantah Sembarangan: Dampak Lingkungan & Kesehatan | JelantahGO',
+  title: 'Bahaya Buang Jelantah Sembarangan | Dampak Lingkungan | JelantahGO',
   description: 'Jangan buang jelantah sembarangan! Pelajari bahaya jelantah untuk lingkungan dan kesehatan: pencemaran air, kerusakan ekosistem, fatberg, hingga risiko kesehatan.',
   keywords: 'bahaya buang jelantah, dampak jelantah lingkungan, pencemaran air jelantah, bahaya jelantah kesehatan, fatberg jelantah, kerusakan ekosistem jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/bahaya-buang-jelantah-sembarangan',
   },
   openGraph: {
-    title: 'Bahaya Buang Jelantah Sembarangan: Dampak Lingkungan & Kesehatan | JelantahGO',
+    title: 'Bahaya Buang Jelantah Sembarangan | Dampak Lingkungan | JelantahGO',
     description: 'Jangan buang jelantah sembarangan! Pelajari bahaya jelantah untuk lingkungan dan kesehatan: pencemaran air, kerusakan ekosistem, fatberg, hingga risiko kesehatan.',
     url: 'https://jelantahgo.com/blog/bahaya-buang-jelantah-sembarangan',
     siteName: 'JelantahGO',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bahaya Buang Jelantah Sembarangan: Dampak Lingkungan & Kesehatan',
+    title: 'Bahaya Buang Jelantah Sembarangan | Dampak Lingkungan',
     description: 'Jangan buang jelantah sembarangan! Pelajari bahaya jelantah untuk lingkungan dan kesehatan: pencemaran air, kerusakan ekosistem, fatberg.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_23_qbzsfv.webp'],
   },

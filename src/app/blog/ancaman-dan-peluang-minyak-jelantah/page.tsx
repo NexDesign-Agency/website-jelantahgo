@@ -9,15 +9,15 @@ import ReadingTime from '@/components/ReadingTime'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi | JelantahGO',
-  description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa.',
+  title: 'Bahaya & Peluang Jelantah: Dampak Lingkungan | JelantahGO',
+  description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa di industri biodiesel.',
   keywords: 'bahaya minyak jelantah, dampak jelantah lingkungan, peluang bisnis jelantah, fatberg jelantah, daur ulang jelantah, biodiesel dari jelantah, ekonomi sirkular jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah',
   },
   openGraph: {
-    title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi | JelantahGO',
-    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa.',
+    title: 'Bahaya & Peluang Jelantah: Dampak Lingkungan | JelantahGO',
+    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis yang luar biasa di industri biodiesel.',
     url: 'https://jelantahgo.com/blog/ancaman-dan-peluang-minyak-jelantah',
     siteName: 'JelantahGO',
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bahaya & Peluang Emas Minyak Jelantah: Dampak Lingkungan & Ekonomi',
-    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya.',
+    title: 'Bahaya & Peluang Jelantah: Dampak Lingkungan',
+    description: 'Eksplorasi mendalam tentang bahaya membuang jelantah sembarangan dan peluang besar di baliknya. Dari dampak lingkungan hingga potensi bisnis.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_13_ellxu3.webp'],
   },
 }

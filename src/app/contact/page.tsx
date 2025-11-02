@@ -1,15 +1,52 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { MapPin, Phone, Mail } from 'lucide-react'
+import ContactPageSchema from '@/components/ContactPageSchema'
 
 export const metadata: Metadata = {
   title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB.',
+  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung.',
+  keywords: 'kontak jelantahgo, hubungi jelantahgo, whatsapp jelantahgo, telepon jelantahgo, email jelantahgo',
+  alternates: {
+    canonical: 'https://jelantahgo.com/contact',
+  },
+  openGraph: {
+    title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
+    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung.',
+    url: 'https://jelantahgo.com/contact',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Hubungi JelantahGO - Customer Service Ramah dan Siap Membantu',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
+    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Layanan penjemputan gratis, bayar tunai langsung.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp'],
+  },
 }
 
 export default function ContactPage() {
   return (
     <>
+      <ContactPageSchema
+        address={{
+          streetAddress: '3c no 250, Jl. Papanggo I, Papanggo',
+          addressLocality: 'Jakarta Utara',
+          addressRegion: 'Daerah Khusus Ibukota Jakarta',
+          postalCode: '14340',
+          addressCountry: 'ID',
+        }}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -17,10 +54,18 @@ export default function ContactPage() {
             HUBUNGI KAMI
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Hubungi Kami
+            Hubungi JelantahGO | WhatsApp, Telepon & Email
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Punya pertanyaan atau siap jual jelantah? Tim kami siap membantu Anda.
+            Punya pertanyaan atau siap jual jelantah? Tim kami siap membantu Anda. Pelajari{' '}
+            <Link href="/cara-kerja" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              cara kerja
+            </Link>{' '}
+            atau{' '}
+            <Link href="/pricing" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              lihat harga
+            </Link>{' '}
+            terbaru kami.
           </p>
         </div>
       </section>

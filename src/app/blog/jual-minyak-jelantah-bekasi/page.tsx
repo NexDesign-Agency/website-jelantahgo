@@ -4,14 +4,14 @@ import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025 | JelantahGO',
+  title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025 | JelantahGO',
   description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
   keywords: 'jual jelantah bekasi, pengepul bekasi, harga jelantah bekasi, jemput jelantah bekasi gratis, pengepul bekasi terpercaya, jual jelantah bekasi kota',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025 | JelantahGO',
+    title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025 | JelantahGO',
     description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
     siteName: 'JelantahGO',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Bekasi: Panduan untuk Warga & Industri 2025',
+    title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025',
     description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_6_y74rop.webp'],
   },
@@ -45,7 +45,7 @@ export default function JualBekasiPage() {
               ⭐ ARTIKEL PILAR LOKAL
             </div>
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-              Jual Minyak Jelantah Bekasi
+              Jual Minyak Jelantah Bekasi | Panduan Lengkap 2025
             </h1>
             <p className="text-lg text-white/90 leading-relaxed">
               Panduan untuk Warga & Industri 2025

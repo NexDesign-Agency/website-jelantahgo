@@ -4,15 +4,15 @@ import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025 | JelantahGO',
-  description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
+  title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025 | JelantahGO',
+  description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan dengan jemput gratis.',
   keywords: 'jual jelantah depok, jual jelantah bogor, pengepul depok, pengepul bogor, harga jelantah depok, jemput jelantah bogor, pengepul depok terpercaya',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025 | JelantahGO',
-    description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
+    title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025 | JelantahGO',
+    description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan dengan jemput gratis.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
     siteName: 'JelantahGO',
     images: [
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Depok & Bogor: Panduan Kuliner & Warga 2025',
-    description: 'Panduan untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat.',
+    title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025',
+    description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_11_vic3dh.webp'],
   },
 }

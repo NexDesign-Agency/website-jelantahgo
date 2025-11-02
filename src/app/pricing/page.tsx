@@ -62,7 +62,7 @@ export default function PricingPage() {
             💰 HARGA TERBARU 2025
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Harga Minyak Jelantah Terbaru 2025
+            Harga Minyak Jelantah Terbaru 2025 | Rp 7.500-8.500/L
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
             JelantahGO memberikan <strong>harga tertinggi Rp 7.500–8.500 per liter</strong>, penjemputan gratis, dan pembayaran tunai langsung.
@@ -111,7 +111,15 @@ export default function PricingPage() {
               Daftar Harga Minyak Jelantah
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Harga berlaku per 22 Oktober 2025. Semakin banyak volume, semakin tinggi harga!
+              Harga berlaku per 22 Oktober 2025. Semakin banyak volume, semakin tinggi harga! Pelajari{' '}
+              <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">
+                cara kerja lengkap
+              </Link>{' '}
+              atau baca{' '}
+              <Link href="/blog/panduan-jual-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">
+                panduan jual jelantah
+              </Link>
+              .
             </p>
           </div>
 
@@ -319,12 +327,26 @@ export default function PricingPage() {
                 <span>Bergabung jadi mitra – margin hingga Rp 2.000/L</span>
               </li>
             </ul>
-            <div className="mt-6">
+            <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/mitra"
                 className="text-[#0F3D2E] font-bold text-lg hover:underline inline-flex items-center gap-2"
               >
                 Pelajari Program Mitra →
+              </Link>
+              <span className="text-gray-400">|</span>
+              <Link
+                href="/cara-kerja"
+                className="text-[#0F3D2E] font-semibold text-base hover:underline inline-flex items-center gap-2"
+              >
+                Lihat Cara Kerja →
+              </Link>
+              <span className="text-gray-400">|</span>
+              <Link
+                href="/area-layanan"
+                className="text-[#0F3D2E] font-semibold text-base hover:underline inline-flex items-center gap-2"
+              >
+                Cek Area Layanan →
               </Link>
             </div>
           </div>

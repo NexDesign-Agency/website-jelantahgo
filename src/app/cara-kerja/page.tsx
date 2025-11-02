@@ -1,11 +1,38 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import FAQSchema from '@/components/FAQSchema'
+import HowToSchema from '@/components/HowToSchema'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
-  description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah. Proses penjemputan minyak jelantah yang cepat, transparan, dan gratis di area Jabodetabek.',
+  description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai. Proses cepat, transparan, dan gratis di seluruh Jabodetabek.',
   keywords: 'cara kerja jual minyak jelantah, panduan jual jelantah, proses jual minyak jelantah, cara menjual minyak goreng bekas',
+  alternates: {
+    canonical: 'https://jelantahgo.com/cara-kerja',
+  },
+  openGraph: {
+    title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
+    description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai. Proses cepat, transparan, dan gratis di seluruh Jabodetabek.',
+    url: 'https://jelantahgo.com/cara-kerja',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Cara Kerja JelantahGO - 4 Langkah Mudah Jual Minyak Jelantah',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
+    description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp'],
+  },
 }
 
 export default function CaraKerjaPage() {
@@ -140,9 +167,38 @@ Total: 85 * 7.500 = Rp 637.500`,
     },
   ]
 
+  const howToSteps = [
+    {
+      name: 'Kumpulkan Minyak Jelantah Anda',
+      text: 'Gunakan wadah tertutup yang tidak mudah bocor seperti jerigen. Saring minyak untuk memisahkan sisa makanan. Tutup rapat untuk menghindari bau dan tumpahan. Minimal 40 liter untuk layanan penjemputan gratis.',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
+    },
+    {
+      name: 'Hubungi JelantahGO',
+      text: 'Hubungi kami via WhatsApp di 0851-8303-3995 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam.',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_8_aa2c3g.webp',
+    },
+    {
+      name: 'Tim Kami Menjemput',
+      text: 'Tim kami akan tiba sesuai jadwal yang disepakati dengan timbangan digital yang akurat. Anda dipersilakan untuk melihat angka pada timbangan. Penimbangan dilakukan secara transparan di depan Anda.',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp',
+    },
+    {
+      name: 'Terima Pembayaran',
+      text: 'Setelah volume disetujui, pembayaran dilakukan secara tunai di tempat. Tidak ada biaya tersembunyi atau potongan. Anda akan menerima nota resmi yang mencatat volume dan total pembayaran.',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_2_awh3lr.webp',
+    },
+  ]
+
   return (
     <>
       <FAQSchema faqs={faqsData} />
+      <HowToSchema
+        name="Cara Jual Minyak Jelantah dengan JelantahGO"
+        description="Panduan lengkap 4 langkah mudah menjual minyak jelantah dengan JelantahGO: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai."
+        steps={howToSteps}
+        totalTime="PT1H"
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -150,10 +206,18 @@ Total: 85 * 7.500 = Rp 637.500`,
             CARA KERJA
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Cara Kerja JelantahGO
+            Cara Kerja JelantahGO | 4 Langkah Mudah, Jemput Gratis
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Proses penjualan minyak jelantah dirancang agar mudah, cepat, dan transparan. Kami jemput langsung, timbang akurat, dan bayar tunai di tempat.
+            Proses penjualan minyak jelantah dirancang agar mudah, cepat, dan transparan. Kami jemput langsung, timbang akurat, dan bayar tunai di tempat.{' '}
+            <Link href="/pricing" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              Lihat harga terbaru
+            </Link>{' '}
+            atau baca{' '}
+            <Link href="/blog" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              panduan lengkap di blog kami
+            </Link>
+            .
           </p>
         </div>
       </section>
@@ -279,7 +343,10 @@ Total: 85 * 7.500 = Rp 637.500`,
               Area yang Kami Layani
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Kami melayani penjemputan gratis di seluruh wilayah Jabodetabek.
+              Kami melayani penjemputan gratis di seluruh wilayah Jabodetabek.{' '}
+              <Link href="/area-layanan" className="text-[#0F3D2E] font-semibold hover:underline">
+                Lihat detail area layanan →
+              </Link>
             </p>
           </div>
 

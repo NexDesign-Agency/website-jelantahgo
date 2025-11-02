@@ -1,11 +1,37 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ItemListSchema from '@/components/ItemListSchema'
 
 export const metadata: Metadata = {
-  title: 'Blog JelantahGO - Panduan Lengkap Minyak Jelantah, Bisnis & Lingkungan',
-  description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 15+ artikel pendukung.',
+  title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
+  description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah.',
   keywords: 'blog jelantah, panduan jual jelantah, bisnis jelantah, biodiesel, lingkungan, cara jual minyak jelantah',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog',
+  },
+  openGraph: {
+    title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
+    description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah.',
+    url: 'https://jelantahgo.com/blog',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Blog JelantahGO - Panduan Lengkap Minyak Jelantah',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
+    description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+  },
 }
 
 export default function BlogPage() {
@@ -92,8 +118,26 @@ export default function BlogPage() {
     },
   ]
 
+  // Prepare items for ItemList Schema
+  const allArticles = pillars.flatMap((pillar) => [
+    {
+      name: pillar.title,
+      url: `https://jelantahgo.com${pillar.link}`,
+      description: pillar.excerpt,
+    },
+    ...pillar.clusters.map((cluster) => ({
+      name: cluster.title,
+      url: `https://jelantahgo.com${cluster.link}`,
+    })),
+  ])
+
   return (
     <>
+      <ItemListSchema
+        name="Blog Artikel JelantahGO - Panduan Lengkap Minyak Jelantah"
+        description="Daftar lengkap artikel dan panduan tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel dari JelantahGO."
+        items={allArticles}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -101,7 +145,7 @@ export default function BlogPage() {
             BLOG & PANDUAN
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Blog JelantahGO
+            Blog JelantahGO - Panduan Lengkap Minyak Jelantah
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
             Pusat Informasi Terlengkap tentang Minyak Jelantah, Bisnis, dan Lingkungan

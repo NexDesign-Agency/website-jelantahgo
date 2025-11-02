@@ -1,11 +1,37 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ServiceSchema from '@/components/ServiceSchema'
 
 export const metadata: Metadata = {
-  title: 'Area Layanan JelantahGO - Jangkauan Penjemputan Minyak Jelantah Gratis Jabodetabek',
-  description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter.',
+  title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
+  description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat.',
   keywords: 'area layanan jelantahgo, penjemputan minyak jelantah, jabodetabek, jakarta, bogor, depok, tangerang, bekasi',
+  alternates: {
+    canonical: 'https://jelantahgo.com/area-layanan',
+  },
+  openGraph: {
+    title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
+    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat.',
+    url: 'https://jelantahgo.com/area-layanan',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
+    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+  },
 }
 
 export default function AreaLayananPage() {
@@ -106,6 +132,7 @@ export default function AreaLayananPage() {
 
   return (
     <>
+      <ServiceSchema />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
@@ -113,7 +140,7 @@ export default function AreaLayananPage() {
             AREA LAYANAN
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Area Layanan JelantahGO
+            Area Layanan JelantahGO | Penjemputan Gratis Jabodetabek
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
             Kami Menjemput 'Emas Cair' Anda di Seluruh Penjuru Jabodetabek

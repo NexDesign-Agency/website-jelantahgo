@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Testimoni Pelanggan JelantahGO - Kisah Nyata dari 800+ Pelanggan yang Puas',
-  description: 'Baca testimoni dari pelanggan JelantahGO yang puas dengan layanan penjemputan minyak jelantah. Ibu rumah tangga, pemilik warung, restoran, dan mitra pengepul.',
+  title: 'Testimoni JelantahGO - 800+ Pelanggan Puas | JelantahGO',
+  description: 'Baca testimoni dari 800+ pelanggan JelantahGO yang puas dengan layanan penjemputan minyak jelantah. Kisah nyata dari ibu rumah tangga, pemilik warung, restoran, dan mitra pengepul.',
 }
 
 export default function TestimoniPage() {
@@ -71,7 +71,7 @@ export default function TestimoniPage() {
             TESTIMONI PELANGGAN
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Testimoni Pelanggan JelantahGO
+            Testimoni JelantahGO - 800+ Pelanggan Puas
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
             Kisah Nyata dari 800+ Pelanggan yang Puas Jual Jelantah

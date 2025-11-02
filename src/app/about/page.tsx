@@ -1,15 +1,56 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Users, TrendingUp, Award, Target } from 'lucide-react'
+import OrganizationSchema from '@/components/OrganizationSchema'
 
 export const metadata: Metadata = {
-  title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Jakarta Terpercaya Sejak 2020',
+  title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
   description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai. 800+ pelanggan puas, 150.000+ liter terkumpul.',
+  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo',
+  alternates: {
+    canonical: 'https://jelantahgo.com/about',
+  },
+  openGraph: {
+    title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
+    description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai. 800+ pelanggan puas, 150.000+ liter terkumpul.',
+    url: 'https://jelantahgo.com/about',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
+    description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+  },
 }
 
 export default function AboutPage() {
   return (
     <>
+      <OrganizationSchema
+        address={{
+          streetAddress: '3c no 250, Jl. Papanggo I, Papanggo, Kec. Tj. Priok',
+          addressLocality: 'Jakarta Utara',
+          addressRegion: 'Daerah Khusus Ibukota Jakarta',
+          postalCode: '14340',
+          addressCountry: 'ID',
+        }}
+        sameAs={[
+          'https://wa.me/6285183033995',
+          'https://jelantahgo.com',
+        ]}
+      />
       {/* Hero */}
       <section className="hero-bg-dots py-20">
         <div className="container-custom text-center relative z-10">
@@ -17,7 +58,7 @@ export default function AboutPage() {
             TENTANG KAMI
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-            Tentang JelantahGO
+            Tentang JelantahGO - Pengepul Minyak Jelantah Jakarta Terpercaya
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-white/90">
             Pengepul Minyak Jelantah Terpercaya Sejak 2020
@@ -188,14 +229,33 @@ export default function AboutPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto text-white/90">
             Setiap liter minyak jelantah yang Anda jual adalah kontribusi nyata untuk bumi yang lebih bersih dan hijau!
           </p>
-          <a
-            href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
-            target="_blank"
-            rel="noopener"
-            className="inline-block bg-[#0F3D2E] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#134E3A] transition-all shadow-soft-lg hover:shadow-soft-xl"
-          >
-            Hubungi Kami Sekarang
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+              target="_blank"
+              rel="noopener"
+              className="inline-block bg-[#0F3D2E] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#134E3A] transition-all shadow-soft-lg hover:shadow-soft-xl"
+            >
+              Hubungi Kami Sekarang
+            </a>
+            <Link
+              href="/pricing"
+              className="inline-block bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition-all"
+            >
+              Lihat Harga Jelantah
+            </Link>
+          </div>
+          <div className="mt-6 flex flex-wrap justify-center gap-4 text-white/90">
+            <Link href="/cara-kerja" className="hover:text-white underline text-sm">
+              Cara Kerja →
+            </Link>
+            <Link href="/mitra" className="hover:text-white underline text-sm">
+              Program Mitra →
+            </Link>
+            <Link href="/blog" className="hover:text-white underline text-sm">
+              Panduan Blog →
+            </Link>
+          </div>
         </div>
       </section>
     </>

@@ -9,15 +9,15 @@ import ReadingTime from '@/components/ReadingTime'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025 | JelantahGO',
-  description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta.',
+  title: 'Jual Minyak Jelantah Jakarta - Panduan Lengkap 2025 | JelantahGO',
+  description: 'Panduan lengkap jual minyak jelantah di semua wilayah DKI Jakarta. Harga terbaru, cara jual, tips memilih pengepul terpercaya, dan layanan jemput gratis ke lokasi Anda.',
   keywords: 'jual minyak jelantah jakarta, pengepul jelantah jakarta, harga jelantah jakarta, jual jelantah jakarta selatan, jemput jelantah jakarta, pengepul jelantah terpercaya jakarta',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025 | JelantahGO',
-    description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta.',
+    title: 'Jual Minyak Jelantah Jakarta - Panduan Lengkap 2025 | JelantahGO',
+    description: 'Panduan lengkap jual minyak jelantah di semua wilayah DKI Jakarta. Harga terbaru, cara jual, tips memilih pengepul terpercaya, dan layanan jemput gratis ke lokasi Anda.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
     siteName: 'JelantahGO',
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025',
-    description: 'Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta.',
+    title: 'Jual Minyak Jelantah Jakarta - Panduan Lengkap 2025',
+    description: 'Panduan lengkap jual minyak jelantah di semua wilayah DKI Jakarta. Harga terbaru, cara jual, tips memilih pengepul terpercaya.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp'],
   },
 }
@@ -45,8 +45,8 @@ export default function JualJakartaPage() {
   return (
     <>
       <ArticleSchema
-        title="Jual Minyak Jelantah Jakarta: Panduan Lengkap & Harga Terbaru 2025"
-        description="Panduan lokal paling komprehensif untuk warga dan bisnis yang ingin menjual minyak jelantah di semua wilayah DKI Jakarta, mencakup harga, cara jual, dan tips memilih pengepul terpercaya di Jakarta."
+        title="Jual Minyak Jelantah Jakarta | Panduan Lengkap 2025"
+        description="Panduan lengkap jual minyak jelantah di semua wilayah DKI Jakarta. Harga terbaru, cara jual, tips memilih pengepul terpercaya, dan layanan jemput gratis ke lokasi Anda."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp"
         datePublished="2025-11-15"
         dateModified="2025-11-15"
@@ -67,7 +67,7 @@ export default function JualJakartaPage() {
               ⭐ ARTIKEL PILAR LOKAL
             </div>
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-              Jual Minyak Jelantah Jakarta
+              Jual Minyak Jelantah Jakarta | Panduan Lengkap 2025
             </h1>
             <p className="text-lg text-white/90 leading-relaxed">
               Panduan Lengkap & Harga Terbaru 2025

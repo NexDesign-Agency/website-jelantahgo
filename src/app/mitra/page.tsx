@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 
 export default function MitraPage() {
@@ -95,12 +96,13 @@ export default function MitraPage() {
             🔥 30+ MITRA SUKSES | 100% GRATIS TANPA FRANCHISE FEE
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Jadilah Mitra Pengepul Jelantah
-            <br />
-            Raih Penghasilan Rp 1-5 Juta/Bulan
+            Jadilah Mitra Pengepul Jelantah | Raih Rp 1-5 Juta/Bulan
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Bergabung dengan program mitra JelantahGO dan mulai bisnis pengepulan minyak jelantah dengan modal kecil. Dapatkan website gratis, training lengkap, dan support penuh dari tim kami!
+            Bergabung dengan program mitra JelantahGO dan mulai bisnis pengepulan minyak jelantah dengan modal kecil. Dapatkan website gratis, training lengkap, dan support penuh dari tim kami!{' '}
+            <Link href="/blog/peluang-bisnis-pengepul-jelantah" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              Pelajari lebih lanjut →
+            </Link>
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">

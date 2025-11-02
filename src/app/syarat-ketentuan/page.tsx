@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { FileText, CheckCircle, AlertCircle, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Syarat & Ketentuan - JelantahGO',
-  description: 'Syarat dan ketentuan layanan jual beli minyak jelantah JelantahGO. Ketahui standar kualitas, layanan penjemputan, dan prosedur pembayaran.',
+  title: 'Syarat & Ketentuan Layanan JelantahGO | Legal & Compliance',
+  description: 'Syarat dan ketentuan lengkap layanan jual beli minyak jelantah JelantahGO. Ketahui standar kualitas jelantah, layanan penjemputan gratis, prosedur pembayaran tunai, dan kebijakan privasi.',
   robots: 'index, follow',
 }
 
@@ -18,7 +18,7 @@ export default function SyaratKetentuanPage() {
             LEGAL
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-            Syarat & Ketentuan
+            Syarat & Ketentuan Layanan JelantahGO
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-white/90">
             Harap baca syarat dan ketentuan kami dengan saksama
