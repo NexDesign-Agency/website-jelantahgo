@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import FAQSchema from '@/components/FAQSchema'
 
 export default function MitraPage() {
   const [activeCalc, setActiveCalc] = useState(1)
