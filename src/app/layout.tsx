@@ -53,10 +53,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "RecyclingCenter",
+              "@id": "https://jelantahgo.com/#organization",
               "name": "JelantahGO",
+              "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
               "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
               "url": "https://jelantahgo.com",
-              "telephone": "+628518303395",
+              "telephone": "+6285183033995",
               "email": "info.jelantahgo@gmail.com",
               "address": {
                 "@type": "PostalAddress",
