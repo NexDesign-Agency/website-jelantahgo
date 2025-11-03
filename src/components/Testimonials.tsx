@@ -94,7 +94,7 @@ export default function Testimonials() {
               testimoni
             </a>
             {' '}atau baca{' '}
-            <a href="/blog/kisah-sukses-mitra" className="text-[#0F3D2E] font-semibold hover:underline">
+            <a href="/blog/kisah-sukses-pengepul-jelantah-pak-doni" className="text-[#0F3D2E] font-semibold hover:underline">
               kisah sukses mitra
             </a>
             .

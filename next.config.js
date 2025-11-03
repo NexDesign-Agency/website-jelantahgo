@@ -55,6 +55,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/kisah-sukses-mitra',
+        destination: '/blog/kisah-sukses-pengepul-jelantah-pak-doni',
+        permanent: true,
+      },
+      {
+        source: '/blog/kisah-sukses-mitra/',
+        destination: '/blog/kisah-sukses-pengepul-jelantah-pak-doni',
+        permanent: true,
+      },
+      {
         source: '/blog/kesalahan-menyimpan-jelantah.html',
         destination: '/blog/kesalahan-menyimpan-jelantah',
         permanent: true,
@@ -193,6 +203,13 @@ const nextConfig = {
       {
         source: '/layanan/:path*',
         destination: '/area-layanan',
+        permanent: true,
+      },
+      // Redirect all URLs with trailing slash to without trailing slash (to prevent 404)
+      // Exclude homepage (/) from this redirect
+      {
+        source: '/:path+/',
+        destination: '/:path*',
         permanent: true,
       },
     ]
