@@ -16,6 +16,17 @@ const nextConfig = {
   // trailingSlash: false (default) - better for SEO, no unnecessary redirects
   async redirects() {
     return [
+      // Redirect /harga to /pricing
+      {
+        source: '/harga',
+        destination: '/pricing',
+        permanent: true,
+      },
+      {
+        source: '/harga/',
+        destination: '/pricing',
+        permanent: true,
+      },
       // Redirect URLs with .html to without .html
       {
         source: '/kontak.html',
