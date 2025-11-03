@@ -9,6 +9,7 @@ import WhoCanSell from '@/components/WhoCanSell'
 import Testimonials from '@/components/Testimonials'
 import FAQ from '@/components/FAQ'
 import BlogSection from '@/components/BlogSection'
+import PopularArticlesSection from '@/components/PopularArticlesSection'
 
 export default function Home() {
   return (
@@ -337,6 +338,9 @@ export default function Home() {
 
       {/* Blog Section */}
       <BlogSection />
+
+      {/* Popular Articles Section */}
+      <PopularArticlesSection />
 
       {/* CTA Section - Premium Dark Green */}
       <section className="hero-bg-dots py-20">

@@ -80,6 +80,7 @@ export default function CaraKerjaPage() {
             'Saring minyak untuk memisahkan sisa makanan.',
             'Tutup rapat untuk menghindari bau dan tumpahan.',
           ],
+          note: 'Pelajari cara menyimpan minyak jelantah yang benar dan cara kreatif mengumpulkan 100 liter jelantah per bulan.',
         },
         {
           title: 'B. Volume Minimum',
@@ -214,8 +215,12 @@ Total: 85 * 7.500 = Rp 637.500`,
               Lihat harga terbaru
             </Link>{' '}
             atau baca{' '}
-            <Link href="/blog" className="text-white underline hover:text-[#D9E3D3] font-semibold">
-              panduan lengkap di blog kami
+            <Link href="/blog/panduan-jual-minyak-jelantah" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              panduan lengkap jual minyak jelantah
+            </Link>
+            {' '}dan{' '}
+            <Link href="/blog/waktu-terbaik-jual-jelantah" className="text-white underline hover:text-[#D9E3D3] font-semibold">
+              waktu terbaik untuk menjual jelantah
             </Link>
             .
           </p>
@@ -274,6 +279,13 @@ Total: 85 * 7.500 = Rp 637.500`,
                               </li>
                             ))}
                           </ul>
+                        )}
+                        {section.note && step.number === 1 && (
+                          <div className="mt-4 p-4 bg-[#E8F0E3] rounded-card text-sm">
+                            <p className="text-gray-700">
+                              💡 <Link href="/blog/cara-menyimpan-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">Pelajari cara menyimpan minyak jelantah yang benar</Link> dan <Link href="/blog/cara-kumpulkan-100-liter-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara kreatif mengumpulkan 100 liter jelantah per bulan</Link>.
+                            </p>
+                          </div>
                         )}
                         {section.code && (
                           <div className="mt-4 bg-[#0F3D2E] text-white p-4 rounded-card font-mono text-sm whitespace-pre-wrap">

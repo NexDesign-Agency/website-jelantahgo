@@ -288,6 +288,11 @@ export default function MitraPage() {
                 <p className="mt-4 font-semibold text-[#0F3D2E]">
                   ⚡ ROI: Modal balik dalam {calc.id === 3 ? '1-2 bulan! Plus bonus!' : '1 bulan!'}
                 </p>
+                <div className="mt-4 pt-4 border-t border-gray-200 text-sm text-gray-600">
+                  <p className="mb-2">
+                    💡 Pelajari lebih lanjut: <Link href="/blog/panduan-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">panduan bisnis pengepul jelantah lengkap</Link>, <Link href="/blog/checklist-peralatan-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">checklist peralatan yang dibutuhkan</Link>, dan <Link href="/blog/kisah-sukses-ibu-rina" className="text-[#0F3D2E] font-semibold hover:underline">kisah sukses Ibu Rina</Link> sebagai referensi.
+                  </p>
+                </div>
               </div>
             </div>
           ))}
