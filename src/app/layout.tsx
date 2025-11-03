@@ -83,57 +83,6 @@ export default function RootLayout({
             })
           }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Berapa harga minyak jelantah per liter di JelantahGO?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Harga minyak jelantah di JelantahGO bervariasi berdasarkan volume: Rp 7.500/liter untuk 40-99 liter, Rp 8.000/liter untuk 100-199 liter, dan Rp 8.500/liter untuk volume 200 liter ke atas."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Apakah penjemputan minyak jelantah benar-benar gratis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ya, kami menyediakan layanan penjemputan GRATIS untuk minyak jelantah dengan volume minimal 40 liter di seluruh area Jabodetabek. Tidak ada biaya tambahan."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Bagaimana cara jual minyak jelantah ke JelantahGO?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cukup 4 langkah: 1) Kumpulkan minyak jelantah minimal 40 liter, 2) Hubungi kami via WhatsApp, 3) Tim kami datang ke lokasi, 4) Timbang & terima pembayaran tunai langsung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Minyak jelantah harus bersih atau tidak?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tidak perlu disaring sangat bersih. Cukup buang sisa makanan besar. Jangan campur dengan air, sabun, atau detergen karena akan mempengaruhi kualitas dan harga."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wilayah mana saja yang dilayani?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Kami melayani seluruh Jabodetabek: Jakarta, Tangerang, Bekasi, Depok, Bogor. Untuk area di luar Jabodetabek, Anda bisa bergabung sebagai mitra pengepul."
-                  }
-                }
-              ]
-            })
-          }}
-        />
         {/* Microsoft Clarity tracking code */}
         <script
           type="text/javascript"
