@@ -5,6 +5,7 @@ import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { TrendingUp, DollarSign, Target, CheckCircle } from 'lucide-react'
 
 export default function CaraJualMenguntungkanPage() {
@@ -17,6 +18,13 @@ export default function CaraJualMenguntungkanPage() {
         datePublished="2025-09-30"
         dateModified="2025-09-30"
         articleUrl="https://jelantahgo.com/blog/cara-jual-jelantah-menguntungkan"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Cara Jual Minyak Jelantah yang Paling Menguntungkan', url: 'https://jelantahgo.com/blog/cara-jual-jelantah-menguntungkan' },
+        ]}
       />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">

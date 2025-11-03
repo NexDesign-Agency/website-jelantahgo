@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025 | JelantahGO',
@@ -37,6 +39,21 @@ export const metadata: Metadata = {
 export default function JualDepokBogorPage() {
   return (
     <>
+      <ArticleSchema
+        title="Jual Minyak Jelantah Depok & Bogor - Panduan 2025"
+        description="Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan dengan jemput gratis."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_11_vic3dh.webp"
+        datePublished="2025-10-22"
+        dateModified="2025-10-22"
+        articleUrl="https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Jual Minyak Jelantah Depok & Bogor', url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
