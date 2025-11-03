@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import ServiceSchema from '@/components/ServiceSchema'
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 
 export const metadata: Metadata = {
   title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
@@ -132,6 +133,20 @@ export default function AreaLayananPage() {
 
   return (
     <>
+      <LocalBusinessSchema
+        name="JelantahGO - Pengepul Minyak Jelantah Jabodetabek"
+        address={{
+          addressLocality: 'Jakarta',
+          addressRegion: 'DKI Jakarta',
+          addressCountry: 'ID',
+        }}
+        geo={{
+          latitude: -6.2088,
+          longitude: 106.8456,
+        }}
+        areaServed={['Jakarta', 'Tangerang', 'Bekasi', 'Depok', 'Bogor']}
+        priceRange="Rp7500 - Rp8500"
+      />
       <ServiceSchema />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">

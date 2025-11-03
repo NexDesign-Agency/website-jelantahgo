@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
   description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat. Hubungi untuk harga terbaru!',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
   openGraph: {
     title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
     description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat.',
@@ -115,8 +120,16 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
+        {/* Skip to content link for accessibility */}
+        <a 
+          href="#main-content" 
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-[#0F3D2E] focus:text-white focus:px-6 focus:py-3 focus:rounded-card focus:shadow-soft-lg focus:font-semibold"
+          aria-label="Skip to main content"
+        >
+          Skip to main content
+        </a>
         <Header />
-        <main className="flex-grow">
+        <main id="main-content" className="flex-grow" role="main">
           {children}
         </main>
         <Footer />

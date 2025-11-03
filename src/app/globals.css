@@ -22,6 +22,27 @@
     @apply text-gray-800 bg-[#F9F8F6];
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   }
+  
+  /* Accessibility: Focus styles for keyboard navigation */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-[#0F3D2E] outline-solid;
+  }
+  
+  button:focus-visible,
+  a:focus-visible {
+    @apply ring-2 ring-[#0F3D2E] ring-offset-2;
+  }
+  
+  /* Screen reader only class */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .sr-only:focus {
+    @apply static w-auto h-auto p-0 m-0 overflow-visible whitespace-normal;
+    clip: auto;
+  }
 }
 
 @layer components {

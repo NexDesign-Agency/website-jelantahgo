@@ -2,7 +2,10 @@
 const nextConfig = {
   // output: 'export', // Disabled for development - uncomment ONLY for static export build (production)
   images: {
-    unoptimized: true,
+    unoptimized: false,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,7 +13,7 @@ const nextConfig = {
       },
     ],
   },
-  trailingSlash: true,
+  // trailingSlash: false (default) - better for SEO, no unnecessary redirects
   async redirects() {
     return [
       // Redirect URLs with .html to without .html
@@ -191,6 +194,31 @@ const nextConfig = {
         source: '/layanan/:path*',
         destination: '/area-layanan',
         permanent: true,
+      },
+    ]
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()',
+          },
+        ],
       },
     ]
   },

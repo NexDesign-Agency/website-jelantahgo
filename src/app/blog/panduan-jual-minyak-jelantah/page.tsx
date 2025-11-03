@@ -6,6 +6,7 @@ import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import Breadcrumb from '@/components/Breadcrumb'
 import ReadingTime from '@/components/ReadingTime'
 import FAQSchema from '@/components/FAQSchema'
 
@@ -45,6 +46,15 @@ export default function PanduanJualPage() {
       />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
+        <div className="container-custom relative z-10">
+          <Breadcrumb
+            items={[
+              { label: 'Home', href: '/' },
+              { label: 'Blog', href: '/blog' },
+              { label: 'Panduan Jual Minyak Jelantah', href: '/blog/panduan-jual-minyak-jelantah' },
+            ]}
+          />
+        </div>
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">

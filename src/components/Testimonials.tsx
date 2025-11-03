@@ -1,6 +1,35 @@
+import ReviewSchema from './ReviewSchema'
+
 export default function Testimonials() {
+  const reviews = [
+    {
+      authorName: 'Ibu Siti',
+      ratingValue: '5',
+      reviewBody: 'Prosesnya sangat mudah dan cepat... sebulan bisa dapat tambahan Rp 300-400 ribu. Recommended!',
+      datePublished: '2024-01-15',
+    },
+    {
+      authorName: 'Pak Budi',
+      ratingValue: '5',
+      reviewBody: 'Dulu dibuang percuma, sekarang jadi penghasilan tambahan. Harga paling tinggi!',
+      datePublished: '2024-02-20',
+    },
+    {
+      authorName: 'Doni Ramadhan',
+      ratingValue: '5',
+      reviewBody: 'Sudah jadi bisnis sampingan yang stabil. Bisa dapat 2-3 juta per bulan.',
+      datePublished: '2024-03-10',
+    },
+  ]
+
   return (
-    <section className="py-20 bg-[#F9F8F6]">
+    <>
+      <ReviewSchema 
+        ratingValue="4.9" 
+        reviewCount="1500" 
+        reviews={reviews}
+      />
+      <section className="py-20 bg-[#F9F8F6]">
       <div className="container-custom">
         <div className="text-center mb-16">
           <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">

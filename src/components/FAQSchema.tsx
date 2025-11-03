@@ -8,6 +8,11 @@ interface FAQSchemaProps {
 }
 
 export default function FAQSchema({ faqs }: FAQSchemaProps) {
+  // Prevent duplicate rendering - only render if faqs exist and not empty
+  if (!faqs || faqs.length === 0) {
+    return null
+  }
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -23,7 +28,6 @@ export default function FAQSchema({ faqs }: FAQSchemaProps) {
 
   return (
     <script
-      id="faq-schema"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
