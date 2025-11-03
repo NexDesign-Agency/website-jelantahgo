@@ -19,78 +19,12 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-[#0F3D2E] text-white/80" itemScope itemType="https://schema.org/RecyclingCenter">
-      {/* Schema Markup JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "RecyclingCenter",
-            "name": "JelantahGO",
-            "description": "Jual minyak jelantah Jakarta dengan harga terbaik dan proses yang mudah",
-            "url": "https://jelantahgo.com",
-            "logo": "https://jelantahgo.com/logo.png",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "3c no 250, Jl. Papanggo I, Papanggo, Kec. Tj. Priok",
-              "addressLocality": "Jakarta Utara",
-              "addressRegion": "Daerah Khusus Ibukota Jakarta",
-              "postalCode": "14340",
-              "addressCountry": "ID"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "-6.1176",
-              "longitude": "106.8722"
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Jakarta"
-              },
-              {
-                "@type": "City",
-                "name": "Tangerang"
-              },
-              {
-                "@type": "City",
-                "name": "Bekasi"
-              },
-              {
-                "@type": "City",
-                "name": "Depok"
-              },
-              {
-                "@type": "City",
-                "name": "Bogor"
-              }
-            ],
-            "telephone": "+6285183033995",
-            "email": "info.jelantahgo@gmail.com",
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              "opens": "08:00",
-              "closes": "17:00"
-            },
-            "priceRange": "Rp 7.500 - Rp 8.500 per liter",
-            "serviceType": "Used cooking oil collection and recycling",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "1500"
-            }
-          })
-        }}
-      />
-
+    <footer className="bg-[#0F3D2E] text-white/80">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
           {/* Company Info */}
-          <div className="company-info lg:col-span-5" itemScope itemType="https://schema.org/Organization">
-            <h3 className="text-white text-2xl font-bold mb-4" itemProp="name">JelantahGO</h3>
+          <div className="company-info lg:col-span-5">
+            <h3 className="text-white text-2xl font-bold mb-4">JelantahGO</h3>
             
             {/* SEO-Friendly Content */}
             <div className="seo-footer-content mb-6">
@@ -100,7 +34,7 @@ export default function Footer() {
             </div>
 
             <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-3" itemScope itemType="https://schema.org/PostalAddress">
+              <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-[#D9E3D3]" />
                 <a 
                   href="https://maps.app.goo.gl/Y8BVwkYmfmW1UmjSA" 
@@ -108,19 +42,19 @@ export default function Footer() {
                   rel="noopener"
                   className="text-white/70 hover:text-white transition-colors"
                 >
-                  <span itemProp="streetAddress">3c no 250, Jl. Papanggo I, Papanggo</span><br />
-                  <span itemProp="addressLocality">Kec. Tj. Priok, Jkt Utara</span>, <span itemProp="addressRegion">Daerah Khusus Ibukota Jakarta</span> <span itemProp="postalCode">14340</span>
+                  3c no 250, Jl. Papanggo I, Papanggo<br />
+                  Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14340
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 flex-shrink-0 text-[#D9E3D3]" />
-                <a href="tel:+6285183033995" className="text-white/70 hover:text-white transition-colors" itemProp="telephone">
+                <a href="tel:+6285183033995" className="text-white/70 hover:text-white transition-colors">
                   +62 851-8303-3995
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 flex-shrink-0 text-[#D9E3D3]" />
-                <a href="mailto:info.jelantahgo@gmail.com" className="text-white/70 hover:text-white transition-colors" itemProp="email">
+                <a href="mailto:info.jelantahgo@gmail.com" className="text-white/70 hover:text-white transition-colors">
                   info.jelantahgo@gmail.com
                 </a>
               </div>
