@@ -5,6 +5,7 @@ import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Calendar, TrendingUp, DollarSign, Clock } from 'lucide-react'
 
 export default function WaktuTerbaikPage() {
@@ -17,6 +18,13 @@ export default function WaktuTerbaikPage() {
         datePublished="2025-09-28"
         dateModified="2025-09-28"
         articleUrl="https://jelantahgo.com/blog/waktu-terbaik-jual-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Kapan Waktu Terbaik untuk Jual Minyak Jelantah', url: 'https://jelantahgo.com/blog/waktu-terbaik-jual-jelantah' },
+        ]}
       />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">

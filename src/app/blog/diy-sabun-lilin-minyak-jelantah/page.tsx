@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Beaker, AlertTriangle, Sparkles, Droplets } from 'lucide-react'
 
 export default function DIYSabunLilinPage() {
   return (
     <>
+      <ArticleSchema
+        title="DIY Sabun & Lilin dari Minyak Jelantah: Panduan Aman"
+        description="Panduan lengkap membuat sabun dan lilin dari minyak jelantah di rumah. Tutorial aman dengan APD lengkap, bahan, alat, dan langkah-langkah detail. Tips keselamatan penting!"
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_22_wuy3fj.webp"
+        datePublished="2025-10-22"
+        dateModified="2025-10-22"
+        articleUrl="https://jelantahgo.com/blog/diy-sabun-lilin-minyak-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'DIY Sabun & Lilin dari Minyak Jelantah', url: 'https://jelantahgo.com/blog/diy-sabun-lilin-minyak-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

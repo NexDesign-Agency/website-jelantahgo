@@ -5,6 +5,7 @@ import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Users, Store, School, Calendar, Package, Gift, Lightbulb } from 'lucide-react'
 
 export default function CaraKumpulkanPage() {
@@ -17,6 +18,13 @@ export default function CaraKumpulkanPage() {
         datePublished="2025-10-01"
         dateModified="2025-10-01"
         articleUrl="https://jelantahgo.com/blog/cara-kumpulkan-100-liter-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: '10 Cara Mengumpulkan 100 Liter Jelantah per Bulan', url: 'https://jelantahgo.com/blog/cara-kumpulkan-100-liter-jelantah' },
+        ]}
       />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">

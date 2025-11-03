@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { AlertTriangle, Container, Filter, DollarSign, Calculator, Users, Phone } from 'lucide-react'
 
 export default function KesalahanPemulaPage() {
   return (
     <>
+      <ArticleSchema
+        title="7 Kesalahan Fatal Penjual Jelantah Pemula"
+        description="Hindari 7 kesalahan fatal penjual jelantah pemula: mencampur air, wadah salah, tidak menyaring, hingga tidak cek harga pasar. Pelajari solusinya agar dapat untung maksimal."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_18_idyjtq.webp"
+        datePublished="2025-10-27"
+        dateModified="2025-10-27"
+        articleUrl="https://jelantahgo.com/blog/kesalahan-penjual-jelantah-pemula"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: '7 Kesalahan Fatal Penjual Jelantah Pemula', url: 'https://jelantahgo.com/blog/kesalahan-penjual-jelantah-pemula' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

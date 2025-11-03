@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { AlertTriangle, Filter, Container, Droplets, Sun, Lock } from 'lucide-react'
 
 export default function KesalahanMenyimpanPage() {
   return (
     <>
+      <ArticleSchema
+        title="5 Kesalahan Menyimpan Jelantah yang Bikin Harga Turun"
+        description="Hindari 5 kesalahan menyimpan minyak jelantah yang membuat harga jual turun: tidak menyaring, wadah salah, campur air, terbuka, dan tempat penyimpanan salah."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761964478/jelantahoffer_rank9r.webp"
+        datePublished="2025-10-03"
+        dateModified="2025-10-03"
+        articleUrl="https://jelantahgo.com/blog/kesalahan-menyimpan-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: '5 Kesalahan Menyimpan Jelantah yang Bikin Harga Turun', url: 'https://jelantahgo.com/blog/kesalahan-menyimpan-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

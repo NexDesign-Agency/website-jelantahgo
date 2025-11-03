@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { AlertTriangle, Droplets, Construction, Shield } from 'lucide-react'
 
 export default function FatbergPage() {
   return (
     <>
+      <ArticleSchema
+        title="Fatberg: Monster Bawah Tanah dari Jelantah"
+        description="Fatberg adalah gumpalan raksasa di saluran pembuangan yang terbentuk dari jelantah. Pelajari bagaimana jelantah Anda bisa menjadi monster bawah tanah yang melumpuhkan kota."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_21_skuom5.webp"
+        datePublished="2025-10-18"
+        dateModified="2025-10-18"
+        articleUrl="https://jelantahgo.com/blog/fatberg-monster-bawah-tanah-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Fatberg: Monster Bawah Tanah dari Jelantah', url: 'https://jelantahgo.com/blog/fatberg-monster-bawah-tanah-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

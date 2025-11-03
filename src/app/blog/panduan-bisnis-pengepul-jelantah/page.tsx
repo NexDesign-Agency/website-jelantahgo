@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { BookOpen, Target, TrendingUp, CheckCircle } from 'lucide-react'
 
 export default function PanduanBisnisPengepulPage() {
   return (
     <>
+      <ArticleSchema
+        title="Panduan Bisnis Pengepul Jelantah: Persiapan hingga Scale-Up"
+        description="Panduan lengkap memulai bisnis pengepul minyak jelantah dari nol. Modal kecil, risiko rendah, pasar pasti. Tips persiapan, eksekusi, dan strategi scale-up bisnis pengepul."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_7_rznf5j.webp"
+        datePublished="2025-10-08"
+        dateModified="2025-10-08"
+        articleUrl="https://jelantahgo.com/blog/panduan-bisnis-pengepul-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Panduan Bisnis Pengepul Jelantah', url: 'https://jelantahgo.com/blog/panduan-bisnis-pengepul-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

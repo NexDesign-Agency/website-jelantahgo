@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Users, TrendingUp, Shield, AlertCircle, CheckCircle } from 'lucide-react'
 
 export default function MitraVsMandiriPage() {
   return (
     <>
+      <ArticleSchema
+        title="JelantahGO vs Mandiri: Analisis Mitra Pengepul Resmi"
+        description="Perbandingan lengkap pengepul jelantah mandiri vs mitra JelantahGO. Analisis untung-rugi, risiko, modal kerja, margin profit, dan panduan memilih jalur terbaik untuk bisnis Anda."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_27_rwjixk.webp"
+        datePublished="2025-10-11"
+        dateModified="2025-10-11"
+        articleUrl="https://jelantahgo.com/blog/mitra-jelantahgo-vs-mandiri"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'JelantahGO vs Mandiri: Analisis Mitra Pengepul Resmi', url: 'https://jelantahgo.com/blog/mitra-jelantahgo-vs-mandiri' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

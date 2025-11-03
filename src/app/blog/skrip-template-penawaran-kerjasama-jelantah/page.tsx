@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { MessageSquare, Mail, Phone, FileText, Copy, DollarSign, TrendingDown, CheckCircle } from 'lucide-react'
 
 export default function SkripTemplatePage() {
   return (
     <>
+      <ArticleSchema
+        title="5 Skrip & Template Penawaran Kerjasama Jelantah"
+        description="5 skrip dan template penawaran kerjasama jelantah yang teruji untuk mendapatkan pemasok. Dari WhatsApp informal hingga email formal, lengkap dengan contoh teks siap pakai."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_10_mczrvd.webp"
+        datePublished="2025-10-07"
+        dateModified="2025-10-07"
+        articleUrl="https://jelantahgo.com/blog/skrip-template-penawaran-kerjasama-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: '5 Skrip & Template Penawaran Kerjasama Jelantah', url: 'https://jelantahgo.com/blog/skrip-template-penawaran-kerjasama-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

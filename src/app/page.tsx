@@ -231,13 +231,13 @@ export default function Home() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              HARGA TERBARU
+              💰 HARGA TERBARU 2025
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Harga minyak jelantah terbaru
+              Harga minyak jelantah terbaru 2025
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Harga disesuaikan dengan volume - semakin banyak volume, semakin tinggi harga per liternya
+              Harga disesuaikan dengan volume - semakin banyak volume, semakin tinggi harga per liternya. Harga berlaku per Januari 2025.
             </p>
           </div>
 

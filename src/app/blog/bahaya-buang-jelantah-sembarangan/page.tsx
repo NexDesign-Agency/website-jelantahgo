@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { AlertTriangle, Droplets, Fish, TreePine } from 'lucide-react'
 
 export default function BahayaBuangSembaranganPage() {
   return (
     <>
+      <ArticleSchema
+        title="Bahaya Buang Jelantah Sembarangan"
+        description="Jangan buang jelantah sembarangan! Pelajari bahaya jelantah untuk lingkungan dan kesehatan: pencemaran air, kerusakan ekosistem, fatberg, hingga risiko kesehatan."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_23_qbzsfv.webp"
+        datePublished="2025-10-20"
+        dateModified="2025-10-20"
+        articleUrl="https://jelantahgo.com/blog/bahaya-buang-jelantah-sembarangan"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Bahaya Buang Jelantah Sembarangan', url: 'https://jelantahgo.com/blog/bahaya-buang-jelantah-sembarangan' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

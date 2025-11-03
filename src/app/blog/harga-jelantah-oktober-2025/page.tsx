@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { DollarSign, TrendingUp, Calendar, Info } from 'lucide-react'
 
 export default function HargaOktober2025Page() {
   return (
     <>
+      <ArticleSchema
+        title="Update Harga Minyak Jelantah Oktober 2025"
+        description="Update harga minyak jelantah Oktober 2025. Informasi lengkap harga per liter berdasarkan volume, faktor yang mempengaruhi harga, dan tips dapat harga terbaik."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_12_qu8bdm.webp"
+        datePublished="2025-10-01"
+        dateModified="2025-10-01"
+        articleUrl="https://jelantahgo.com/blog/harga-jelantah-oktober-2025"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Update Harga Minyak Jelantah Oktober 2025', url: 'https://jelantahgo.com/blog/harga-jelantah-oktober-2025' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

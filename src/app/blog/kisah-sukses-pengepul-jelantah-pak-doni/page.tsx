@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Award, TrendingUp, Users, Target, CheckCircle } from 'lucide-react'
 
 export default function KisahSuksesPakDoniPage() {
   return (
     <>
+      <ArticleSchema
+        title="Kisah Sukses Pak Doni: Pengepul Omzet 20 Juta/Bulan"
+        description="Kisah inspiratif Pak Doni, mantan karyawan pabrik yang berhasil menjadi pengepul jelantah sukses dengan omzet 20 juta rupiah per bulan. Perjalanan dari modal kecil hingga scale-up."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_5_mjney9.webp"
+        datePublished="2025-10-12"
+        dateModified="2025-10-12"
+        articleUrl="https://jelantahgo.com/blog/kisah-sukses-pengepul-jelantah-pak-doni"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Kisah Sukses Pak Doni: Pengepul Omzet 20 Juta/Bulan', url: 'https://jelantahgo.com/blog/kisah-sukses-pengepul-jelantah-pak-doni' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

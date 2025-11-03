@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { MapPin, Route, Clock, TrendingUp } from 'lucide-react'
 
 export default function ManajemenLogistikPage() {
   return (
     <>
+      <ArticleSchema
+        title="Manajemen Logistik Pengepul Jelantah: Tips Rute Efisien"
+        description="Panduan lengkap optimasi rute penjemputan jelantah menggunakan Google Maps. Strategi zonasi, multi-stop route, efisiensi logistik untuk meningkatkan profit pengepul."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_9_mzwqd2.webp"
+        datePublished="2025-10-06"
+        dateModified="2025-10-06"
+        articleUrl="https://jelantahgo.com/blog/manajemen-logistik-pengepul-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Manajemen Logistik Pengepul Jelantah', url: 'https://jelantahgo.com/blog/manajemen-logistik-pengepul-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

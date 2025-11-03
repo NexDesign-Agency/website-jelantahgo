@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { FileText, AlertTriangle, CheckCircle, Shield } from 'lucide-react'
 
 export default function RegulasiB3Page() {
   return (
     <>
+      <ArticleSchema
+        title="Regulasi Limbah B3 Jelantah: Panduan Bisnis Kuliner"
+        description="Pahami kewajiban hukum pengelolaan limbah B3 jelantah untuk restoran, hotel, dan katering. PP No. 22/2021, sanksi, dokumentasi, dan solusi kepatuhan dengan JelantahGO."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_20_dzrxak.webp"
+        datePublished="2025-10-16"
+        dateModified="2025-10-16"
+        articleUrl="https://jelantahgo.com/blog/regulasi-limbah-b3-jelantah-bisnis-kuliner"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Regulasi Limbah B3 Jelantah: Panduan Bisnis Kuliner', url: 'https://jelantahgo.com/blog/regulasi-limbah-b3-jelantah-bisnis-kuliner' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

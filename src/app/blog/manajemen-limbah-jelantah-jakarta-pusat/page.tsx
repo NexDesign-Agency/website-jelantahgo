@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Building, Shield, FileText, Award } from 'lucide-react'
 
 export default function JakartaPusatManajemenPage() {
   return (
     <>
+      <ArticleSchema
+        title="Manajemen Limbah Jelantah Profesional untuk Hotel & Perkantoran di Jakarta Pusat"
+        description="Solusi manajemen limbah jelantah terintegrasi untuk hotel, gedung perkantoran, dan mal di Jakarta Pusat. Kepatuhan regulasi Limbah B3, dokumentasi PROPER, layanan B2B profesional."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_8_cwujgg.webp"
+        datePublished="2025-11-14"
+        dateModified="2025-11-14"
+        articleUrl="https://jelantahgo.com/blog/manajemen-limbah-jelantah-jakarta-pusat"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Manajemen Limbah Jelantah Profesional untuk Hotel & Perkantoran di Jakarta Pusat', url: 'https://jelantahgo.com/blog/manajemen-limbah-jelantah-jakarta-pusat' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

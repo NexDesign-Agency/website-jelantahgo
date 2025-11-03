@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { MapPin, Building, Home, TrendingUp } from 'lucide-react'
 
 export default function JakartaTimurPage() {
   return (
     <>
+      <ArticleSchema
+        title="Jual Minyak Jelantah Jakarta Timur - Panduan 2025"
+        description="Panduan lengkap jual minyak jelantah di Jakarta Timur untuk warga dan industri. Layanan kolektif RT/RW, program B2B untuk pabrik makanan di Cakung, Pulogadung. Area: Rawamangun, Duren Sawit, Cibubur."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_11_ourqv3.webp"
+        datePublished="2025-11-13"
+        dateModified="2025-11-13"
+        articleUrl="https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta-timur"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Jual Minyak Jelantah Jakarta Timur', url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta-timur' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

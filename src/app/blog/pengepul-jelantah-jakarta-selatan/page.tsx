@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { MapPin, Clock, Award, Truck } from 'lucide-react'
 
 export default function JakartaSelatanPage() {
   return (
     <>
+      <ArticleSchema
+        title="Pengepul Jelantah Terpercaya di Jakarta Selatan"
+        description="Layanan pengepul jelantah profesional di Jakarta Selatan. Solusi cepat untuk kafe, restoran, dan UKM di Kemang, Senopati, Blok M. Penjemputan tepat waktu, harga kompetitif, pembayaran tunai."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163995/jelantahgo_13_krbsky.webp"
+        datePublished="2025-11-10"
+        dateModified="2025-11-10"
+        articleUrl="https://jelantahgo.com/blog/pengepul-jelantah-jakarta-selatan"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Pengepul Jelantah Terpercaya di Jakarta Selatan', url: 'https://jelantahgo.com/blog/pengepul-jelantah-jakarta-selatan' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

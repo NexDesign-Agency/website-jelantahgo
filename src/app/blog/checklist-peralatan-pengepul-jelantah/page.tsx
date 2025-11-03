@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { CheckSquare, Scale, Container, Droplets, Shirt, Car, Clipboard } from 'lucide-react'
 
 export default function ChecklistPeralatanPage() {
   return (
     <>
+      <ArticleSchema
+        title="Checklist Peralatan Pengepul Jelantah Lengkap"
+        description="Checklist lengkap peralatan yang dibutuhkan untuk memulai bisnis pengepul jelantah: timbangan digital, jeriken, APD, kendaraan, dan alat bantu lainnya. Estimasi harga dan rekomendasi."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_25_cfmfhd.webp"
+        datePublished="2025-10-10"
+        dateModified="2025-10-10"
+        articleUrl="https://jelantahgo.com/blog/checklist-peralatan-pengepul-jelantah"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Checklist Peralatan Pengepul Jelantah Lengkap', url: 'https://jelantahgo.com/blog/checklist-peralatan-pengepul-jelantah' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">

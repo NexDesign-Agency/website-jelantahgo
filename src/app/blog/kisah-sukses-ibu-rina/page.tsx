@@ -4,11 +4,28 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
 import BlogArticleFooter from '@/components/BlogArticleFooter'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Award, TrendingUp, Users, Heart } from 'lucide-react'
 
 export default function KisahSuksesIbuRinaPage() {
   return (
     <>
+      <ArticleSchema
+        title="Kisah Sukses Ibu Rina: Mitra Pengepul Omzet Jutaan"
+        description="Kisah inspiratif Ibu Rina, ibu rumah tangga yang membangun usaha pengepul jelantah dari dapur rumah. Dari 15 liter pertama hingga omzet 3-3,5 juta per bulan sebagai mitra JelantahGO."
+        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_17_fuusoh.webp"
+        datePublished="2025-10-14"
+        dateModified="2025-10-14"
+        articleUrl="https://jelantahgo.com/blog/kisah-sukses-ibu-rina"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://jelantahgo.com' },
+          { name: 'Blog', url: 'https://jelantahgo.com/blog' },
+          { name: 'Kisah Sukses Ibu Rina: Mitra Pengepul Omzet Jutaan', url: 'https://jelantahgo.com/blog/kisah-sukses-ibu-rina' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10">
