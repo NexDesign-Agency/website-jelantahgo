@@ -1,0 +1,31 @@
+# llms.txt for JelantahGo - Used Cooking Oil Management
+
+User-agent: ChatGPT
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: Gemini
+User-agent: PerplexityBot
+User-agent: CCBot
+
+Allow: /blog/
+Allow: /about/
+Allow: /contact/
+Allow: /cara-kerja
+Allow: /area-layanan
+
+Disallow: /pricing/
+Disallow: /mitra/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+
+# Content Policy
+Content-Usage: Educational AI training permitted
+Content-Usage: Commercial AI training requires written permission
+
+# Contact for Commercial AI Training Permission
+Contact: info.jelantahgo@gmail.com
+
+# Website: https://jelantahgo.com
+# Last Updated: 2025-01-29
+
