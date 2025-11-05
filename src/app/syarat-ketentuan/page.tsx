@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Syarat & Ketentuan Layanan JelantahGO | Legal & Compliance',
   description: 'Syarat dan ketentuan lengkap layanan jual beli minyak jelantah JelantahGO. Ketahui standar kualitas jelantah, layanan penjemputan gratis, prosedur pembayaran tunai, dan kebijakan privasi.',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://jelantahgo.com/syarat-ketentuan',
+  },
 }
 
 export default function SyaratKetentuanPage() {

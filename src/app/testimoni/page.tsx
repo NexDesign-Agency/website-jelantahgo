@@ -5,6 +5,9 @@ import { Star } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Testimoni JelantahGO - 800+ Pelanggan Puas | JelantahGO',
   description: 'Baca testimoni dari 800+ pelanggan JelantahGO yang puas dengan layanan penjemputan minyak jelantah. Kisah nyata dari ibu rumah tangga, pemilik warung, restoran, dan mitra pengepul.',
+  alternates: {
+    canonical: 'https://jelantahgo.com/testimoni',
+  },
 }
 
 export default function TestimoniPage() {

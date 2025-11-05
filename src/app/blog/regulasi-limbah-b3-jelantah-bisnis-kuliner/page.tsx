@@ -48,7 +48,7 @@ export default function RegulasiB3Page() {
       <section className="py-16 bg-white">
         <div className="container-custom">
           <Image
-            src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761163994/jelantahgo_1_x1hcjb.webp"
+            src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761163996/jelantahgo_20_dzrxak.webp"
             alt="Regulasi Limbah B3 Jelantah di Indonesia"
             width={1200}
             height={630}

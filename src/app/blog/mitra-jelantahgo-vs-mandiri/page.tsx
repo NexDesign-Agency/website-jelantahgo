@@ -48,7 +48,7 @@ export default function MitraVsMandiriPage() {
       <section className="py-16 bg-white">
         <div className="container-custom">
           <Image
-            src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761163996/jelantahgo_7_sepkud.webp"
+            src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761163998/jelantahgo_27_rwjixk.webp"
             alt="JelantahGO vs. Mandiri"
             width={1200}
             height={630}
