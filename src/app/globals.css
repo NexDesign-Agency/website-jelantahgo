@@ -25,7 +25,8 @@
   
   /* Accessibility: Focus styles for keyboard navigation */
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-[#0F3D2E] outline-solid;
+    @apply outline-2 outline-offset-2 outline-[#0F3D2E];
+    outline-style: solid;
   }
   
   button:focus-visible,

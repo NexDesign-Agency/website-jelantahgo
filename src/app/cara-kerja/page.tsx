@@ -280,14 +280,14 @@ Total: 85 * 7.500 = Rp 637.500`,
                             ))}
                           </ul>
                         )}
-                        {section.note && step.number === 1 && (
+                        {'note' in section && section.note && step.number === 1 && (
                           <div className="mt-4 p-4 bg-[#E8F0E3] rounded-card text-sm">
                             <p className="text-gray-700">
                               💡 <Link href="/blog/cara-menyimpan-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">Pelajari cara menyimpan minyak jelantah yang benar</Link> dan <Link href="/blog/cara-kumpulkan-100-liter-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara kreatif mengumpulkan 100 liter jelantah per bulan</Link>.
                             </p>
                           </div>
                         )}
-                        {section.code && (
+                        {'code' in section && section.code && (
                           <div className="mt-4 bg-[#0F3D2E] text-white p-4 rounded-card font-mono text-sm whitespace-pre-wrap">
                             {section.code}
                           </div>
