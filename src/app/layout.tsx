@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   authors: [{ name: 'JelantahGO' }],
+  alternates: {
+    canonical: 'https://jelantahgo.com',
+  },
 }
 
 export default function RootLayout({
@@ -51,7 +54,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp" type="image/webp" />
         <link rel="preconnect" href="https://res.cloudinary.com" />
-        <link rel="canonical" href="https://jelantahgo.com/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
