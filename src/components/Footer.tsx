@@ -150,58 +150,33 @@ export default function Footer() {
               aria-expanded={expandedSections.area}
               aria-controls="area-menu"
             >
-              Area Pengambilan Minyak Jelantah
+              Area Layanan
             </h4>
-            <ul 
+            <div 
               id="area-menu"
-              className={`space-y-2.5 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
+              className={`space-y-4 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
             >
-              <li>
-                <Link href="/blog/jual-minyak-jelantah-jakarta" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta & Sekitarnya
+              <div>
+                <h5 className="text-white font-semibold mb-2">DKI Jakarta</h5>
+                <p className="text-white/70">
+                  Jakarta Utara, Jakarta Selatan, Jakarta Barat, Jakarta Timur, Jakarta Pusat
+                </p>
+              </div>
+              <div>
+                <h5 className="text-white font-semibold mb-2">Kota Sekitar</h5>
+                <p className="text-white/70">
+                  Tangerang, Bekasi, Depok, Bogor
+                </p>
+              </div>
+              <div className="pt-2">
+                <Link 
+                  href="/area-layanan" 
+                  className="inline-flex items-center gap-1 text-white hover:text-[#D9E3D3] transition-colors font-medium"
+                >
+                  ↗ Lihat Seluruh Cakupan Layanan
                 </Link>
-              </li>
-              <li>
-                <Link href="/blog/harga-jual-minyak-jelantah-jakarta-utara" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta Utara
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/pengepul-jelantah-jakarta-selatan" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta Selatan
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/jemput-jelantah-gratis-jakarta-barat" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta Barat
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/jual-minyak-jelantah-jakarta-timur" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta Timur
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/manajemen-limbah-jelantah-jakarta-pusat" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Jakarta Pusat
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/jual-minyak-jelantah-tangerang" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Tangerang
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/jual-minyak-jelantah-bekasi" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Bekasi
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/jual-minyak-jelantah-depok-bogor" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
-                  Jual Minyak Jelantah Depok & Bogor
-                </Link>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
