@@ -5,14 +5,14 @@ import ItemListSchema from '@/components/ItemListSchema'
 
 export const metadata: Metadata = {
   title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
-  description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah.',
+  description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah. Update terbaru harga, strategi bisnis, dan tips menguntungkan.',
   keywords: 'blog jelantah, panduan jual jelantah, bisnis jelantah, biodiesel, lingkungan, cara jual minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/blog',
   },
   openGraph: {
     title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
-    description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah.',
+    description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung. Panduan lengkap untuk penjual, pengepul, dan pelaku bisnis jelantah. Update terbaru harga, strategi bisnis, dan tips menguntungkan.',
     url: 'https://jelantahgo.com/blog',
     siteName: 'JelantahGO',
     images: [

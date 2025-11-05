@@ -6,14 +6,14 @@ import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 
 export const metadata: Metadata = {
   title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
-  description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat.',
+  description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat. Cek detail area layanan dan informasi penjemputan untuk wilayah Anda.',
   keywords: 'area layanan jelantahgo, penjemputan minyak jelantah, jabodetabek, jakarta, bogor, depok, tangerang, bekasi',
   alternates: {
     canonical: 'https://jelantahgo.com/area-layanan',
   },
   openGraph: {
     title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
-    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat.',
+    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat. Cek detail area layanan dan informasi penjemputan untuk wilayah Anda.',
     url: 'https://jelantahgo.com/area-layanan',
     siteName: 'JelantahGO',
     images: [
@@ -247,6 +247,46 @@ export default function AreaLayananPage() {
           >
             Tanya Area Layanan
           </a>
+        </div>
+      </section>
+
+      {/* Related Pages Section */}
+      <section className="py-16 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#0F3D2E] mb-4">
+              Informasi Terkait
+            </h2>
+            <p className="text-gray-600">
+              Jelajahi halaman lain untuk informasi lengkap tentang layanan kami
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <Link
+              href="/cara-kerja"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">⚙️</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Cara Kerja</h3>
+              <p className="text-sm text-gray-600">Pelajari proses penjemputan dalam 4 langkah mudah</p>
+            </Link>
+            <Link
+              href="/pricing"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">💰</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Harga Terbaru</h3>
+              <p className="text-sm text-gray-600">Cek harga minyak jelantah terbaru 2025</p>
+            </Link>
+            <Link
+              href="/blog/jual-minyak-jelantah-jakarta"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">📚</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Panduan Jakarta</h3>
+              <p className="text-sm text-gray-600">Panduan lengkap jual minyak jelantah Jakarta</p>
+            </Link>
+          </div>
         </div>
       </section>
     </>

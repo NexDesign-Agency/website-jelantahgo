@@ -86,7 +86,7 @@ export default function RootLayout({
               },
               "priceRange": "Rp7500 - Rp8500 per liter",
               "areaServed": ["Jakarta","Tangerang","Bekasi","Depok","Bogor"],
-              "serviceType": "Used cooking oil collection and recycling"
+              "description": "Pengepul minyak jelantah terpercaya di Jakarta. Layanan penjemputan gratis, harga tertinggi Rp 7.500-8.500 per liter, bayar tunai langsung."
             })
           }}
         />
@@ -115,6 +115,83 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-940WRJ0SCY');
+              
+              // Web Vitals Tracking
+              function sendToAnalytics(metric) {
+                gtag('event', metric.name, {
+                  event_category: 'Web Vitals',
+                  value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
+                  event_label: metric.id,
+                  non_interaction: true,
+                });
+              }
+              
+              // Track Core Web Vitals using Performance API
+              if (typeof window !== 'undefined' && 'PerformanceObserver' in window) {
+                try {
+                  // Track LCP (Largest Contentful Paint)
+                  new PerformanceObserver((list) => {
+                    const entries = list.getEntries();
+                    const lastEntry = entries[entries.length - 1];
+                    sendToAnalytics({
+                      name: 'LCP',
+                      value: lastEntry.renderTime || lastEntry.loadTime,
+                      id: 'lcp-' + Date.now()
+                    });
+                  }).observe({ entryTypes: ['largest-contentful-paint'] });
+                  
+                  // Track FID (First Input Delay)
+                  new PerformanceObserver((list) => {
+                    const entries = list.getEntries();
+                    entries.forEach((entry) => {
+                      sendToAnalytics({
+                        name: 'FID',
+                        value: entry.processingStart - entry.startTime,
+                        id: 'fid-' + Date.now()
+                      });
+                    });
+                  }).observe({ entryTypes: ['first-input'] });
+                  
+                  // Track CLS (Cumulative Layout Shift)
+                  let clsValue = 0;
+                  new PerformanceObserver((list) => {
+                    const entries = list.getEntries();
+                    entries.forEach((entry) => {
+                      if (!entry.hadRecentInput) {
+                        clsValue += entry.value;
+                        sendToAnalytics({
+                          name: 'CLS',
+                          value: clsValue,
+                          id: 'cls-' + Date.now()
+                        });
+                      }
+                    });
+                  }).observe({ entryTypes: ['layout-shift'] });
+                } catch (e) {
+                  // Performance Observer not supported
+                }
+              }
+              
+              // Track custom events
+              document.addEventListener('click', function(e) {
+                const target = e.target;
+                if (target.tagName === 'A' && target.href) {
+                  if (target.href.includes('wa.me')) {
+                    gtag('event', 'whatsapp_click', {
+                      event_category: 'CTA',
+                      event_label: target.getAttribute('aria-label') || 'WhatsApp Button',
+                      value: 1
+                    });
+                  }
+                  if (target.href.includes('jelantahgo.com')) {
+                    gtag('event', 'internal_link_click', {
+                      event_category: 'Navigation',
+                      event_label: target.href,
+                      value: 1
+                    });
+                  }
+                }
+              });
             `,
           }}
         />

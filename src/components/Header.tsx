@@ -30,21 +30,25 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-1">
+          <nav className="hidden lg:flex items-center space-x-1" aria-label="Main navigation">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className="text-white/90 hover:text-white hover:bg-white/10 px-4 py-2 rounded-card text-sm font-medium transition-smooth"
+                aria-label={`Navigate to ${link.label}`}
               >
                 {link.label}
               </Link>
             ))}
-          </div>
+          </nav>
 
           {/* Login Button - Desktop */}
           <div className="hidden lg:block">
-            <button className="bg-white text-[#0F3D2E] px-6 py-2.5 rounded-card font-semibold hover:bg-[#D9E3D3] transition-smooth shadow-soft hover:shadow-soft-lg">
+            <button 
+              className="bg-white text-[#0F3D2E] px-6 py-2.5 rounded-card font-semibold hover:bg-[#D9E3D3] transition-smooth shadow-soft hover:shadow-soft-lg"
+              aria-label="Login to JelantahGO account"
+            >
               Login
             </button>
           </div>
@@ -73,7 +77,10 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <button className="w-full bg-white text-[#0F3D2E] px-6 py-2.5 rounded-card font-semibold hover:bg-[#D9E3D3] transition-smooth shadow-soft mt-4">
+              <button 
+                className="w-full bg-white text-[#0F3D2E] px-6 py-2.5 rounded-card font-semibold hover:bg-[#D9E3D3] transition-smooth shadow-soft mt-4"
+                aria-label="Login to JelantahGO account"
+              >
                 Login
               </button>
             </div>

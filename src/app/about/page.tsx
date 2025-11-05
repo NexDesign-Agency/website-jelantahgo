@@ -138,7 +138,9 @@ export default function AboutPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Indonesia menghasilkan <strong>jutaan liter</strong> minyak goreng bekas setiap harinya. 
                 Sayangnya, sebagian besar masyarakat masih membuang jelantah sembarangan ke saluran air atau tanah. 
-                Padahal, <strong>1 liter jelantah dapat mencemari hingga 1 juta liter air bersih!</strong>
+                Padahal, <strong>1 liter jelantah dapat mencemari hingga 1 juta liter air bersih!</strong> Pelajari 
+                <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline"> bahaya membuang jelantah sembarangan</Link> dan 
+                <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline"> cara kerja kami</Link> untuk solusinya.
               </p>
               
               <div className="grid md:grid-cols-3 gap-6 my-12">
@@ -245,16 +247,22 @@ export default function AboutPage() {
               Lihat Harga Jelantah
             </Link>
           </div>
-          <div className="mt-6 flex flex-wrap justify-center gap-4 text-white/90">
-            <Link href="/cara-kerja" className="hover:text-white underline text-sm">
-              Cara Kerja →
-            </Link>
-            <Link href="/mitra" className="hover:text-white underline text-sm">
-              Program Mitra →
-            </Link>
-            <Link href="/blog" className="hover:text-white underline text-sm">
-              Panduan Blog →
-            </Link>
+          <div className="mt-8 text-center">
+            <p className="text-white/80 mb-4">Jelajahi lebih lanjut:</p>
+            <div className="flex flex-wrap justify-center gap-4 text-white/90">
+              <Link href="/cara-kerja" className="hover:text-white underline text-sm font-semibold">
+                Cara Kerja →
+              </Link>
+              <Link href="/mitra" className="hover:text-white underline text-sm font-semibold">
+                Program Mitra →
+              </Link>
+              <Link href="/area-layanan" className="hover:text-white underline text-sm font-semibold">
+                Area Layanan →
+              </Link>
+              <Link href="/blog" className="hover:text-white underline text-sm font-semibold">
+                Panduan Blog →
+              </Link>
+            </div>
           </div>
         </div>
       </section>

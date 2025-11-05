@@ -51,15 +51,17 @@ export default function Calculator() {
       </p>
       
       <div className="mb-6">
-        <label className="block text-sm font-semibold text-[#0F3D2E] mb-2">
+        <label htmlFor="jelantah-liters" className="block text-sm font-semibold text-[#0F3D2E] mb-2">
           Jumlah Jelantah (Liter)
         </label>
         <input
+          id="jelantah-liters"
           type="number"
           value={liters || ''}
           onChange={handleChange}
           placeholder="0"
           min="0"
+          aria-label="Masukkan jumlah liter minyak jelantah"
           className="w-full px-4 py-3 border-2 border-gray-200 rounded-card focus:border-[#0F3D2E] focus:outline-none text-lg transition-smooth"
         />
       </div>
@@ -86,6 +88,7 @@ export default function Calculator() {
         href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
         target="_blank"
         rel="noopener"
+        aria-label="Hubungi JelantahGO via WhatsApp untuk jual minyak jelantah"
         className="w-full block text-center bg-[#0F3D2E] hover:bg-[#134E3A] text-white py-3.5 rounded-card font-bold transition-smooth shadow-soft hover:shadow-soft-lg"
       >
         Hubungi Kami Sekarang

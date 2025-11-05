@@ -6,14 +6,14 @@ import ContactPageSchema from '@/components/ContactPageSchema'
 
 export const metadata: Metadata = {
   title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung.',
+  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
   keywords: 'kontak jelantahgo, hubungi jelantahgo, whatsapp jelantahgo, telepon jelantahgo, email jelantahgo',
   alternates: {
     canonical: 'https://jelantahgo.com/contact',
   },
   openGraph: {
     title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung.',
+    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
     url: 'https://jelantahgo.com/contact',
     siteName: 'JelantahGO',
     images: [
@@ -182,6 +182,46 @@ export default function ContactPage() {
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full h-full"
           />
+        </div>
+      </section>
+
+      {/* Related Pages Section */}
+      <section className="py-16 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#0F3D2E] mb-4">
+              Informasi Terkait
+            </h2>
+            <p className="text-gray-600">
+              Jelajahi halaman lain untuk informasi lengkap tentang layanan kami
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <Link
+              href="/pricing"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">💰</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Harga Terbaru</h3>
+              <p className="text-sm text-gray-600">Cek harga minyak jelantah terbaru 2025</p>
+            </Link>
+            <Link
+              href="/cara-kerja"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">⚙️</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Cara Kerja</h3>
+              <p className="text-sm text-gray-600">Pelajari proses penjemputan dalam 4 langkah mudah</p>
+            </Link>
+            <Link
+              href="/area-layanan"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-smooth">📍</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Area Layanan</h3>
+              <p className="text-sm text-gray-600">Cek area layanan penjemputan gratis di Jabodetabek</p>
+            </Link>
+          </div>
         </div>
       </section>
     </>

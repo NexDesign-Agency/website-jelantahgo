@@ -114,9 +114,10 @@ export default function Home() {
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               Alur penjemputan jelantah tahap demi tahap
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Kami sediakan berbagai solusi terpercaya jelantah untuk menawarkan maksimal pengumpulan
-            </p>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Kami sediakan berbagai solusi terpercaya jelantah untuk menawarkan maksimal pengumpulan. 
+                Pelajari <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">cara kerja kami</Link> untuk detail lengkap proses penjemputan.
+              </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -168,7 +169,8 @@ export default function Home() {
               Mengapa ratusan pelanggan memilih JelantahGO?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Kami berkomitmen memberikan layanan terbaik dengan harga kompetitif dan proses yang transparan
+              Kami berkomitmen memberikan layanan terbaik dengan harga kompetitif dan proses yang transparan. 
+              Cek <Link href="/pricing" className="text-[#0F3D2E] font-semibold hover:underline">harga terbaru kami</Link> atau hubungi kami untuk konsultasi gratis.
             </p>
           </div>
 
@@ -313,6 +315,73 @@ export default function Home() {
               className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
             >
               Cek Berkala Harga Terbaru Kami →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Links Section - Internal Linking untuk PR Distribution */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              JELAJAHI LAYANAN KAMI
+            </div>
+            <h2 className="text-3xl font-bold text-[#0F3D2E] mb-4">
+              Informasi Lengkap untuk Anda
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Temukan informasi lengkap tentang cara kerja, harga, area layanan, dan program mitra kami
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link
+              href="/cara-kerja"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">⚙️</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">
+                Cara Kerja
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Pelajari proses penjemputan jelantah dalam 4 langkah mudah dan transparan
+              </p>
+            </Link>
+            <Link
+              href="/mitra"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">🤝</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">
+                Jadi Mitra
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Raih Rp 1-5 juta/bulan dengan menjadi mitra pengepul jelantah
+              </p>
+            </Link>
+            <Link
+              href="/area-layanan"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">📍</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">
+                Area Layanan
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Cek area layanan penjemputan gratis di seluruh wilayah Jabodetabek
+              </p>
+            </Link>
+            <Link
+              href="/contact"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">📞</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">
+                Hubungi Kami
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                WhatsApp, telepon, atau email untuk konsultasi gratis dan informasi lebih lanjut
+              </p>
             </Link>
           </div>
         </div>
