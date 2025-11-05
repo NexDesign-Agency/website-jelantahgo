@@ -45,6 +45,11 @@ module.exports = {
         'card': '16px',
         'card-lg': '20px',
       },
+      fontSize: {
+        'hero-mobile': ['36px', { lineHeight: '1.2' }], // 72% dari desktop
+        'hero-laptop': ['42px', { lineHeight: '1.2' }], // 84% dari desktop
+        'hero-desktop': ['50px', { lineHeight: '1.2' }], // 100% desktop
+      },
     },
   },
   plugins: [],

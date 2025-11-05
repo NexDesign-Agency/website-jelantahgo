@@ -30,7 +30,7 @@ export default function Home() {
                 🌱 PENGEPUL JELANTAH • JAKARTA • TANGERANG • DEPOK • BEKASI • BOGOR
               </div>
               
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-snug mb-4">
+              <h1 className="text-hero-mobile lg:text-hero-laptop xl:text-hero-desktop font-bold leading-snug mb-4">
                 Jual Minyak Jelantah Jakarta | Harga Rp 8.500/Liter + Jemput Gratis
               </h1>
               
