@@ -7,7 +7,7 @@ export default function WhoCanSell() {
             UNTUK SIAPA
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            👥 KAMI BELI MINYAK JELANTAH DARI:
+            👥 KAMI MELAYANI:
           </h2>
         </div>
 
@@ -26,12 +26,12 @@ export default function WhoCanSell() {
             {
               icon: '🏨',
               title: 'HOTEL & KANTIN',
-              description: 'Institusi dengan minyak jelantah volume tinggi.'
+              description: 'Institusi dengan volume limbah tinggi.'
             },
             {
               icon: '🤝',
               title: 'MITRA PENGEPUL',
-              description: 'Peluang bisnis beli minyak jelantah dengan dukungan penuh.'
+              description: 'Peluang bisnis dengan dukungan penuh dari tim profesional.'
             }
           ].map((item, index) => (
             <div

@@ -8,32 +8,32 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: '❔ Berapa harga minyak jelantah per liter?',
-      answer: 'Harga minyak jelantah mulai Rp 7.500-8.500 tergantung volume. Kami beli minyak jelantah dengan harga kompetitif.'
+      question: '❔ Berapa harga per liter?',
+      answer: 'Harga mulai Rp 7.500-8.500 tergantung volume. Kami membeli dengan tarif kompetitif dan transparan.'
     },
     {
       question: '❔ Apakah penjemputan benar-benar gratis?',
-      answer: 'Ya, penjemputan minyak jelantah gratis untuk minimal 40 liter di Jabodetabek.'
+      answer: 'Ya, penjemputan gratis untuk minimal 40 liter di seluruh wilayah Jabodetabek.'
     },
     {
-      question: '❔ Bagaimana cara jual minyak jelantah?',
-      answer: 'Jual minyak jelantah mudah: kumpulkan minyak goreng bekas, hubungi kami, kami jemput & bayar tunai.'
+      question: '❔ Bagaimana cara menjual?',
+      answer: 'Proses mudah: kumpulkan minyak goreng bekas, hubungi kami, tim kami jemput & bayar tunai langsung.'
     },
     {
-      question: '❔ Apa beda minyak jelantah dan minyak bekas?',
-      answer: 'Minyak jelantah dan minyak bekas sama, yaitu minyak goreng bekas pakai.'
+      question: '❔ Apa beda jelantah dan minyak bekas?',
+      answer: 'Keduanya sama, yaitu minyak goreng bekas pakai. Istilah yang berbeda untuk hal yang sama.'
     },
     {
       question: '❔ Pembayaran tunai atau transfer?',
       answer: 'Prioritas tunai langsung. Untuk mitra rutin bisa diskusi transfer.'
     },
     {
-      question: '❔ Bagaimana cara mengetahui harga minyak jelantah terbaru?',
-      answer: 'Harga minyak jelantah kami update berkala. Untuk volume 40-99 liter: Rp 7.500/liter, 100-199 liter: Rp 8.000/liter, dan ≥200 liter: Rp 8.500/liter. Hubungi kami untuk informasi harga minyak jelantah terbaru.'
+      question: '❔ Bagaimana cara mengetahui harga terbaru?',
+      answer: 'Harga kami update berkala. Untuk volume 40-99 liter: Rp 7.500/liter, 100-199 liter: Rp 8.000/liter, dan ≥200 liter: Rp 8.500/liter. Hubungi kami untuk informasi tarif terkini.'
     },
     {
-      question: '❔ Apakah harga minyak jelantah bisa dinegosiasikan?',
-      answer: 'Harga minyak jelantah kami sudah kompetitif dan transparan. Untuk volume besar (≥500 liter), bisa diskusikan harga khusus. Hubungi kami untuk informasi lebih lanjut tentang harga minyak jelantah.'
+      question: '❔ Apakah harga bisa dinegosiasikan?',
+      answer: 'Tarif kami sudah kompetitif dan transparan. Untuk volume besar (≥500 liter), bisa diskusikan harga khusus. Hubungi kami untuk informasi lebih lanjut.'
     }
   ]
 

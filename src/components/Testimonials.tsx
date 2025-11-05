@@ -5,19 +5,19 @@ export default function Testimonials() {
     {
       authorName: 'Ibu Sari',
       ratingValue: '5',
-      reviewBody: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah terbaik dan langsung dibayar.',
+      reviewBody: 'Pengepul yang profesional. Harga terbaik dan langsung dibayar tunai.',
       datePublished: '2024-01-15',
     },
     {
       authorName: 'Pak Andi',
       ratingValue: '5',
-      reviewBody: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan. Recommended untuk jual minyak jelantah!',
+      reviewBody: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan tambahan. Recommended!',
       datePublished: '2024-02-20',
     },
     {
       authorName: 'Doni',
       ratingValue: '5',
-      reviewBody: 'Sebagai mitra pengepul minyak jelantah, penghasilan stabil 2-3 juta/bulan dari minyak bekas.',
+      reviewBody: 'Sebagai mitra, penghasilan stabil 2-3 juta/bulan dari limbah dapur.',
       datePublished: '2024-03-10',
     },
   ]
@@ -43,17 +43,17 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              quote: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah terbaik dan langsung dibayar.',
+              quote: 'Pengepul yang profesional. Harga terbaik dan langsung dibayar tunai.',
               name: 'Ibu Sari',
               location: 'Jakarta Selatan'
             },
             {
-              quote: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan. Recommended untuk jual minyak jelantah!',
+              quote: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan tambahan. Recommended!',
               name: 'Pak Andi',
               location: 'Tangerang'
             },
             {
-              quote: 'Sebagai mitra pengepul minyak jelantah, penghasilan stabil 2-3 juta/bulan dari minyak bekas.',
+              quote: 'Sebagai mitra, penghasilan stabil 2-3 juta/bulan dari limbah dapur.',
               name: 'Doni',
               location: 'Bekasi'
             }

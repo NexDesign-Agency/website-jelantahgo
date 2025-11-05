@@ -7,10 +7,10 @@ export default function ServiceArea() {
             AREA LAYANAN
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            AREA LAYANAN PENGEPUL JELANTAH
+            AREA LAYANAN KAMI
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Kami melayani jual minyak jelantah di seluruh Jabodetabek:
+            Kami melayani penjemputan di seluruh wilayah Jabodetabek:
           </p>
         </div>
 
