@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { TrendingUp, Users, DollarSign, Leaf, CheckCircle, MapPin, Phone } from 'lucide-react'
 import Calculator from '@/components/Calculator'
-import HowItWorks from '@/components/HowItWorks'
 import VideoSection from '@/components/VideoSection'
 import ServiceArea from '@/components/ServiceArea'
 import WhoCanSell from '@/components/WhoCanSell'
@@ -196,7 +195,7 @@ export default function Home() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              KEUNGGULAN KAMI
+              Cara Kerja
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               4 Langkah Mudah Jual Minyak Jelantah
@@ -370,9 +369,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <HowItWorks />
-
       {/* Video Section */}
       <VideoSection />
 
@@ -407,9 +403,9 @@ export default function Home() {
                   Siap jual minyak jelantah? Hubungi pengepul minyak jelantah terpercaya:
                 </p>
                 
-                <div className="grid md:grid-cols-2 gap-4 mb-8 max-w-2xl mx-auto text-left">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl">📱</span>
+                    <span className="text-2xl flex-shrink-0">📱</span>
                     <div>
                       <div className="font-semibold text-white mb-1">WhatsApp:</div>
                       <a href="https://wa.me/6285183033995" target="_blank" rel="noopener" className="text-white/90 hover:text-white hover:underline">
@@ -418,7 +414,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl">📞</span>
+                    <span className="text-2xl flex-shrink-0">📞</span>
                     <div>
                       <div className="font-semibold text-white mb-1">Telepon:</div>
                       <a href="tel:+622112345678" className="text-white/90 hover:text-white hover:underline">
@@ -427,14 +423,14 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl">🕒</span>
+                    <span className="text-2xl flex-shrink-0">🕒</span>
                     <div>
                       <div className="font-semibold text-white mb-1">Buka:</div>
                       <div className="text-white/90">Senin-Minggu, 08:00-20:00 WIB</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl">📧</span>
+                    <span className="text-2xl flex-shrink-0">📧</span>
                     <div>
                       <div className="font-semibold text-white mb-1">Email:</div>
                       <a href="mailto:info@jelantahgo.com" className="text-white/90 hover:text-white hover:underline">
@@ -442,13 +438,12 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                </div>
-                
-                <div className="mb-8 flex items-start justify-center gap-3">
-                  <span className="text-2xl">📍</span>
-                  <div className="text-left">
-                    <div className="font-semibold text-white mb-1">Alamat:</div>
-                    <div className="text-white/90">Jl. Papanggo I No. 250, Jakarta Utara</div>
+                  <div className="flex items-start gap-3 md:col-span-2 lg:col-span-1">
+                    <span className="text-2xl flex-shrink-0">📍</span>
+                    <div>
+                      <div className="font-semibold text-white mb-1">Alamat:</div>
+                      <div className="text-white/90">Jl. Papanggo I No. 250, Jakarta Utara</div>
+                    </div>
                   </div>
                 </div>
                 
