@@ -157,12 +157,6 @@ export default function Footer() {
               className={`space-y-4 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
             >
               <div>
-                <h5 className="text-white font-semibold mb-2">DKI Jakarta</h5>
-                <p className="text-white/70">
-                  Jakarta Utara, Jakarta Selatan, Jakarta Barat, Jakarta Timur, Jakarta Pusat
-                </p>
-              </div>
-              <div>
                 <h5 className="text-white font-semibold mb-2">Kota Sekitar</h5>
                 <p className="text-white/70">
                   Tangerang, Bekasi, Depok, Bogor
