@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
-  description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat. Hubungi untuk harga terbaru!',
+  title: 'Pengepul Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
+  description: 'JelantahGO - Pengepul minyak jelantah Jakarta beli minyak bekas Rp 7.500-8.500/liter. Proses mudah + jemput GRATIS + bayar tunai langsung. Dapatkan harga tertinggi! Hubungi 0851-8303-3995.',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat',
   viewport: {
     width: 'device-width',
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     maximumScale: 5,
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
-    description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS ke lokasi Anda. Bayar tunai langsung di tempat.',
+    title: 'Pengepul Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
+    description: 'JelantahGO - Pengepul minyak jelantah Jakarta beli minyak bekas Rp 7.500-8.500/liter. Proses mudah + jemput GRATIS + bayar tunai langsung. Dapatkan harga tertinggi! Hubungi 0851-8303-3995.',
     url: 'https://jelantahgo.com',
     siteName: 'JelantahGO',
     images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L | JelantahGO',
-    description: 'Jual minyak jelantah Jakarta dengan harga Rp 7.500-8.500 per liter sesuai volume. Dijemput GRATIS, bayar tunai langsung di tempat.',
+    title: 'Pengepul Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
+    description: 'JelantahGO - Pengepul minyak jelantah Jakarta beli minyak bekas Rp 7.500-8.500/liter. Proses mudah + jemput GRATIS + bayar tunai langsung. Dapatkan harga tertinggi!',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
   robots: {

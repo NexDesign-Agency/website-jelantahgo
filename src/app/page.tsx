@@ -32,30 +32,26 @@ export default function Home() {
               </div>
               
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-snug mb-4">
-                Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L, Jemput Gratis
+                Jual Minyak Jelantah Jakarta | Harga Rp 8.500/Liter + Jemput Gratis
               </h1>
               
-              <h2 className="text-xl lg:text-2xl text-white/90 mb-6 font-semibold">
-                Gratis Penjemputan & Langsung Bayar di Tempat
-              </h2>
-              
               <p className="text-lg text-white/90 mb-8 leading-relaxed">
-                Kami membeli rumah tangga Anda dengan harga jaminan Rp 7.500-8.500 per liter dan proses jemput gratis ke lokasi. Tim kami cepat tangan, terpercaya, dan bayar tunai.
+                JelantahGO - pengepul minyak jelantah terpercaya di Jakarta siap membeli minyak jelantah, mulai dari Rp. 7.500 - 8.500 /Liter. Proses jual minyak jelantah yang mudah ditambah penjemputan gratis serta pembayaran tunai langsung di tempat. Dapatkan segera harga minyak jelantah tertinggi, Hubungi kami sekarang!
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
-                  <div className="text-3xl font-bold text-white">1500+</div>
-                  <div className="text-sm text-white/80 font-medium">Pelanggan</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
-                  <div className="text-3xl font-bold text-white">Rp 1,2 M+</div>
-                  <div className="text-sm text-white/80 font-medium">Terbayarkan</div>
+                  <div className="text-3xl font-bold text-white">1.500+</div>
+                  <div className="text-sm text-white/80 font-medium">Pelanggan Setia</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
                   <div className="text-3xl font-bold text-white">30+</div>
-                  <div className="text-sm text-white/80 font-medium">Lokasi</div>
+                  <div className="text-sm text-white/80 font-medium">Lokasi Terlayani</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
+                  <div className="text-3xl font-bold text-white">4,9/5</div>
+                  <div className="text-sm text-white/80 font-medium">dari 500 Review</div>
                 </div>
               </div>
 
@@ -67,7 +63,7 @@ export default function Home() {
                   rel="noopener"
                   className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Hubungi Kami
+                  💬 KONSULTASI GRATIS
                 </a>
                 <Link
                   href="#kalkulator"
@@ -97,138 +93,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Calculator Section */}
-      <section id="kalkulator" className="py-20 bg-white">
-        <div className="container-custom">
-          <Calculator />
-        </div>
-      </section>
-
-      {/* Benefits Section - Soft Beige Background */}
-      <section className="py-20 bg-[#F9F8F6]">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              KEUNGGULAN KAMI
-            </div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Alur penjemputan jelantah tahap demi tahap
-            </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Kami sediakan berbagai solusi terpercaya jelantah untuk menawarkan maksimal pengumpulan. 
-                Pelajari <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">cara kerja kami</Link> untuk detail lengkap proses penjemputan.
-              </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                number: '1',
-                title: 'Penjemputan jelantah',
-                description: 'Setelah memesan uang maka kami jadwal dengan tepat waktu ke lokasi Anda',
-              },
-              {
-                number: '2',
-                title: 'Hubungi tim kami',
-                description: 'Tim penjemputan kami datang langsung ke lokasi Anda dengan alat lengkap',
-              },
-              {
-                number: '3',
-                title: 'Penyerahan rapi',
-                description: 'Kami menampung jelantah Anda dengan kemasan yang rapi dan professional',
-              },
-              {
-                number: '4',
-                title: 'Bayar tunai langsung',
-                description: 'Setelah ditimbang dan dicek kualitas, pembayaran tunai langsung di tempat',
-              },
-            ].map((benefit, index) => (
-              <div
-                key={index}
-                className="card-premium hover-lift group"
-              >
-                <div className="w-14 h-14 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-card flex items-center justify-center text-2xl font-bold mb-4 shadow-soft group-hover:shadow-soft-lg transition-smooth">
-                  {benefit.number}
-                </div>
-                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us - White Background with Premium Cards */}
-      <section className="py-20 bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              NILAI LEBIH
-            </div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Mengapa ratusan pelanggan memilih JelantahGO?
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Kami berkomitmen memberikan layanan terbaik dengan harga kompetitif dan proses yang transparan. 
-              Cek <Link href="/pricing" className="text-[#0F3D2E] font-semibold hover:underline">harga terbaru kami</Link> atau hubungi kami untuk konsultasi gratis.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: '💰',
-                title: 'HARGA TERJAMIN',
-                description: 'Harga kompetitif Rp 7.500-8.500 per liter dengan transparansi penuh. Tidak ada biaya tersembunyi.',
-              },
-              {
-                icon: '🚚',
-                title: 'JEMPUT GRATIS',
-                description: 'Layanan penjemputan gratis ke lokasi Anda. Tim profesional dengan peralatan lengkap.',
-              },
-              {
-                icon: '✓',
-                title: 'BAYAR TUNAI',
-                description: 'Pembayaran langsung di tempat setelah penimbangan. Proses cepat dan mudah.',
-              },
-              {
-                icon: '🌿',
-                title: 'RAMAH LINGKUNGAN',
-                description: 'Berkontribusi dalam pelestarian lingkungan dengan mendaur ulang minyak jelantah.',
-              },
-              {
-                icon: '📊',
-                title: 'TRANSPARAN',
-                description: 'Proses penimbangan dan pembayaran yang jelas. Anda bisa memantau setiap langkah.',
-              },
-              {
-                icon: '⭐',
-                title: 'TERPERCAYA',
-                description: 'Dipercaya oleh 1500+ pelanggan di Jakarta dan sekitarnya. Rating 4.9/5.',
-              },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="card-premium hover-lift text-center group"
-              >
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">{item.icon}</div>
-                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
-            >
-              Mengenal JelantahGO Lebih dalam →
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Pricing Section - Soft Beige Background */}
       <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
@@ -240,7 +104,7 @@ export default function Home() {
               Harga minyak jelantah terbaru 2025
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Harga disesuaikan dengan volume - semakin banyak volume, semakin tinggi harga per liternya. Harga berlaku per Januari 2025.
+              Sebagai pengepul minyak jelantah profesional, kami menawarkan harga terbaik berdasarkan volume:
             </p>
           </div>
 
@@ -316,6 +180,125 @@ export default function Home() {
             >
               Cek Berkala Harga Terbaru Kami →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Calculator Section */}
+      <section id="kalkulator" className="py-20 bg-white">
+        <div className="container-custom">
+          <Calculator />
+        </div>
+      </section>
+
+      {/* Benefits Section - Soft Beige Background */}
+      <section className="py-20 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              KEUNGGULAN KAMI
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
+              4 Langkah Mudah Jual Minyak Jelantah
+            </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Kami sediakan berbagai solusi terpercaya jelantah untuk menawarkan maksimal pengumpulan. 
+                Pelajari <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">cara kerja kami</Link> untuk detail lengkap proses penjemputan.
+              </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                number: '1',
+                title: 'KUMPULKAN MINYAK BEKAS',
+                description: 'Tampung minyak goreng bekas dalam wadah tertutup. Minimal 40 liter untuk penjemputan gratis.',
+              },
+              {
+                number: '2',
+                title: 'HUBUNGI KAMI',
+                description: 'Telepon/WhatsApp pengepul minyak jelantah di: 0851-8303-3995 untuk jadwalkan penjemputan.',
+              },
+              {
+                number: '3',
+                title: 'JEMPUT GRATIS',
+                description: 'Tim kami datang ke lokasi dengan peralatan lengkap. Minyak jelantah ditimbang secara transparan.',
+              },
+              {
+                number: '4',
+                title: 'BAYAR TUNAI',
+                description: 'Pembayaran beli minyak jelantah dilakukan tunai langsung setelah penimbangan.',
+              },
+            ].map((benefit, index) => (
+              <div
+                key={index}
+                className="card-premium hover-lift group"
+              >
+                <div className="w-14 h-14 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-card flex items-center justify-center text-2xl font-bold mb-4 shadow-soft group-hover:shadow-soft-lg transition-smooth">
+                  {benefit.number}
+                </div>
+                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{benefit.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{benefit.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us - White Background with Premium Cards */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              KEUNGGULAN KAMI
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
+              KEUNGGULAN KAMI
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: '💰',
+                title: 'HARGA KOMPETITIF',
+                description: 'Harga minyak jelantah tertinggi dengan sistem transparan.',
+              },
+              {
+                icon: '🚚',
+                title: 'JEMPUT GRATIS',
+                description: 'Penjemputan minyak bekas gratis ke lokasi Anda.',
+              },
+              {
+                icon: '💵',
+                title: 'BAYAR TUNAI',
+                description: 'Pembayaran beli minyak jelantah tunai langsung.',
+              },
+              {
+                icon: '🌿',
+                title: 'RAMAH LINGKUNGAN',
+                description: 'Minyak goreng bekas diolah jadi biodiesel.',
+              },
+              {
+                icon: '📊',
+                title: 'TRANSPARAN',
+                description: 'Proses penimbangan terbuka, timbangan digital.',
+              },
+              {
+                icon: '⏱️',
+                title: 'CEPAT',
+                description: 'Proses jual minyak jelantah hanya 30-60 menit.',
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="card-premium hover-lift text-center group"
+              >
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">{item.icon}</div>
+                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -418,25 +401,73 @@ export default function Home() {
             <div className="bg-white/5 backdrop-blur-sm rounded-card-lg p-12 border border-white/10 shadow-layered">
               <div className="text-center">
                 <h2 className="text-2xl lg:text-3xl font-bold mb-6">
-                  Ubah Jelantah Jadi Berkah - Bersama JelantahGO
+                  📞 HUBUNGI PENGEPUL MINYAK JELANTAH
                 </h2>
-                <p className="text-lg mb-8 opacity-90 leading-relaxed">
-                  Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik
+                <p className="text-lg mb-6 opacity-90 leading-relaxed">
+                  Siap jual minyak jelantah? Hubungi pengepul minyak jelantah terpercaya:
                 </p>
+                
+                <div className="grid md:grid-cols-2 gap-4 mb-8 max-w-2xl mx-auto text-left">
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">📱</span>
+                    <div>
+                      <div className="font-semibold text-white mb-1">WhatsApp:</div>
+                      <a href="https://wa.me/6285183033995" target="_blank" rel="noopener" className="text-white/90 hover:text-white hover:underline">
+                        0851-8303-3995
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">📞</span>
+                    <div>
+                      <div className="font-semibold text-white mb-1">Telepon:</div>
+                      <a href="tel:+622112345678" className="text-white/90 hover:text-white hover:underline">
+                        (021) 1234 5678
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">🕒</span>
+                    <div>
+                      <div className="font-semibold text-white mb-1">Buka:</div>
+                      <div className="text-white/90">Senin-Minggu, 08:00-20:00 WIB</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">📧</span>
+                    <div>
+                      <div className="font-semibold text-white mb-1">Email:</div>
+                      <a href="mailto:info@jelantahgo.com" className="text-white/90 hover:text-white hover:underline">
+                        info@jelantahgo.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="mb-8 flex items-start justify-center gap-3">
+                  <span className="text-2xl">📍</span>
+                  <div className="text-left">
+                    <div className="font-semibold text-white mb-1">Alamat:</div>
+                    <div className="text-white/90">Jl. Papanggo I No. 250, Jakarta Utara</div>
+                  </div>
+                </div>
+                
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jadwalkan%20penjemputan%20minyak%20jelantah"
                     target="_blank"
                     rel="noopener"
                     className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                   >
-                    Konsultasi Gratis
+                    🚚 JADWALKAN PENJEMPUTAN SEKARANG
                   </a>
                   <a
-                    href="tel:+6285183033995"
-                    className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
+                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20konsultasi%20gratis"
+                    target="_blank"
+                    rel="noopener"
+                    className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
                   >
-                    Hubungi 0851-8303-3995
+                    💬 KONSULTASI GRATIS
                   </a>
                 </div>
               </div>

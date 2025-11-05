@@ -3,21 +3,21 @@ import ReviewSchema from './ReviewSchema'
 export default function Testimonials() {
   const reviews = [
     {
-      authorName: 'Ibu Siti',
+      authorName: 'Ibu Sari',
       ratingValue: '5',
-      reviewBody: 'Prosesnya sangat mudah dan cepat... sebulan bisa dapat tambahan Rp 300-400 ribu. Recommended!',
+      reviewBody: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah fair dan bayar tunai langsung.',
       datePublished: '2024-01-15',
     },
     {
-      authorName: 'Pak Budi',
+      authorName: 'Pak Andi',
       ratingValue: '5',
-      reviewBody: 'Dulu dibuang percuma, sekarang jadi penghasilan tambahan. Harga paling tinggi!',
+      reviewBody: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan. Recommended untuk jual minyak jelantah!',
       datePublished: '2024-02-20',
     },
     {
-      authorName: 'Doni Ramadhan',
+      authorName: 'Doni',
       ratingValue: '5',
-      reviewBody: 'Sudah jadi bisnis sampingan yang stabil. Bisa dapat 2-3 juta per bulan.',
+      reviewBody: 'Sebagai mitra pengepul minyak jelantah, penghasilan stabil 2-3 juta/bulan dari minyak bekas.',
       datePublished: '2024-03-10',
     },
   ]
@@ -36,52 +36,42 @@ export default function Testimonials() {
             TESTIMONI
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            Testimoni Pelanggan
+            💬 TESTIMONI PELANGGAN
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Apa kata mereka yang sudah jual jelantah ke JelantahGO?
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              stars: 5,
-              quote: 'Prosesnya sangat mudah dan cepat... sebulan bisa dapat tambahan Rp 300-400 ribu. Recommended!',
-              name: 'Ibu Siti',
-              location: 'Jakarta Barat',
-              since: 'Pelanggan sejak 2022'
+              quote: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah fair dan bayar tunai langsung.',
+              name: 'Ibu Sari',
+              location: 'Jakarta Selatan'
             },
             {
-              stars: 5,
-              quote: 'Dulu dibuang percuma, sekarang jadi penghasilan tambahan. Harga paling tinggi!',
-              name: 'Pak Budi',
-              location: 'Tangerang',
-              since: 'Warung Nasi Ibu Budi'
+              quote: 'Minyak goreng bekas yang biasa dibuang sekarang jadi penghasilan. Recommended untuk jual minyak jelantah!',
+              name: 'Pak Andi',
+              location: 'Tangerang'
             },
             {
-              stars: 5,
-              quote: 'Sudah jadi bisnis sampingan yang stabil. Bisa dapat 2-3 juta per bulan.',
-              name: 'Doni Ramadhan',
-              location: 'Bekasi',
-              since: 'Mitra JelantahGO'
+              quote: 'Sebagai mitra pengepul minyak jelantah, penghasilan stabil 2-3 juta/bulan dari minyak bekas.',
+              name: 'Doni',
+              location: 'Bekasi'
             }
           ].map((testimonial, index) => (
             <div
               key={index}
               className="card-premium hover-lift"
             >
-              <div className="text-3xl text-yellow-400 mb-4">
-                {'★'.repeat(testimonial.stars)}
-              </div>
-              <p className="text-gray-700 italic mb-6 leading-relaxed">
+              <p className="text-gray-700 mb-4 leading-relaxed">
                 "{testimonial.quote}"
               </p>
+              <div className="text-xl text-yellow-400 mb-3">
+                ⭐️⭐️⭐️⭐️⭐️
+              </div>
               <div className="border-t border-gray-200 pt-4">
-                <p className="font-bold text-[#0F3D2E] mb-1">
-                  {testimonial.name} - {testimonial.location}
+                <p className="font-bold text-[#0F3D2E]">
+                  - {testimonial.name}, {testimonial.location}
                 </p>
-                <p className="text-sm text-gray-500">{testimonial.since}</p>
               </div>
             </div>
           ))}

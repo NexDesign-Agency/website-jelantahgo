@@ -7,35 +7,31 @@ export default function WhoCanSell() {
             UNTUK SIAPA
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            Siapa yang Bisa Jual Minyak Jelantah ke JelantahGO?
+            👥 KAMI BELI MINYAK JELANTAH DARI:
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Kami menerima minyak jelantah dari berbagai sumber.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              icon: '🏡',
-              title: 'Rumah Tangga',
-              description: 'Ibu rumah tangga bisa kumpulkan jelantah sebagai penghasilan tambahan.'
+              icon: '🏠',
+              title: 'RUMAH TANGGA',
+              description: 'Hasilkan tambahan Rp 200.000-500.000/bulan dari minyak goreng bekas dapur.'
             },
             {
-              icon: '🍜',
-              title: 'Warung & Restoran',
-              description: 'Usaha kuliner bisa jual rutin dalam volume besar.'
+              icon: '🍽️',
+              title: 'USAHA KULINER',
+              description: 'Restoran, warung, catering dengan volume minyak bekas besar.'
             },
             {
               icon: '🏨',
-              title: 'Hotel & Kantin',
-              description: 'Institusi besar jadi partner rutin kami.'
+              title: 'HOTEL & KANTIN',
+              description: 'Institusi dengan minyak jelantah volume tinggi.'
             },
             {
               icon: '🤝',
-              title: 'Pengepul/Mitra',
-              description: 'Punya jiwa wirausaha? Pelajari selengkapnya tentang peluang bisnis menjadi mitra pengepul jelantah dan dapatkan support penuh dari kami.',
-              hasLink: true
+              title: 'MITRA PENGEPUL',
+              description: 'Peluang bisnis beli minyak jelantah dengan dukungan penuh.'
             }
           ].map((item, index) => (
             <div
@@ -47,29 +43,10 @@ export default function WhoCanSell() {
               </div>
               <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">{item.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                {item.hasLink ? (
-                  <>
-                    Punya jiwa wirausaha? Pelajari selengkapnya tentang{' '}
-                    <a href="/blog/peluang-bisnis-pengepul-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">
-                      peluang bisnis menjadi mitra pengepul jelantah
-                    </a>
-                    {' '}dan dapatkan support penuh dari kami.
-                  </>
-                ) : (
-                  item.description
-                )}
+                {item.description}
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <a
-            href="/mitra"
-            className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
-          >
-            Selengkapnya →
-          </a>
         </div>
       </div>
     </section>

@@ -7,10 +7,10 @@ export default function ServiceArea() {
             AREA LAYANAN
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            Area Layanan Pengambilan Minyak Jelantah
+            AREA LAYANAN PENGEPUL JELANTAH
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Sebagai <strong>pengepul minyak jelantah Jakarta</strong> yang berpengalaman, kami melayani seluruh wilayah Jabodetabek dengan layanan penjemputan gratis.
+            Kami melayani jual minyak jelantah di seluruh Jabodetabek:
           </p>
         </div>
 

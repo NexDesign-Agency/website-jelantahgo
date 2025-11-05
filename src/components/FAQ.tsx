@@ -8,36 +8,24 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: 'Berapa harga minyak jelantah per liter?',
-      answer: 'Harga minyak jelantah di JelantahGO bervariasi berdasarkan volume: Rp 7.500 untuk volume 40-99 liter, Rp 8.000 untuk volume 100-199 liter, dan Rp 8.500 untuk volume 200 liter ke atas. Pembayaran dilakukan secara tunai langsung di tempat saat penjemputan, tanpa potongan atau biaya tersembunyi.'
+      question: '❔ Berapa harga minyak jelantah per liter?',
+      answer: 'Harga minyak jelantah mulai Rp 7.500-8.500 tergantung volume. Kami beli minyak jelantah dengan harga kompetitif.'
     },
     {
-      question: 'Apakah penjemputan benar-benar gratis?',
-      answer: 'Ya, penjemputan 100% gratis tanpa biaya apapun untuk volume minimal 40 liter di seluruh area Jabodetabek, termasuk Jakarta, Tangerang, Bekasi, Depok, dan Bogor. Tidak ada biaya transport, biaya parkir, atau biaya tersembunyi lainnya. Kami jemput langsung ke lokasi Anda, termasuk area gang sempit yang bisa diakses motor.'
+      question: '❔ Apakah penjemputan benar-benar gratis?',
+      answer: 'Ya, penjemputan minyak jelantah gratis untuk minimal 40 liter di Jabodetabek.'
     },
     {
-      question: 'Bagaimana cara jual minyak jelantah ke JelantahGO?',
-      answer: 'Prosesnya sangat mudah dalam 4 langkah sederhana: 1) Kumpulkan minyak jelantah minimal 40 liter dalam wadah yang rapat, 2) Hubungi kami via WhatsApp untuk booking penjemputan, 3) Tim kurir kami akan datang ke lokasi Anda sesuai jadwal, dan 4) Terima pembayaran tunai langsung setelah penimbangan. Tidak perlu keluar rumah, semua proses dilakukan di tempat Anda.'
+      question: '❔ Bagaimana cara jual minyak jelantah?',
+      answer: 'Jual minyak jelantah mudah: kumpulkan minyak goreng bekas, hubungi kami, kami jemput & bayar tunai.'
     },
     {
-      question: 'Minyak jelantah harus bersih atau bisa langsung dijual?',
-      answer: 'Tidak perlu disaring sangat halus atau diolah terlebih dahulu. Cukup buang sisa makanan kasar menggunakan saringan dapur biasa. Sedikit endapan halus di dasar wadah adalah hal yang wajar dan masih bisa diterima. Yang penting jangan mencampur dengan air, sabun, atau bahan kimia lainnya karena akan merusak kualitas jelantah.'
+      question: '❔ Apa beda minyak jelantah dan minyak bekas?',
+      answer: 'Minyak jelantah dan minyak bekas sama, yaitu minyak goreng bekas pakai.'
     },
     {
-      question: 'Wilayah mana saja yang dilayani JelantahGO?',
-      answer: 'JelantahGO melayani seluruh area Jabodetabek, meliputi: Jakarta (Jakarta Utara, Selatan, Timur, Barat, Pusat), Tangerang (Kota & Kabupaten), Bekasi (Kota & Kabupaten), Depok, dan Bogor. Untuk wilayah di luar Jabodetabek, silakan hubungi kami terlebih dahulu untuk konfirmasi ketersediaan layanan.'
-    },
-    {
-      question: 'Bagaimana cara menghubungi JelantahGO?',
-      answer: 'Anda bisa menghubungi JelantahGO melalui WhatsApp di nomor 0851-8303-3995 atau klik tombol WhatsApp di website. Kami melayani dari Senin hingga Minggu, jam 08:00 - 20:00 WIB. Tim kami akan merespons pesan Anda dalam waktu maksimal 2 jam selama jam kerja.'
-    },
-    {
-      question: 'Apakah pembayaran dilakukan tunai atau transfer?',
-      answer: 'Pembayaran dilakukan secara tunai langsung di tempat saat penjemputan, setelah proses penimbangan selesai. Tidak perlu menunggu transfer atau cek. Uang langsung diberikan ke tangan Anda atau perwakilan yang hadir saat penjemputan. Jika Anda berpreferensi transfer, bisa didiskusikan untuk volume besar atau mitra rutin.'
-    },
-    {
-      question: 'Berapa lama waktu tunggu penjemputan setelah booking?',
-      answer: 'Untuk booking penjemputan, biasanya tim kami bisa datang dalam 1-3 hari kerja tergantung jadwal dan lokasi. Untuk area Jakarta Pusat dan sekitarnya, bisa lebih cepat dalam 24 jam. Kami akan mengkonfirmasi jadwal penjemputan via WhatsApp setelah Anda melakukan booking. Jika Anda urgent, silakan sebutkan saat booking dan kami akan berusaha memprioritaskan.'
+      question: '❔ Pembayaran tunai atau transfer?',
+      answer: 'Prioritas tunai langsung. Untuk mitra rutin bisa diskusi transfer.'
     }
   ]
 
@@ -51,7 +39,7 @@ export default function FAQ() {
               FAQ
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Pertanyaan yang Sering Ditanyakan
+              ❓ FAQ PERTANYAAN UMUM
             </h2>
           </div>
 

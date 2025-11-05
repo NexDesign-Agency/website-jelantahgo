@@ -47,7 +47,7 @@ export default function Calculator() {
       </div>
       
       <p className="text-gray-600 mb-6 leading-relaxed">
-        Masukkan jumlah liter jelantah yang ingin Anda jual untuk menghitung estimasi pendapatan
+        Hitung potensi pendapatan minyak bekas Anda:
       </p>
       
       <div className="mb-6">

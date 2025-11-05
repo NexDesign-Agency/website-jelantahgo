@@ -201,10 +201,10 @@ export default function Footer() {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-white/60">
-              &copy; 2025 JelantahGO. All Rights Reserved.
+              JelantahGO - Pengepul Minyak Jelantah Terpercaya
             </p>
             <p className="text-sm text-white/60">
-              Mengubah Limbah Menjadi Berkah 🌿
+              Mengubah Minyak Bekas Menjadi Berkah 🌱
             </p>
           </div>
         </div>
