@@ -5,7 +5,7 @@ export default function Testimonials() {
     {
       authorName: 'Ibu Sari',
       ratingValue: '5',
-      reviewBody: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah fair dan bayar tunai langsung.',
+      reviewBody: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah terbaik dan langsung dibayar.',
       datePublished: '2024-01-15',
     },
     {
@@ -43,7 +43,7 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              quote: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah fair dan bayar tunai langsung.',
+              quote: 'Pengepul minyak jelantah yang profesional. Harga minyak jelantah terbaik dan langsung dibayar.',
               name: 'Ibu Sari',
               location: 'Jakarta Selatan'
             },

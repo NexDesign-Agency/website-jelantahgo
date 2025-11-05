@@ -35,7 +35,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg text-white/90 mb-8 leading-relaxed">
-                JelantahGO - pengepul minyak jelantah terpercaya di Jakarta siap membeli minyak jelantah, mulai dari Rp. 7.500 - 8.500 /Liter. Proses jual minyak jelantah yang mudah ditambah penjemputan gratis serta pembayaran tunai langsung di tempat. Dapatkan segera harga minyak jelantah tertinggi, Hubungi kami sekarang!
+                JelantahGO - pengepul minyak jelantah terpercaya di Jakarta. Proses jual minyak jelantah yang mudah ditambah penjemputan gratis serta pembayaran tunai langsung di tempat. Dapatkan segera harga minyak goreng bekas tertinggi.
               </p>
 
               {/* Stats */}
@@ -397,10 +397,10 @@ export default function Home() {
             <div className="bg-white/5 backdrop-blur-sm rounded-card-lg p-12 border border-white/10 shadow-layered">
               <div className="text-center">
                 <h2 className="text-2xl lg:text-3xl font-bold mb-6">
-                  📞 HUBUNGI PENGEPUL MINYAK JELANTAH
+                  HUBUNGI PENGEPUL MINYAK JELANTAH
                 </h2>
                 <p className="text-lg mb-6 opacity-90 leading-relaxed">
-                  Siap jual minyak jelantah? Hubungi pengepul minyak jelantah terpercaya:
+                  Siap jual minyak bekas? Hubungi pengepul minyak jelantah terpercaya:
                 </p>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">

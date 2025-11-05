@@ -28,10 +28,10 @@ export default function BlogSection() {
             ARTIKEL PILAR
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-            Artikel Terbaru
+            Artikel Paling Dicari
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Pelajari lebih lanjut tentang minyak jelantah dan peluang bisnisnya.
+            Artikel-artikel terpopuler yang banyak dibaca pengunjung kami. Pelajari tips dan strategi terbaik untuk jual minyak goreng bekas.
           </p>
         </div>
 
