@@ -66,6 +66,20 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Image */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <Image
+            src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+            alt="Tentang JelantahGO - Pengepul Minyak Jelantah Jakarta Terpercaya"
+            width={1200}
+            height={630}
+            className="w-full max-w-4xl mx-auto rounded-card-lg shadow-layered"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
       {/* Stats */}
       <section className="py-16 bg-white">
         <div className="container-custom">
@@ -258,6 +272,9 @@ export default function AboutPage() {
               </Link>
               <Link href="/area-layanan" className="hover:text-white underline text-sm font-semibold">
                 Area Layanan →
+              </Link>
+              <Link href="/testimoni" className="hover:text-white underline text-sm font-semibold">
+                Testimoni →
               </Link>
               <Link href="/blog" className="hover:text-white underline text-sm font-semibold">
                 Panduan Blog →

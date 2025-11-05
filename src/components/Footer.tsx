@@ -129,6 +129,16 @@ export default function Footer() {
                   Manfaat Daur Ulang
                 </Link>
               </li>
+              <li>
+                <Link href="/contact" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
+                  Hubungi Kami
+                </Link>
+              </li>
+              <li>
+                <Link href="/syarat-ketentuan" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
+                  Syarat & Ketentuan
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -203,9 +213,19 @@ export default function Footer() {
             <p className="text-sm text-white/60">
               JelantahGO - Pengepul Minyak Jelantah Terpercaya
             </p>
-            <p className="text-sm text-white/60">
-              Mengubah Minyak Bekas Menjadi Berkah 🌱
-            </p>
+            <div className="flex flex-wrap items-center gap-4 text-sm text-white/60">
+              <Link href="/syarat-ketentuan" className="hover:text-white transition-colors">
+                Syarat & Ketentuan
+              </Link>
+              <span>•</span>
+              <Link href="/testimoni" className="hover:text-white transition-colors">
+                Testimoni
+              </Link>
+              <span>•</span>
+              <Link href="/contact" className="hover:text-white transition-colors">
+                Kontak
+              </Link>
+            </div>
           </div>
         </div>
       </div>

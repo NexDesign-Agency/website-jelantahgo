@@ -34,7 +34,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg text-white/90 mb-8 leading-relaxed">
-                JelantahGO - pengepul minyak jelantah terpercaya di Jakarta. Proses jual minyak jelantah yang mudah ditambah penjemputan gratis serta pembayaran tunai langsung di tempat. Dapatkan segera harga minyak goreng bekas tertinggi.
+                JelantahGO - pengepul minyak jelantah terpercaya di Jakarta. Proses jual minyak jelantah yang mudah ditambah penjemputan gratis serta pembayaran tunai langsung di tempat. Jual jelantah Anda dengan harga minyak goreng bekas tertinggi.
               </p>
 
               {/* Stats */}
@@ -102,7 +102,7 @@ export default function Home() {
               Harga minyak jelantah terbaru 2025
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Sebagai pengepul minyak jelantah profesional, kami menawarkan harga terbaik berdasarkan volume:
+              Sebagai pengepul minyak jelantah profesional, kami menawarkan harga minyak jelantah terbaik berdasarkan volume. Harga minyak jelantah kami kompetitif dan transparan:
             </p>
           </div>
 
@@ -176,7 +176,7 @@ export default function Home() {
               href="/pricing"
               className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
             >
-              Cek Berkala Harga Terbaru Kami →
+              Cek Berkala Harga Minyak Jelantah Terbaru Kami →
             </Link>
           </div>
         </div>
@@ -200,8 +200,8 @@ export default function Home() {
               4 Langkah Mudah Jual Minyak Jelantah
             </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Kami sediakan berbagai solusi terpercaya jelantah untuk menawarkan maksimal pengumpulan. 
-                Pelajari <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">cara kerja kami</Link> untuk detail lengkap proses penjemputan.
+                Kami sediakan berbagai solusi terpercaya untuk jual jelantah dengan harga minyak jelantah terbaik. 
+                Pelajari <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline">cara kerja kami</Link> untuk detail lengkap proses penjemputan dan informasi harga minyak jelantah.
               </p>
           </div>
 
@@ -312,10 +312,10 @@ export default function Home() {
               Informasi Lengkap untuk Anda
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Temukan informasi lengkap tentang cara kerja, harga, area layanan, dan program mitra kami
+              Temukan informasi lengkap tentang cara kerja, harga, area layanan, program mitra, dan testimoni pelanggan kami
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             <Link
               href="/cara-kerja"
               className="card-premium hover-lift text-center group"
@@ -350,6 +350,18 @@ export default function Home() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Cek area layanan penjemputan gratis di seluruh wilayah Jabodetabek
+              </p>
+            </Link>
+            <Link
+              href="/testimoni"
+              className="card-premium hover-lift text-center group"
+            >
+              <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">💬</div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">
+                Testimoni
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Baca testimoni dari 800+ pelanggan yang puas dengan layanan kami
               </p>
             </Link>
             <Link
@@ -396,7 +408,7 @@ export default function Home() {
                   HUBUNGI PENGEPUL MINYAK JELANTAH
                 </h2>
                 <p className="text-lg mb-6 opacity-90 leading-relaxed">
-                  Siap jual minyak bekas? Hubungi pengepul minyak jelantah terpercaya:
+                  Siap jual minyak bekas atau jual jelantah? Hubungi pengepul minyak jelantah terpercaya untuk mendapatkan harga minyak jelantah terbaik:
                 </p>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
