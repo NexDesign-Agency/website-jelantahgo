@@ -61,8 +61,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Layanan & Informasi */}
-          <div className="footer-nav lg:col-span-3">
+          {/* Layanan Utama & Area Layanan */}
+          <div className="footer-nav lg:col-span-4">
             <h4 
               className="text-white text-lg font-semibold mb-2 md:mb-2 md:cursor-default cursor-pointer" 
               onClick={() => toggleSection('layanan')}
@@ -73,7 +73,7 @@ export default function Footer() {
             </h4>
             <ul 
               id="layanan-menu"
-              className={`space-y-2.5 text-sm mb-6 ${expandedSections.layanan ? 'block' : 'hidden md:block'}`}
+              className={`space-y-2.5 text-sm mb-8 ${expandedSections.layanan ? 'block' : 'hidden md:block'}`}
             >
               <li>
                 <Link href="/" className="hover:text-white hover:translate-x-1 inline-block transition-smooth">
@@ -97,6 +97,35 @@ export default function Footer() {
               </li>
             </ul>
 
+            <h4 
+              className="text-white text-lg font-semibold mb-4 md:mb-4 md:cursor-default cursor-pointer"
+              onClick={() => toggleSection('area')}
+              aria-expanded={expandedSections.area}
+              aria-controls="area-menu"
+            >
+              Area Layanan
+            </h4>
+            <div 
+              id="area-menu"
+              className={`space-y-4 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
+            >
+              <ul className="space-y-2 text-white/70">
+                <li>Jakarta Utara, Selatan, Barat, Timur dan Pusat</li>
+                <li>Tangerang, Tangsel, Bekasi, Depok dan Bogor</li>
+              </ul>
+              <div className="pt-2">
+                <Link 
+                  href="/area-layanan" 
+                  className="inline-flex items-center gap-1 text-white hover:text-[#D9E3D3] transition-colors font-medium"
+                >
+                  ↗ Lihat Seluruh Cakupan Layanan
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Informasi */}
+          <div className="footer-nav lg:col-span-3">
             <h4 
               className="text-white text-lg font-semibold mb-2 md:mb-2 md:cursor-default cursor-pointer"
               onClick={() => toggleSection('informasi')}
@@ -140,35 +169,6 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
-
-          {/* Area Layanan */}
-          <div className="area-pages lg:col-span-4">
-            <h4 
-              className="text-white text-lg font-semibold mb-4 md:mb-4 md:cursor-default cursor-pointer"
-              onClick={() => toggleSection('area')}
-              aria-expanded={expandedSections.area}
-              aria-controls="area-menu"
-            >
-              Area Layanan
-            </h4>
-            <div 
-              id="area-menu"
-              className={`space-y-4 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
-            >
-              <ul className="space-y-2 text-white/70">
-                <li>Jakarta Utara, Selatan, Barat, Timur dan Pusat</li>
-                <li>Tangerang, Tangsel, Bekasi, Depok dan Bogor</li>
-              </ul>
-              <div className="pt-2">
-                <Link 
-                  href="/area-layanan" 
-                  className="inline-flex items-center gap-1 text-white hover:text-[#D9E3D3] transition-colors font-medium"
-                >
-                  ↗ Lihat Seluruh Cakupan Layanan
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
