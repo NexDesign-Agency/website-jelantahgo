@@ -156,12 +156,10 @@ export default function Footer() {
               id="area-menu"
               className={`space-y-4 text-sm ${expandedSections.area ? 'block' : 'hidden md:block'}`}
             >
-              <div>
-                <h5 className="text-white font-semibold mb-2">Kota Sekitar</h5>
-                <p className="text-white/70">
-                  Tangerang, Bekasi, Depok, Bogor
-                </p>
-              </div>
+              <ul className="space-y-2 text-white/70">
+                <li>Jakarta Utara, Selatan, Barat, Timur dan Pusat</li>
+                <li>Tangerang, Tangsel, Bekasi, Depok dan Bogor</li>
+              </ul>
               <div className="pt-2">
                 <Link 
                   href="/area-layanan" 
