@@ -29,7 +29,7 @@ export default function Footer() {
             {/* SEO-Friendly Content */}
             <div className="seo-footer-content mb-6">
               <p className="text-sm text-white/70 leading-relaxed">
-                JelantahGO melayani penjualan minyak jelantah bekas untuk restoran, hotel, katering di Jakarta Utara, Jakarta Selatan, Jakarta Barat, Jakarta Timur, dan Jakarta Pusat. Harga kompetitif mulai Rp 7.500-8.500 per liter.
+                JelantahGO melayani penjualan minyak jelantah untuk restoran, hotel, katering di Jakarta dan sekitarnya. Harga mulai dari Rp 7.500-8.500 per liter.
               </p>
             </div>
 
@@ -42,14 +42,14 @@ export default function Footer() {
                   rel="noopener"
                   className="text-white/70 hover:text-white transition-colors"
                 >
-                  3c no 250, Jl. Papanggo I, Papanggo<br />
+                  Jl. Papanggo 3C No.250, Papanggo<br />
                   Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14340
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 flex-shrink-0 text-[#D9E3D3]" />
-                <a href="tel:+6285183033995" className="text-white/70 hover:text-white transition-colors">
-                  +62 851-8303-3995
+                <a href="tel:+6281220821983" className="text-white/70 hover:text-white transition-colors">
+                  +62 812-2082-1983
                 </a>
               </div>
               <div className="flex items-center gap-3">

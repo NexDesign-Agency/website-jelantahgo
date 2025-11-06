@@ -55,7 +55,7 @@ export default function CaraKerjaPage() {
     },
     {
       question: 'Bagaimana cara melakukan booking penjemputan?',
-      answer: 'Booking penjemputan sangat mudah! Hubungi kami via WhatsApp di nomor 0851-8303-3995 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam selama jam kerja (08:00-20:00 WIB) untuk mengkonfirmasi jadwal penjemputan.',
+      answer: 'Booking penjemputan sangat mudah! Hubungi kami via WhatsApp di nomor 0812-2082-1983 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam selama jam kerja (08:00-20:00 WIB) untuk mengkonfirmasi jadwal penjemputan.',
     },
     {
       question: 'Apakah bisa jadwal penjemputan di luar jam kerja atau weekend?',
@@ -107,7 +107,7 @@ export default function CaraKerjaPage() {
         {
           title: 'A. Via WhatsApp (Respon Cepat)',
           items: [
-            'Hubungi kami di 0851-8303-3995 dengan format:',
+            'Hubungi kami di 0812-2082-1983 dengan format:',
           ],
           code: `Nama: [Nama Anda]
 Alamat: [Alamat Lengkap]
@@ -176,7 +176,7 @@ Total: 85 * 7.500 = Rp 637.500`,
     },
     {
       name: 'Hubungi JelantahGO',
-      text: 'Hubungi kami via WhatsApp di 0851-8303-3995 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam.',
+      text: 'Hubungi kami via WhatsApp di 0812-2082-1983 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam.',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_8_aa2c3g.webp',
     },
     {

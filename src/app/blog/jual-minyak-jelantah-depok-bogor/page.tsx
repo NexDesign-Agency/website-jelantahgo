@@ -140,7 +140,7 @@ export default function JualDepokBogorPage() {
                 Jadikan pengelolaan jelantah sebagai bagian dari gaya hidup modern di Depok dan komitmen pada keasrian di Bogor. Hubungi JelantahGO untuk layanan yang mudah, cepat, dan menguntungkan.
               </p>
               <a
-                href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20di%20Depok/Bogor%20dan%20ingin%20menjual%20jelantah."
+                href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20di%20Depok/Bogor%20dan%20ingin%20menjual%20jelantah."
                 target="_blank"
                 rel="noopener"
                 className="inline-block bg-[#25D366] text-white hover:bg-[#128C7E] px-8 py-4 rounded-full font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

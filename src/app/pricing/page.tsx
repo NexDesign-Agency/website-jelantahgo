@@ -69,7 +69,7 @@ export default function PricingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20mau%20tanya%20harga%20terbaru"
+              href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20mau%20tanya%20harga%20terbaru"
               target="_blank"
               rel="noopener"
               className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
@@ -177,7 +177,7 @@ export default function PricingPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
                   target="_blank"
                   rel="noopener"
                   className={`w-full block text-center py-3 rounded-card font-semibold transition-smooth ${

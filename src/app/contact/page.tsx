@@ -6,14 +6,14 @@ import ContactPageSchema from '@/components/ContactPageSchema'
 
 export const metadata: Metadata = {
   title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
+  description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0812-2082-1983, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
   keywords: 'kontak jelantahgo, hubungi jelantahgo, whatsapp jelantahgo, telepon jelantahgo, email jelantahgo',
   alternates: {
     canonical: 'https://jelantahgo.com/contact',
   },
   openGraph: {
     title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
+    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0812-2082-1983, Email: info.jelantahgo@gmail.com. Jam operasional: Senin-Sabtu 11.00-23.00 WIB. Layanan penjemputan gratis, bayar tunai langsung. Konsultasi gratis, harga terbaik, dan proses transparan.',
     url: 'https://jelantahgo.com/contact',
     siteName: 'JelantahGO',
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Hubungi Kami - JelantahGO | WhatsApp, Telepon & Email',
-    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0851-8303-3995, Email: info.jelantahgo@gmail.com. Layanan penjemputan gratis, bayar tunai langsung.',
+    description: 'Hubungi JelantahGO untuk menjual minyak jelantah. WhatsApp: 0812-2082-1983, Email: info.jelantahgo@gmail.com. Layanan penjemputan gratis, bayar tunai langsung.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp'],
   },
 }
@@ -40,7 +40,7 @@ export default function ContactPage() {
     <>
       <ContactPageSchema
         address={{
-          streetAddress: '3c no 250, Jl. Papanggo I, Papanggo',
+          streetAddress: 'Jl. Papanggo 3C No.250, Papanggo',
           addressLocality: 'Jakarta Utara',
           addressRegion: 'Daerah Khusus Ibukota Jakarta',
           postalCode: '14340',
@@ -103,21 +103,21 @@ export default function ContactPage() {
                 <li>
                   <strong>WhatsApp (Recommended):</strong>{' '}
                   <a
-                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO"
+                    href="https://wa.me/6281220821983?text=Halo%20JelantahGO"
                     target="_blank"
                     rel="noopener"
                     className="text-[#0F3D2E] hover:underline font-semibold"
                   >
-                    0851-8303-3995
+                    0812-2082-1983
                   </a>
                 </li>
                 <li>
                   <strong>Telepon:</strong>{' '}
                   <a
-                    href="tel:+6285183033995"
+                    href="tel:+6281220821983"
                     className="text-[#0F3D2E] hover:underline font-semibold"
                   >
-                    0851-8303-3995
+                    0812-2082-1983
                   </a>
                 </li>
                 <li>
@@ -149,7 +149,7 @@ export default function ContactPage() {
               <address className="text-gray-700 mb-4 not-italic">
                 <strong className="text-[#0F3D2E]">JelantahGO</strong>
                 <br />
-                3c no 250, Jl. Papanggo I, Papanggo
+                Jl. Papanggo 3C No.250, Papanggo
                 <br />
                 Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14340
               </address>

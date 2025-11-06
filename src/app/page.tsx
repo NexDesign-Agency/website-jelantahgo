@@ -56,7 +56,7 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
                   target="_blank"
                   rel="noopener"
                   className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
@@ -156,7 +156,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
                   target="_blank"
                   rel="noopener"
                   className={`w-full block text-center py-3 rounded-card font-semibold transition-smooth ${
@@ -215,7 +215,7 @@ export default function Home() {
               {
                 number: '2',
                 title: 'HUBUNGI KAMI',
-                description: 'Telepon/WhatsApp pengepul di: 0851-8303-3995 untuk jadwalkan penjemputan.',
+                description: 'Telepon/WhatsApp pengepul di: 0812-2082-1983 untuk jadwalkan penjemputan.',
               },
               {
                 number: '3',
@@ -416,8 +416,8 @@ export default function Home() {
                     <span className="text-2xl flex-shrink-0">📱</span>
                     <div>
                       <div className="font-semibold text-white mb-1">WhatsApp:</div>
-                      <a href="https://wa.me/6285183033995" target="_blank" rel="noopener" className="text-white/90 hover:text-white hover:underline">
-                        0851-8303-3995
+                      <a href="https://wa.me/6281220821983" target="_blank" rel="noopener" className="text-white/90 hover:text-white hover:underline">
+                        0812-2082-1983
                       </a>
                     </div>
                   </div>
@@ -450,14 +450,14 @@ export default function Home() {
                     <span className="text-2xl flex-shrink-0">📍</span>
                     <div>
                       <div className="font-semibold text-white mb-1">Alamat:</div>
-                      <div className="text-white/90">Jl. Papanggo I No. 250, Jakarta Utara</div>
+                      <div className="text-white/90">Jl. Papanggo 3C No.250, Jakarta Utara</div>
                     </div>
                   </div>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jadwalkan%20penjemputan%20minyak%20jelantah"
+                    href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jadwalkan%20penjemputan%20minyak%20jelantah"
                     target="_blank"
                     rel="noopener"
                     className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
@@ -465,7 +465,7 @@ export default function Home() {
                     🚚 JADWALKAN PENJEMPUTAN SEKARANG
                   </a>
                   <a
-                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20konsultasi%20gratis"
+                    href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20konsultasi%20gratis"
                     target="_blank"
                     rel="noopener"
                     className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"

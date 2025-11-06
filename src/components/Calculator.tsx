@@ -85,7 +85,7 @@ export default function Calculator() {
       </div>
       
       <a
-        href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+        href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
         target="_blank"
         rel="noopener"
         aria-label="Hubungi JelantahGO via WhatsApp untuk jual minyak jelantah"

@@ -28,7 +28,7 @@ export default function LocalBusinessSchema({
     name,
     image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
     url: 'https://jelantahgo.com',
-    telephone: '+6285183033995',
+    telephone: '+6281220821983',
     email: 'info.jelantahgo@gmail.com',
     priceRange,
     ...(address && {

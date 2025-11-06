@@ -335,7 +335,7 @@ export default function PanduanJualPage() {
                 Menjual minyak jelantah di tahun 2025 bukan lagi sekadar aktivitas sampingan, melainkan sebuah langkah cerdas yang memberikan tiga keuntungan sekaligus: <strong>keuntungan finansial</strong>, <strong>keamanan lingkungan</strong>, dan <strong>dukungan terhadap energi terbarukan</strong>.
               </p>
               <a
-                href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20sudah%20baca%20panduan%20dan%20ingin%20jual%20minyak%20jelantah"
+                href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20sudah%20baca%20panduan%20dan%20ingin%20jual%20minyak%20jelantah"
                 target="_blank"
                 rel="noopener"
                 className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

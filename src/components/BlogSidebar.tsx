@@ -156,7 +156,7 @@ export default function BlogSidebar() {
           </div>
         </div>
         <a
-          href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+          href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
           target="_blank"
           rel="noopener"
           className="block w-full bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-6 py-3 rounded-card font-bold text-center transition-smooth shadow-soft hover:shadow-soft-lg"

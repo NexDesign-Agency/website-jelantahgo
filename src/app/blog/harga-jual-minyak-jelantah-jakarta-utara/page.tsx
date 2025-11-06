@@ -203,7 +203,7 @@ export default function JakartaUtaraHargaPage() {
                     Panduan Lengkap Jakarta →
                   </Link>
                   <a
-                    href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20di%20Jakarta%20Utara%20dan%20ingin%20jual%20minyak%20jelantah"
+                    href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20di%20Jakarta%20Utara%20dan%20ingin%20jual%20minyak%20jelantah"
                     target="_blank"
                     rel="noopener"
                     className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

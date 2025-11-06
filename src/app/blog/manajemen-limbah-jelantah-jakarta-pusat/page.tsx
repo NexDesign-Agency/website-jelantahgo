@@ -217,7 +217,7 @@ export default function JakartaPusatManajemenPage() {
                   Panduan Lengkap Jakarta →
                 </Link>
                 <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20mewakili%20hotel/perkantoran%20di%20Jakarta%20Pusat%20dan%20butuh%20solusi%20manajemen%20limbah%20jelantah%20profesional"
+                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20mewakili%20hotel/perkantoran%20di%20Jakarta%20Pusat%20dan%20butuh%20solusi%20manajemen%20limbah%20jelantah%20profesional"
                   target="_blank"
                   rel="noopener"
                   className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

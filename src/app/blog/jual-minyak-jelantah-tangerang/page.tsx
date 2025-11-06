@@ -140,7 +140,7 @@ export default function JualTangerangPage() {
                 Apapun skala kebutuhan Anda di Tangerang Raya, JelantahGO siap memberikan layanan yang cepat, profesional, dan menguntungkan. Hubungi kami untuk menjadwalkan penjemputan pertama Anda.
               </p>
               <a
-                href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20di%20Tangerang%20dan%20ingin%20menjual%20jelantah."
+                href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20di%20Tangerang%20dan%20ingin%20menjual%20jelantah."
                 target="_blank"
                 rel="noopener"
                 className="inline-block bg-[#25D366] text-white hover:bg-[#128C7E] px-8 py-4 rounded-full font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

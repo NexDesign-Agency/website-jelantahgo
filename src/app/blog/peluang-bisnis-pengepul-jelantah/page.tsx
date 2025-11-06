@@ -435,7 +435,7 @@ export default function PeluangBisnisPage() {
                 Pelajari Program Mitra →
               </Link>
               <a
-                href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20tertarik%20jadi%20mitra%20pengepul%20jelantah"
+                href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20tertarik%20jadi%20mitra%20pengepul%20jelantah"
                 target="_blank"
                 rel="noopener"
                 className="inline-block bg-[#25D366] text-white hover:bg-[#20BA5A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

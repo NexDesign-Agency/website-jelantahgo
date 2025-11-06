@@ -240,7 +240,7 @@ export default function AreaLayananPage() {
             Jika area Anda belum tercantum di atas, jangan ragu untuk menghubungi kami. Kami terus mengembangkan jangkauan layanan kami.
           </p>
           <a
-            href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20tanya%20apakah%20area%20saya%20dilayani"
+            href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20tanya%20apakah%20area%20saya%20dilayani"
             target="_blank"
             rel="noopener"
             className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"

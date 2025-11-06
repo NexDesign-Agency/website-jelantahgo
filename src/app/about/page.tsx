@@ -40,14 +40,14 @@ export default function AboutPage() {
     <>
       <OrganizationSchema
         address={{
-          streetAddress: '3c no 250, Jl. Papanggo I, Papanggo, Kec. Tj. Priok',
+          streetAddress: 'Jl. Papanggo 3C No.250, Papanggo, Kec. Tj. Priok',
           addressLocality: 'Jakarta Utara',
           addressRegion: 'Daerah Khusus Ibukota Jakarta',
           postalCode: '14340',
           addressCountry: 'ID',
         }}
         sameAs={[
-          'https://wa.me/6285183033995',
+          'https://wa.me/6281220821983',
           'https://jelantahgo.com',
         ]}
       />
@@ -247,7 +247,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6285183033995?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+              href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
               target="_blank"
               rel="noopener"
               className="inline-block bg-[#0F3D2E] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#134E3A] transition-all shadow-soft-lg hover:shadow-soft-xl"

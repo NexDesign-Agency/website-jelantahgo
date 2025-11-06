@@ -126,7 +126,7 @@ export default function MitraPage() {
           </div>
 
           <a
-            href="https://wa.me/6285183033995?text=Halo%20JelantahGO%2C%20saya%20tertarik%20bergabung%20jadi%20mitra"
+            href="https://wa.me/6281220821983?text=Halo%20JelantahGO%2C%20saya%20tertarik%20bergabung%20jadi%20mitra"
             target="_blank"
             rel="noopener"
             className="inline-block bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
@@ -677,7 +677,7 @@ export default function MitraPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/6285183033995?text=Halo%20JelantahGO%2C%20saya%20tertarik%20bergabung%20jadi%20mitra"
+                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO%2C%20saya%20tertarik%20bergabung%20jadi%20mitra"
                   target="_blank"
                   rel="noopener"
                   className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
@@ -685,7 +685,7 @@ export default function MitraPage() {
                   📱 Daftar via WhatsApp
                 </a>
                 <a
-                  href="tel:+6285183033995"
+                  href="tel:+6281220821983"
                   className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
                 >
                   📞 Telepon Sekarang

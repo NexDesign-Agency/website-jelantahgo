@@ -23,7 +23,7 @@ export default function OrganizationSchema({
   logo = 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
   description = 'Pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai.',
   email = 'info.jelantahgo@gmail.com',
-  telephone = '+6285183033995',
+  telephone = '+6281220821983',
   address,
   sameAs = [],
 }: OrganizationSchemaProps) {

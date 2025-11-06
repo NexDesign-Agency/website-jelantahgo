@@ -19,7 +19,7 @@ interface ContactPageSchemaProps {
 export default function ContactPageSchema({
   name = 'JelantahGO',
   description = 'Hubungi JelantahGO untuk menjual minyak jelantah. Layanan penjemputan gratis, bayar tunai langsung.',
-  telephone = '+6285183033995',
+  telephone = '+6281220821983',
   email = 'info.jelantahgo@gmail.com',
   address,
   openingHours = ['Mo-Sa 11:00-23:00'],

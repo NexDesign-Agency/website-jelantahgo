@@ -6,7 +6,7 @@ import WhatsAppFloat from '@/components/WhatsAppFloat'
 
 export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
-  description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0851-8303-3995 sekarang!',
+  description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0812-2082-1983 sekarang!',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat',
   viewport: {
     width: 'device-width',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Jual Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
-    description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0851-8303-3995 sekarang!',
+    description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0812-2082-1983 sekarang!',
     url: 'https://jelantahgo.com',
     siteName: 'JelantahGO',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Jual Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
-    description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Hubungi 0851-8303-3995 sekarang!',
+    description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Hubungi 0812-2082-1983 sekarang!',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
   robots: {
@@ -65,11 +65,11 @@ export default function RootLayout({
               "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
               "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
               "url": "https://jelantahgo.com",
-              "telephone": "+6285183033995",
+              "telephone": "+6281220821983",
               "email": "info.jelantahgo@gmail.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "3c no 250, Jl. Papanggo I, Papanggo, Kec. Tj. Priok",
+                "streetAddress": "Jl. Papanggo 3C No.250, Papanggo, Kec. Tj. Priok",
                 "addressLocality": "Jakarta Utara",
                 "addressRegion": "Daerah Khusus Ibukota Jakarta",
                 "postalCode": "14340",
