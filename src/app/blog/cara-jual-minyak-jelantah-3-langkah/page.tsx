@@ -79,9 +79,9 @@ export default function CaraJual3LangkahPage() {
             <div className="lg:col-span-8">
               <Breadcrumb
                 items={[
-                  { name: 'Home', href: '/' },
-                  { name: 'Blog', href: '/blog' },
-                  { name: 'Cara Jual Minyak Jelantah 3 Langkah', href: '#' },
+                  { label: 'Home', href: '/' },
+                  { label: 'Blog', href: '/blog' },
+                  { label: 'Cara Jual Minyak Jelantah 3 Langkah', href: '#' },
                 ]}
               />
 
