@@ -252,10 +252,16 @@ export default function CaraKumpulkanPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="/blog/panduan-jual-minyak-jelantah"
+                  href="/blog/cara-jual-minyak-jelantah-3-langkah"
                   className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  Blueprint Lengkap Jual Jelantah →
+                  Cara Jual: 3 Langkah Mudah →
+                </Link>
+                <Link
+                  href="/blog/panduan-jual-minyak-jelantah"
+                  className="inline-block bg-white border-2 border-[#0F3D2E] text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl"
+                >
+                  Panduan Lengkap →
                 </Link>
                 <a
                   href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
@@ -285,4 +291,5 @@ export default function CaraKumpulkanPage() {
     </>
   )
 }
+
 

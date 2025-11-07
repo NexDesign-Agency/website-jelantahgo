@@ -203,12 +203,20 @@ export default function CaraMenyimpanPage() {
               <p className="text-gray-700 mb-6">
                 Sekarang Anda sudah tahu cara menyimpan jelantah dengan benar. Langkah selanjutnya adalah menghubungi pengepul terpercaya untuk menjual jelantah Anda dengan harga terbaik.
               </p>
-              <Link
-                href="/blog/panduan-jual-minyak-jelantah"
-                className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl mr-4"
-              >
-                Panduan Terlengkap Jual Minyak Jelantah 2025 →
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/blog/cara-jual-minyak-jelantah-3-langkah"
+                  className="inline-block bg-[#0F3D2E] text-white hover:bg-[#134E3A] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl text-center"
+                >
+                  Cara Jual: 3 Langkah Mudah →
+                </Link>
+                <Link
+                  href="/blog/panduan-jual-minyak-jelantah"
+                  className="inline-block bg-white border-2 border-[#0F3D2E] text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg transition-smooth shadow-soft-lg hover:shadow-soft-xl text-center"
+                >
+                  Panduan Lengkap →
+                </Link>
+              </div>
               <a
                 href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
                 target="_blank"

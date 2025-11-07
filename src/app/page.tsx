@@ -5,7 +5,7 @@ import { CheckCircle } from 'lucide-react'
 
 // Import komponen yang sudah ada
 import Calculator from '@/components/Calculator'
-import VideoSection from '@/components/VideoSection'
+import VideoPlayer from '@/components/VideoPlayer'
 import ServiceArea from '@/components/ServiceArea'
 import WhoCanSell from '@/components/WhoCanSell'
 import Testimonials from '@/components/Testimonials'
@@ -15,6 +15,37 @@ import BlogSection from '@/components/BlogSection'
 export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
   description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya. Hubungi sekarang!',
+  keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat, jual minyak jelantah, harga jelantah, pengepul terpercaya',
+  alternates: {
+    canonical: 'https://jelantahgo.com',
+  },
+  openGraph: {
+    title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
+    description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya. Hubungi sekarang!',
+    url: 'https://jelantahgo.com',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Jual Minyak Jelantah Jakarta - Pengepul Terpercaya',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
+    description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  authors: [{ name: 'JelantahGO' }],
 }
 
 export default function HomeNew() {
@@ -27,23 +58,26 @@ export default function HomeNew() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "JelantahGO Sunter",
-            "image": "https://jelantahgo.com/logo.jpg",
+            "@id": "https://jelantahgo.com/#localbusiness",
+            "name": "JelantahGO",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com",
-            "telephone": "+62-812-2082-1983",
-            "priceRange": "Rp 7.500 - Rp 8.500",
+            "telephone": "+6281220821983",
+            "email": "info.jelantahgo@gmail.com",
+            "priceRange": "Rp 7.500 - Rp 8.500 per liter",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Jl. Papanggo 3C No.250",
+              "streetAddress": "Jl. Papanggo 3C No.250, Papanggo, Kec. Tj. Priok",
               "addressLocality": "Jakarta Utara",
-              "addressRegion": "DKI Jakarta",
-              "postalCode": "14350",
+              "addressRegion": "Daerah Khusus Ibukota Jakarta",
+              "postalCode": "14340",
               "addressCountry": "ID"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": -6.1450,
-              "longitude": 106.8750
+              "latitude": -6.1176,
+              "longitude": 106.8722
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -51,6 +85,28 @@ export default function HomeNew() {
               "opens": "08:00",
               "closes": "20:00"
             },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Jakarta"
+              },
+              {
+                "@type": "City",
+                "name": "Tangerang"
+              },
+              {
+                "@type": "City",
+                "name": "Bekasi"
+              },
+              {
+                "@type": "City",
+                "name": "Depok"
+              },
+              {
+                "@type": "City",
+                "name": "Bogor"
+              }
+            ],
             "description": "Pengepul minyak jelantah terpercaya di Jakarta. Jemput gratis, bayar cash instan, harga terbaik Rp 7.500-8.500/liter."
           })
         }}
@@ -66,12 +122,31 @@ export default function HomeNew() {
             "serviceType": "Pengepul Minyak Jelantah",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "JelantahGO Sunter"
+              "@id": "https://jelantahgo.com/#localbusiness",
+              "name": "JelantahGO"
             },
-            "areaServed": {
-              "@type": "City",
-              "name": "Jakarta"
-            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Jakarta"
+              },
+              {
+                "@type": "City",
+                "name": "Tangerang"
+              },
+              {
+                "@type": "City",
+                "name": "Bekasi"
+              },
+              {
+                "@type": "City",
+                "name": "Depok"
+              },
+              {
+                "@type": "City",
+                "name": "Bogor"
+              }
+            ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
               "name": "Layanan Pembelian Minyak Jelantah",
@@ -80,22 +155,53 @@ export default function HomeNew() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Jual Minyak Jelantah Premium"
+                    "name": "Jual Minyak Jelantah Premium (≥200 Liter)"
                   },
                   "price": "8500",
-                  "priceCurrency": "IDR"
+                  "priceCurrency": "IDR",
+                  "description": "Harga tertinggi untuk volume besar, minimal 200 liter"
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Jual Minyak Jelantah Standar"
+                    "name": "Jual Minyak Jelantah Standar (100-199 Liter)"
+                  },
+                  "price": "8000",
+                  "priceCurrency": "IDR",
+                  "description": "Harga untuk volume menengah, 100-199 liter"
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Jual Minyak Jelantah Rumah Tangga (40-99 Liter)"
                   },
                   "price": "7500",
-                  "priceCurrency": "IDR"
+                  "priceCurrency": "IDR",
+                  "description": "Harga untuk volume kecil, minimal 40 liter"
                 }
               ]
             }
+          })
+        }}
+      />
+
+      {/* Schema Markup - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://jelantahgo.com"
+              }
+            ]
           })
         }}
       />
@@ -312,10 +418,20 @@ export default function HomeNew() {
         </div>
       </section>
 
-      {/* Calculator */}
+      {/* Calculator & Video */}
       <section id="kalkulator" className="py-20 bg-white">
         <div className="container-custom">
-          <Calculator />
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* Calculator - Kiri */}
+            <div>
+              <Calculator />
+            </div>
+            
+            {/* Video - Kanan */}
+            <div>
+              <VideoPlayer />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -342,14 +458,26 @@ export default function HomeNew() {
               { number: '4', title: 'Bayar Tunai', desc: 'Terima uang cash langsung', icon: '💵' },
             ].map((step, i) => (
               <div key={i} className="card-premium hover-lift group">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-card flex items-center justify-center text-2xl font-bold mb-4 shadow-soft group-hover:shadow-soft-lg transition-smooth">
-                  {step.number}
-                </div>
                 <div className="text-4xl mb-3">{step.icon}</div>
                 <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{step.title}</h3>
                 <p className="text-gray-600 text-sm">{step.desc}</p>
               </div>
             ))}
+          </div>
+
+          <div className="text-center mt-12 space-y-3">
+            <Link 
+              href="/blog/cara-jual-minyak-jelantah-3-langkah" 
+              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth mr-6"
+            >
+              Panduan 3 Langkah Mudah →
+            </Link>
+            <Link 
+              href="/cara-kerja" 
+              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
+            >
+              lihat cara kami bekerja →
+            </Link>
           </div>
         </div>
       </section>
@@ -358,12 +486,15 @@ export default function HomeNew() {
       <section className="py-20 bg-white">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              🏆 KEUNGGULAN
-            </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Kenapa Pilih Pengepul Kami?
+              🏆 Keunggulan Kami Sebagai Pengepul Minyak Jelantah
             </h2>
+            <Link 
+              href="/about" 
+              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
+            >
+              Mengenal JelantahGO lebih dekat →
+            </Link>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -384,34 +515,6 @@ export default function HomeNew() {
           </div>
         </div>
       </section>
-
-      {/* Quick Links */}
-      <section className="py-16 bg-[#F9F8F6]">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#0F3D2E] mb-4">
-              Informasi Lengkap
-            </h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-            {[
-              { href: '/cara-kerja', icon: '⚙️', title: 'Cara Kerja' },
-              { href: '/mitra', icon: '🤝', title: 'Jadi Mitra' },
-              { href: '/area-layanan', icon: '📍', title: 'Area Layanan' },
-              { href: '/testimoni', icon: '💬', title: 'Testimoni' },
-              { href: '/contact', icon: '📞', title: 'Hubungi Kami' },
-            ].map((link, i) => (
-              <Link key={i} href={link.href} className="card-premium hover-lift text-center group">
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">{link.icon}</div>
-                <h3 className="text-lg font-bold text-[#0F3D2E]">{link.title}</h3>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Video Section */}
-      <VideoSection />
 
       {/* Service Area */}
       <ServiceArea />

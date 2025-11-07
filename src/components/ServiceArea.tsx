@@ -58,7 +58,7 @@ export default function ServiceArea() {
             href="/area-layanan"
             className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
           >
-            Selengkapnya →
+            Selengkapnya tentang area layanan jelantahgo →
           </a>
         </div>
       </div>

@@ -1,7 +1,7 @@
 export default function BlogSection() {
   const articles = [
     {
-      title: 'Panduan Terlengkap Jual Minyak Jelantah 2025',
+      title: 'Panduan Lengkap Jual Minyak Jelantah Jakarta: Harga, Cara & Tips Terbaik 2025',
       excerpt: 'Semua yang perlu Anda tahu, dari cara menyimpan, cek harga, hingga memilih pengepul terpercaya...',
       link: '/blog/panduan-jual-minyak-jelantah',
       icon: '📖'
@@ -17,6 +17,24 @@ export default function BlogSection() {
       excerpt: 'Analisis lengkap modal, potensi keuntungan puluhan juta, dan strategi untuk memulai bisnis jelantah dari nol...',
       link: '/blog/peluang-bisnis-pengepul-jelantah',
       icon: '💼'
+    },
+    {
+      title: 'Update Harga Minyak Jelantah Jakarta 2025: Rp 7.500 - Rp 8.500 per Liter',
+      excerpt: 'Cek harga terbaru minyak jelantah di Jakarta. Transparan, akurat, dan update berkala. Dapatkan harga terbaik sesuai volume Anda...',
+      link: '/pricing',
+      icon: '💰'
+    },
+    {
+      title: 'Pengepul Minyak Jelantah Jakarta Terpercaya: Ciri-Ciri & Cara Memilihnya',
+      excerpt: 'Pelajari 5 ciri pengepul terpercaya dan cara memilih yang tepat. Hindari penipuan dan dapatkan transaksi aman & menguntungkan...',
+      link: '/blog/panduan-jual-minyak-jelantah#memilih-pengepul',
+      icon: '✅'
+    },
+    {
+      title: 'Cara Jual Minyak Jelantah: 3 Langkah Mudah (Gratis Jemput & Bayar Cash!)',
+      excerpt: 'Panduan praktis jual minyak jelantah dalam 3 langkah: Hubungi kami, gratis jemput, bayar cash di tempat. Prosesnya cepat & mudah. Mulai sekarang!',
+      link: '/blog/cara-jual-minyak-jelantah-3-langkah',
+      icon: '🚀'
     }
   ]
 

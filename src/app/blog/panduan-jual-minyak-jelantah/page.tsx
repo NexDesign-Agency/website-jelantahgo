@@ -201,6 +201,9 @@ export default function PanduanJualPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Gunakan Google dengan kata kunci seperti "jual minyak jelantah Jakarta". Pilih pengepul yang profesional. Namun, waspadalah terhadap oknum nakal. Pelajari <Link href="/blog/ciri-pengepul-jelantah-nakal" className="text-[#0F3D2E] font-semibold hover:underline">5 ciri pengepul jelantah nakal</Link> untuk melindungi diri Anda dari penipuan. Selain itu, hindari <Link href="/blog/kesalahan-penjual-jelantah-pemula" className="text-[#0F3D2E] font-semibold hover:underline">kesalahan fatal penjual jelantah pemula</Link> yang sering terjadi.
               </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                💡 <strong>Panduan Cepat:</strong> Ingin proses yang lebih sederhana? Baca <Link href="/blog/cara-jual-minyak-jelantah-3-langkah" className="text-[#0F3D2E] font-semibold hover:underline">Cara Jual Minyak Jelantah: 3 Langkah Mudah</Link> untuk panduan praktis step-by-step.
+              </p>
 
               <h3 className="text-2xl font-bold text-[#0F3D2E] mt-6 mb-4">Langkah 4: Proses Penjemputan & Penimbangan</h3>
               <p className="text-gray-700 leading-relaxed mb-4">

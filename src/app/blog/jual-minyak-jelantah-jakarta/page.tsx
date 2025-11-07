@@ -160,6 +160,9 @@ export default function JualJakartaPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 Kami merancang prosesnya agar sangat mudah, bahkan di tengah kesibukan Jakarta.
               </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                💡 <strong>Panduan Cepat:</strong> Untuk panduan step-by-step yang lebih detail, baca <Link href="/blog/cara-jual-minyak-jelantah-3-langkah" className="text-[#0F3D2E] font-semibold hover:underline">Cara Jual Minyak Jelantah: 3 Langkah Mudah</Link>
+              </p>
               <ol className="list-decimal pl-6 space-y-3 text-gray-700">
                 <li><strong>Kumpulkan Jelantah Anda:</strong> Simpan jelantah dalam jeriken atau wadah tertutup lainnya hingga mencapai minimal 40 liter.</li>
                 <li><strong>Hubungi JelantahGO:</strong> Kirim pesan WhatsApp ke nomor kami. Cukup sebutkan nama, estimasi volume, dan alamat lengkap Anda di Jakarta.</li>
