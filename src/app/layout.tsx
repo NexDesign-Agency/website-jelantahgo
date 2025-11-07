@@ -1,18 +1,19 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
+
 export const metadata: Metadata = {
   title: 'Jual Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
   description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0812-2082-1983 sekarang!',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
   openGraph: {
     title: 'Jual Minyak Jelantah Jakarta | Harga Tertinggi + Jemput Gratis',
     description: 'Jual minyak jelantah Jakarta dengan harga tertinggi Rp 7.500-8.500/liter di JelantahGO. Proses mudah, jemput GRATIS, bayar tunai langsung. Layanan penjemputan gratis untuk volume minimal 40 liter. Hubungi 0812-2082-1983 sekarang!',
