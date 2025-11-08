@@ -10,15 +10,15 @@ import ContactPageSchema from '@/components/ContactPageSchema'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Kontak JelantahGo Jakarta | WhatsApp 0812-2082-1983 - Pengepul Minyak Jelantah',
-  description: 'Hubungi JelantahGo untuk jual minyak jelantah di Jakarta. WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar langsung!',
-  keywords: 'kontak jelantahgo, hubungi jelantahgo, whatsapp jelantahgo, telepon jelantahgo, email jelantahgo, pengepul jelantah jakarta',
+  title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+  description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
+  keywords: 'kontak jelantahgo jakarta, whatsapp pengepul jelantah, hubungi jelantahgo, kantor jelantahgo jakarta utara, alamat jelantahgo, nomor telepon pengepul minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/contact',
   },
   openGraph: {
-    title: 'Kontak JelantahGo Jakarta | WhatsApp 0812-2082-1983 - Pengepul Minyak Jelantah',
-    description: 'Hubungi JelantahGo untuk jual minyak jelantah di Jakarta. WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar langsung!',
+    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
     url: 'https://jelantahgo.com/contact',
     siteName: 'JelantahGO',
     images: [
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kontak JelantahGo Jakarta | WhatsApp 0812-2082-1983 - Pengepul Minyak Jelantah',
-    description: 'Hubungi JelantahGo untuk jual minyak jelantah di Jakarta. WhatsApp 0812-2082-1983, response 5-30 menit.',
+    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp'],
   },
 }
@@ -88,13 +88,13 @@ export default function ContactPage() {
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
           <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            HUBUNGI KAMI
+            KONTAK FAST RESPONSE
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Hubungi JelantahGo - Pengepul Minyak Jelantah Terpercaya Jakarta
+            Hubungi JelantahGo Jakarta - Response 5-30 Menit!
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Ada pertanyaan atau ingin menjual minyak jelantah? Tim JelantahGo siap membantu Anda!
+            Ingin jual minyak jelantah hari ini? Tim JelantahGo siap membantu dengan proses cepat, transparan, dan bayar langsung. <strong>Penjemputan gratis ≥20L di seluruh Jakarta!</strong>
           </p>
         </div>
       </section>
@@ -104,8 +104,11 @@ export default function ContactPage() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              📞 Kontak Kami - Fast Response!
+              🚀 Kontak JelantahGo - Pilih Channel Tercepat!
             </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              4 cara mudah hubungi kami. WhatsApp paling cepat, telepon untuk urgent, email untuk B2B, atau langsung ke kantor.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
@@ -116,24 +119,24 @@ export default function ContactPage() {
                   <MessageCircle className="w-8 h-8" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">📱 WhatsApp (PALING CEPAT)</h3>
+              <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">📱 WhatsApp (REKOMENDASI #1)</h3>
               <p className="text-gray-700 font-semibold mb-4">+62 812-2082-1983</p>
               <ul className="text-sm text-gray-600 space-y-2 mb-4 text-left">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Response Time: 5-30 menit (jam kerja)</span>
+                  <span>⚡ Response: 5-30 menit (jam kerja)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Bisa kirim foto minyak jelantah</span>
+                  <span>📸 Kirim foto minyak untuk estimasi harga</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Chat kapan saja, kami balas di jam kerja</span>
+                  <span>💰 Konfirmasi harga real-time</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Konfirmasi harga instant</span>
+                  <span>🚚 Booking penjemputan langsung</span>
                 </li>
               </ul>
               <a
@@ -760,62 +763,64 @@ Bisa dibantu?`}
       <section className="py-20 hero-bg-dots">
         <div className="container-custom text-center relative z-10">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-white">
-            🚀 Siap Jual Minyak Jelantah Anda?
+            💰 Jual Minyak Jelantah Hari Ini, Uang Masuk Hari Ini!
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto text-white/90">
-            3 Cara Mudah Menghubungi Kami:
+            Jangan tunda lagi! Hubungi kami sekarang dan dapatkan uang tunai dari minyak jelantah Anda:
           </p>
           <div className="max-w-3xl mx-auto space-y-4 mb-8">
             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-card">
-              <p className="text-white font-semibold mb-2">1️⃣ WhatsApp (TERCEPAT)</p>
+              <p className="text-white font-semibold mb-2">🥇 WhatsApp (REKOMENDASI #1)</p>
               <a
-                href="https://wa.me/6281220821983?text=Halo%20JelantahGo,%20saya%20mau%20jual%20minyak%20jelantah"
+                href="https://wa.me/6281220821983?text=Halo%20JelantahGo,%20saya%20mau%20jual%20minyak%20jelantah%20hari%20ini"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:underline font-bold text-lg"
               >
                 📱 +62 812-2082-1983
               </a>
-              <p className="text-white/80 text-sm">⚡ Response: 5-30 menit</p>
+              <p className="text-white/80 text-sm">⚡ Response: 5-30 menit | Kirim foto untuk estimasi instant</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-card">
-              <p className="text-white font-semibold mb-2">2️⃣ Telepon Langsung</p>
+              <p className="text-white font-semibold mb-2">☎️ Telepon (Untuk Order Urgent)</p>
               <a href="tel:+6281220821983" className="text-white hover:underline font-bold text-lg">
                 📞 0812-2082-1983
               </a>
-              <p className="text-white/80 text-sm">🕐 Senin-Sabtu, 08.00-17.00 WIB</p>
+              <p className="text-white/80 text-sm">🕐 Senin-Sabtu, 08.00-17.00 | Bicara langsung dengan tim</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-card">
-              <p className="text-white font-semibold mb-2">3️⃣ Email</p>
+              <p className="text-white font-semibold mb-2">📧 Email (Untuk Kontrak B2B)</p>
               <a href="mailto:info.jelantahgo@gmail.com" className="text-white hover:underline font-bold text-lg">
                 📧 info.jelantahgo@gmail.com
               </a>
-              <p className="text-white/80 text-sm">📨 Response: 1-24 jam</p>
+              <p className="text-white/80 text-sm">📨 Response: 1-24 jam | Kerjasama hotel, restoran, catering</p>
             </div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-card max-w-2xl mx-auto">
-            <p className="text-white font-semibold mb-2">Atau Langsung Datang ke Kantor:</p>
-            <p className="text-white mb-2">📍 Jl. Papanggo 3C No.250, Jakarta Utara</p>
+            <p className="text-white font-semibold mb-2">🏢 Atau Datang Langsung ke Kantor (Tanpa Appointment):</p>
+            <p className="text-white mb-2">📍 Jl. Papanggo 3C No.250, Jakarta Utara 14340</p>
+            <p className="text-white/80 text-sm mb-3">🕐 Senin-Sabtu, 08.00-17.00 | Parkir tersedia</p>
             <a
               href="https://maps.google.com/?q=Jl.+Papanggo+3C+No.250,+Jakarta+Utara"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:underline inline-flex items-center gap-2"
+              className="text-white hover:underline inline-flex items-center gap-2 font-semibold"
             >
-              🗺️ Buka Google Maps
+              🗺️ Buka Google Maps & Directions
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>
           <div className="mt-8 text-center">
-            <p className="text-white/90 mb-2 font-semibold">JelantahGo - Komunikasi Mudah, Proses Cepat, Terpercaya!</p>
+            <p className="text-white/90 mb-2 font-semibold text-lg">⚡ JelantahGo Jakarta - Fast Response, Fair Price, Trusted!</p>
+            <p className="text-white/80 text-sm mb-4">30+ mitra aktif sejak 2020 | Ribuan transaksi sukses | Rating kepuasan tinggi</p>
             <div className="flex flex-wrap justify-center gap-2 text-white/70 text-sm">
-              <span>#KontakJelantahGo</span>
-              <span>#JualMinyakJelantahJakarta</span>
-              <span>#PengepulMinyakJelantah</span>
-              <span>#HubungiJelantahGo</span>
+              <span>#FastResponseJakarta</span>
+              <span>#JualJelantahHariIni</span>
+              <span>#PengepulTerpercaya</span>
+              <span>#BayarLangsung</span>
             </div>
             <p className="text-white/60 text-xs mt-4">
-              Update Terakhir: November 2025
+              Update Kontak: Desember 2024 | Jam operasional dapat berubah sewaktu-waktu
             </p>
           </div>
         </div>
