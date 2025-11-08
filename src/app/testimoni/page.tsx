@@ -3,10 +3,33 @@ import Image from 'next/image'
 import { Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Testimoni JelantahGO - 800+ Pelanggan Puas | JelantahGO',
-  description: 'Baca testimoni dari 800+ pelanggan JelantahGO yang puas dengan layanan penjemputan minyak jelantah. Kisah nyata dari ibu rumah tangga, pemilik warung, restoran, dan mitra pengepul.',
+  title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+  description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan. Response cepat, bayar langsung!',
+  keywords: 'testimoni jelantahgo, review pelanggan jelantahgo, pengalaman jual jelantah jakarta, testimoni pengepul minyak jelantah, review jual minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/testimoni',
+  },
+  openGraph: {
+    title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+    description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan. Response cepat, bayar langsung!',
+    url: 'https://jelantahgo.com/testimoni',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Testimoni pelanggan JelantahGo Jakarta',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+    description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp'],
   },
 }
 
@@ -71,13 +94,13 @@ export default function TestimoniPage() {
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
           <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            TESTIMONI PELANGGAN
+            TESTIMONI NYATA 🌟
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Testimoni JelantahGO - 800+ Pelanggan Puas
+            1000+ Testimoni Sukses Jual Jelantah di Jakarta
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Kisah Nyata dari 800+ Pelanggan yang Puas Jual Jelantah
+            Dengarkan kisah nyata pelanggan JelantahGo yang berhasil mengubah minyak jelantah jadi uang tunai. <strong>Dari ibu rumah tangga yang dapat Rp 300-400rb/bulan hingga pemilik warung yang meraup Rp 1-1.2jt/bulan!</strong>
           </p>
         </div>
       </section>
