@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { 
   DollarSign, MessageCircle, Phone, Mail, MapPin, CheckCircle, 
-  AlertCircle, TrendingUp, Calculator, HelpCircle, ExternalLink,
+  AlertCircle, TrendingUp, Calculator as CalculatorIcon, HelpCircle, ExternalLink,
   ArrowRight, Scale, Users, Calendar, Leaf, Home, UtensilsCrossed,
   Building2, Factory, Wallet, Eye, Shield
 } from 'lucide-react'
@@ -110,7 +110,7 @@ export default function PricingPage() {
               href="#kalkulator"
               className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
             >
-              <Calculator className="w-5 h-5" />
+              <CalculatorIcon className="w-5 h-5" />
               Hitung Penghasilan
             </Link>
           </div>
