@@ -5,15 +5,15 @@ import HowToSchema from '@/components/HowToSchema'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
-  description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai. Proses cepat, transparan, dan gratis di seluruh Jabodetabek.',
-  keywords: 'cara kerja jual minyak jelantah, panduan jual jelantah, proses jual minyak jelantah, cara menjual minyak goreng bekas',
+  title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
+  description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L. Hubungi JelantahGo 0812-2082-1983',
+  keywords: 'cara jual minyak jelantah, jual jelantah jakarta, pengepul minyak jelantah, minyak jelantah jakarta, cara kerja jual minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/cara-kerja',
   },
   openGraph: {
-    title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
-    description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai. Proses cepat, transparan, dan gratis di seluruh Jabodetabek.',
+    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L. Hubungi JelantahGo 0812-2082-1983',
     url: 'https://jelantahgo.com/cara-kerja',
     siteName: 'JelantahGO',
     images: [
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cara Kerja dan Proses Penjemputan Minyak Jelantah - JelantahGO',
-    description: 'Pahami cara kerja JelantahGO dalam 4 langkah mudah: kumpulkan jelantah, hubungi kami, tim jemput gratis, terima bayar tunai.',
+    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp'],
   },
 }
@@ -38,131 +38,139 @@ export const metadata: Metadata = {
 export default function CaraKerjaPage() {
   const faqsData = [
     {
-      question: 'Apakah penjemputan 100% gratis?',
-      answer: 'Ya, penjemputan 100% gratis tanpa biaya apapun untuk volume minimal 40 liter di seluruh area Jabodetabek, termasuk Jakarta, Tangerang, Bekasi, Depok, dan Bogor. Tidak ada biaya transport, biaya parkir, atau biaya tersembunyi lainnya. Kami jemput langsung ke lokasi Anda dengan kendaraan khusus yang dilengkapi timbangan digital.',
+      question: 'Apakah ada minimal order?',
+      answer: 'Tidak! Mulai dari 5 liter bisa dijual (antar ke kantor). Untuk penjemputan gratis, minimal 20 liter di seluruh area Jakarta.',
     },
     {
-      question: 'Berapa lama proses penjemputan di lokasi saya?',
-      answer: 'Proses penjemputan sangat cepat dan efisien. Untuk volume 40-100 liter, biasanya memakan waktu sekitar 15-30 menit dari mulai timbang hingga selesai pembayaran. Untuk volume 100-200 liter, proses sekitar 30-45 menit. Untuk volume di atas 200 liter, proses sekitar 45-60 menit. Tim kami sudah berpengalaman dan profesional, sehingga proses berjalan lancar tanpa membuang waktu Anda.',
+      question: 'Berapa lama prosesnya?',
+      answer: 'Maksimal 1-2 hari dari order hingga pembayaran. Biasanya bisa di hari yang sama! Response WhatsApp dalam 5-30 menit di jam kerja.',
     },
     {
-      question: 'Apakah saya harus di rumah saat penjemputan?',
-      answer: 'Ya, Anda atau perwakilan yang bertanggung jawab harus hadir saat penjemputan untuk menyaksikan proses penimbangan secara langsung, memverifikasi jumlah liter, dan menerima pembayaran tunai. Ini untuk memastikan transparansi dan keamanan transaksi. Jika Anda berhalangan, bisa minta perwakilan yang memahami volume jelantah Anda.',
+      question: 'Apakah harga bisa nego?',
+      answer: 'Untuk volume kecil (<20L), harga sudah fixed. Untuk volume ≥50 liter atau kontrak rutin, bisa nego harga lebih baik. Harga bervariasi Rp 3.000-5.000/liter.',
     },
     {
-      question: 'Bagaimana jika volume jelantah saya kurang dari 40 liter?',
-      answer: 'Tidak masalah! Ada beberapa opsi: 1) Anda bisa terus mengumpulkan jelantah sampai mencapai minimal 40 liter, 2) Bergabung dengan tetangga atau warga sekitar untuk mengumpulkan bersama-sama, atau 3) Mengantar langsung ke drop point kami jika volume cukup besar (minimal 20 liter untuk drop point). Kami juga menyarankan untuk menjadwalkan penjemputan rutin setiap bulan agar volume selalu mencukupi.',
+      question: 'Area mana saja yang dilayani?',
+      answer: 'Seluruh Jakarta: Utara, Selatan, Barat, Timur, Pusat. Penjemputan gratis untuk volume ≥20 liter ke seluruh area Jakarta.',
     },
     {
-      question: 'Bagaimana cara melakukan booking penjemputan?',
-      answer: 'Booking penjemputan sangat mudah! Hubungi kami via WhatsApp di nomor 0812-2082-1983 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam selama jam kerja (08:00-20:00 WIB) untuk mengkonfirmasi jadwal penjemputan.',
+      question: 'Apakah ada biaya tambahan?',
+      answer: 'TIDAK! Penjemputan ≥20L gratis. Tidak ada biaya admin atau potongan. Biaya transfer bank juga gratis (kami yang tanggung).',
     },
     {
-      question: 'Apakah bisa jadwal penjemputan di luar jam kerja atau weekend?',
-      answer: 'Ya, kami melayani penjemputan di luar jam kerja dan weekend untuk memenuhi kebutuhan pelanggan. Silakan sebutkan preferensi waktu Anda saat booking via WhatsApp. Kami akan berusaha mengakomodasi jadwal yang Anda inginkan, termasuk pagi hari (sebelum 08:00) atau malam hari (setelah 20:00) jika diperlukan. Untuk jadwal khusus seperti ini, biasanya kami akan konfirmasi 1-2 hari sebelumnya.',
+      question: 'Bagaimana kalau minyak tercampur air?',
+      answer: 'Tetap kami terima, tapi harga akan disesuaikan dengan kualitas. Tips: pisahkan dulu airnya untuk harga maksimal dengan cara diamkan 6-12 jam, air akan mengendap di bawah.',
     },
     {
-      question: 'Bagaimana jika saya butuh penjemputan urgent atau same-day?',
-      answer: 'Untuk penjemputan urgent same-day, kami akan berusaha mengakomodasi jika masih ada slot jadwal tersedia. Prioritas diberikan untuk volume besar (100+ liter) dan pelanggan rutin. Silakan sebutkan "urgent" atau "same-day" saat booking via WhatsApp. Tim kami akan segera merespons dan mengkonfirmasi apakah bisa dijadwalkan hari yang sama atau maksimal keesokan harinya.',
+      question: 'Minyak jenis apa yang diterima?',
+      answer: 'Semua jenis minyak goreng bekas: dari rumah tangga, restoran, hotel, industri F&B. Dari gorengan, ayam goreng, seafood, nasi goreng, kentang goreng, dll. Yang TIDAK diterima: oli bekas kendaraan, minyak pelumas, campuran bahan kimia.',
     },
   ]
 
   const steps = [
     {
       number: 1,
-      title: 'Kumpulkan Minyak Jelantah Anda',
-      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
+      title: 'Hubungi Kami',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_8_aa2c3g.webp',
       sections: [
         {
-          title: 'A. Pengumpulan',
+          title: 'Cara Menghubungi:',
           items: [
-            'Gunakan wadah tertutup yang tidak mudah bocor seperti jerigen.',
-            'Saring minyak untuk memisahkan sisa makanan.',
-            'Tutup rapat untuk menghindari bau dan tumpahan.',
-          ],
-          note: 'Pelajari cara menyimpan minyak jelantah yang benar dan cara kreatif mengumpulkan 100 liter jelantah per bulan.',
-        },
-        {
-          title: 'B. Volume Minimum',
-          items: [
-            'Minimal 40 liter untuk layanan penjemputan gratis.',
-            'Ajak tetangga atau kumpulkan bersama warung sekitar.',
+            '📱 WhatsApp (Paling Cepat): +62 812-2082-1983',
+            '📞 Telepon: 0812-2082-1983',
+            '📧 Email: info.jelantahgo@gmail.com',
+            '🌐 Website: www.jelantahgo.com (isi form kontak)',
           ],
         },
         {
-          title: 'C. Estimasi Waktu Pengumpulan',
+          title: 'Informasi yang Perlu Disiapkan:',
           items: [
-            'Rumah Tangga: 2-4 bulan.',
-            'Warung Makan: 1-2 minggu.',
-            'Restoran/Hotel: 3-7 hari.',
+            'Estimasi volume minyak jelantah (berapa liter/kg)',
+            'Lokasi Anda (area Jakarta mana)',
+            'Jenis minyak (dari rumah tangga, restoran, atau industri)',
+            'Jadwal yang diinginkan',
+          ],
+        },
+        {
+          title: 'Response Time:',
+          items: [
+            'Kami balas dalam 5-30 menit di jam kerja (Senin-Sabtu, 08.00-17.00 WIB)',
           ],
         },
       ],
     },
     {
       number: 2,
-      title: 'Hubungi JelantahGO',
-      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_8_aa2c3g.webp',
+      title: 'Konfirmasi Harga & Jadwal',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
       sections: [
         {
-          title: 'A. Via WhatsApp (Respon Cepat)',
+          title: 'Tim Kami Akan:',
           items: [
-            'Hubungi kami di 0812-2082-1983 dengan format:',
+            'Konfirmasi harga terbaru per liter (update setiap minggu)',
+            'Harga bervariasi Rp 3.000 - Rp 5.000/liter tergantung kualitas & volume',
+            'Cek volume & kualitas minyak jelantah Anda',
+            'Tentukan metode: Kami jemput (≥20L GRATIS) atau antar ke kantor',
+            'Jadwalkan waktu sesuai kebutuhan Anda',
           ],
-          code: `Nama: [Nama Anda]
-Alamat: [Alamat Lengkap]
-Volume: [Estimasi Liter]
-Jadwal Jemput: [Tanggal & Jam]`,
+        },
+        {
+          title: 'Tips Agar Harga Maksimal:',
+          items: [
+            'Pisahkan air dari minyak (diamkan dulu, air akan mengendap)',
+            'Saring dari sampah padat',
+            'Kumpulkan volume lebih banyak untuk nego harga lebih baik',
+          ],
         },
       ],
     },
     {
       number: 3,
-      title: 'Tim Kami Menjemput',
+      title: 'Penjemputan atau Pengantaran',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp',
       sections: [
         {
-          title: 'A. Kedatangan Tim',
+          title: 'Jika Kami yang Jemput (≥20L):',
           items: [
-            'Tim kami akan tiba sesuai jadwal yang disepakati.',
-            'Kurir dilengkapi dengan ID card resmi dan seragam.',
+            'Tim tiba di lokasi sesuai jadwal dengan kendaraan operasional',
+            'Verifikasi minyak jelantah dan penimbangan transparan',
+            'Anda bisa lihat langsung angka di layar timbangan digital',
+            'Hitung total: Berat (kg) × Harga per liter = Total pembayaran',
+            'Waktu proses di lokasi: 15-30 menit',
           ],
         },
         {
-          title: 'B. Penimbangan Transparan',
+          title: 'Jika Anda Antar ke Kantor (<20L):',
           items: [
-            'Penimbangan menggunakan timbangan digital yang akurat.',
-            'Anda dipersilakan untuk melihat angka pada timbangan.',
-          ],
-        },
-        {
-          title: 'C. Standar Kualitas Minyak',
-          items: [
-            'Kami menerima minyak jelantah yang tidak tercampur air, sabun, atau bahan kimia.',
+            'Alamat: Jl. Papanggo 3C No.250, Papanggo, Jakarta Utara 14340',
+            'Jam operasional: Senin-Sabtu, 08.00-17.00 WIB',
+            'Ada area parkir di depan kantor',
+            'Mudah dijangkau dari seluruh Jakarta',
           ],
         },
       ],
     },
     {
       number: 4,
-      title: 'Terima Pembayaran',
+      title: 'Terima Pembayaran & Selesai!',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_2_awh3lr.webp',
       sections: [
         {
-          title: 'A. Pembayaran Langsung',
+          title: 'Metode Pembayaran:',
           items: [
-            'Setelah volume disetujui, pembayaran dilakukan secara tunai di tempat.',
-            'Tidak ada biaya tersembunyi atau potongan.',
+            '💵 Tunai - Langsung cash di tempat, tidak perlu menunggu',
+            '🏦 Transfer Bank - Transfer instant setelah penimbangan ke bank mana saja',
+            'Biaya transfer gratis (kami yang tanggung)',
           ],
         },
         {
-          title: 'B. Bukti Transaksi',
+          title: 'Dokumen yang Anda Terima:',
           items: [
-            'Anda akan menerima nota resmi yang mencatat volume dan total pembayaran.',
+            'Nota/invoice resmi',
+            'Bukti transfer (jika via bank)',
+            'Nomor referensi transaksi',
+            'Untuk korporat: Faktur pajak, laporan bulanan, sertifikat pengepulan untuk CSR',
           ],
-          code: `Volume: 85 liter
-Harga: Rp 7.500/liter
-Total: 85 * 7.500 = Rp 637.500`,
         },
       ],
     },
@@ -170,23 +178,23 @@ Total: 85 * 7.500 = Rp 637.500`,
 
   const howToSteps = [
     {
-      name: 'Kumpulkan Minyak Jelantah Anda',
-      text: 'Gunakan wadah tertutup yang tidak mudah bocor seperti jerigen. Saring minyak untuk memisahkan sisa makanan. Tutup rapat untuk menghindari bau dan tumpahan. Minimal 40 liter untuk layanan penjemputan gratis.',
-      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
-    },
-    {
-      name: 'Hubungi JelantahGO',
-      text: 'Hubungi kami via WhatsApp di 0812-2082-1983 dengan menyebutkan: volume jelantah (perkiraan liter), alamat lengkap lokasi penjemputan, dan jadwal yang Anda inginkan. Tim kami akan merespons dalam waktu maksimal 2 jam.',
+      name: 'Hubungi Kami',
+      text: 'Hubungi kami via WhatsApp di +62 812-2082-1983, telepon, email, atau website. Siapkan informasi: estimasi volume, lokasi, jenis minyak, dan jadwal. Kami balas dalam 5-30 menit di jam kerja.',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_8_aa2c3g.webp',
     },
     {
-      name: 'Tim Kami Menjemput',
-      text: 'Tim kami akan tiba sesuai jadwal yang disepakati dengan timbangan digital yang akurat. Anda dipersilakan untuk melihat angka pada timbangan. Penimbangan dilakukan secara transparan di depan Anda.',
+      name: 'Konfirmasi Harga & Jadwal',
+      text: 'Tim kami konfirmasi harga terbaru per liter (Rp 3.000-5.000/liter), cek volume & kualitas, tentukan metode (jemput ≥20L gratis atau antar ke kantor), dan jadwalkan waktu sesuai kebutuhan.',
+      image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
+    },
+    {
+      name: 'Penjemputan atau Pengantaran',
+      text: 'Tim tiba sesuai jadwal dengan timbangan digital, verifikasi dan timbang transparan (15-30 menit), atau Anda antar ke kantor di Jl. Papanggo 3C No.250, Jakarta Utara (Senin-Sabtu, 08.00-17.00).',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp',
     },
     {
-      name: 'Terima Pembayaran',
-      text: 'Setelah volume disetujui, pembayaran dilakukan secara tunai di tempat. Tidak ada biaya tersembunyi atau potongan. Anda akan menerima nota resmi yang mencatat volume dan total pembayaran.',
+      name: 'Terima Pembayaran & Selesai',
+      text: 'Pembayaran tunai atau transfer instant setelah penimbangan, biaya transfer gratis. Terima nota resmi, bukti transfer, dan nomor referensi transaksi. Untuk korporat tersedia faktur pajak dan sertifikat.',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_2_awh3lr.webp',
     },
   ]
@@ -204,25 +212,13 @@ Total: 85 * 7.500 = Rp 637.500`,
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
           <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            CARA KERJA
+            CARA JUAL MINYAK JELANTAH
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Cara Kerja JelantahGO | 4 Langkah Mudah, Jemput Gratis
+            Cara Jual Minyak Jelantah di Jakarta - Mudah, Cepat & Menguntungkan
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Proses penjualan minyak jelantah dirancang agar mudah, cepat, dan transparan. Kami jemput langsung, timbang akurat, dan bayar tunai di tempat.{' '}
-            <Link href="/pricing" className="text-white underline hover:text-[#D9E3D3] font-semibold">
-              Lihat harga terbaru
-            </Link>{' '}
-            atau baca{' '}
-            <Link href="/blog/panduan-jual-minyak-jelantah" className="text-white underline hover:text-[#D9E3D3] font-semibold">
-              panduan lengkap jual minyak jelantah
-            </Link>
-            {' '}dan{' '}
-            <Link href="/blog/waktu-terbaik-jual-jelantah" className="text-white underline hover:text-[#D9E3D3] font-semibold">
-              waktu terbaik untuk menjual jelantah
-            </Link>
-            .
+            Bingung mau jual minyak jelantah kemana? Di JelantahGo, kami membuat proses jual minyak jelantah menjadi sangat mudah, transparan, dan menguntungkan. Sebagai pengepul minyak jelantah terpercaya di Jakarta sejak 2020, kami telah melayani 30+ mitra dengan sistem yang fair dan profesional. <strong>Waktu proses: Maksimal 1-2 hari dari order hingga uang masuk rekening Anda!</strong>
           </p>
         </div>
       </section>
@@ -232,10 +228,10 @@ Total: 85 * 7.500 = Rp 637.500`,
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              4 Langkah Mudah Menjadi Rupiah
+              🚀 Cara Jual Minyak Jelantah: 4 Langkah Mudah
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ikuti panduan sederhana ini untuk mengubah jelantah Anda menjadi uang tunai.
+              Ikuti panduan sederhana ini untuk mengubah minyak jelantah Anda menjadi uang tunai dengan proses yang transparan dan menguntungkan.
             </p>
           </div>
 
