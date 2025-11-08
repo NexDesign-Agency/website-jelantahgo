@@ -12,11 +12,11 @@ export default function CaraJualMenguntungkanPage() {
   return (
     <>
       <ArticleSchema
-        title="Cara Jual Minyak Jelantah yang Paling Menguntungkan: 5 Strategi Terbukti"
-        description="Pelajari 5 strategi jual minyak jelantah yang paling menguntungkan. Tips memilih pengepul, negosiasi harga, dan cara dapat harga terbaik untuk jelantah Anda."
+        title="Cara Jual Minyak Jelantah Rp 7.500-8.500/Liter: 5 Strategi Menguntungkan Terbukti"
+        description="5 strategi terbukti jual minyak jelantah harga maksimal Rp 8.500/liter! Tips memilih pengepul terpercaya, negosiasi harga premium, dan timing terbaik untuk profit maksimal."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_5_r4hdb5.webp"
-        datePublished="2025-09-30"
-        dateModified="2025-09-30"
+        datePublished="2024-12-15"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/cara-jual-jelantah-menguntungkan"
       />
       <BreadcrumbSchema

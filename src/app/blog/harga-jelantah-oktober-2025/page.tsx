@@ -12,18 +12,18 @@ export default function HargaOktober2025Page() {
   return (
     <>
       <ArticleSchema
-        title="Update Harga Minyak Jelantah Oktober 2025"
-        description="Update harga minyak jelantah Oktober 2025. Informasi lengkap harga per liter berdasarkan volume, faktor yang mempengaruhi harga, dan tips dapat harga terbaik."
+        title="Update Harga Minyak Jelantah Desember 2024 - Rp 7.500-8.500/Liter"
+        description="Update harga minyak jelantah Desember 2024: Rp 7.500-8.500/liter tergantung kualitas & volume. Harga naik signifikan karena demand tinggi. Tips dapat harga terbaik."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_12_qu8bdm.webp"
-        datePublished="2025-10-01"
-        dateModified="2025-10-01"
+        datePublished="2024-12-01"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/harga-jelantah-oktober-2025"
       />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: 'https://jelantahgo.com' },
           { name: 'Blog', url: 'https://jelantahgo.com/blog' },
-          { name: 'Update Harga Minyak Jelantah Oktober 2025', url: 'https://jelantahgo.com/blog/harga-jelantah-oktober-2025' },
+          { name: 'Update Harga Minyak Jelantah Desember 2024', url: 'https://jelantahgo.com/blog/harga-jelantah-oktober-2025' },
         ]}
       />
       {/* Hero Section */}
@@ -34,12 +34,12 @@ export default function HargaOktober2025Page() {
               Panduan Jual Jelantah
             </div>
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-              Update Harga Minyak Jelantah Oktober 2025
+              🔥 Update Harga Minyak Jelantah Desember 2024: Rp 7.500-8.500/Liter!
             </h1>
             <p className="text-lg text-white/90 leading-relaxed">
-              Analisis Harga & Faktor yang Mempengaruhinya
+              <strong>HARGA NAIK DRASTIS!</strong> Demand tinggi untuk biodiesel membuat harga jelantah melambung tinggi. Jual sekarang dapat harga maksimal!
             </p>
-            <p className="text-sm text-white/80 mt-2">Terakhir diperbarui: 1 Oktober 2025</p>
+            <p className="text-sm text-white/80 mt-2">Terakhir diperbarui: 28 Desember 2024</p>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function HargaOktober2025Page() {
         <div className="container-custom">
           <Image
             src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761963251/jelantahgo_hero_12_qu8bdm.webp"
-            alt="Update Harga Minyak Jelantah Oktober 2025"
+            alt="Update Harga Minyak Jelantah Desember 2024 - Rp 7.500-8.500/Liter"
             width={1200}
             height={630}
             className="w-full max-w-4xl mx-auto rounded-card-lg shadow-layered"
