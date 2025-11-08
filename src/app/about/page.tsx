@@ -5,20 +5,21 @@ import {
   Users, TrendingUp, Award, Target, Heart, Shield, DollarSign, Zap,
   Clock, MapPin, Phone, Mail, Globe, CheckCircle, Building, Leaf,
   Truck, Scale, Wallet, ArrowRight, Calendar, Users2, TrendingDown,
-  Factory, Handshake, GraduationCap, MessageCircle, Star
+  Factory, Handshake, GraduationCap, MessageCircle, Star, BookOpen,
+  ExternalLink, Home, UtensilsCrossed, Building2, Gauge, Eye
 } from 'lucide-react'
 import OrganizationSchema from '@/components/OrganizationSchema'
 
 export const metadata: Metadata = {
-  title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
-  description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. Kami mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan. 30+ mitra aktif, puluhan ribu liter terkumpul, berkontribusi pada ekonomi sirkular dan kelestarian lingkungan Jakarta.',
-  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo, pengepul minyak jelantah profesional, biodiesel jakarta',
+  title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya di Indonesia',
+  description: 'JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dan bernilai ekonomis. Sejak 2020, melayani rumah tangga, restoran, hotel, hingga industri F&B di Jakarta.',
+  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo, pengepul minyak jelantah profesional, biodiesel jakarta, pengepul minyak goreng bekas',
   alternates: {
     canonical: 'https://jelantahgo.com/about',
   },
   openGraph: {
-    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
-    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. 30+ mitra aktif, puluhan ribu liter terkumpul, berkontribusi pada ekonomi sirkular.',
+    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya di Indonesia',
+    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dan bernilai ekonomis.',
     url: 'https://jelantahgo.com/about',
     siteName: 'JelantahGO',
     images: [
@@ -34,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
-    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. 30+ mitra aktif, puluhan ribu liter terkumpul.',
+    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya di Indonesia',
+    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
 }
@@ -63,16 +64,35 @@ export default function AboutPage() {
             TENTANG KAMI
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-            Tentang JelantahGO - Pengepul Minyak Jelantah Jakarta Terpercaya
+            Tentang JelantahGo - Pengepul Minyak Jelantah Terpercaya di Indonesia
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-white/90">
-            Pengepul Minyak Jelantah Terpercaya Sejak 2020
+            Pengepul Minyak Jelantah Profesional Sejak 2020
           </p>
         </div>
       </section>
 
+      {/* Siapa Kami */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-8">
+              Siapa Kami
+            </h2>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-gray-700 leading-relaxed mb-4">
+                JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dan bernilai ekonomis. Kami hadir sebagai jembatan antara masyarakat, pelaku usaha kuliner, dan industri pengolahan biodiesel di Indonesia.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Sebagai pengepul minyak jelantah yang terpercaya, kami melayani berbagai segmen mulai dari rumah tangga, restoran, hotel, catering, hingga industri food & beverage berskala besar. Setiap tetes minyak jelantah yang Anda percayakan kepada kami akan diproses dengan standar kualitas tinggi dan berkontribusi pada kelestarian lingkungan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Image */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-[#F9F8F6]">
         <div className="container-custom">
           <Image
             src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
@@ -85,106 +105,683 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="py-16 bg-white">
+      {/* Sejarah & Perjalanan Kami */}
+      <section className="py-20 bg-white">
         <div className="container-custom">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { icon: <TrendingUp />, number: '5 Tahun+', label: 'Pengalaman' },
-              { icon: <Users />, number: '800+', label: 'Pelanggan Aktif' },
-              { icon: <Award />, number: '150K+', label: 'Liter Terkumpul' },
-              { icon: <Target />, number: 'Rp 1.2M+', label: 'Dibayarkan' },
-            ].map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-full flex items-center justify-center text-white mx-auto mb-4">
-                  {stat.icon}
-                </div>
-                <div className="text-3xl font-bold text-[#0F3D2E] mb-2">{stat.number}</div>
-                <div className="text-gray-600">{stat.label}</div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+              Sejarah & Perjalanan Kami
+            </h2>
+            
+            <div className="card-premium mb-8">
+              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-4">Awal Mula</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                JelantahGo didirikan pada tahun 2020 berawal dari keprihatinan kami melihat banyaknya minyak jelantah yang dibuang sembarangan ke saluran air di Jakarta, mencemari lingkungan, bahkan ada yang diolah kembali secara ilegal menjadi minyak goreng curang.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Kami percaya bahwa minyak jelantah memiliki nilai ekonomis yang tinggi jika dikelola dengan benar. Dengan tekad untuk menciptakan solusi win-win antara lingkungan dan ekonomi, kami memulai perjalanan sebagai pengepul minyak goreng bekas yang bertanggung jawab di Jakarta.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-center text-[#0F3D2E] mb-8">Milestone Kami</h3>
+              <div className="space-y-6">
+                {[
+                  {
+                    year: '2020',
+                    description: 'Memulai pengepulan minyak jelantah dari 5 restoran mitra di Jakarta Utara',
+                  },
+                  {
+                    year: '2021',
+                    description: 'Bermitra dengan pabrik biodiesel dan memperluas layanan ke seluruh wilayah Jakarta',
+                  },
+                  {
+                    year: '2022',
+                    description: 'Meluncurkan layanan penjemputan rutin dan mengumpulkan 10.000+ liter/bulan',
+                  },
+                  {
+                    year: '2023',
+                    description: 'Meluncurkan program "Jelantah Go Green" untuk edukasi masyarakat Jakarta',
+                  },
+                  {
+                    year: '2024',
+                    description: 'Membuka kantor resmi di Papanggo, Jakarta Utara dan melayani 30+ mitra aktif',
+                  },
+                  {
+                    year: '2025',
+                    description: 'Terus berkembang sebagai pengepul minyak jelantah terpercaya di Jakarta dengan komitmen ekspansi ke kota-kota besar lainnya',
+                  },
+                ].map((milestone, index) => (
+                  <div key={index} className="flex gap-6 items-start">
+                    <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-full flex items-center justify-center font-bold">
+                      {milestone.year}
+                    </div>
+                    <div className="flex-grow card-premium">
+                      <p className="text-gray-700">{milestone.description}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+              <p className="text-center text-gray-600 mt-8">
+                Perjalanan 5 tahun kami sebagai pengepul minyak jelantah terus berkembang, dan kami bangga menjadi bagian dari gerakan ekonomi sirkular di Jakarta.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Visi Misi */}
-      <section className="py-20 bg-gray-50">
+      {/* Visi & Misi */}
+      <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Visi dan Misi JelantahGO
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+            Visi & Misi
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
-                🎯
+            <div className="card-premium">
+              <div className="flex items-center gap-3 mb-4">
+                <Target className="w-8 h-8 text-[#0F3D2E]" />
+                <h3 className="text-2xl font-bold text-[#0F3D2E]">Visi Kami</h3>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Visi Kami</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Menjadi <strong>pengepul minyak jelantah terbesar dan terpercaya</strong> di Indonesia, 
-                sekaligus memberikan kontribusi nyata dalam pelestarian lingkungan melalui pengelolaan 
-                limbah minyak goreng bekas yang bertanggung jawab.
+              <p className="text-gray-700 leading-relaxed">
+                Menjadi pengepul minyak jelantah terdepan di Indonesia yang mengubah limbah menjadi berkah, menciptakan ekosistem daur ulang berkelanjutan, dan berkontribusi nyata pada kelestarian lingkungan.
               </p>
             </div>
             
-            <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] w-16 h-16 rounded-lg flex items-center justify-center text-white text-3xl mb-6">
-                🚀
+            <div className="card-premium">
+              <div className="flex items-center gap-3 mb-4">
+                <Zap className="w-8 h-8 text-[#0F3D2E]" />
+                <h3 className="text-2xl font-bold text-[#0F3D2E]">Misi Kami</h3>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Misi Kami</h3>
-              <ul className="text-gray-600 space-y-3">
-                <li>✓ Memberikan harga pembelian tertinggi di pasaran</li>
-                <li>✓ Layanan penjemputan gratis yang profesional</li>
-                <li>✓ Pembayaran tunai langsung di tempat</li>
-                <li>✓ Mengolah jelantah jadi biodiesel ramah lingkungan</li>
-                <li>✓ Memberdayakan masyarakat melalui program mitra</li>
-                <li>✓ Mengurangi pencemaran lingkungan</li>
+              <ul className="text-gray-700 space-y-3">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Mengumpulkan minyak jelantah dari seluruh Indonesia dengan sistem yang efisien dan transparan</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Memberikan harga terbaik kepada setiap mitra yang mempercayakan minyak jelantah mereka kepada kami</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Mendistribusikan minyak goreng bekas ke pabrik pengolahan resmi untuk dijadikan biodiesel dan produk ramah lingkungan</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Mengedukasi masyarakat tentang bahaya pembuangan minyak jelantah sembarangan dan nilai ekonomis yang dapat diperoleh</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Membangun jaringan pengepul minyak jelantah di seluruh nusantara untuk jangkauan yang lebih luas</span>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cerita */}
-      <section className="py-20">
+      {/* Nilai-Nilai Perusahaan */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+            Nilai-Nilai Perusahaan
+          </h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {[
+              {
+                icon: <Handshake className="w-8 h-8" />,
+                title: '🤝 Kepercayaan',
+                description: 'Kami membangun bisnis pengepulan minyak jelantah berdasarkan kejujuran dan transparansi',
+              },
+              {
+                icon: <Leaf className="w-8 h-8" />,
+                title: '🌱 Keberlanjutan',
+                description: 'Setiap keputusan kami prioritaskan dampak positif bagi lingkungan',
+              },
+              {
+                icon: <DollarSign className="w-8 h-8" />,
+                title: '💰 Keadilan',
+                description: 'Kami memberikan harga yang adil dan kompetitif untuk setiap liter minyak jelantah',
+              },
+              {
+                icon: <Zap className="w-8 h-8" />,
+                title: '⚡ Profesionalisme',
+                description: 'Layanan pengepul minyak goreng bekas kami cepat, efisien, dan dapat diandalkan',
+              },
+              {
+                icon: <BookOpen className="w-8 h-8" />,
+                title: '📚 Edukasi',
+                description: 'Kami percaya perubahan dimulai dari pengetahuan dan kesadaran',
+              },
+            ].map((value, index) => (
+              <div key={index} className="card-premium text-center">
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-[#0F3D2E] text-white rounded-full flex items-center justify-center">
+                    {value.icon}
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-3">{value.title}</h3>
+                <p className="text-gray-700">{value.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Mengapa JelantahGo Berbeda */}
+      <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Mengapa JelantahGO Didirikan?
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+              Mengapa JelantahGo Berbeda
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Sebagai Pengepul Minyak Jelantah Terpercaya
+            </p>
+            <p className="text-center text-gray-700 mb-8 text-lg">
+              Apa yang membuat kami berbeda dari pengepul minyak jelantah lainnya?
+            </p>
+            
+            <div className="space-y-6">
+              {[
+                {
+                  number: '1',
+                  title: 'Sistem Transparan',
+                  description: 'Kami menggunakan timbangan digital yang dapat Anda saksikan langsung. Tidak ada potongan atau pengurangan yang tidak masuk akal. Apa yang tertera di timbangan, itulah yang Anda terima.',
+                  icon: <Eye className="w-6 h-6" />,
+                },
+                {
+                  number: '2',
+                  title: 'Harga Kompetitif',
+                  description: 'Sebagai pengepul minyak goreng bekas yang bermitra langsung dengan pabrik biodiesel, kami bisa memberikan harga yang lebih baik karena tidak ada banyak perantara.',
+                  icon: <DollarSign className="w-6 h-6" />,
+                },
+                {
+                  number: '3',
+                  title: 'Pembayaran Cepat',
+                  description: 'Tunai langsung atau transfer di tempat setelah penimbangan. Tidak ada sistem tempo yang merugikan Anda.',
+                  icon: <Wallet className="w-6 h-6" />,
+                },
+                {
+                  number: '4',
+                  title: 'Layanan Fleksibel',
+                  description: 'Dari jumlah kecil rumah tangga hingga volume besar industri, kami siap melayani dengan sistem yang disesuaikan kebutuhan Anda.',
+                  icon: <Users className="w-6 h-6" />,
+                },
+                {
+                  number: '5',
+                  title: 'Legalitas Jelas',
+                  description: 'Kami adalah pengepul minyak jelantah berizin dengan dokumentasi lengkap dan bermitra dengan pabrik pengolahan resmi.',
+                  icon: <Shield className="w-6 h-6" />,
+                },
+              ].map((point, index) => (
+                <div key={index} className="card-premium">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#0F3D2E] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      {point.number}
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="text-[#0F3D2E]">
+                          {point.icon}
+                        </div>
+                        <h3 className="text-xl font-bold text-[#0F3D2E]">{point.title}</h3>
+                      </div>
+                      <p className="text-gray-700">{point.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tim Kami */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+              Tim Kami
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Di balik layanan pengepulan minyak jelantah JelantahGo, ada tim solid yang berdedikasi tinggi:
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              {[
+                {
+                  title: 'Tim Pengepul Lapangan',
+                  description: 'Berpengalaman dalam handling dan transportasi minyak jelantah dengan aman. Mereka adalah wajah JelantahGo yang akan Anda temui.',
+                  icon: <Truck className="w-8 h-8" />,
+                },
+                {
+                  title: 'Tim Quality Control',
+                  description: 'Memastikan setiap batch minyak goreng bekas yang dikumpulkan memenuhi standar kualitas untuk pengolahan biodiesel.',
+                  icon: <CheckCircle className="w-8 h-8" />,
+                },
+                {
+                  title: 'Tim Operasional',
+                  description: 'Mengatur jadwal pengambilan, logistik, dan memastikan proses pengepulan minyak jelantah berjalan efisien.',
+                  icon: <Calendar className="w-8 h-8" />,
+                },
+                {
+                  title: 'Tim Customer Service',
+                  description: 'Siap membantu Anda 6 hari seminggu untuk pertanyaan, keluhan, atau koordinasi penjemputan.',
+                  icon: <MessageCircle className="w-8 h-8" />,
+                },
+              ].map((team, index) => (
+                <div key={index} className="card-premium">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 bg-[#0F3D2E] text-white rounded-full flex items-center justify-center">
+                      {team.icon}
+                    </div>
+                    <h3 className="text-xl font-bold text-[#0F3D2E]">{team.title}</h3>
+                  </div>
+                  <p className="text-gray-700">{team.description}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-gray-600 mt-8">
+              Setiap anggota tim kami dilatih untuk memberikan layanan terbaik dan menjunjung tinggi nilai-nilai perusahaan kami sebagai pengepul minyak jelantah profesional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Komitmen Profesional */}
+      <section className="py-20 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+              Komitmen Profesional
+            </h2>
+            <p className="text-center text-gray-700 mb-8">
+              Sebagai pengepul minyak jelantah yang bertanggung jawab, kami beroperasi dengan prinsip profesional dan transparan:
+            </p>
+            
+            <div className="card-premium">
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  '✅ Kantor & Gudang Resmi di Jakarta Utara yang dapat Anda kunjungi',
+                  '✅ Kemitraan Resmi dengan pabrik biodiesel berlisensi di Indonesia',
+                  '✅ SOP Terstandar dalam pengepulan dan pengelolaan minyak goreng bekas',
+                  '✅ Sistem Pembayaran Legal dengan bukti transfer/nota yang jelas',
+                  '✅ Tracking & Dokumentasi lengkap untuk setiap transaksi',
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="text-center text-gray-700 mt-6 font-semibold">
+                Kami berkomitmen memberikan layanan pengepulan minyak jelantah yang profesional, aman, dan dapat dipertanggungjawabkan kepada setiap mitra kami.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Layanan Pengepulan Minyak Jelantah */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+            Layanan Pengepulan Minyak Jelantah
+          </h2>
+          <p className="text-center text-gray-600 mb-12">
+            Sebagai pengepul minyak jelantah yang komprehensif, kami melayani berbagai segmen:
+          </p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            {[
+              {
+                icon: <Home className="w-8 h-8" />,
+                title: '🏠 Rumah Tangga',
+                description: 'Minyak goreng bekas dari dapur Anda memiliki nilai! Minimal volume rendah, pembayaran tunai, cocok untuk ibu rumah tangga yang ingin penghasilan tambahan.',
+              },
+              {
+                icon: <UtensilsCrossed className="w-8 h-8" />,
+                title: '🍽️ Restoran & Warung',
+                description: 'Jadwal pengambilan rutin (mingguan/bulanan), kontrak kerjasama jangka panjang, dokumentasi lengkap untuk pembukuan bisnis Anda.',
+              },
+              {
+                icon: <Building2 className="w-8 h-8" />,
+                title: '🏨 Hotel & Catering',
+                description: 'Layanan pick-up terjadwal, volume besar, sistem kontrak B2B, sertifikat pengepulan untuk compliance perusahaan.',
+              },
+              {
+                icon: <Factory className="w-8 h-8" />,
+                title: '🏭 Industri Food & Beverage',
+                description: 'Tangki penyimpanan on-site, truk khusus untuk volume ratusan liter, tim dedicated untuk handling industri, reporting berkala.',
+              },
+            ].map((service, index) => (
+              <div key={index} className="card-premium">
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-[#0F3D2E] text-white rounded-full flex items-center justify-center">
+                    {service.icon}
+                  </div>
+                </div>
+                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3 text-center">{service.title}</h3>
+                <p className="text-gray-700 text-sm">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Proses Kerja Kami */}
+      <section className="py-20 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+              Proses Kerja Kami
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Bagaimana kami beroperasi sebagai pengepul minyak jelantah profesional?
+            </p>
+            
+            <div className="space-y-6">
+              {[
+                {
+                  number: '1',
+                  title: 'Pengumpulan',
+                  description: 'Tim kami menjemput minyak jelantah dari lokasi Anda sesuai jadwal yang disepakati. Untuk volume besar, kami sediakan wadah/tangki khusus.',
+                },
+                {
+                  number: '2',
+                  title: 'Quality Check',
+                  description: 'Setiap batch minyak goreng bekas diperiksa kualitasnya. Kami pastikan tidak ada kontaminan yang berlebihan.',
+                },
+                {
+                  number: '3',
+                  title: 'Penimbangan & Pembayaran',
+                  description: 'Timbangan digital transparan, pembayaran langsung sesuai berat terukur dan harga yang disepakati.',
+                },
+                {
+                  number: '4',
+                  title: 'Penyimpanan',
+                  description: 'Fasilitas penyimpanan kami memenuhi standar keamanan dengan tangki khusus dan sistem pencegahan tumpahan.',
+                },
+                {
+                  number: '5',
+                  title: 'Distribusi',
+                  description: 'Minyak jelantah didistribusikan ke mitra pabrik biodiesel untuk diolah menjadi bahan bakar ramah lingkungan.',
+                },
+              ].map((step, index) => (
+                <div key={index} className="card-premium">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#0F3D2E] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      {step.number}
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">{step.title}</h3>
+                      <p className="text-gray-700">{step.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-gray-600 mt-8">
+              Seluruh proses ini memastikan bahwa kami beroperasi sebagai pengepul minyak goreng bekas yang bertanggung jawab dan profesional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Komitmen Lingkungan */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+              Komitmen Lingkungan
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Lebih dari sekadar pengepul minyak jelantah, kami adalah agen perubahan untuk lingkungan yang lebih baik:
+            </p>
+            
+            <div className="card-premium mb-8">
+              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6 text-center">Dampak Nyata Kami</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                {[
+                  { icon: '📊', text: '50.000+ liter minyak jelantah terkumpul dalam 5 tahun operasional' },
+                  { icon: '🌍', text: '50+ juta liter air terselamatkan dari pencemaran di Jakarta' },
+                  { icon: '♻️', text: '35+ ton CO2 berkurang melalui penggunaan biodiesel' },
+                  { icon: '🤝', text: '30+ mitra aktif tersebar di seluruh Jakarta' },
+                  { icon: '📍', text: '5 wilayah Jakarta terlayani (Utara, Selatan, Barat, Timur, Pusat)' },
+                ].map((impact, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-2xl">{impact.icon}</span>
+                    <span className="text-gray-700">{impact.text}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="card-premium">
+              <div className="flex items-center gap-3 mb-4">
+                <GraduationCap className="w-8 h-8 text-[#0F3D2E]" />
+                <h3 className="text-2xl font-bold text-[#0F3D2E]">Program Edukasi</h3>
+              </div>
+              <p className="text-gray-700 mb-4">Kami rutin mengadakan:</p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Workshop tentang bahaya minyak jelantah dan cara pengelolaannya</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Kampanye di sekolah dan komunitas tentang daur ulang</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Pelatihan bagi calon mitra pengepul lokal</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                  <span>Sosialisasi ke UMKM kuliner tentang sistem pengepulan</span>
+                </li>
+              </ul>
+              <p className="text-gray-700 mt-6 font-semibold">
+                Sebagai pengepul minyak jelantah yang peduli, kami percaya edukasi adalah kunci perubahan jangka panjang.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Lokasi & Area Layanan */}
+      <section className="py-20 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+              Lokasi & Area Layanan
             </h2>
             
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Indonesia menghasilkan <strong>jutaan liter</strong> minyak goreng bekas setiap harinya. 
-                Sayangnya, sebagian besar masyarakat masih membuang jelantah sembarangan ke saluran air atau tanah. 
-                Padahal, <strong>1 liter jelantah dapat mencemari hingga 1 juta liter air bersih!</strong> Pelajari 
-                <Link href="/blog/ancaman-dan-peluang-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline"> bahaya membuang jelantah sembarangan</Link> dan 
-                <Link href="/cara-kerja" className="text-[#0F3D2E] font-semibold hover:underline"> cara kerja kami</Link> untuk solusinya.
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="card-premium">
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 flex items-center gap-2">
+                  <MapPin className="w-6 h-6" />
+                  Kantor & Gudang Pusat
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Jl. Papanggo 3C No.250, Papanggo<br />
+                  Kec. Tanjung Priok, Jakarta Utara<br />
+                  DKI Jakarta 14340
+                </p>
+                <a
+                  href="https://maps.google.com/?q=Jl.+Papanggo+3C+No.250,+Jakarta+Utara"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#0F3D2E] font-semibold hover:underline inline-flex items-center gap-2"
+                >
+                  📍 Lihat di Google Maps
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+
+              <div className="card-premium">
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-4">Area Layanan Pengepul Minyak Jelantah</h3>
+                <p className="text-gray-700 mb-4">Kami melayani seluruh wilayah DKI Jakarta:</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span><strong>Jakarta Utara:</strong> Kelapa Gading, Sunter, Tanjung Priok, Pluit, Ancol</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span><strong>Jakarta Pusat:</strong> Kemayoran, Menteng, Tanah Abang, Gambir, Senen</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span><strong>Jakarta Barat:</strong> Cengkareng, Kebon Jeruk, Grogol, Taman Sari, Tambora</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span><strong>Jakarta Selatan:</strong> Kebayoran, Cilandak, Mampang, Jagakarsa, Pasar Minggu</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span><strong>Jakarta Timur:</strong> Cakung, Pulogadung, Jatinegara, Kramat Jati, Matraman</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="card-premium">
+              <p className="text-gray-700 mb-2">
+                <strong>Layanan Penjemputan:</strong> Kami menyediakan layanan penjemputan ke seluruh Jakarta untuk volume minimal 20 liter. Untuk volume di bawah itu, Anda bisa antar langsung ke kantor kami.
               </p>
-              
-              <div className="grid md:grid-cols-3 gap-6 my-12">
-                <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
-                  <h4 className="font-bold text-gray-900 mb-2">🌊 Masalah Lingkungan</h4>
-                  <p className="text-gray-600 text-sm">
-                    Minyak jelantah yang dibuang sembarangan mencemari sumber air, merusak ekosistem, 
-                    dan menyumbat saluran pembuangan.
-                  </p>
+              <p className="text-gray-700">
+                <strong>Rencana Ekspansi:</strong> Sebagai pengepul minyak jelantah yang terus berkembang, kami berencana membuka layanan di Tangerang, Bekasi, Depok, dan Bogor dalam waktu dekat. Stay tuned!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Kemitraan & Kolaborasi */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
+              Kemitraan & Kolaborasi
+            </h2>
+            <p className="text-center text-gray-600 mb-8">
+              JelantahGo terbuka untuk berbagai bentuk kemitraan:
+            </p>
+            
+            <div className="space-y-6">
+              <div className="card-premium">
+                <div className="flex items-center gap-3 mb-4">
+                  <Factory className="w-8 h-8 text-[#0F3D2E]" />
+                  <h3 className="text-xl font-bold text-[#0F3D2E]">Mitra Pabrik Biodiesel</h3>
+                </div>
+                <p className="text-gray-700">
+                  Kami bekerja sama dengan pabrik biodiesel berlisensi yang mengolah minyak jelantah menjadi bahan bakar ramah lingkungan berkualitas tinggi.
+                </p>
+              </div>
+
+              <div className="card-premium">
+                <div className="flex items-center gap-3 mb-4">
+                  <Users className="w-8 h-8 text-[#0F3D2E]" />
+                  <h3 className="text-xl font-bold text-[#0F3D2E]">Mitra Pengepul Lokal</h3>
+                </div>
+                <p className="text-gray-700 mb-4">Ingin menjadi pengepul minyak jelantah di daerah Anda? Kami menyediakan program kemitraan dengan:</p>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span>Pelatihan operasional</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span>Sistem harga kompetitif</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span>Support marketing</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span>Bagi hasil yang menguntungkan</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="card-premium">
+                <div className="flex items-center gap-3 mb-4">
+                  <Building2 className="w-8 h-8 text-[#0F3D2E]" />
+                  <h3 className="text-xl font-bold text-[#0F3D2E]">Mitra Korporat</h3>
+                </div>
+                <p className="text-gray-700">
+                  Untuk perusahaan food & beverage yang ingin program CSR pengelolaan limbah minyak jelantah, kami siap berkolaborasi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hubungi Kami */}
+      <section className="py-20 bg-[#F9F8F6]">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-4">
+              Hubungi Kami
+            </h2>
+            <p className="text-center text-gray-600 mb-12">
+              Tertarik bermitra atau ingin menjual minyak jelantah Anda? Tim JelantahGo siap membantu!
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="card-premium">
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-4">Kontak Kami:</h3>
+                <div className="space-y-3">
+                  <a href="https://wa.me/6281220821983" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-700 hover:text-[#0F3D2E]">
+                    <MessageCircle className="w-5 h-5" />
+                    <span><strong>WhatsApp:</strong> +62 812-2082-1983 - Fast Response!</span>
+                  </a>
+                  <a href="mailto:info.jelantahgo@gmail.com" className="flex items-center gap-3 text-gray-700 hover:text-[#0F3D2E]">
+                    <Mail className="w-5 h-5" />
+                    <span><strong>Email:</strong> info.jelantahgo@gmail.com</span>
+                  </a>
+                  <Link href="/" className="flex items-center gap-3 text-gray-700 hover:text-[#0F3D2E]">
+                    <Globe className="w-5 h-5" />
+                    <span><strong>Website:</strong> www.jelantahgo.com</span>
+                  </Link>
+                  <div className="flex items-start gap-3 text-gray-700">
+                    <MapPin className="w-5 h-5 mt-0.5" />
+                    <div>
+                      <strong>Alamat:</strong><br />
+                      Jl. Papanggo 3C No.250, Papanggo,<br />
+                      Kec. Tanjung Priok, Jakarta Utara 14340
+                    </div>
+                  </div>
+                  <a
+                    href="https://maps.google.com/?q=Jl.+Papanggo+3C+No.250,+Jakarta+Utara"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 text-[#0F3D2E] font-semibold hover:underline"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                    <span>🗺️ Google Maps: Klik di sini</span>
+                  </a>
+                </div>
+              </div>
+
+              <div className="card-premium">
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-4">Jam Operasional:</h3>
+                <div className="space-y-3 text-gray-700">
+                  <p><strong>Senin - Sabtu:</strong> 08.00 - 17.00 WIB</p>
+                  <p><strong>Minggu:</strong> Libur (kecuali kontrak khusus)</p>
                 </div>
                 
-                <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500">
-                  <h4 className="font-bold text-gray-900 mb-2">💰 Nilai Ekonomi Terbuang</h4>
-                  <p className="text-gray-600 text-sm">
-                    Minyak jelantah sebenarnya punya nilai ekonomi tinggi. Bisa diolah jadi biodiesel, 
-                    sabun, lilin, dan produk bermanfaat lainnya.
-                  </p>
-                </div>
-                
-                <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-                  <h4 className="font-bold text-gray-900 mb-2">🎯 Solusi JelantahGO</h4>
-                  <p className="text-gray-600 text-sm">
-                    Kami hadir sebagai jembatan antara masyarakat dan industri pengolahan jelantah. 
-                    Memberikan harga tertinggi, proses mudah, dan dampak positif untuk lingkungan.
-                  </p>
+                <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 mt-6">Media Sosial:</h3>
+                <div className="space-y-2 text-gray-700">
+                  <p>📷 <strong>Instagram:</strong> @jelantahgo</p>
+                  <p>📘 <strong>Facebook:</strong> JelantahGo Official</p>
+                  <p>🎵 <strong>TikTok:</strong> @jelantahgo</p>
                 </div>
               </div>
             </div>
@@ -192,98 +789,42 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Perjalanan */}
-      <section className="py-20 bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Perjalanan JelantahGO
-          </h2>
-          
-          <div className="max-w-4xl mx-auto space-y-8">
-            {[
-              {
-                year: '2020',
-                title: 'Awal Mula',
-                description: 'Dimulai sebagai startup kecil dengan 1 tim kurir di Jakarta Utara. Dalam 3 bulan pertama berhasil kumpulkan 5.000 liter dari 50 pelanggan.',
-              },
-              {
-                year: '2021',
-                title: 'Ekspansi Layanan',
-                description: 'Memperluas area ke seluruh Jakarta. Tim bertambah jadi 5 orang. Mulai melayani warung, restoran, dan hotel.',
-              },
-              {
-                year: '2022',
-                title: 'Program Mitra',
-                description: 'Meluncurkan program mitra pengepul. Puluhan mitra bergabung. Berhasil kumpulkan 50.000+ liter dalam setahun.',
-              },
-              {
-                year: '2023',
-                title: 'Digitalisasi',
-                description: 'Launching website dan sistem online. Tracking penjemputan real-time. Layanan semakin profesional dan mudah.',
-              },
-              {
-                year: '2024-2025',
-                title: 'Semakin Terpercaya',
-                description: '800+ pelanggan aktif, 150K+ liter terkumpul, Rp 1,2M+ dibayarkan, 30+ mitra tersebar di berbagai wilayah.',
-              },
-            ].map((milestone, index) => (
-              <div key={index} className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-[#0F3D2E] to-[#134E3A] text-white rounded-full flex items-center justify-center font-bold text-sm">
-                  {milestone.year}
-                </div>
-                <div className="flex-grow bg-white rounded-lg p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{milestone.title}</h3>
-                  <p className="text-gray-600">{milestone.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
+      {/* CTA Final */}
       <section className="py-20 hero-bg-dots">
         <div className="container-custom text-center relative z-10">
-          <h2 className="text-3xl font-bold mb-6 text-white">
-            Mari Bersama Selamatkan Lingkungan!
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-white">
+            Mari Bergabung Bersama JelantahGo!
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-white/90">
-            Setiap liter minyak jelantah yang Anda jual adalah kontribusi nyata untuk bumi yang lebih bersih dan hijau!
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-white/90 leading-relaxed">
+            Jadilah bagian dari gerakan daur ulang minyak jelantah di Indonesia. Bersama JelantahGo - pengepul minyak jelantah terpercaya, mari kita ubah limbah menjadi berkah, ciptakan lingkungan yang lebih bersih, dan dapatkan nilai ekonomis dari minyak goreng bekas Anda.
+          </p>
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-white font-semibold">
+            Setiap tetes minyak jelantah Anda bernilai. Mari kita kelola bersama dengan bijak!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
+              href="https://wa.me/6281220821983?text=Halo%20JelantahGo,%20saya%20ingin%20jual%20minyak%20jelantah"
               target="_blank"
-              rel="noopener"
-              className="inline-block bg-[#0F3D2E] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#134E3A] transition-all shadow-soft-lg hover:shadow-soft-xl"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-[#0F3D2E] px-8 py-4 rounded-card font-bold hover:bg-[#D9E3D3] transition-all shadow-soft-lg hover:shadow-soft-xl"
             >
               Hubungi Kami Sekarang
             </a>
             <Link
-              href="/pricing"
-              className="inline-block bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition-all"
+              href="/cara-jual-minyak-jelantah"
+              className="inline-block bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-card font-bold hover:bg-white/20 transition-all"
             >
-              Lihat Harga Jelantah
+              Pelajari Cara Jual Jelantah
             </Link>
           </div>
           <div className="mt-8 text-center">
-            <p className="text-white/80 mb-4">Jelajahi lebih lanjut:</p>
-            <div className="flex flex-wrap justify-center gap-4 text-white/90">
-              <Link href="/cara-kerja" className="hover:text-white underline text-sm font-semibold">
-                Cara Kerja →
-              </Link>
-              <Link href="/mitra" className="hover:text-white underline text-sm font-semibold">
-                Program Mitra →
-              </Link>
-              <Link href="/area-layanan" className="hover:text-white underline text-sm font-semibold">
-                Area Layanan →
-              </Link>
-              <Link href="/testimoni" className="hover:text-white underline text-sm font-semibold">
-                Testimoni →
-              </Link>
-              <Link href="/blog" className="hover:text-white underline text-sm font-semibold">
-                Panduan Blog →
-              </Link>
+            <p className="text-white/80 mb-4">JelantahGo - Pengepul Minyak Jelantah Profesional & Terpercaya</p>
+            <div className="flex flex-wrap justify-center gap-2 text-white/70 text-sm">
+              <span>#PengepulMinyakJelantah</span>
+              <span>#JualMinyakJelantah</span>
+              <span>#DaurUlangJelantah</span>
+              <span>#BiodieselIndonesia</span>
+              <span>#JelantahGo</span>
             </div>
           </div>
         </div>
