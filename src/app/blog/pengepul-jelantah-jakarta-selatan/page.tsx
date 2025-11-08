@@ -12,11 +12,11 @@ export default function JakartaSelatanPage() {
   return (
     <>
       <ArticleSchema
-        title="Pengepul Jelantah Terpercaya di Jakarta Selatan"
-        description="Layanan pengepul jelantah profesional di Jakarta Selatan. Solusi cepat untuk kafe, restoran, dan UKM di Kemang, Senopati, Blok M. Penjemputan tepat waktu, harga kompetitif, pembayaran tunai."
+        title="Pengepul Jelantah Jakarta Selatan - Bayar Rp 7.500-8.500/L Tunai Langsung"
+        description="Pengepul minyak jelantah Jakarta Selatan bayar premium Rp 7.500-8.500/liter! Penjemputan gratis ≥20L di Kemang, Senopati, Blok M, Kebayoran. Response 5-30 menit, bayar instant."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163995/jelantahgo_13_krbsky.webp"
-        datePublished="2025-11-10"
-        dateModified="2025-11-10"
+        datePublished="2024-12-18"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/pengepul-jelantah-jakarta-selatan"
       />
       <BreadcrumbSchema

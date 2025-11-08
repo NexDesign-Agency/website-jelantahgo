@@ -30,11 +30,11 @@ export default function PanduanJualPage() {
     <>
       <FAQSchema faqs={faqsData} />
       <ArticleSchema
-        title="Panduan Terlengkap Jual Minyak Jelantah 2025: Harga & Pengepul"
-        description="Punya minyak jelantah? Jangan dibuang! Pelajari cara menjualnya dengan harga terbaik di tahun 2025. Panduan lengkap cara kumpul, cek harga, & pilih pengepul terpercaya."
+        title="Panduan Jual Minyak Jelantah Rp 7.500-8.500/L - Step by Step 2024"
+        description="Panduan terlengkap jual minyak jelantah harga maksimal Rp 8.500/liter! Tips kumpul volume, pilih pengepul terpercaya, negosiasi harga premium, dan strategi profit maksimal."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163995/jelantahgo_14_bfmpp8.webp"
-        datePublished="2025-10-22"
-        dateModified="2025-10-22"
+        datePublished="2024-12-15"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/panduan-jual-minyak-jelantah"
       />
       <BreadcrumbSchema

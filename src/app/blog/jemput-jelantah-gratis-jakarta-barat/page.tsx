@@ -12,11 +12,11 @@ export default function JakartaBaratGratisPage() {
   return (
     <>
       <ArticleSchema
-        title="Layanan Jemput Jelantah Gratis di Jakarta Barat"
-        description="Layanan jemput jelantah gratis untuk seluruh wilayah Jakarta Barat. Solusi praktis untuk warga dan UKM di Cengkareng, Kalideres, Kembangan, Kebon Jeruk. Tanpa biaya, pembayaran tunai langsung."
+        title="Jemput Jelantah Gratis Jakarta Barat Rp 7.500-8.500/L - Response 5-30 Menit"
+        description="Jemput minyak jelantah gratis Jakarta Barat bayar premium Rp 7.500-8.500/liter! Melayani Cengkareng, Kalideres, Kembangan, Kebon Jeruk. Response 5-30 menit, bayar tunai instant."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_12_owxvlk.webp"
-        datePublished="2025-11-12"
-        dateModified="2025-11-12"
+        datePublished="2024-12-20"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/jemput-jelantah-gratis-jakarta-barat"
       />
       <BreadcrumbSchema

@@ -12,11 +12,11 @@ export default function JakartaUtaraHargaPage() {
   return (
     <>
       <ArticleSchema
-        title="Harga Jual Minyak Jelantah Terbaik di Jakarta Utara"
-        description="Update harga jual minyak jelantah di Jakarta Utara (PIK, Kelapa Gading, Muara Karang) November 2025. Tips dapat harga terbaik, perbandingan pengepul jujur vs nakal, transparansi timbangan."
+        title="Harga Jual Minyak Jelantah Jakarta Utara Rp 7.500-8.500/L - Update Desember 2024"
+        description="Update harga minyak jelantah Jakarta Utara Rp 7.500-8.500/liter di PIK, Kelapa Gading, Muara Karang, Pantai Indah Kapuk. Penjemputan gratis ≥20L, bayar tunai instant!"
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_19_n7x6ka.webp"
-        datePublished="2025-11-11"
-        dateModified="2025-11-11"
+        datePublished="2024-12-22"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/harga-jual-minyak-jelantah-jakarta-utara"
       />
       <BreadcrumbSchema

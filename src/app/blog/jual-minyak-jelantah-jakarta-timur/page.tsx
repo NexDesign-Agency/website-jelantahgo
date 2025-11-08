@@ -12,11 +12,11 @@ export default function JakartaTimurPage() {
   return (
     <>
       <ArticleSchema
-        title="Jual Minyak Jelantah Jakarta Timur - Panduan 2025"
-        description="Panduan lengkap jual minyak jelantah di Jakarta Timur untuk warga dan industri. Layanan kolektif RT/RW, program B2B untuk pabrik makanan di Cakung, Pulogadung. Area: Rawamangun, Duren Sawit, Cibubur."
+        title="Jual Minyak Jelantah Jakarta Timur Rp 7.500-8.500/L - Penjemputan Gratis 2024"
+        description="Jual minyak jelantah Jakarta Timur harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥20L di Cakung, Pulogadung, Rawamangun, Duren Sawit, Cibubur. Bayar tunai instant."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163997/jelantahgo_11_ourqv3.webp"
-        datePublished="2025-11-13"
-        dateModified="2025-11-13"
+        datePublished="2024-12-20"
+        dateModified="2024-12-28"
         articleUrl="https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta-timur"
       />
       <BreadcrumbSchema
