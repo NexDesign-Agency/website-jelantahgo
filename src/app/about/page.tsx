@@ -1,19 +1,24 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Users, TrendingUp, Award, Target } from 'lucide-react'
+import { 
+  Users, TrendingUp, Award, Target, Heart, Shield, DollarSign, Zap,
+  Clock, MapPin, Phone, Mail, Globe, CheckCircle, Building, Leaf,
+  Truck, Scale, Wallet, ArrowRight, Calendar, Users2, TrendingDown,
+  Factory, Handshake, GraduationCap, MessageCircle, Star
+} from 'lucide-react'
 import OrganizationSchema from '@/components/OrganizationSchema'
 
 export const metadata: Metadata = {
-  title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
-  description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai. 800+ pelanggan puas, 150.000+ liter terkumpul.',
-  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo',
+  title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
+  description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. Kami mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan. 30+ mitra aktif, puluhan ribu liter terkumpul, berkontribusi pada ekonomi sirkular dan kelestarian lingkungan Jakarta.',
+  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo, pengepul minyak jelantah profesional, biodiesel jakarta',
   alternates: {
     canonical: 'https://jelantahgo.com/about',
   },
   openGraph: {
-    title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
-    description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai. 800+ pelanggan puas, 150.000+ liter terkumpul.',
+    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
+    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. 30+ mitra aktif, puluhan ribu liter terkumpul, berkontribusi pada ekonomi sirkular.',
     url: 'https://jelantahgo.com/about',
     siteName: 'JelantahGO',
     images: [
@@ -29,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tentang JelantahGO - Pengepul Jelantah Jakarta Sejak 2020 | JelantahGO',
-    description: 'Kenali JelantahGO, pengepul minyak jelantah terpercaya di Jakarta sejak 2020. Harga tertinggi Rp 8.500/L, jemput gratis, bayar tunai.',
+    title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Profesional Jakarta Sejak 2020',
+    description: 'JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. 30+ mitra aktif, puluhan ribu liter terkumpul.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
 }
