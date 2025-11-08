@@ -3,6 +3,22 @@ import Image from 'next/image'
 import FAQSchema from '@/components/FAQSchema'
 import HowToSchema from '@/components/HowToSchema'
 import Link from 'next/link'
+import { ReactNode } from 'react'
+
+// Type definitions
+interface Section {
+  title: string
+  items?: string[]
+  note?: ReactNode
+  code?: string
+}
+
+interface Step {
+  number: number
+  title: string
+  image: string
+  sections: Section[]
+}
 
 export const metadata: Metadata = {
   title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
@@ -67,7 +83,7 @@ export default function CaraKerjaPage() {
     },
   ]
 
-  const steps = [
+  const steps: Step[] = [
     {
       number: 1,
       title: 'Hubungi Kami',
@@ -276,14 +292,14 @@ export default function CaraKerjaPage() {
                             ))}
                           </ul>
                         )}
-                        {'note' in section && section.note && step.number === 1 && (
+                        {section.note && step.number === 1 && (
                           <div className="mt-4 p-4 bg-[#E8F0E3] rounded-card text-sm">
                             <p className="text-gray-700">
                               💡 <Link href="/blog/cara-menyimpan-minyak-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">Pelajari cara menyimpan minyak jelantah yang benar</Link> dan <Link href="/blog/cara-kumpulkan-100-liter-jelantah" className="text-[#0F3D2E] font-semibold hover:underline">cara kreatif mengumpulkan 100 liter jelantah per bulan</Link>.
                             </p>
                           </div>
                         )}
-                        {'code' in section && section.code && (
+                        {section.code && (
                           <div className="mt-4 bg-[#0F3D2E] text-white p-4 rounded-card font-mono text-sm whitespace-pre-wrap">
                             {section.code}
                           </div>
