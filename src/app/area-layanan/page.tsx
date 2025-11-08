@@ -5,15 +5,15 @@ import ServiceSchema from '@/components/ServiceSchema'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 
 export const metadata: Metadata = {
-  title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
-  description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat. Cek detail area layanan dan informasi penjemputan untuk wilayah Anda.',
-  keywords: 'area layanan jelantahgo, penjemputan minyak jelantah, jabodetabek, jakarta, bogor, depok, tangerang, bekasi',
+  title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
+  description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L. Response 5-30 menit. Cek area Anda!',
+  keywords: 'area layanan jelantahgo jakarta, penjemputan minyak jelantah jakarta utara selatan timur barat pusat, pengepul jelantah jakarta, jual minyak jelantah jakarta',
   alternates: {
     canonical: 'https://jelantahgo.com/area-layanan',
   },
   openGraph: {
-    title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
-    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung di tempat. Cek detail area layanan dan informasi penjemputan untuk wilayah Anda.',
+    title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
+    description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L. Response 5-30 menit.',
     url: 'https://jelantahgo.com/area-layanan',
     siteName: 'JelantahGO',
     images: [
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Area Layanan JelantahGO - Penjemputan Gratis Jabodetabek | JelantahGO',
-    description: 'JelantahGO melayani penjemputan minyak jelantah gratis di seluruh wilayah Jabodetabek untuk volume minimal 40 liter. Layanan cepat, profesional, dan bayar tunai langsung.',
+    title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
+    description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
 }
@@ -152,13 +152,13 @@ export default function AreaLayananPage() {
       <section className="hero-bg-dots py-20 lg:py-28">
         <div className="container-custom relative z-10 text-center">
           <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            AREA LAYANAN
+            🗺️ AREA LAYANAN JAKARTA
           </div>
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
-            Area Layanan JelantahGO | Penjemputan Gratis Jabodetabek
+            Penjemputan Gratis ≥20L di Seluruh Jakarta
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Kami Menjemput 'Emas Cair' Anda di Seluruh Penjuru Jabodetabek
+            <strong>5 wilayah Jakarta terlayani:</strong> Utara, Selatan, Timur, Barat, Pusat. Response 5-30 menit, bayar instant Rp 3.000-5.000/liter. <strong>Cek apakah area Anda sudah terlayani!</strong>
           </p>
         </div>
       </section>
