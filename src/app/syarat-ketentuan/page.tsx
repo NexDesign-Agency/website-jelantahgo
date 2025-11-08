@@ -3,8 +3,9 @@ import Image from 'next/image'
 import { FileText, CheckCircle, AlertCircle, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Syarat & Ketentuan Layanan JelantahGO | Legal & Compliance',
-  description: 'Syarat dan ketentuan lengkap layanan jual beli minyak jelantah JelantahGO. Ketahui standar kualitas jelantah, layanan penjemputan gratis, prosedur pembayaran tunai, dan kebijakan privasi.',
+  title: 'Syarat Ketentuan Jual Minyak Jelantah Jakarta | Standar Kualitas & Harga - JelantahGo',
+  description: 'Syarat ketentuan jual minyak jelantah di JelantahGo Jakarta: Standar kualitas, min 20L penjemputan gratis, bayar tunai langsung. Harga transparan Rp 3.000-5.000/L.',
+  keywords: 'syarat ketentuan jelantahgo, standar kualitas minyak jelantah, persyaratan jual jelantah jakarta, ketentuan pengepul minyak jelantah',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://jelantahgo.com/syarat-ketentuan',
@@ -18,13 +19,13 @@ export default function SyaratKetentuanPage() {
       <section className="hero-bg-dots py-20">
         <div className="container-custom text-center relative z-10">
           <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            LEGAL
+            SYARAT & KETENTUAN 📋
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-            Syarat & Ketentuan Layanan JelantahGO
+            Syarat Ketentuan Jual Minyak Jelantah Jakarta
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-white/90">
-            Harap baca syarat dan ketentuan kami dengan saksama
+            Panduan lengkap standar kualitas, harga transparan, dan proses jual beli yang fair untuk semua pelanggan JelantahGo Jakarta
           </p>
         </div>
       </section>
