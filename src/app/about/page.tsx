@@ -11,8 +11,8 @@ import {
 import OrganizationSchema from '@/components/OrganizationSchema'
 
 export const metadata: Metadata = {
-  title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya di Indonesia',
-  description: 'JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dan bernilai ekonomis. Sejak 2020, melayani rumah tangga, restoran, hotel, hingga industri F&B di Jakarta.',
+  title: 'Pengepul Minyak Jelantah Terpercaya Jakarta Sejak 2020 | JelantahGo',
+  description: 'JelantahGo adalah pengepul minyak jelantah profesional di Jakarta sejak 2020. Melayani 30+ mitra dengan harga terbaik, proses transparan, dan komitmen lingkungan. Hub: 0812-2082-1983',
   keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo, pengepul minyak jelantah profesional, biodiesel jakarta, pengepul minyak goreng bekas',
   alternates: {
     canonical: 'https://jelantahgo.com/about',
@@ -64,7 +64,7 @@ export default function AboutPage() {
             TENTANG KAMI
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-            Tentang JelantahGo - Pengepul Minyak Jelantah Terpercaya di Indonesia
+            Tentang JelantahGo - Pengepul Minyak Jelantah Terpercaya di Jakarta
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-white/90">
             Pengepul Minyak Jelantah Profesional Sejak 2020
@@ -81,10 +81,10 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-4">
-                JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dan bernilai ekonomis. Kami hadir sebagai jembatan antara masyarakat, pelaku usaha kuliner, dan industri pengolahan biodiesel di Indonesia.
+                JelantahGo adalah pengepul minyak jelantah profesional yang beroperasi di Jakarta sejak 2020. Kami mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan dengan membeli minyak jelantah dari rumah tangga, restoran, hotel, hingga industri food & beverage.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Sebagai pengepul minyak jelantah yang terpercaya, kami melayani berbagai segmen mulai dari rumah tangga, restoran, hotel, catering, hingga industri food & beverage berskala besar. Setiap tetes minyak jelantah yang Anda percayakan kepada kami akan diproses dengan standar kualitas tinggi dan berkontribusi pada kelestarian lingkungan.
+                Dalam 5 tahun operasional, kami telah melayani 30+ mitra aktif dan mengumpulkan puluhan ribu liter minyak jelantah yang kemudian diolah menjadi biodiesel oleh pabrik mitra kami. Setiap tetes minyak jelantah yang Anda jual kepada kami berkontribusi pada ekonomi sirkular dan kelestarian lingkungan Jakarta.
               </p>
             </div>
           </div>
@@ -114,42 +114,42 @@ export default function AboutPage() {
             </h2>
             
             <div className="card-premium mb-8">
-              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-4">Awal Mula</h3>
+              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-4">Awal Mula (2020)</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                JelantahGo didirikan pada tahun 2020 berawal dari keprihatinan kami melihat banyaknya minyak jelantah yang dibuang sembarangan ke saluran air di Jakarta, mencemari lingkungan, bahkan ada yang diolah kembali secara ilegal menjadi minyak goreng curang.
+                JelantahGo lahir dari keprihatinan melihat minyak jelantah dibuang sembarangan ke saluran air Jakarta, mencemari lingkungan dan ekosistem. Kami percaya minyak jelantah memiliki nilai ekonomis tinggi jika dikelola dengan benar.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Kami percaya bahwa minyak jelantah memiliki nilai ekonomis yang tinggi jika dikelola dengan benar. Dengan tekad untuk menciptakan solusi win-win antara lingkungan dan ekonomi, kami memulai perjalanan sebagai pengepul minyak goreng bekas yang bertanggung jawab di Jakarta.
+                Berawal dari 5 restoran mitra di Jakarta Utara, kami membangun sistem pengepulan minyak goreng bekas yang transparan, menguntungkan, dan ramah lingkungan.
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-center text-[#0F3D2E] mb-8">Milestone Kami</h3>
+              <h3 className="text-2xl font-bold text-center text-[#0F3D2E] mb-8">Milestone 5 Tahun</h3>
               <div className="space-y-6">
                 {[
                   {
                     year: '2020',
-                    description: 'Memulai pengepulan minyak jelantah dari 5 restoran mitra di Jakarta Utara',
+                    description: 'Memulai dengan 5 restoran mitra di Jakarta Utara',
                   },
                   {
                     year: '2021',
-                    description: 'Bermitra dengan pabrik biodiesel dan memperluas layanan ke seluruh wilayah Jakarta',
+                    description: 'Bermitra dengan pabrik biodiesel & ekspansi ke seluruh Jakarta',
                   },
                   {
                     year: '2022',
-                    description: 'Meluncurkan layanan penjemputan rutin dan mengumpulkan 10.000+ liter/bulan',
+                    description: 'Meluncurkan layanan penjemputan rutin (10.000+ liter/bulan)',
                   },
                   {
                     year: '2023',
-                    description: 'Meluncurkan program "Jelantah Go Green" untuk edukasi masyarakat Jakarta',
+                    description: 'Program "Jelantah Go Green" untuk edukasi masyarakat',
                   },
                   {
                     year: '2024',
-                    description: 'Membuka kantor resmi di Papanggo, Jakarta Utara dan melayani 30+ mitra aktif',
+                    description: 'Kantor resmi di Papanggo & 30+ mitra aktif',
                   },
                   {
                     year: '2025',
-                    description: 'Terus berkembang sebagai pengepul minyak jelantah terpercaya di Jakarta dengan komitmen ekspansi ke kota-kota besar lainnya',
+                    description: 'Rencana ekspansi ke Jabodetabek',
                   },
                 ].map((milestone, index) => (
                   <div key={index} className="flex gap-6 items-start">
@@ -184,7 +184,7 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold text-[#0F3D2E]">Visi Kami</h3>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                Menjadi pengepul minyak jelantah terdepan di Indonesia yang mengubah limbah menjadi berkah, menciptakan ekosistem daur ulang berkelanjutan, dan berkontribusi nyata pada kelestarian lingkungan.
+                Menjadi pengepul minyak jelantah terdepan di Indonesia yang menciptakan ekosistem daur ulang berkelanjutan dan memberikan nilai ekonomis maksimal bagi setiap mitra.
               </p>
             </div>
             
@@ -196,23 +196,19 @@ export default function AboutPage() {
               <ul className="text-gray-700 space-y-3">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Mengumpulkan minyak jelantah dari seluruh Indonesia dengan sistem yang efisien dan transparan</span>
+                  <span>Mengumpulkan minyak jelantah dengan harga terbaik dan proses transparan</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Memberikan harga terbaik kepada setiap mitra yang mempercayakan minyak jelantah mereka kepada kami</span>
+                  <span>Mendistribusikan ke pabrik pengolahan resmi untuk biodiesel berkualitas</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Mendistribusikan minyak goreng bekas ke pabrik pengolahan resmi untuk dijadikan biodiesel dan produk ramah lingkungan</span>
+                  <span>Mengedukasi masyarakat Jakarta tentang nilai ekonomis minyak jelantah</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Mengedukasi masyarakat tentang bahaya pembuangan minyak jelantah sembarangan dan nilai ekonomis yang dapat diperoleh</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Membangun jaringan pengepul minyak jelantah di seluruh nusantara untuk jangkauan yang lebih luas</span>
+                  <span>Membangun jaringan pengepul di seluruh Indonesia</span>
                 </li>
               </ul>
             </div>
@@ -231,28 +227,23 @@ export default function AboutPage() {
             {[
               {
                 icon: <Handshake className="w-8 h-8" />,
-                title: '🤝 Kepercayaan',
-                description: 'Kami membangun bisnis pengepulan minyak jelantah berdasarkan kejujuran dan transparansi',
+                title: '🤝 Transparansi',
+                description: 'Timbangan digital, harga jelas, bayar langsung',
               },
               {
                 icon: <Leaf className="w-8 h-8" />,
-                title: '🌱 Keberlanjutan',
-                description: 'Setiap keputusan kami prioritaskan dampak positif bagi lingkungan',
+                title: '🌱 Sustainability',
+                description: 'Setiap keputusan prioritaskan dampak lingkungan',
               },
               {
                 icon: <DollarSign className="w-8 h-8" />,
                 title: '💰 Keadilan',
-                description: 'Kami memberikan harga yang adil dan kompetitif untuk setiap liter minyak jelantah',
+                description: 'Harga pasar terbaik tanpa potongan tersembunyi',
               },
               {
                 icon: <Zap className="w-8 h-8" />,
-                title: '⚡ Profesionalisme',
-                description: 'Layanan pengepul minyak goreng bekas kami cepat, efisien, dan dapat diandalkan',
-              },
-              {
-                icon: <BookOpen className="w-8 h-8" />,
-                title: '📚 Edukasi',
-                description: 'Kami percaya perubahan dimulai dari pengetahuan dan kesadaran',
+                title: '⚡ Profesional',
+                description: 'Cepat, efisien, dapat diandalkan',
               },
             ].map((value, index) => (
               <div key={index} className="card-premium text-center">
@@ -287,33 +278,33 @@ export default function AboutPage() {
               {[
                 {
                   number: '1',
-                  title: 'Sistem Transparan',
-                  description: 'Kami menggunakan timbangan digital yang dapat Anda saksikan langsung. Tidak ada potongan atau pengurangan yang tidak masuk akal. Apa yang tertera di timbangan, itulah yang Anda terima.',
-                  icon: <Eye className="w-6 h-6" />,
-                },
-                {
-                  number: '2',
-                  title: 'Harga Kompetitif',
-                  description: 'Sebagai pengepul minyak goreng bekas yang bermitra langsung dengan pabrik biodiesel, kami bisa memberikan harga yang lebih baik karena tidak ada banyak perantara.',
+                  title: 'Harga Kompetitif & Transparan',
+                  description: 'Bermitra langsung dengan pabrik biodiesel, kami memberikan harga lebih baik tanpa banyak perantara. Update harga rutin sesuai pasar.',
                   icon: <DollarSign className="w-6 h-6" />,
                 },
                 {
+                  number: '2',
+                  title: 'Timbangan Digital Transparan',
+                  description: 'Tidak ada potongan tidak wajar. Anda bisa saksikan penimbangan langsung. Yang tertera = yang Anda terima.',
+                  icon: <Eye className="w-6 h-6" />,
+                },
+                {
                   number: '3',
-                  title: 'Pembayaran Cepat',
-                  description: 'Tunai langsung atau transfer di tempat setelah penimbangan. Tidak ada sistem tempo yang merugikan Anda.',
+                  title: 'Pembayaran Instant',
+                  description: 'Tunai atau transfer langsung di tempat setelah penimbangan. Tanpa sistem tempo.',
                   icon: <Wallet className="w-6 h-6" />,
                 },
                 {
                   number: '4',
                   title: 'Layanan Fleksibel',
-                  description: 'Dari jumlah kecil rumah tangga hingga volume besar industri, kami siap melayani dengan sistem yang disesuaikan kebutuhan Anda.',
+                  description: 'Dari botol kecil rumah tangga (bisa antar ke kantor) hingga ratusan liter industri (kami jemput).',
                   icon: <Users className="w-6 h-6" />,
                 },
                 {
                   number: '5',
-                  title: 'Legalitas Jelas',
-                  description: 'Kami adalah pengepul minyak jelantah berizin dengan dokumentasi lengkap dan bermitra dengan pabrik pengolahan resmi.',
-                  icon: <Shield className="w-6 h-6" />,
+                  title: 'Kantor & Gudang Resmi',
+                  description: 'Alamat jelas di Papanggo, Jakarta Utara. Buka 6 hari seminggu. Anda bisa datang langsung.',
+                  icon: <Building className="w-6 h-6" />,
                 },
               ].map((point, index) => (
                 <div key={index} className="card-premium">
@@ -486,28 +477,33 @@ export default function AboutPage() {
               {[
                 {
                   number: '1',
-                  title: 'Pengumpulan',
-                  description: 'Tim kami menjemput minyak jelantah dari lokasi Anda sesuai jadwal yang disepakati. Untuk volume besar, kami sediakan wadah/tangki khusus.',
+                  title: 'Hubungi Kami',
+                  description: 'WhatsApp/telepon/email untuk koordinasi penjemputan atau pengantaran.',
                 },
                 {
                   number: '2',
-                  title: 'Quality Check',
-                  description: 'Setiap batch minyak goreng bekas diperiksa kualitasnya. Kami pastikan tidak ada kontaminan yang berlebihan.',
+                  title: 'Konfirmasi',
+                  description: 'Volume, lokasi, jadwal - tim kami akan mengatur semuanya.',
                 },
                 {
                   number: '3',
-                  title: 'Penimbangan & Pembayaran',
-                  description: 'Timbangan digital transparan, pembayaran langsung sesuai berat terukur dan harga yang disepakati.',
+                  title: 'Penjemputan/Antar',
+                  description: 'Min. 20L kami jemput gratis | <20L bisa antar ke kantor kami.',
                 },
                 {
                   number: '4',
-                  title: 'Penyimpanan',
-                  description: 'Fasilitas penyimpanan kami memenuhi standar keamanan dengan tangki khusus dan sistem pencegahan tumpahan.',
+                  title: 'Penimbangan',
+                  description: 'Timbangan digital transparan, Anda saksikan langsung prosesnya.',
                 },
                 {
                   number: '5',
+                  title: 'Pembayaran',
+                  description: 'Tunai/transfer instant dengan nota resmi, tanpa potongan.',
+                },
+                {
+                  number: '6',
                   title: 'Distribusi',
-                  description: 'Minyak jelantah didistribusikan ke mitra pabrik biodiesel untuk diolah menjadi bahan bakar ramah lingkungan.',
+                  description: 'Kami kirim ke pabrik biodiesel mitra untuk pengolahan ramah lingkungan.',
                 },
               ].map((step, index) => (
                 <div key={index} className="card-premium">
@@ -542,14 +538,14 @@ export default function AboutPage() {
             </p>
             
             <div className="card-premium mb-8">
-              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6 text-center">Dampak Nyata Kami</h3>
+              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6 text-center">Dampak Kami di Jakarta - Pencapaian 5 Tahun (2020-2025)</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 {[
-                  { icon: '📊', text: '50.000+ liter minyak jelantah terkumpul dalam 5 tahun operasional' },
-                  { icon: '🌍', text: '50+ juta liter air terselamatkan dari pencemaran di Jakarta' },
-                  { icon: '♻️', text: '35+ ton CO2 berkurang melalui penggunaan biodiesel' },
-                  { icon: '🤝', text: '30+ mitra aktif tersebar di seluruh Jakarta' },
-                  { icon: '📍', text: '5 wilayah Jakarta terlayani (Utara, Selatan, Barat, Timur, Pusat)' },
+                  { icon: '📊', text: '50.000+ liter minyak jelantah terkumpul' },
+                  { icon: '🌍', text: '50+ juta liter air Jakarta terselamatkan dari pencemaran' },
+                  { icon: '♻️', text: '35+ ton CO2 berkurang melalui biodiesel' },
+                  { icon: '🤝', text: '30+ mitra aktif di 5 wilayah Jakarta' },
+                  { icon: '✅', text: '500+ transaksi berhasil dengan kepuasan tinggi' },
                 ].map((impact, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <span className="text-2xl">{impact.icon}</span>
