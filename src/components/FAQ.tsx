@@ -13,7 +13,7 @@ export default function FAQ() {
     },
     {
       question: '❔ Apakah penjemputan benar-benar gratis?',
-      answer: 'Ya, penjemputan gratis untuk minimal 40 liter di seluruh wilayah Jabodetabek.'
+      answer: 'Ya, penjemputan gratis untuk minimal 20 liter di seluruh wilayah Jakarta. Response 5-30 menit!'
     },
     {
       question: '❔ Bagaimana cara menjual?',
@@ -29,7 +29,7 @@ export default function FAQ() {
     },
     {
       question: '❔ Bagaimana cara mengetahui harga terbaru?',
-      answer: 'Harga kami update berkala. Untuk volume 40-99 liter: Rp 7.500/liter, 100-199 liter: Rp 8.000/liter, dan ≥200 liter: Rp 8.500/liter. Hubungi kami untuk informasi tarif terkini.'
+      answer: 'Harga kami update berkala. Untuk volume 20-99 liter: Rp 7.500/liter, 100-199 liter: Rp 8.000/liter, dan ≥200 liter: Rp 8.500/liter. Hubungi kami untuk informasi tarif terkini.'
     },
     {
       question: '❔ Apakah harga bisa dinegosiasikan?',

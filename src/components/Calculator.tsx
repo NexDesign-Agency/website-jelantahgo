@@ -14,7 +14,7 @@ export default function Calculator() {
       pricePerLiter = 8500
     } else if (value >= 100) {
       pricePerLiter = 8000
-    } else if (value >= 40) {
+    } else if (value >= 20) {
       pricePerLiter = 7500
     } else {
       pricePerLiter = 0
@@ -71,15 +71,15 @@ export default function Calculator() {
         <div className={`text-4xl font-bold mb-3 ${liters >= 40 ? 'text-[#0F3D2E]' : 'text-red-500'}`}>
           {formatCurrency(income)}
         </div>
-        {liters >= 40 ? (
-          <div className="flex items-center gap-2 text-sm text-[#0F3D2E] font-medium">
-            <span className="inline-block w-2 h-2 bg-[#0F3D2E] rounded-full"></span>
+        {liters >= 20 ? (
+          <div className=\"flex items-center gap-2 text-sm text-[#0F3D2E] font-medium\">
+            <span className=\"inline-block w-2 h-2 bg-[#0F3D2E] rounded-full\"></span>
             Memenuhi syarat untuk penjemputan gratis
           </div>
         ) : (
-          <div className="flex items-center gap-2 text-sm text-red-500 font-medium">
-            <span className="inline-block w-2 h-2 bg-red-500 rounded-full"></span>
-            Minimum 40 liter untuk penjemputan gratis
+          <div className=\"flex items-center gap-2 text-sm text-red-500 font-medium\">
+            <span className=\"inline-block w-2 h-2 bg-red-500 rounded-full\"></span>
+            Minimum 20 liter untuk penjemputan gratis
           </div>
         )}
       </div>

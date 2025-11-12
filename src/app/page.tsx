@@ -419,49 +419,128 @@ export default function HomeNew() {
         </div>
       </section>
 
-      {/* Cara Kerja */}
+      {/* Cara Kerja Comprehensive */}
       <section className="py-20 bg-[#F9F8F6]">
         <div className="container-custom">
+          {/* Header */}
           <div className="text-center mb-16">
             <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              📋 PROSES MUDAH
+              🔄 PROSES PENJUALAN
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
-              Cara Jual Minyak Jelantah (4 Langkah)
+              Proses Jual Minyak Jelantah di JelantahGO (Mudah & Cepat)
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Proses <strong>jual minyak jelantah</strong> sangat mudah dan cepat
+              Dari persiapan hingga pembayaran transfer - semua <strong>mudah, cepat, dan transparan</strong>
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { number: '1', title: 'Kumpulkan', desc: 'Tampung minyak bekas minimal 40 liter', icon: '🛢️' },
-              { number: '2', title: 'Hubungi', desc: 'WA/Telp 0812-2082-1983', icon: '📱' },
-              { number: '3', title: 'Jemput Gratis', desc: 'Tim datang dan timbang transparan', icon: '🚚' },
-              { number: '4', title: 'Bayar Tunai', desc: 'Terima uang cash langsung', icon: '💵' },
-            ].map((step, i) => (
-              <div key={i} className="card-premium hover-lift group">
-                <div className="text-4xl mb-3">{step.icon}</div>
-                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{step.title}</h3>
-                <p className="text-gray-600 text-sm">{step.desc}</p>
+          {/* Main Steps */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            {/* Step 1 */}
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-[#0F3D2E] text-white text-lg font-bold rounded-full mb-4">
+                1
               </div>
-            ))}
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Kumpulkan</h3>
+              <p className="text-gray-600 text-sm font-semibold mb-3">Tampung minyak bekas minimal 40 liter</p>
+              <p className="text-gray-500 text-xs leading-relaxed">Saring minyak agar jernih & bersih dari kotoran. Semakin bersih, harga lebih tinggi.</p>
+            </div>
+
+            {/* Step 2 */}
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-[#0F3D2E] text-white text-lg font-bold rounded-full mb-4">
+                2
+              </div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Hubungi</h3>
+              <p className="text-gray-600 text-sm font-semibold mb-3">WA/Telp 0812-2082-1983</p>
+              <p className="text-gray-500 text-xs leading-relaxed">Kami akan confirm data lokasi Anda, volume jelantah, dan jadwal penjemputan yang sesuai.</p>
+            </div>
+
+            {/* Step 3 - Jemput Gratis */}
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-[#0F3D2E] text-white text-lg font-bold rounded-full mb-4">
+                3
+              </div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Jemput Gratis</h3>
+              <p className="text-gray-600 text-sm font-semibold mb-3">Tim datang dan timbang transparan</p>
+              <p className="text-gray-500 text-xs leading-relaxed">Tim kurir akan datang sesuai jadwal, timbang minyak secara transparan di lokasi Anda.</p>
+            </div>
+
+            {/* Step 4 */}
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-[#0F3D2E] text-white text-lg font-bold rounded-full mb-4">
+                4
+              </div>
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-2">Bayar Transfer</h3>
+              <p className="text-gray-600 text-sm font-semibold mb-3">Transfer langsung di lokasi Anda</p>
+              <p className="text-gray-500 text-xs leading-relaxed">Transfer dilakukan <strong>SEBELUM</strong> minyak diangkut. Aman & transparan untuk kedua belah pihak.</p>
+            </div>
           </div>
 
-          <div className="text-center mt-12 space-y-3">
-            <Link
-              href="/blog/cara-jual-minyak-jelantah-3-langkah"
-              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth mr-6"
-            >
-              Cara jual minyak jelantah dalam 3 langkah mudah →
-            </Link>
-            <Link
-              href="/cara-kerja"
-              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
-            >
-              Lihat cara kerja sistem penjemputan jelantahgo →
-            </Link>
+          {/* Timeline Visual */}
+          <div className="bg-white rounded-lg p-8 mb-12 shadow-md">
+            <h3 className="text-lg font-bold text-[#0F3D2E] mb-6">⏱️ Estimasi Timeline</h3>
+            <div className="space-y-6">
+              {/* Timeline Item 1 */}
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-32">
+                  <span className="inline-block bg-[#0F3D2E] text-white px-3 py-1 rounded text-sm font-semibold">Hari ke-1</span>
+                </div>
+                <div className="flex-1 border-l-2 border-[#E8F0E3] pl-4 pb-4">
+                  <p className="font-semibold text-gray-800">Hubungi kami via WhatsApp</p>
+                  <p className="text-sm text-gray-500 mt-1">Respon dalam 5 menit (jam kerja)</p>
+                </div>
+              </div>
+
+              {/* Timeline Item 2 */}
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-32">
+                  <span className="inline-block bg-red-600 text-white px-3 py-1 rounded text-sm font-semibold">SAME-DAY</span>
+                </div>
+                <div className="flex-1 border-l-2 border-[#E8F0E3] pl-4 pb-4">
+                  <p className="font-semibold text-gray-800">Tim jemput ke lokasi Anda</p>
+                  <p className="text-sm text-gray-500 mt-1">
+                    <strong>Jakarta Barat & Utara: same-day service</strong><br/>
+                    Maksimal 1x24 jam untuk area lain
+                  </p>
+                </div>
+              </div>
+
+              {/* Timeline Item 3 */}
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-32">
+                  <span className="inline-block bg-green-600 text-white px-3 py-1 rounded text-sm font-semibold">LANGSUNG</span>
+                </div>
+                <div className="flex-1 border-l-2 border-[#E8F0E3] pl-4">
+                  <p className="font-semibold text-gray-800">Transfer & pengangkutan selesai</p>
+                  <p className="text-sm text-gray-500 mt-1">Proses selesai dalam 30-60 menit setelah tim tiba</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Tips Section */}
+          <div className="bg-[#E8F0E3] rounded-lg p-8 mb-8 border border-[#0F3D2E]/20">
+            <h3 className="text-lg font-bold text-[#0F3D2E] mb-4">💡 Tips Agar Dapat Harga Lebih Tinggi</h3>
+            <ul className="space-y-3">
+              <li className="text-gray-700 text-sm flex items-start gap-3">
+                <span className="text-xl flex-shrink-0">✓</span>
+                <span><strong>Saring minyak</strong> dari kotoran & sisa makanan untuk kualitas lebih baik</span>
+              </li>
+              <li className="text-gray-700 text-sm flex items-start gap-3">
+                <span className="text-xl flex-shrink-0">✓</span>
+                <span><strong>Kumpulkan lebih banyak</strong> (100+ liter) agar dapat harga tier tertinggi</span>
+              </li>
+              <li className="text-gray-700 text-sm flex items-start gap-3">
+                <span className="text-xl flex-shrink-0">✓</span>
+                <span><strong>Jadwalkan rutin</strong> jika punya volume konsisten - dapatkan harga tetap terbaik</span>
+              </li>
+              <li className="text-gray-700 text-sm flex items-start gap-3">
+                <span className="text-xl flex-shrink-0">✓</span>
+                <span><strong>Hubungi lebih awal</strong> agar bisa dapat slot penjemputan sesuai keinginan</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -514,12 +593,12 @@ export default function HomeNew() {
             </div>
 
             {/* FAQ Item 4 */}
-            <div className="card-premium">
+            <div className="card-premium border-2 border-red-300">
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
                 ❔ Pembayaran tunai atau transfer?
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                <strong>Prioritas kami adalah transfer langsung</strong> di tempat sebelum minyak diangkut. Untuk pembayaran cash, bisa dikonfirmasi sebelumnya agar kurir kami notifikasi untuk bawa uang tunai.
+                <strong>Prioritas kami adalah TRANSFER LANGSUNG</strong> di tempat sebelum minyak diangkut. Ini lebih aman untuk kedua belah pihak. Untuk pembayaran cash, tidak disarankan karena risiko kehilangan.
               </p>
             </div>
 
@@ -553,13 +632,23 @@ export default function HomeNew() {
               </p>
             </div>
 
-            {/* FAQ Item 8 */}
+            {/* FAQ Item 7 */}
             <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah harga bisa dinegosiasikan?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Tarif kami sudah kompetitif dan transparan. Untuk <strong>volume besar (≥500 liter)</strong>, bisa diskusikan harga khusus. Hubungi kami untuk penawaran menarik.
+              </p>
+            </div>
+
+            {/* FAQ Item 8 */}
+            <div className="card-premium border-2 border-red-300">
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
                 ❔ Berapa lama proses penjemputan setelah saya hubungi?
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Untuk area Jakarta Barat & Utara: <strong>same-day service</strong>. Maksimal <strong>1x24 jam</strong> sudah dijemput ke lokasi Anda. Tim kurir akan confirm jadwal via WhatsApp.
+                Untuk area <strong>Jakarta Barat & Utara: same-day service</strong>. Maksimal <strong>1x24 jam</strong> untuk area lain. Tim kurir akan confirm jadwal via WhatsApp.
               </p>
             </div>
 
@@ -576,16 +665,6 @@ export default function HomeNew() {
             {/* FAQ Item 10 */}
             <div className="card-premium">
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
-                ❔ Apakah timbangan digital & transparan?
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Jika diantar ke drop point, kami gunakan <strong>timbangan digital terukalibrasi</strong> - Anda bisa lihat langsung. Jika dijemput, kami estimasi menggunakan jerigen standar 18 liter. Transparansi adalah komitmen kami.
-              </p>
-            </div>
-
-            {/* FAQ Item 11 */}
-            <div className="card-premium">
-              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
                 ❔ Apakah tersedia layanan rutin/kontrak bulanan?
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -593,7 +672,7 @@ export default function HomeNew() {
               </p>
             </div>
 
-            {/* FAQ Item 12 */}
+            {/* FAQ Item 11 */}
             <div className="card-premium">
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
                 ❔ Bagaimana dampak lingkungan dari penjualan jelantah?

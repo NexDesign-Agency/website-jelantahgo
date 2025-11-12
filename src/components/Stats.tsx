@@ -8,20 +8,20 @@ export default function Stats() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
-              number: '150K+',
+              number: '200K+',
               label: 'Liter Terkumpul'
             },
             {
-              number: 'Rp 1.2M+',
+              number: 'Rp 1.8M+',
               label: 'Dibayarkan ke Masyarakat'
             },
             {
-              number: '800+',
+              number: '1000+',
               label: 'Pelanggan Aktif'
             },
             {
-              number: '30+',
-              label: 'Mitra Terpercaya'
+              number: '5',
+              label: 'Tahun Berpengalaman'
             }
           ].map((stat, index) => (
             <div
