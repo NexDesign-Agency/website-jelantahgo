@@ -6,15 +6,15 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025 | JelantahGO',
-  description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
+  title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
+  description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban. Penjemputan gratis ≥20L.',
   keywords: 'jual jelantah bekasi, pengepul bekasi, harga jelantah bekasi, jemput jelantah bekasi gratis, pengepul bekasi terpercaya, jual jelantah bekasi kota',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025 | JelantahGO',
-    description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah dengan layanan jemput gratis.',
+    title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
+    description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban. Penjemputan gratis ≥20L.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
     siteName: 'JelantahGO',
     images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Bekasi - Panduan Lengkap 2025',
-    description: 'Panduan lengkap untuk warga dan pelaku industri di seluruh wilayah Bekasi (Kota dan Kabupaten) yang ingin menjual jelantah.',
+    title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
+    description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_6_y74rop.webp'],
   },
 }

@@ -12,8 +12,8 @@ export default function KisahSuksesPakDoniPage() {
   return (
     <>
       <ArticleSchema
-        title="Kisah Sukses Pak Doni: Pengepul Omzet 20 Juta/Bulan"
-        description="Kisah inspiratif Pak Doni, mantan karyawan pabrik yang berhasil menjadi pengepul jelantah sukses dengan omzet 20 juta rupiah per bulan. Perjalanan dari modal kecil hingga scale-up."
+        title="Kisah Sukses Pak Doni: Pengepul Omzet 25+ Juta/Bulan dengan Harga Rp 7.500-8.500/L"
+        description="Kisah inspiratif Pak Doni: dari karyawan pabrik jadi pengepul sukses omzet 25+ juta/bulan! Dengan harga baru Rp 7.500-8.500/L, profit naik 25%. Strategi scale-up bisnis pengepul jelantah."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_5_mjney9.webp"
         datePublished="2025-10-12"
         dateModified="2025-10-12"

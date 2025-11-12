@@ -6,8 +6,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025 | JelantahGO',
-  description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan dengan jemput gratis.',
+  title: 'Jual Minyak Jelantah Depok & Bogor Rp 7.500-8.500/L - Layanan Kampus & Kuliner',
+  description: 'Panduan lengkap jual minyak jelantah Depok & Bogor harga premium Rp 7.500-8.500/liter! Layanan kampus UI, pusat kuliner Bogor, penjemputan gratis ≥20L.',
   keywords: 'jual jelantah depok, jual jelantah bogor, pengepul depok, pengepul bogor, harga jelantah depok, jemput jelantah bogor, pengepul depok terpercaya',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',

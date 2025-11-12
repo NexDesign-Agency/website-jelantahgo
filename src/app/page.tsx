@@ -13,15 +13,15 @@ import FAQ from '@/components/FAQ'
 import BlogSection from '@/components/BlogSection'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
-  description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya. Hubungi sekarang!',
+  title: 'Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya #1',
+  description: 'Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 untuk restoran, katering, UMKM. Hubungi sekarang!',
   keywords: 'jual minyak jelantah jakarta, pengepul minyak jelantah jakarta, harga minyak jelantah, jual jelantah, minyak goreng bekas, pengepul jelantah terdekat, jual minyak jelantah, harga jelantah, pengepul terpercaya',
   alternates: {
     canonical: 'https://jelantahgo.com',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
-    description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya. Hubungi sekarang!',
+    title: 'Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya #1',
+    description: 'Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 untuk restoran, katering, UMKM. Hubungi sekarang!',
     url: 'https://jelantahgo.com',
     siteName: 'JelantahGO',
     images: [
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Jakarta | Hingga Rp 8.500/L Jemput Gratis + Cash',
-    description: 'Jual minyak jelantah Rp 7.500-8.500/liter di Jakarta. Jemput gratis dan bayar cash instan di tempat. Pengepul minyak goreng bekas terpercaya.',
+    title: 'Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya #1',
+    description: 'Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 untuk restoran, katering, UMKM. Hubungi sekarang!',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
   robots: {
@@ -223,7 +223,7 @@ export default function HomeNew() {
               </div>
               
               <h1 className="text-hero-mobile lg:text-hero-laptop xl:text-hero-desktop font-bold leading-snug mb-4">
-                Jual Minyak Jelantah Jakarta | Rp 7.500-8.500/L, Jemput Gratis + Cash
+                Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya
               </h1>
               
               <p className="text-lg text-white/90 mb-6 leading-relaxed">

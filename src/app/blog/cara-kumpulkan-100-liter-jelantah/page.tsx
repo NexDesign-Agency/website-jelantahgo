@@ -12,8 +12,8 @@ export default function CaraKumpulkanPage() {
   return (
     <>
       <ArticleSchema
-        title="10 Cara Mengumpulkan 100 Liter Jelantah per Bulan: Strategi Praktis"
-        description="Ingin dapat 100 liter jelantah per bulan? Pelajari 10 strategi praktis dari komunitas, warung makan, hingga program kolektif RT/RW untuk mencapai target volume."
+        title="10 Cara Kumpulkan 100 Liter Jelantah = Rp 800rb/Bulan dengan Harga Rp 7.500-8.500/L"
+        description="Target 100 liter jelantah per bulan = potensi Rp 800rb! Pelajari 10 strategi praktis: komunitas, warung makan, program kolektif RT/RW untuk profit maksimal dengan harga baru."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_26_hmnqjl.webp"
         datePublished="2025-10-01"
         dateModified="2025-10-01"

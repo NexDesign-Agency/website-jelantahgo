@@ -12,8 +12,8 @@ export default function KisahSuksesIbuRinaPage() {
   return (
     <>
       <ArticleSchema
-        title="Kisah Sukses Ibu Rina: Mitra Pengepul Omzet Jutaan"
-        description="Kisah inspiratif Ibu Rina, ibu rumah tangga yang membangun usaha pengepul jelantah dari dapur rumah. Dari 15 liter pertama hingga omzet 3-3,5 juta per bulan sebagai mitra JelantahGO."
+        title="Kisah Sukses Ibu Rina: Omzet 4-4.5 Juta/Bulan dengan Harga Rp 7.500-8.500/L"
+        description="Kisah inspiratif Ibu Rina: dari 15L pertama hingga omzet 4-4.5 juta/bulan! Dengan harga baru Rp 7.500-8.500/L, profit naik 25%. Strategi membangun usaha pengepul jelantah dari rumah."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_17_fuusoh.webp"
         datePublished="2025-10-14"
         dateModified="2025-10-14"

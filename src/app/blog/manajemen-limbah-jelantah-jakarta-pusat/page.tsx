@@ -12,8 +12,8 @@ export default function JakartaPusatManajemenPage() {
   return (
     <>
       <ArticleSchema
-        title="Manajemen Limbah Jelantah Profesional untuk Hotel & Perkantoran di Jakarta Pusat"
-        description="Solusi manajemen limbah jelantah terintegrasi untuk hotel, gedung perkantoran, dan mal di Jakarta Pusat. Kepatuhan regulasi Limbah B3, dokumentasi PROPER, layanan B2B profesional."
+        title="Manajemen Limbah Jelantah Jakarta Pusat Rp 7.500-8.500/L - Solusi B2B Hotel & Perkantoran"
+        description="Solusi manajemen limbah jelantah premium Jakarta Pusat: bayar Rp 7.500-8.500/L, kepatuhan regulasi B3, dokumentasi PROPER lengkap, kontrak B2B hotel & perkantoran."
         image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_8_cwujgg.webp"
         datePublished="2025-11-14"
         dateModified="2025-11-14"
