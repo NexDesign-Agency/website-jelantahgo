@@ -9,7 +9,6 @@ import VideoPlayer from '@/components/VideoPlayer'
 import ServiceArea from '@/components/ServiceArea'
 import WhoCanSell from '@/components/WhoCanSell'
 import Testimonials from '@/components/Testimonials'
-import FAQ from '@/components/FAQ'
 import BlogSection from '@/components/BlogSection'
 
 export const metadata: Metadata = {
@@ -468,8 +467,155 @@ export default function HomeNew() {
       </section>
 
 
-      {/* FAQ */}
-      <FAQ />
+      {/* FAQ Expanded */}
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-[#E8F0E3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              ❓ PERTANYAAN SERING DIAJUKAN
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
+              FAQ: Jual Minyak Jelantah ke JelantahGO
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Jawaban lengkap untuk semua pertanyaan Anda tentang proses penjualan minyak jelantah
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* FAQ Item 1 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Bagaimana cara menjual minyak jelantah?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Proses mudah: <strong>kumpulkan minyak goreng bekas → hubungi kami → tim jemput & bayar tunai/transfer langsung</strong> di tempat. Selesai!
+              </p>
+            </div>
+
+            {/* FAQ Item 2 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Berapa minimal volume minyak jelantah yang bisa dijual?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Kami menerima minimal <strong>40 liter</strong> untuk penjemputan gratis di seluruh Jabodetabek. Untuk volume kurang dari itu, Anda bisa mengantarkan ke drop point terdekat kami.
+              </p>
+            </div>
+
+            {/* FAQ Item 3 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah penjemputan benar-benar gratis?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Ya, <strong>penjemputan 100% gratis</strong> untuk minimal 40 liter di seluruh wilayah Jabodetabek. Jika kurang dari 40 liter, bisa diantar ke lokasi drop point kami.
+              </p>
+            </div>
+
+            {/* FAQ Item 4 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Pembayaran tunai atau transfer?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                <strong>Prioritas kami adalah transfer langsung</strong> di tempat sebelum minyak diangkut. Untuk pembayaran cash, bisa dikonfirmasi sebelumnya agar kurir kami notifikasi untuk bawa uang tunai.
+              </p>
+            </div>
+
+            {/* FAQ Item 5 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah ada biaya tersembunyi atau potongan harga?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                <strong>Tidak ada.</strong> Kami bayar penuh sesuai liter aktual. Harga yang kami tawarkan sudah final tanpa biaya jemput, timbang, atau administrasi.
+              </p>
+            </div>
+
+            {/* FAQ Item 6 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Berapa harga minyak jelantah sekarang?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Harga tergantung volume - semakin banyak, harga semakin tinggi. Untuk volume besar (≥500 liter), bisa diskusikan harga khusus. Hubungi kami untuk informasi terkini.
+              </p>
+            </div>
+
+            {/* FAQ Item 7 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah harga bisa dinegosiasikan?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Tarif kami sudah kompetitif dan transparan. Untuk <strong>volume besar (≥500 liter)</strong>, bisa diskusikan harga khusus. Hubungi kami untuk penawaran menarik.
+              </p>
+            </div>
+
+            {/* FAQ Item 8 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Berapa lama proses penjemputan setelah saya hubungi?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Untuk area Jakarta Barat & Utara: <strong>same-day service</strong>. Maksimal <strong>1x24 jam</strong> sudah dijemput ke lokasi Anda. Tim kurir akan confirm jadwal via WhatsApp.
+              </p>
+            </div>
+
+            {/* FAQ Item 9 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Minyak jelantah saya ada kotoran/sisa makanan, bisa dijual?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Sebaiknya disaring dulu. Kami hanya menerima <strong>minyak yang bersih, tanpa air dan kotoran</strong>. Warna tidak masalah.
+              </p>
+            </div>
+
+            {/* FAQ Item 10 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah timbangan digital & transparan?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Jika diantar ke drop point, kami gunakan <strong>timbangan digital terukalibrasi</strong> - Anda bisa lihat langsung. Jika dijemput, kami estimasi menggunakan jerigen standar 18 liter. Transparansi adalah komitmen kami.
+              </p>
+            </div>
+
+            {/* FAQ Item 11 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Apakah tersedia layanan rutin/kontrak bulanan?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Ya, terutama untuk restoran & katering. Kami tawarkan <strong>jadwal penjemputan rutin</strong> dengan harga tetap & prioritas. Hubungi untuk diskusi detail.
+              </p>
+            </div>
+
+            {/* FAQ Item 12 */}
+            <div className="card-premium">
+              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
+                ❔ Bagaimana dampak lingkungan dari penjualan jelantah?
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Minyak jelantah Anda akan kami olah menjadi <strong>biodiesel ramah lingkungan</strong>. Ini mengurangi limbah & mendukung energi terbarukan Indonesia.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="https://wa.me/6281220821983?text=Halo,%20saya%20punya%20pertanyaan%20tentang%20jual%20jelantah"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
+            >
+              Ada pertanyaan lain? Hubungi kami via WhatsApp →
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Keunggulan */}
       <section className="py-20 bg-white">
