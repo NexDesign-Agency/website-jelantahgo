@@ -1,6 +1,13 @@
 export default function BlogSection() {
   const articles = [
     {
+      title: 'Aturan Baru Jelantah 2025: Niat Baik yang Bikin Pengepul Kecil Kelabakan',
+      excerpt: 'Belajar dari kebijakan yang justru bikin usaha kecil terpukul. Analisis dampak aturan ketat ekspor jelantah terhadap pengepul kecil...',
+      link: '/blog/aturan-baru-jelantah-2025',
+      icon: '📋',
+      anchorText: 'Analisis dampak aturan baru jelantah 2025 →'
+    },
+    {
       title: 'Panduan Lengkap Jual Minyak Jelantah Jakarta: Harga, Cara & Tips Terbaik 2025',
       excerpt: 'Semua yang perlu Anda tahu, dari cara menyimpan, cek harga, hingga memilih pengepul terpercaya...',
       link: '/blog/panduan-jual-minyak-jelantah',
