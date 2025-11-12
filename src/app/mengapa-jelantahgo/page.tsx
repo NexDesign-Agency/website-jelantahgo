@@ -285,6 +285,8 @@ export default function MengapaJelantahGoPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container-custom">
           <div className="space-y-16 max-w-5xl mx-auto">
             {/* Keunggulan 1: Harga Tertinggi */}
             <div className="card-premium">
