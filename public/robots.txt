@@ -4,7 +4,7 @@
 User-agent: *
 Allow: /
 
-# Disallow admin atau private paths (jika ada di masa depan)
+# Disallow private paths
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
@@ -19,9 +19,8 @@ Allow: /cara-kerja
 Allow: /contact
 Allow: /mitra
 
-# Sitemap location
-Sitemap: https://jelantahgo.com/sitemap.xml
+# Sitemap index location - References 3 child sitemaps
+Sitemap: https://jelantahgo.com/sitemap-index.xml
 
-# Crawl-delay (optional, untuk menghindari overload server)
+# Crawl-delay (optional)
 # Crawl-delay: 1
-
