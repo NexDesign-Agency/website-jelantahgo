@@ -632,16 +632,6 @@ export default function HomeNew() {
               </p>
             </div>
 
-            {/* FAQ Item 7 */}
-            <div className="card-premium">
-              <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
-                ❔ Apakah harga bisa dinegosiasikan?
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Tarif kami sudah kompetitif dan transparan. Untuk <strong>volume besar (≥500 liter)</strong>, bisa diskusikan harga khusus. Hubungi kami untuk penawaran menarik.
-              </p>
-            </div>
-
             {/* FAQ Item 8 */}
             <div className="card-premium border-2 border-red-300">
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">
@@ -696,36 +686,100 @@ export default function HomeNew() {
         </div>
       </section>
 
-      {/* Keunggulan */}
+      {/* Keunggulan - Problem vs Solution */}
       <section className="py-20 bg-white">
         <div className="container-custom">
+          {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               🏆 Keunggulan Kami Sebagai Pengepul Minyak Jelantah
             </h2>
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
-            >
-              Mengenal tentang JelantahGO - pengepul #1 →
-            </Link>
+            <p className="text-lg text-gray-600">
+              Mengenal JelantahGO lebih dekat →
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { icon: '💰', title: 'Harga Tertinggi', desc: 'Hingga Rp 8.500/liter' },
-              { icon: '🚚', title: 'Jemput Gratis', desc: 'Ke lokasi Anda' },
-              { icon: '💵', title: 'Bayar Tunai', desc: 'Langsung di tempat' },
-              { icon: '⚡', title: 'Respon Cepat', desc: 'Dalam hitungan menit' },
-              { icon: '📊', title: 'Transparan', desc: 'Timbangan digital' },
-              { icon: '🌍', title: 'Ramah Lingkungan', desc: 'Diolah jadi biodiesel' },
-            ].map((item, i) => (
-              <div key={i} className="card-premium hover-lift text-center group">
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-smooth">{item.icon}</div>
-                <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">{item.title}</h3>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
+          {/* SECTION 1: MASALAH UMUM (2x2 GRID) */}
+          <div className="mb-20">
+            <h3 className="text-2xl font-bold text-red-900 mb-8 text-center">⚠️ Masalah Umum</h3>
+
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-16">
+              {/* Problem 1 */}
+              <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded">
+                <h4 className="font-bold text-red-900 mb-2 text-base">Repot mencari pengepul</h4>
+                <p className="text-gray-600 text-sm">Tidak tahu kemana harus jual, takut ditipu harga, banyak pengepul abal-abal</p>
               </div>
-            ))}
+
+              {/* Problem 2 */}
+              <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded">
+                <h4 className="font-bold text-red-900 mb-2 text-base">Harga tidak adil</h4>
+                <p className="text-gray-600 text-sm">Pengepul lain hanya menawarkan harga rendah dengan potongan tersembunyi</p>
+              </div>
+
+              {/* Problem 3 */}
+              <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded">
+                <h4 className="font-bold text-red-900 mb-2 text-base">Proses lambat & ribet</h4>
+                <p className="text-gray-600 text-sm">Harus antri lama, prosesnya tidak transparan, nggak tahu berapa yang dijual</p>
+              </div>
+
+              {/* Problem 4 */}
+              <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded">
+                <h4 className="font-bold text-red-900 mb-2 text-base">Harus membawa sendiri</h4>
+                <p className="text-gray-600 text-sm">Tidak ada layanan jemput, harus repot-repot ngangkut sendiri</p>
+              </div>
+            </div>
+
+            {/* DIVIDER */}
+            <hr className="my-16 border-gray-300" />
+
+            {/* SECTION 2: KEUNGGULAN JELANTAHGO (3x2 GRID) */}
+            <div>
+              <h3 className="text-2xl font-bold text-[#0F3D2E] mb-8 text-center">✅ Keunggulan JelantahGO</h3>
+
+              <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                {/* Keunggulan 1 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">💰</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Harga Tertinggi</h4>
+                  <p className="text-gray-600 text-sm">Hingga Rp 8.500/liter</p>
+                </div>
+
+                {/* Keunggulan 2 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">🚚</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Jemput Gratis</h4>
+                  <p className="text-gray-600 text-sm">Ke lokasi Anda</p>
+                </div>
+
+                {/* Keunggulan 3 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">💳</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Bayar Transfer</h4>
+                  <p className="text-gray-600 text-sm">Langsung di tempat</p>
+                </div>
+
+                {/* Keunggulan 4 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">⚡</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Respon Cepat</h4>
+                  <p className="text-gray-600 text-sm">Dalam hitungan menit</p>
+                </div>
+
+                {/* Keunggulan 5 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">📊</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Transparan</h4>
+                  <p className="text-gray-600 text-sm">Timbangan digital</p>
+                </div>
+
+                {/* Keunggulan 6 */}
+                <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">🌍</div>
+                  <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Ramah Lingkungan</h4>
+                  <p className="text-gray-600 text-sm">Diolah jadi biodiesel</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
