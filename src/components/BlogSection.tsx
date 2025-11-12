@@ -4,37 +4,43 @@ export default function BlogSection() {
       title: 'Panduan Lengkap Jual Minyak Jelantah Jakarta: Harga, Cara & Tips Terbaik 2025',
       excerpt: 'Semua yang perlu Anda tahu, dari cara menyimpan, cek harga, hingga memilih pengepul terpercaya...',
       link: '/blog/panduan-jual-minyak-jelantah',
-      icon: '📖'
+      icon: '📖',
+      anchorText: 'Panduan lengkap jual minyak jelantah Jakarta →'
     },
     {
       title: 'Bahaya & Peluang Emas Minyak Jelantah',
       excerpt: 'Mengapa jelantah dianggap limbah berbahaya? Dan bagaimana ia bisa menjadi peluang ekonomi hijau? Temukan jawabannya...',
       link: '/blog/ancaman-dan-peluang-minyak-jelantah',
-      icon: '⚠️'
+      icon: '⚠️',
+      anchorText: 'Bahaya dan peluang ekonomi minyak jelantah →'
     },
     {
       title: 'Peluang Bisnis Pengepul Jelantah: Modal & Untung',
       excerpt: 'Analisis lengkap modal, potensi keuntungan puluhan juta, dan strategi untuk memulai bisnis jelantah dari nol...',
       link: '/blog/peluang-bisnis-pengepul-jelantah',
-      icon: '💼'
+      icon: '💼',
+      anchorText: 'Peluang bisnis pengepul jelantah dengan analisis modal dan untung →'
     },
     {
       title: 'Update Harga Minyak Jelantah Jakarta 2025: Rp 7.500 - Rp 8.500 per Liter',
       excerpt: 'Cek harga terbaru minyak jelantah di Jakarta. Transparan, akurat, dan update berkala. Dapatkan harga terbaik sesuai volume Anda...',
       link: '/pricing',
-      icon: '💰'
+      icon: '💰',
+      anchorText: 'Update harga minyak jelantah Jakarta 2025 →'
     },
     {
       title: 'Pengepul Minyak Jelantah Jakarta Terpercaya: Ciri-Ciri & Cara Memilihnya',
       excerpt: 'Pelajari 5 ciri pengepul terpercaya dan cara memilih yang tepat. Hindari penipuan dan dapatkan transaksi aman & menguntungkan...',
       link: '/blog/panduan-jual-minyak-jelantah#memilih-pengepul',
-      icon: '✅'
+      icon: '✅',
+      anchorText: 'Cara memilih pengepul minyak jelantah terpercaya →'
     },
     {
       title: 'Cara Jual Minyak Jelantah: 3 Langkah Mudah (Gratis Jemput & Bayar Cash!)',
       excerpt: 'Panduan praktis jual minyak jelantah dalam 3 langkah: Hubungi kami, gratis jemput, bayar cash di tempat. Prosesnya cepat & mudah. Mulai sekarang!',
       link: '/blog/cara-jual-minyak-jelantah-3-langkah',
-      icon: '🚀'
+      icon: '🚀',
+      anchorText: 'Cara jual minyak jelantah dalam 3 langkah mudah →'
     }
   ]
 
@@ -72,7 +78,7 @@ export default function BlogSection() {
                 href={article.link}
                 className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
               >
-                Baca Selengkapnya →
+                {article.anchorText}
               </a>
             </div>
           ))}
@@ -83,7 +89,7 @@ export default function BlogSection() {
             href="/blog"
             className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold text-lg hover:gap-3 transition-smooth"
           >
-            Lihat Semua Artikel →
+            Lihat semua artikel panduan minyak jelantah →
           </a>
         </div>
       </div>

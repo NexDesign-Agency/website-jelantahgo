@@ -237,7 +237,7 @@ export default function HomeNew() {
                   rel="noopener noreferrer"
                   className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
                 >
-                  📱 JUAL SEKARANG
+                  Jadwalkan Penjemputan Hari Ini
                 </a>
                 <a
                   href="tel:+6281220821983"
@@ -397,7 +397,7 @@ export default function HomeNew() {
 
           <div className="text-center mt-12">
             <Link href="/pricing" className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth">
-              Lihat Detail Harga →
+              Lihat detail harga minyak jelantah 2025 →
             </Link>
           </div>
         </div>
@@ -451,21 +451,25 @@ export default function HomeNew() {
           </div>
 
           <div className="text-center mt-12 space-y-3">
-            <Link 
-              href="/blog/cara-jual-minyak-jelantah-3-langkah" 
+            <Link
+              href="/blog/cara-jual-minyak-jelantah-3-langkah"
               className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth mr-6"
             >
-              Panduan 3 Langkah Mudah →
+              Cara jual minyak jelantah dalam 3 langkah mudah →
             </Link>
-            <Link 
-              href="/cara-kerja" 
+            <Link
+              href="/cara-kerja"
               className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
             >
-              lihat cara kami bekerja →
+              Lihat cara kerja sistem penjemputan jelantahgo →
             </Link>
           </div>
         </div>
       </section>
+
+
+      {/* FAQ */}
+      <FAQ />
 
       {/* Keunggulan */}
       <section className="py-20 bg-white">
@@ -474,11 +478,11 @@ export default function HomeNew() {
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0F3D2E] mb-4">
               🏆 Keunggulan Kami Sebagai Pengepul Minyak Jelantah
             </h2>
-            <Link 
-              href="/about" 
+            <Link
+              href="/about"
               className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
             >
-              Mengenal JelantahGO lebih dekat →
+              Mengenal tentang JelantahGO - pengepul #1 →
             </Link>
           </div>
 
@@ -504,17 +508,14 @@ export default function HomeNew() {
       {/* Service Area */}
       <ServiceArea />
 
+      {/* Blog */}
+      <BlogSection />
+
       {/* Who Can Sell */}
       <WhoCanSell />
 
       {/* Testimonials */}
       <Testimonials />
-
-      {/* FAQ */}
-      <FAQ />
-
-      {/* Blog */}
-      <BlogSection />
 
       {/* CTA Final */}
       <section className="hero-bg-dots py-20">
