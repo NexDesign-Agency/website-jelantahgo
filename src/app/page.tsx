@@ -230,21 +230,6 @@ export default function HomeNew() {
                 Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 terpercaya untuk restoran, katering, UMKM. Proses mudah dan transparan.
               </p>
 
-              <div className="grid grid-cols-3 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
-                  <div className="text-3xl font-bold text-white">1.500+</div>
-                  <div className="text-sm text-white/80 font-medium">Pelanggan</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
-                  <div className="text-3xl font-bold text-white">30+</div>
-                  <div className="text-sm text-white/80 font-medium">Area Jakarta</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-card p-4 text-center border border-white/20 hover:bg-white/15 transition-smooth">
-                  <div className="text-3xl font-bold text-white">4.9★</div>
-                  <div className="text-sm text-white/80 font-medium">Rating</div>
-                </div>
-              </div>
-
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"

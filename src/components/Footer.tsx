@@ -20,6 +20,33 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0F3D2E] text-white/80">
+      {/* TRUST BADGES SECTION */}
+      <div className="py-12 border-b border-white/10">
+        <div className="container-custom">
+          <div className="text-center mb-8">
+            <h3 className="text-white font-semibold text-lg">🏆 DIPERCAYA OLEH</h3>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-[#D9E3D3] mb-2">1.500+</div>
+              <div className="text-white/70 text-sm">Pelanggan Puas</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-[#D9E3D3] mb-2">30+</div>
+              <div className="text-white/70 text-sm">Area Jakarta</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-[#D9E3D3] mb-2">4.9★</div>
+              <div className="text-white/70 text-sm">Rating Tinggi</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-[#D9E3D3] mb-2">100+</div>
+              <div className="text-white/70 text-sm">Transaksi/Bulan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
           {/* Company Info */}
