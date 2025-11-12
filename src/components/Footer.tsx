@@ -21,8 +21,12 @@ export default function Footer() {
   return (
     <footer className="bg-[#0F3D2E] text-white/80">
       {/* TRUST BADGES SECTION */}
-      <div className="py-12 border-b border-white/10">
-        <div className="container-custom">
+      <div className="py-12 border-b border-white/10 relative">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle, rgba(255, 255, 255, 0.05) 2.5px, transparent 2.5px)',
+          backgroundSize: '8px 8px'
+        }}></div>
+        <div className="container-custom relative z-10">
           <div className="text-center mb-8">
             <h3 className="text-white font-semibold text-lg">🏆 DIPERCAYA OLEH</h3>
           </div>
