@@ -288,7 +288,7 @@ export default function HomeNew() {
                 </div>
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">40-99 Liter</h3>
                 <div className="flex items-baseline justify-center gap-1 mb-1">
-                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 7.500</span>
+                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 6.500</span>
                 </div>
                 <span className="text-gray-500 text-sm">per liter</span>
               </div>
@@ -329,7 +329,7 @@ export default function HomeNew() {
                 </div>
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">100-199 Liter</h3>
                 <div className="flex items-baseline justify-center gap-1 mb-1">
-                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 8.000</span>
+                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 7.500</span>
                 </div>
                 <span className="text-gray-500 text-sm">per liter</span>
               </div>
@@ -365,7 +365,7 @@ export default function HomeNew() {
                 </div>
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">≥ 200 Liter</h3>
                 <div className="flex items-baseline justify-center gap-1 mb-1">
-                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 8.500</span>
+                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 7.500</span>
                 </div>
                 <span className="text-gray-500 text-sm">per liter</span>
               </div>
