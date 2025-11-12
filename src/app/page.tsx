@@ -227,7 +227,7 @@ export default function HomeNew() {
               </h1>
               
               <p className="text-lg text-white/90 mb-6 leading-relaxed">
-                <strong>Pengepul minyak jelantah</strong> terpercaya dengan <strong>harga minyak jelantah</strong> terbaik hingga <strong>Rp 8.500 per liter</strong>. Layanan <strong>jual minyak jelantah</strong> termudah di Jakarta dengan penjemputan <strong>100% GRATIS</strong> dan pembayaran <strong>tunai langsung</strong> di tempat.
+                Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 terpercaya untuk restoran, katering, UMKM. Proses mudah dan transparan.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
