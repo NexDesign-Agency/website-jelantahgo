@@ -235,7 +235,7 @@ export default function JakartaBaratPage() {
                   <td className="px-6 py-4 text-orange-600 font-bold">Rp 5.500</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-[#0F3D2E]">Volume &gt; 50 liter</td>
+                  <td className="px-6 py-4 font-semibold text-[#0F3D2E]">Minimal 50 Liter</td>
                   <td className="px-6 py-4 text-blue-600 font-bold">+Rp 200/liter</td>
                 </tr>
               </tbody>
@@ -379,7 +379,7 @@ export default function JakartaBaratPage() {
               <div className="text-4xl mb-4">🏪</div>
               <h3 className="text-lg font-bold text-[#0F3D2E] mb-3">Kawasan Glodok</h3>
               <p className="text-gray-600 text-sm">Jl. Pancoran Raya No. 45, lantai 2</p>
-              <p className="text-gray-500 text-xs mt-1">Buka setiap hari, 09.00–18.00 — khusus volume >20 liter</p>
+              <p className="text-gray-500 text-xs mt-1">Buka setiap hari, 09.00–18.00 — khusus volume &gt;20 liter</p>
             </div>
           </div>
 
