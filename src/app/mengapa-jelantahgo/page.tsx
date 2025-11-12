@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Target, TrendingUp, Users, Award, CheckCircle, ArrowRight, MessageCircle } from 'lucide-react'
+import { Target, TrendingUp, Users, Award, CheckCircle, ArrowRight, MessageCircle, DollarSign, Truck, MapPin, Clock, Zap, CreditCard, Wallet, Smartphone, FileText, Scale, Shield, Leaf, Phone, Mail, Calendar, Star, ExternalLink } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Misi Lingkungan JelantahGO - Mengubah Limbah Jadi Energi Bersih',
