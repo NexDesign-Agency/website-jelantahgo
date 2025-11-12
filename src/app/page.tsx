@@ -239,10 +239,10 @@ export default function HomeNew() {
                   Jadwalkan Penjemputan Hari Ini
                 </a>
                 <a
-                  href="tel:+6281220821983"
+                  href="#harga"
                   className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
                 >
-                  📞 TELEPON
+                  💰 LIHAT HARGA
                 </a>
               </div>
             </div>
