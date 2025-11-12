@@ -116,6 +116,13 @@ export default function BlogPage() {
       link: '/blog/jual-minyak-jelantah-depok-bogor',
       clusters: [],
     },
+    {
+      badge: '📋 ANALISIS KEBIJAKAN',
+      title: 'Aturan Baru Jelantah 2025: Niat Baik yang Bikin Pengepul Kecil Kelabakan',
+      excerpt: 'Belajar dari kebijakan yang justru bikin usaha kecil terpukul. Analisis mendalam dampak aturan ketat ekspor jelantah terhadap pengepul kecil dan rekomendasi kebijakan yang lebih seimbang.',
+      link: '/blog/aturan-baru-jelantah-2025',
+      clusters: [],
+    },
   ]
 
   // Prepare items for ItemList Schema
