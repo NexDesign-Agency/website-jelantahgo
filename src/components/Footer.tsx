@@ -23,7 +23,7 @@ export default function Footer() {
       {/* TRUST BADGES SECTION */}
       <div className="py-12 border-b border-white/10 relative">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle, rgba(255, 255, 255, 0.05) 2.5px, transparent 2.5px)',
+          backgroundImage: 'radial-gradient(circle, rgba(255, 255, 255, 0.3) 2.5px, transparent 2.5px)',
           backgroundSize: '8px 8px'
         }}></div>
         <div className="container-custom relative z-10">
