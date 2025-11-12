@@ -235,7 +235,7 @@ export default function JakartaBaratPage() {
                   <td className="px-6 py-4 text-orange-600 font-bold">Rp 5.500</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 font-semibold text-[#0F3D2E]">Volume > 50 liter</td>
+                  <td className="px-6 py-4 font-semibold text-[#0F3D2E]">Volume &gt; 50 liter</td>
                   <td className="px-6 py-4 text-blue-600 font-bold">+Rp 200/liter</td>
                 </tr>
               </tbody>
