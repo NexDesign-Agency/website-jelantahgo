@@ -10,6 +10,7 @@ export default function Header() {
   const navLinks = [
     { href: '/', label: 'Beranda' },
     { href: '/about', label: 'Tentang' },
+    { href: '/mengapa-jelantahgo', label: 'Misi Lingkungan' },
     { href: '/pricing', label: 'Harga' },
     { href: '/cara-kerja', label: 'Cara Kerja' },
     { href: '/blog', label: 'Blog' },
