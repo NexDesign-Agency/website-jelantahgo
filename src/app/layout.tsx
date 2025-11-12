@@ -3,6 +3,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -214,6 +215,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <WhatsAppFloat />
+        <SpeedInsights />
       </body>
     </html>
   )
