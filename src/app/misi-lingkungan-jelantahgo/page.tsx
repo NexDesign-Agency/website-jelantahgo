@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   description: 'Misi lingkungan JelantahGO: Mengubah 3 miliar liter minyak jelantah Indonesia menjadi biodiesel ramah lingkungan. Target 2030 bebas pencemaran jelantah.',
   keywords: 'misi lingkungan jelantahgo, biodiesel, daur ulang jelantah, energi bersih indonesia, pengurangan emisi karbon, limbah jelantah',
   alternates: {
-    canonical: 'https://jelantahgo.com/mengapa-jelantahgo',
+    canonical: 'https://jelantahgo.com/misi-lingkungan-jelantahgo',
   },
   openGraph: {
     title: 'Misi Lingkungan JelantahGO - Mengubah Limbah Jadi Energi Bersih',
     description: 'Misi lingkungan JelantahGO: Mengubah 3 miliar liter minyak jelantah Indonesia menjadi biodiesel ramah lingkungan. Target 2030 bebas pencemaran jelantah.',
-    url: 'https://jelantahgo.com/mengapa-jelantahgo',
+    url: 'https://jelantahgo.com/misi-lingkungan-jelantahgo',
     siteName: 'JelantahGO',
     images: [
       {
@@ -64,7 +64,7 @@ export default function MengapaJelantahGoPage() {
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://jelantahgo.com/mengapa-jelantahgo"
+              "@id": "https://jelantahgo.com/misi-lingkungan-jelantahgo"
             }
           })
         }}

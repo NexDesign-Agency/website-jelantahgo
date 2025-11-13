@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
     { url: `${baseUrl}/pricing`, priority: '0.9', changefreq: 'weekly' },
     { url: `${baseUrl}/cara-kerja`, priority: '0.8', changefreq: 'monthly' },
     { url: `${baseUrl}/cara-jual-minyak-jelantah`, priority: '0.8', changefreq: 'monthly' },
-    { url: `${baseUrl}/mengapa-jelantahgo`, priority: '0.7', changefreq: 'monthly' },
+    { url: `${baseUrl}/misi-lingkungan-jelantahgo`, priority: '0.7', changefreq: 'monthly' },
     { url: `${baseUrl}/blog`, priority: '0.9', changefreq: 'daily' },
     { url: `${baseUrl}/mitra`, priority: '0.7', changefreq: 'monthly' },
     { url: `${baseUrl}/contact`, priority: '0.7', changefreq: 'monthly' },
