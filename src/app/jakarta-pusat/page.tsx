@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_15_ccntmi.webp',
         width: 1200,
         height: 630,
-        alt: 'Pengepul Minyak Jelantah Jakarta Pusat',
+        alt: 'Pengepul Minyak Jelantah Jakarta Pusat - Jemput Cepat & Harga Tinggi',
       },
     ],
     locale: 'id_ID',

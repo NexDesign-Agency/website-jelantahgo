@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantah-go_6_sop0by.webp',
         width: 1200,
         height: 630,
         alt: 'Blog JelantahGO - Panduan Lengkap Minyak Jelantah',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Blog JelantahGO - Panduan Minyak Jelantah & Bisnis | JelantahGO',
     description: 'Pusat informasi terlengkap tentang minyak jelantah, cara jual, tips bisnis, edukasi lingkungan, dan biodiesel. 3 Artikel Pilar dan 35+ artikel pendukung.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantah-go_6_sop0by.webp'],
   },
 }
 

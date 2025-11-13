@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_14_d5txal.webp',
         width: 1200,
         height: 630,
         alt: 'Jual Jelantah Jakarta Utara - Pickup Gratis',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jual Jelantah di Jakarta Utara – Harga Terbaik & Pickup Gratis | JelantahGO',
     description: 'Cari tempat jual jelantah di Jakarta Utara? Dapatkan harga terupdate, pickup gratis, dan layanan ramah lingkungan.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_14_d5txal.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function JakartaUtaraPage() {
             "@type": "LocalBusiness",
             "@id": "https://jelantahgo.com/jakarta-utara#localbusiness",
             "name": "JelantahGO Jakarta Utara",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_14_d5txal.webp",
             "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com/jakarta-utara",
             "telephone": "+6281220821983",
@@ -129,7 +129,7 @@ export default function JakartaUtaraPage() {
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_14_d5txal.webp"
                   alt="Pengepul jelantah Jakarta Utara sedang menjemput gratis dan bayar tunai"
                   width={600}
                   height={400}

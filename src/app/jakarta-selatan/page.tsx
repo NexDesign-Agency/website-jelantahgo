@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061461/jelantahgo_16_gv0jhu.webp',
         width: 1200,
         height: 630,
         alt: 'Jakarta Selatan - Panduan Lengkap Hunian dan Investasi',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jakarta Selatan: Panduan Lengkap Hunian, Investasi & Gaya Hidup 2024',
     description: 'Cari tahu segalanya tentang Jakarta Selatan! Panduan lengkap untuk mencari rumah, apartemen, dan investasi properti di Kemang, Pondok Indah, dan lainnya.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061461/jelantahgo_16_gv0jhu.webp'],
   },
 }
 
@@ -47,7 +47,7 @@ export default function JakartaSelatanPage() {
             "@id": "https://jelantahgo.com/jakarta-selatan#article",
             "headline": "Jakarta Selatan: Panduan Lengkap Hunian, Investasi & Gaya Hidup 2024",
             "description": "Cari tahu segalanya tentang Jakarta Selatan! Panduan lengkap untuk mencari rumah, apartemen, dan investasi properti di Kemang, Pondok Indah, dan lainnya.",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1763061461/jelantahgo_16_gv0jhu.webp",
             "datePublished": "2024-11-12T00:00:00+07:00",
             "dateModified": "2024-11-12T00:00:00+07:00",
             "author": {
@@ -115,7 +115,7 @@ export default function JakartaSelatanPage() {
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061461/jelantahgo_16_gv0jhu.webp"
                   alt="Jakarta Selatan - Panduan lengkap hunian dan investasi properti"
                   width={600}
                   height={400}

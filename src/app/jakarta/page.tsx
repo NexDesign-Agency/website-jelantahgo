@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061463/jelantahgo_17_eidh2l.webp',
         width: 1200,
         height: 630,
-        alt: 'Pengepul Minyak Jelantah Jakarta',
+        alt: 'Pengepul Minyak Jelantah Jakarta - Jemput Cepat & Harga Tinggi',
       },
     ],
     locale: 'id_ID',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pengepul Minyak Jelantah Jakarta – Jemput Cepat & Harga Tinggi',
     description: 'Cari pengepul jelantah Jakarta? Layanan jemput cepat di 5 wilayah, harga transparan.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061463/jelantahgo_17_eidh2l.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function JakartaPage() {
             "@type": "LocalBusiness",
             "@id": "https://jelantahgo.com/jakarta#localbusiness",
             "name": "JelantahGO Jakarta",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1763061463/jelantahgo_17_eidh2l.webp",
             "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com/jakarta",
             "telephone": "+6281220821983",
@@ -220,7 +220,7 @@ export default function JakartaPage() {
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061463/jelantahgo_17_eidh2l.webp"
                   alt="Pengepul minyak jelantah Jakarta sedang menjemput gratis dan bayar tunai"
                   width={600}
                   height={400}

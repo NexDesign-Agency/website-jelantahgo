@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_jakarta_barat.webp',
         width: 1200,
         height: 630,
         alt: 'Jual Jelantah Jakarta Barat - Pickup Gratis',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jual Jelantah di Jakarta Barat – Pickup Gratis & Harga Terbaik | JelantahGO',
     description: 'Warga Jakbar? Jual jelantah bekas masak Anda! Dapatkan harga tinggi, pickup gratis ke rumah.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_jakarta_barat.webp'],
   },
 }
 

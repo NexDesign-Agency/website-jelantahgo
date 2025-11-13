@@ -15,9 +15,10 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061453/jelantahgo_1_mohlqo.webp',
         width: 1200,
         height: 630,
+        alt: 'Harga Minyak Jelantah 2025 - Rp 7.500-8.500 per Liter',
       },
     ],
     locale: 'id_ID',
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Harga Minyak Jelantah 2025 | Rp 7.500-8.500/L | JelantahGO',
     description: 'Harga minyak jelantah terbaru 2025: Rp 7.500-8.500 per liter sesuai volume. Penjemputan gratis, bayar tunai langsung.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061453/jelantahgo_1_mohlqo.webp'],
   },
 }
 

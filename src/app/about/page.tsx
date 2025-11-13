@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061453/about_jelantahgo_sssxbm.webp',
         width: 1200,
         height: 630,
         alt: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tentang JelantahGO - Pengepul Minyak Jelantah Terpercaya di Indonesia',
     description: 'JelantahGo adalah pengepul minyak jelantah profesional yang berkomitmen mengubah limbah minyak goreng bekas menjadi solusi ramah lingkungan.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061453/about_jelantahgo_sssxbm.webp'],
   },
 }
 
@@ -95,7 +95,7 @@ export default function AboutPage() {
       <section className="py-16 bg-[#F9F8F6]">
         <div className="container-custom">
           <Image
-            src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+            src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061453/about_jelantahgo_sssxbm.webp"
             alt="Tentang JelantahGO - Pengepul Minyak Jelantah Jakarta Terpercaya"
             width={1200}
             height={630}
