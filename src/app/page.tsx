@@ -238,12 +238,6 @@ export default function HomeNew() {
                 >
                   Jadwalkan Penjemputan Hari Ini
                 </a>
-                <a
-                  href="#harga"
-                  className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-                >
-                  💰 LIHAT HARGA
-                </a>
               </div>
             </div>
 
@@ -767,8 +761,38 @@ export default function HomeNew() {
       {/* Testimonials */}
       <Testimonials />
 
-      {/* CTA Final */}
+      {/* Stats Section */}
       <section className="hero-bg-dots py-20">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              🏆 DIPERCAYA OLEH
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white mb-2">1.500+</div>
+              <div className="text-white/90">Pelanggan Puas</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white mb-2">30+</div>
+              <div className="text-white/90">Area Jakarta</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white mb-2">4.9★</div>
+              <div className="text-white/90">Rating Tinggi</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-white mb-2">100+</div>
+              <div className="text-white/90">Transaksi/Bulan</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Final */}
+      <section className="bg-white py-20">
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white/5 backdrop-blur-sm rounded-card-lg p-12 border border-white/10 shadow-layered">
@@ -800,14 +824,6 @@ export default function HomeNew() {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jadwalkan%20penjemputan"
-                    target="_blank"
-                    rel="noopener"
-                    className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
-                  >
-                    🚚 JADWALKAN PENJEMPUTAN
-                  </a>
                   <a
                     href="https://wa.me/6281220821983?text=Halo,%20saya%20ingin%20konsultasi"
                     target="_blank"
