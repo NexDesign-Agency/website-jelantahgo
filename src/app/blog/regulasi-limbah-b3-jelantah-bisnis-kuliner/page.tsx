@@ -14,7 +14,7 @@ export default function RegulasiB3Page() {
       <ArticleSchema
         title="Regulasi Limbah B3 Jelantah: Panduan Bisnis Kuliner"
         description="Pahami kewajiban hukum pengelolaan limbah B3 jelantah untuk restoran, hotel, dan katering. PP No. 22/2021, sanksi, dokumentasi, dan solusi kepatuhan dengan JelantahGO."
-        image="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_20_dzrxak.webp"
+        image="https://res.cloudinary.com/dknswj9co/image/upload/v1761163994/jelantahgo_1_x1hcjb.webp"
         datePublished="2025-10-16"
         dateModified="2025-10-16"
         articleUrl="https://jelantahgo.com/blog/regulasi-limbah-b3-jelantah-bisnis-kuliner"
@@ -48,7 +48,7 @@ export default function RegulasiB3Page() {
       <section className="py-16 bg-white">
         <div className="container-custom">
           <Image
-            src="https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_auto,c_fill,q_auto/v1761163996/jelantahgo_20_dzrxak.webp"
+            src="https://res.cloudinary.com/dknswj9co/image/upload/v1761163994/jelantahgo_1_x1hcjb.webp"
             alt="Regulasi Limbah B3 Jelantah di Indonesia"
             width={1200}
             height={630}
