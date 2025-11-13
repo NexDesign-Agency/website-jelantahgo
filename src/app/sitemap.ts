@@ -30,6 +30,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/cara-jual-minyak-jelantah`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/mengapa-jelantahgo`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'daily' as const,
@@ -65,14 +77,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly' as const,
       priority: 0.5,
     },
+    // Jakarta location pages
+    {
+      url: `${baseUrl}/jakarta`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/jakarta-barat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/jakarta-pusat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/jakarta-selatan`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/jakarta-timur`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/jakarta-utara`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
   ]
 
-  // Blog posts - all 35 articles
+  // Blog posts - all actual blog articles
   const blogPosts = [
-    'ancaman-dan-peluang-minyak-jelantah',
-    'bahaya-buang-jelantah-sembarangan',
-    'bahaya-minyak-jelantah-kesehatan',
-    'cara-jual-jelantah-menguntungkan',
+    'aturan-baru-jelantah-2025',
+    'cara-jual-minyak-jelantah-3-langkah',
     'cara-kumpulkan-100-liter-jelantah',
     'cara-menyimpan-minyak-jelantah',
     'checklist-peralatan-pengepul-jelantah',
