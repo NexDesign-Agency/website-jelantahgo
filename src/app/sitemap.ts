@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jelantahgo.com'
+const baseUrl = 'https://jelantahgo.com'
 
-  // Static pages
-  const staticPages = [
+// Static pages sitemap
+export async function sitemapPage(): Promise<MetadataRoute.Sitemap> {
+  return [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -77,47 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly' as const,
       priority: 0.5,
     },
-    // Jakarta location pages
-    {
-      url: `${baseUrl}/jakarta`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/jakarta-barat`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/jakarta-pusat`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/jakarta-selatan`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/jakarta-timur`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/jakarta-utara`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
   ]
+}
 
-  // Blog posts - all actual blog articles
-  const blogPosts = [
+// Blog posts sitemap
+export async function sitemapPost(): Promise<MetadataRoute.Sitemap> {
+  const blogSlugs = [
     'aturan-baru-jelantah-2025',
     'cara-jual-minyak-jelantah-3-langkah',
     'cara-kumpulkan-100-liter-jelantah',
@@ -150,13 +115,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'regulasi-limbah-b3-jelantah-bisnis-kuliner',
     'skrip-template-penawaran-kerjasama-jelantah',
     'waktu-terbaik-jual-jelantah',
-  ].map((slug) => ({
+  ]
+
+  return blogSlugs.map((slug) => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
+}
 
-  return [...staticPages, ...blogPosts]
+// Location pages sitemap
+export async function sitemapLokasi(): Promise<MetadataRoute.Sitemap> {
+  const locationPages = [
+    'jakarta',
+    'jakarta-barat',
+    'jakarta-pusat',
+    'jakarta-selatan',
+    'jakarta-timur',
+    'jakarta-utara',
+  ]
+
+  return locationPages.map((location) => ({
+    url: `${baseUrl}/${location}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }))
+}
+
+// Main sitemap index
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: `${baseUrl}/sitemap-page.xml`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/sitemap-post.xml`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/sitemap-lokasi.xml`,
+      lastModified: new Date(),
+    },
+  ]
 }
 
