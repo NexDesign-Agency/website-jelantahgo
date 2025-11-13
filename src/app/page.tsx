@@ -761,74 +761,45 @@ export default function HomeNew() {
       {/* Testimonials */}
       <Testimonials />
 
-      {/* Stats Section */}
-      <section className="hero-bg-dots py-20">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              🏆 DIPERCAYA OLEH
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">1.500+</div>
-              <div className="text-white/90">Pelanggan Puas</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">30+</div>
-              <div className="text-white/90">Area Jakarta</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">4.9★</div>
-              <div className="text-white/90">Rating Tinggi</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">100+</div>
-              <div className="text-white/90">Transaksi/Bulan</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Final */}
       <section className="bg-white py-20">
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white/5 backdrop-blur-sm rounded-card-lg p-12 border border-white/10 shadow-layered">
+            <div className="bg-[#0F3D2E] rounded-card-lg p-12 border border-[#0F3D2E] shadow-layered">
               <div className="text-center">
-                <h2 className="text-2xl lg:text-3xl font-bold mb-6">
+                <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-white">
                   Hubungi Pengepul Terpercaya
                 </h2>
-                
+
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <div className="flex flex-col items-center gap-2">
                     <span className="text-3xl">📱</span>
-                    <div className="font-semibold">WhatsApp</div>
+                    <div className="font-semibold text-white">WhatsApp</div>
                     <a href="https://wa.me/6281220821983" target="_blank" rel="noopener" className="text-white/90 hover:text-white hover:underline">
                       0812-2082-1983
                     </a>
                   </div>
                   <div className="flex flex-col items-center gap-2">
                     <span className="text-3xl">📞</span>
-                    <div className="font-semibold">Telepon</div>
+                    <div className="font-semibold text-white">Telepon</div>
                     <a href="tel:+622112345678" className="text-white/90 hover:text-white hover:underline">
                       (021) 1234 5678
                     </a>
                   </div>
                   <div className="flex flex-col items-center gap-2">
                     <span className="text-3xl">🕒</span>
-                    <div className="font-semibold">Jam Buka</div>
+                    <div className="font-semibold text-white">Jam Buka</div>
                     <div className="text-white/90">Sen-Min, 08:00-20:00</div>
                   </div>
                 </div>
-                
+
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
                     href="https://wa.me/6281220821983?text=Halo,%20saya%20ingin%20konsultasi"
                     target="_blank"
                     rel="noopener"
-                    className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
+                    className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg inline-flex items-center justify-center gap-2 transition-smooth"
                   >
                     💬 KONSULTASI GRATIS
                   </a>
