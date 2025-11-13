@@ -84,9 +84,6 @@ export default function Calculator() {
         )}
       </div>
       
-      <div className="w-full block text-center bg-gray-100 text-gray-500 py-3.5 rounded-card font-bold cursor-not-allowed">
-        Segera Hadir
-      </div>
     </div>
   )
 }

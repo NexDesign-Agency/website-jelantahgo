@@ -306,9 +306,6 @@ export default function HomeNew() {
                   <span>Minimal 40 liter</span>
                 </li>
               </ul>
-              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
-                Segera Hadir
-              </div>
             </div>
 
             {/* Paket Populer */}
@@ -342,9 +339,6 @@ export default function HomeNew() {
                   <span>Konsultasi gratis</span>
                 </li>
               </ul>
-              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
-                Segera Hadir
-              </div>
             </div>
 
             {/* Paket Premium */}
@@ -373,9 +367,6 @@ export default function HomeNew() {
                   <span>Invoice resmi</span>
                 </li>
               </ul>
-              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
-                Segera Hadir
-              </div>
             </div>
           </div>
 
