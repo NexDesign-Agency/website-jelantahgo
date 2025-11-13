@@ -306,14 +306,9 @@ export default function HomeNew() {
                   <span>Minimal 40 liter</span>
                 </li>
               </ul>
-              <a
-                href="https://wa.me/6281220821983?text=Halo,%20saya%20mau%20jual%2040-99%20liter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full block text-center py-3 rounded-card font-semibold transition-smooth bg-[#F9F8F6] text-[#0F3D2E] hover:bg-[#E8F0E3] border border-gray-200"
-              >
-                Hubungi Sekarang
-              </a>
+              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
+                Segera Hadir
+              </div>
             </div>
 
             {/* Paket Populer */}
@@ -347,14 +342,9 @@ export default function HomeNew() {
                   <span>Konsultasi gratis</span>
                 </li>
               </ul>
-              <a
-                href="https://wa.me/6281220821983?text=Halo,%20saya%20mau%20jual%20100-199%20liter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full block text-center py-3 rounded-card font-semibold transition-smooth bg-[#0F3D2E] text-white hover:bg-[#134E3A] shadow-soft hover:shadow-soft-lg"
-              >
-                Hubungi Sekarang
-              </a>
+              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
+                Segera Hadir
+              </div>
             </div>
 
             {/* Paket Premium */}
@@ -383,14 +373,9 @@ export default function HomeNew() {
                   <span>Invoice resmi</span>
                 </li>
               </ul>
-              <a
-                href="https://wa.me/6281220821983?text=Halo,%20saya%20mau%20jual%20200+%20liter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full block text-center py-3 rounded-card font-semibold transition-smooth bg-[#F9F8F6] text-[#0F3D2E] hover:bg-[#E8F0E3] border border-gray-200"
-              >
-                Hubungi Sekarang
-              </a>
+              <div className="w-full block text-center py-3 rounded-card font-semibold bg-gray-100 text-gray-500 border border-gray-200 cursor-not-allowed">
+                Segera Hadir
+              </div>
             </div>
           </div>
 
@@ -674,14 +659,9 @@ export default function HomeNew() {
           </div>
 
           <div className="text-center mt-12">
-            <a
-              href="https://wa.me/6281220821983?text=Halo,%20saya%20punya%20pertanyaan%20tentang%20jual%20jelantah"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#0F3D2E] font-semibold hover:gap-3 transition-smooth"
-            >
-              Ada pertanyaan lain? Hubungi kami via WhatsApp →
-            </a>
+            <span className="text-gray-500">
+              Ada pertanyaan lain? Tim kami siap membantu.
+            </span>
           </div>
         </div>
       </section>

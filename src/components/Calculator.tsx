@@ -84,15 +84,9 @@ export default function Calculator() {
         )}
       </div>
       
-      <a
-        href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20minyak%20jelantah"
-        target="_blank"
-        rel="noopener"
-        aria-label="Hubungi JelantahGO via WhatsApp untuk jual minyak jelantah"
-        className="w-full block text-center bg-[#0F3D2E] hover:bg-[#134E3A] text-white py-3.5 rounded-card font-bold transition-smooth shadow-soft hover:shadow-soft-lg"
-      >
-        Hubungi Kami Sekarang
-      </a>
+      <div className="w-full block text-center bg-gray-100 text-gray-500 py-3.5 rounded-card font-bold cursor-not-allowed">
+        Segera Hadir
+      </div>
     </div>
   )
 }
