@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_area_layanan_bngohn.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061458/jelantahgo_7_ftaszk.webp',
         width: 1200,
         height: 630,
         alt: 'Pengepul Minyak Jelantah Jakarta Timur - Jemput Cepat & Harga Tinggi',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pengepul Minyak Jelantah Jakarta Timur – Jemput Cepat & Harga Tinggi',
     description: 'Cari pengepul jelantah Jakarta Timur? Jemput cepat di Rawamangun, Klender, Cibubur, Cipinang, JGC Cakung, Kramat Jati, hingga Halim.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061458/jelantahgo_7_ftaszk.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function JakartaTimurPage() {
             "@type": "LocalBusiness",
             "@id": "https://jelantahgo.com/jakarta-timur#localbusiness",
             "name": "JelantahGO Jakarta Timur",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1763061458/jelantahgo_7_ftaszk.webp",
             "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com/jakarta-timur",
             "telephone": "+6281220821983",
@@ -162,8 +162,6 @@ export default function JakartaTimurPage() {
               </h1>
 
               <p className="text-lg text-white/90 mb-6 leading-relaxed">
-                Butuh pengepul jelantah Jakarta Timur yang responsif dan rapi? Kami siap jemput di area permukiman, kuliner, dan industri. Proses cepat, bersih, dengan harga transparan.
-                <br /><br />
                 Pengepul jelantah Jakarta Timur kami melayani rumah tangga, UMKM, restoran, hotel, kantin, hingga pabrik. Pembayaran langsung. Nota jelas. Jadwal fleksibel.
               </p>
 
@@ -176,21 +174,13 @@ export default function JakartaTimurPage() {
                 >
                   📱 Ingin dijemput hari ini? Chat WhatsApp kami
                 </a>
-                <a
-                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20kirim%20lokasi%20dan%20perkiraan%20liter%20untuk%20penawaran%20harga%20di%20Jakarta%20Timur"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-                >
-                  💰 Kirim lokasi + estimasi liter untuk penawaran harga
-                </a>
               </div>
             </div>
 
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061458/jelantahgo_7_ftaszk.webp"
                   alt="Pengepul minyak jelantah Jakarta Timur sedang menjemput gratis dan bayar tunai"
                   width={600}
                   height={400}
@@ -1032,13 +1022,6 @@ export default function JakartaTimurPage() {
               >
                 <MessageCircle className="w-5 h-5" />
                 WhatsApp: 0812-2082-1983
-              </a>
-              <a
-                href="tel:+6281220821983"
-                className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-              >
-                <Phone className="w-5 h-5" />
-                Telepon Langsung
               </a>
             </div>
 

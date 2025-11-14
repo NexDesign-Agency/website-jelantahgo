@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_15_ccntmi.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061459/jelantahgo_11_kmdxjo.webp',
         width: 1200,
         height: 630,
         alt: 'Pengepul Minyak Jelantah Jakarta Pusat - Jemput Cepat & Harga Tinggi',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pengepul Minyak Jelantah Jakarta Pusat – Jemput Cepat & Harga Tinggi',
     description: 'Cari pengepul jelantah Jakarta Pusat? Jemput cepat di Menteng, Tanah Abang, Gambir, Senen, Kemayoran.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061459/jelantahgo_11_kmdxjo.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function JakartaPusatPage() {
             "@type": "LocalBusiness",
             "@id": "https://jelantahgo.com/jakarta-pusat#localbusiness",
             "name": "JelantahGO Jakarta Pusat",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1763061459/jelantahgo_11_kmdxjo.webp",
             "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com/jakarta-pusat",
             "telephone": "+6281220821983",
@@ -176,21 +176,13 @@ export default function JakartaPusatPage() {
                 >
                   📱 Ingin dijemput hari ini? Chat WhatsApp kami
                 </a>
-                <a
-                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20kirim%20lokasi%20dan%20perkiraan%20liter%20untuk%20penawaran%20harga%20di%20Jakarta%20Pusat"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-                >
-                  💰 Kirim lokasi + perkiraan liter untuk penawaran harga
-                </a>
               </div>
             </div>
 
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061459/jelantahgo_11_kmdxjo.webp"
                   alt="Pengepul minyak jelantah Jakarta Pusat sedang menjemput gratis dan bayar tunai"
                   width={600}
                   height={400}
@@ -984,13 +976,6 @@ export default function JakartaPusatPage() {
               >
                 <MessageCircle className="w-5 h-5" />
                 WhatsApp: 0812-2082-1983
-              </a>
-              <a
-                href="tel:+6281220821983"
-                className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-              >
-                <Phone className="w-5 h-5" />
-                Telepon Langsung
               </a>
             </div>
 

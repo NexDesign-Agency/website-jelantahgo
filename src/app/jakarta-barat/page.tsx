@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'JelantahGO',
     images: [
       {
-        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_jakarta_barat.webp',
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_13_o83f8q.webp',
         width: 1200,
         height: 630,
         alt: 'Jual Jelantah Jakarta Barat - Pickup Gratis',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jual Jelantah di Jakarta Barat – Pickup Gratis & Harga Terbaik | JelantahGO',
     description: 'Warga Jakbar? Jual jelantah bekas masak Anda! Dapatkan harga tinggi, pickup gratis ke rumah.',
-    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_jakarta_barat.webp'],
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_13_o83f8q.webp'],
   },
 }
 
@@ -46,7 +46,7 @@ export default function JakartaBaratPage() {
             "@type": "LocalBusiness",
             "@id": "https://jelantahgo.com/jakarta-barat#localbusiness",
             "name": "JelantahGO Jakarta Barat",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_13_o83f8q.webp",
             "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
             "url": "https://jelantahgo.com/jakarta-barat",
             "telephone": "+6281220821983",
@@ -101,17 +101,8 @@ export default function JakartaBaratPage() {
               </h1>
 
               <p className="text-lg text-white/90 mb-6 leading-relaxed">
-                Jakarta Barat — jantung kuliner, pusat industri kecil, dan rumah bagi ribuan keluarga aktif.
-                Tapi tahukah Anda? Minyak jelantah dari dapur Anda bisa jadi sumber penghasilan sekaligus penyelamat lingkungan.
-
-                Setiap liter jelantah yang Anda kumpulkan:
-                ✅ Menghindari pencemaran saluran air
-                ✅ Bisa didaur ulang jadi biodiesel atau sabun
-                ✅ Memberi Anda uang tunai — tanpa repot!
-
-                Di halaman ini, temukan panduan lengkap jual jelantah di Jakbar: harga terbaru per liter, jadwal & area pickup GRATIS, lokasi drop point terdekat, tips kemas agar dibayar maksimal, program komunitas & sekolah.
+                Jakarta Barat — Minyak jelantah dari dapur Anda bisa jadi sumber penghasilan sekaligus penyelamat lingkungan. Temukan panduan lengkap jual minyak jelantah di Jakarta Barat.
               </p>
-
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
                   href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20jual%20jelantah%20di%20Jakarta%20Barat"
@@ -133,7 +124,7 @@ export default function JakartaBaratPage() {
             <div className="relative">
               <div className="relative rounded-card-lg overflow-hidden shadow-layered hover:shadow-soft-xl transition-smooth">
                 <Image
-                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp"
+                  src="https://res.cloudinary.com/dknswj9co/image/upload/v1763061460/jelantahgo_13_o83f8q.webp"
                   alt="Pengepul jelantah Jakarta Barat sedang menjemput gratis dan bayar tunai"
                   width={600}
                   height={400}

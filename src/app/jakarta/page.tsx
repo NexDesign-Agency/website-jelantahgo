@@ -206,14 +206,6 @@ export default function JakartaPage() {
                 >
                   📱 Ingin dijemput hari ini? Hubungi kami via WhatsApp
                 </a>
-                <a
-                  href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20ajukan%20penawaran%20harga%20jelantah%20di%20Jakarta"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-                >
-                  💰 Ajukan penawaran harga? Kirim foto volume jelantah dan lokasi Anda
-                </a>
               </div>
             </div>
 
@@ -1203,22 +1195,12 @@ export default function JakartaPage() {
               Pengepul jelantah Jakarta siap melayani Anda dengan harga terbaik dan layanan prima
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <div className="flex justify-center mb-8">
               <a
-                href="https://wa.me/6281220821983?text=Halo%20JelantahGO,%20saya%20ingin%20mulai%20jual%20jelantah%20di%20Jakarta"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="bg-white text-[#0F3D2E] hover:bg-[#F9F8F6] px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth shadow-soft-lg hover:shadow-soft-xl"
               >
-                <MessageCircle className="w-5 h-5" />
-                WhatsApp: 0812-2082-1983
-              </a>
-              <a
-                href="tel:+6281220821983"
-                className="bg-transparent border-2 border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 rounded-card font-bold text-lg flex items-center justify-center gap-2 transition-smooth"
-              >
-                <Phone className="w-5 h-5" />
-                Telepon Langsung
+                Hubungi Kami
               </a>
             </div>
 
