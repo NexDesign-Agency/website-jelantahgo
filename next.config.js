@@ -254,11 +254,11 @@ const nextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.clarity.ms https://www.google-analytics.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.clarity.ms https://www.google-analytics.com https://va.vercel-scripts.com https://vitals.vercel-insights.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
               "img-src 'self' data: https://res.cloudinary.com https://www.google-analytics.com",
-              "connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://www.clarity.ms https://res.cloudinary.com",
+              "connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://www.clarity.ms https://res.cloudinary.com https://va.vercel-scripts.com https://vitals.vercel-insights.com",
               "frame-src 'self' https://www.youtube.com",
               "object-src 'none'",
               "base-uri 'self'",
