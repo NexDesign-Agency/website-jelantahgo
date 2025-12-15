@@ -50,66 +50,7 @@ export const metadata: Metadata = {
 export default function HomeNew() {
   return (
     <>
-      {/* Schema Markup - LocalBusiness */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "@id": "https://jelantahgo.com/#localbusiness",
-            "name": "JelantahGO",
-            "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
-            "logo": "https://res.cloudinary.com/dknswj9co/image/upload/v1761172234/favicon_jelantahgo_kjxjs4.webp",
-            "url": "https://jelantahgo.com",
-            "telephone": "+6281220821983",
-            "email": "info.jelantahgo@gmail.com",
-            "priceRange": "Rp 7.500 - Rp 8.500 per liter",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Jl. Papanggo 3C No.250, Papanggo, Kec. Tj. Priok",
-              "addressLocality": "Jakarta Utara",
-              "addressRegion": "Daerah Khusus Ibukota Jakarta",
-              "postalCode": "14340",
-              "addressCountry": "ID"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": -6.1176,
-              "longitude": 106.8722
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "08:00",
-              "closes": "20:00"
-            },
-            "areaServed": [
-              {
-                "@type": "City",
-                "name": "Jakarta"
-              },
-              {
-                "@type": "City",
-                "name": "Tangerang"
-              },
-              {
-                "@type": "City",
-                "name": "Bekasi"
-              },
-              {
-                "@type": "City",
-                "name": "Depok"
-              },
-              {
-                "@type": "City",
-                "name": "Bogor"
-              }
-            ],
-            "description": "Pengepul minyak jelantah terpercaya di Jakarta. Jemput gratis, bayar cash instan, harga terbaik Rp 7.500-8.500/liter."
-          })
-        }}
-      />
+
 
       {/* Schema Markup - Service */}
       <script

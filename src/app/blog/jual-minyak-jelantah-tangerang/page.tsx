@@ -7,15 +7,14 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Tangerang & Tangsel Rp 7.500-8.500/L - BSD, Serpong, Karawaci',
-  description: 'Panduan jual minyak jelantah Tangerang Raya harga premium Rp 7.500-8.500/liter! Melayani BSD, Serpong, Karawaci, Ciledug. Program komunitas RT/RW tersedia.',
-  keywords: 'jual jelantah tangerang, jual jelantah tangsel, pengepul tangerang, harga jelantah tangerang, jemput jelantah tangerang, pengepul tangsel',
+  title: 'Jual Minyak Jelantah Tangerang & Tangsel | JelantahGO',
+  description: 'Jual minyak jelantah Tangerang Raya harga premium Rp 7.500-8.500/liter! Melayani BSD, Serpong, Karawaci, Ciledug. Penjemputan gratis ≥40L.',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-tangerang',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Tangerang & Tangsel 2025 | JelantahGO',
-    description: 'Panduan spesifik untuk warga dan bisnis di Tangerang Raya (Kota, Tangsel, Kabupaten) yang ingin menjual jelantah dengan harga terbaik dan layanan profesional.',
+    title: 'Jual Minyak Jelantah Tangerang & Tangsel | JelantahGO',
+    description: 'Jual minyak jelantah Tangerang Raya harga premium Rp 7.500-8.500/liter! Melayani BSD, Serpong, Karawaci, Ciledug. Penjemputan gratis ≥40L.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-tangerang',
     siteName: 'JelantahGO',
     images: [
@@ -31,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Tangerang & Tangsel 2025',
-    description: 'Panduan spesifik untuk warga dan bisnis di Tangerang Raya (Kota, Tangsel, Kabupaten) yang ingin menjual jelantah dengan harga terbaik.',
+    title: 'Jual Minyak Jelantah Tangerang & Tangsel | JelantahGO',
+    description: 'Jual minyak jelantah Tangerang Raya harga premium Rp 7.500-8.500/liter! Melayani BSD, Serpong, Karawaci, Ciledug. Penjemputan gratis ≥40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963251/jelantahgo_hero_14_tvh1jt.webp'],
   },
 }
@@ -166,4 +165,5 @@ export default function JualTangerangPage() {
     </>
   )
 }
+
 

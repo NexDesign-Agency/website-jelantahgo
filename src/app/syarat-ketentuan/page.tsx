@@ -3,9 +3,8 @@ import Image from 'next/image'
 import { FileText, CheckCircle, AlertCircle, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Syarat Ketentuan Jual Minyak Jelantah Jakarta | Standar Kualitas & Harga - JelantahGo',
-  description: 'Syarat ketentuan jual minyak jelantah di JelantahGo Jakarta: Standar kualitas, min 20L penjemputan gratis, bayar tunai langsung. Harga transparan Rp 3.000-5.000/L.',
-  keywords: 'syarat ketentuan jelantahgo, standar kualitas minyak jelantah, persyaratan jual jelantah jakarta, ketentuan pengepul minyak jelantah',
+  title: 'Syarat & Ketentuan Jual Minyak Jelantah | JelantahGO',
+  description: 'Syarat & ketentuan jual minyak jelantah di JelantahGO: Standar kualitas, min 40L penjemputan gratis, bayar tunai langsung. Harga transparan Rp 7.500-8.500/L.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://jelantahgo.com/syarat-ketentuan',

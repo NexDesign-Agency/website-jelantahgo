@@ -10,14 +10,13 @@ import ContactPageSchema from '@/components/ContactPageSchema'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+  title: 'Kontak JelantahGO Jakarta | WhatsApp Fast Response',
   description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
-  keywords: 'kontak jelantahgo jakarta, whatsapp pengepul jelantah, hubungi jelantahgo, kantor jelantahgo jakarta utara, alamat jelantahgo, nomor telepon pengepul minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/contact',
   },
   openGraph: {
-    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response',
     description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
     url: 'https://jelantahgo.com/contact',
     siteName: 'JelantahGO',
@@ -34,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response 0812-2082-1983 | Pengepul Minyak Jelantah',
+    title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response',
     description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp'],
   },

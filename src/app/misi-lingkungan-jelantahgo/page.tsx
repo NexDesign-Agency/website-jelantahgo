@@ -4,14 +4,13 @@ import Image from 'next/image'
 import { Target, TrendingUp, Users, Award, CheckCircle, ArrowRight, MessageCircle, DollarSign, Truck, MapPin, Clock, Zap, CreditCard, Wallet, Smartphone, FileText, Scale, Shield, Leaf, Phone, Mail, Calendar, Star, ExternalLink } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Misi Lingkungan JelantahGO - Mengubah Limbah Jadi Energi Bersih',
+  title: 'Misi Lingkungan JelantahGO | Mengubah Limbah Jadi Energi',
   description: 'Misi lingkungan JelantahGO: Mengubah 3 miliar liter minyak jelantah Indonesia menjadi biodiesel ramah lingkungan. Target 2030 bebas pencemaran jelantah.',
-  keywords: 'misi lingkungan jelantahgo, biodiesel, daur ulang jelantah, energi bersih indonesia, pengurangan emisi karbon, limbah jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/misi-lingkungan-jelantahgo',
   },
   openGraph: {
-    title: 'Misi Lingkungan JelantahGO - Mengubah Limbah Jadi Energi Bersih',
+    title: 'Misi Lingkungan JelantahGO | Mengubah Limbah Jadi Energi',
     description: 'Misi lingkungan JelantahGO: Mengubah 3 miliar liter minyak jelantah Indonesia menjadi biodiesel ramah lingkungan. Target 2030 bebas pencemaran jelantah.',
     url: 'https://jelantahgo.com/misi-lingkungan-jelantahgo',
     siteName: 'JelantahGO',
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Misi Lingkungan JelantahGO - Mengubah Limbah Jadi Energi Bersih',
+    title: 'Misi Lingkungan JelantahGO | Mengubah Limbah Jadi Energi',
     description: 'Misi lingkungan JelantahGO: Mengubah 3 miliar liter minyak jelantah Indonesia menjadi biodiesel ramah lingkungan.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1762937709/jelantahgo_hero_1_wwdp5p.webp'],
   },

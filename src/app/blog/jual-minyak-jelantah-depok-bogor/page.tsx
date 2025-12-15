@@ -6,15 +6,14 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Depok & Bogor Rp 7.500-8.500/L - Layanan Kampus & Kuliner',
-  description: 'Panduan lengkap jual minyak jelantah Depok & Bogor harga premium Rp 7.500-8.500/liter! Layanan kampus UI, pusat kuliner Bogor, penjemputan gratis ≥20L.',
-  keywords: 'jual jelantah depok, jual jelantah bogor, pengepul depok, pengepul bogor, harga jelantah depok, jemput jelantah bogor, pengepul depok terpercaya',
+  title: 'Jual Minyak Jelantah Depok & Bogor | Harga Rp 7.500-8.500/L',
+  description: 'Jual minyak jelantah di Depok & Bogor harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk kampus UI, pusat kuliner Bogor. Min 40L.',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025 | JelantahGO',
-    description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan dengan jemput gratis.',
+    title: 'Jual Minyak Jelantah Depok & Bogor | Harga Rp 7.500-8.500/L',
+    description: 'Jual minyak jelantah di Depok & Bogor harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk kampus UI, pusat kuliner Bogor. Min 40L.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-depok-bogor',
     siteName: 'JelantahGO',
     images: [
@@ -30,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Depok & Bogor - Panduan 2025',
-    description: 'Panduan lengkap untuk warga dan bisnis kuliner di Depok dan Bogor yang ingin menjual minyak jelantah mereka secara mudah, cepat, dan menguntungkan.',
+    title: 'Jual Minyak Jelantah Depok & Bogor | Harga Rp 7.500-8.500/L',
+    description: 'Jual minyak jelantah di Depok & Bogor harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk kampus UI, pusat kuliner Bogor. Min 40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963250/jelantahgo_hero_11_vic3dh.webp'],
   },
 }

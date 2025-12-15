@@ -9,15 +9,14 @@ import ReadingTime from '@/components/ReadingTime'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Jakarta Rp 7.500-8.500/L - Penjemputan Gratis Seluruh DKI',
-  description: 'Panduan lengkap jual minyak jelantah Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥20L, 5 wilayah Jakarta, response 5-30 menit, bayar tunai instant.',
-  keywords: 'jual minyak jelantah jakarta, pengepul jelantah jakarta, harga jelantah jakarta, jual jelantah jakarta selatan, jemput jelantah jakarta, pengepul jelantah terpercaya jakarta',
+  title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L',
+  description: 'Panduan lengkap jual minyak jelantah di Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥40L seluruh DKI, response 5-30 menit, bayar tunai instant.',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Jakarta Rp 7.500-8.500/L - Penjemputan Gratis Seluruh DKI',
-    description: 'Panduan lengkap jual minyak jelantah Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥20L, 5 wilayah Jakarta, response 5-30 menit, bayar tunai instant.',
+    title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L',
+    description: 'Panduan lengkap jual minyak jelantah di Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥40L seluruh DKI, response 5-30 menit, bayar tunai instant.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-jakarta',
     siteName: 'JelantahGO',
     images: [
@@ -35,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Jakarta Rp 7.500-8.500/L - Penjemputan Gratis Seluruh DKI',
-    description: 'Panduan lengkap jual minyak jelantah Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥20L, 5 wilayah Jakarta, response 5-30 menit.',
+    title: 'Jual Minyak Jelantah Jakarta | Harga Rp 7.500-8.500/L',
+    description: 'Panduan lengkap jual minyak jelantah di Jakarta harga premium Rp 7.500-8.500/liter! Penjemputan gratis ≥40L seluruh DKI, response 5-30 menit, bayar tunai instant.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163996/jelantahgo_10_rhxacq.webp'],
   },
 }

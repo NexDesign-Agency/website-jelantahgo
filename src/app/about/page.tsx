@@ -11,9 +11,8 @@ import {
 import OrganizationSchema from '@/components/OrganizationSchema'
 
 export const metadata: Metadata = {
-  title: 'Pengepul Minyak Jelantah Terpercaya Jakarta Sejak 2020 | JelantahGo',
+  title: 'Tentang JelantahGO: Pengepul Minyak Jelantah Terpercaya di Jakarta',
   description: 'JelantahGo adalah pengepul minyak jelantah profesional di Jakarta sejak 2020. Melayani 30+ mitra dengan harga terbaik, proses transparan, dan komitmen lingkungan. Hub: 0812-2082-1983',
-  keywords: 'tentang jelantahgo, pengepul jelantah jakarta, sejarah jelantahgo, visi misi jelantahgo, perjalanan jelantahgo, pengepul minyak jelantah profesional, biodiesel jakarta, pengepul minyak goreng bekas',
   alternates: {
     canonical: 'https://jelantahgo.com/about',
   },

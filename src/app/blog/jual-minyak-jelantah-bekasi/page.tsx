@@ -6,15 +6,14 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
-  description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban. Penjemputan gratis ≥20L.',
-  keywords: 'jual jelantah bekasi, pengepul bekasi, harga jelantah bekasi, jemput jelantah bekasi gratis, pengepul bekasi terpercaya, jual jelantah bekasi kota',
+  title: 'Jual Minyak Jelantah Bekasi | Harga Rp 7.500-8.500/L',
+  description: 'Jual minyak jelantah di Bekasi dengan harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk industri Cikarang & perumahan. Min 40L.',
   alternates: {
     canonical: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
   },
   openGraph: {
-    title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
-    description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban. Penjemputan gratis ≥20L.',
+    title: 'Jual Minyak Jelantah Bekasi | Harga Rp 7.500-8.500/L',
+    description: 'Jual minyak jelantah di Bekasi dengan harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk industri Cikarang & perumahan. Min 40L.',
     url: 'https://jelantahgo.com/blog/jual-minyak-jelantah-bekasi',
     siteName: 'JelantahGO',
     images: [
@@ -30,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jual Minyak Jelantah Bekasi Rp 7.500-8.500/L - Penjemputan Gratis Kota & Kabupaten',
-    description: 'Panduan lengkap jual minyak jelantah Bekasi harga premium Rp 7.500-8.500/liter! Layanan B2B industri Cikarang & komunitas urban.',
+    title: 'Jual Minyak Jelantah Bekasi | Harga Rp 7.500-8.500/L',
+    description: 'Jual minyak jelantah di Bekasi dengan harga premium Rp 7.500-8.500/liter. Layanan jemput gratis untuk industri Cikarang & perumahan. Min 40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761963249/jelantahgo_hero_6_y74rop.webp'],
   },
 }

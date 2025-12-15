@@ -11,15 +11,14 @@ import Calculator from '@/components/Calculator'
 import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Harga Minyak Jelantah Jakarta 2025 | Bayar Langsung Rp 3.000-5.000/L - JelantahGo',
-  description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 3.000-5.000/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥20L. Cek harga sekarang!',
-  keywords: 'harga minyak jelantah, harga jelantah jakarta, harga minyak goreng bekas, pengepul jelantah jakarta, jual minyak jelantah jakarta',
+  title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
+  description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L. Cek harga sekarang!',
   alternates: {
     canonical: 'https://jelantahgo.com/pricing',
   },
   openGraph: {
-    title: 'Harga Minyak Jelantah Jakarta 2025 | Bayar Langsung Rp 3.000-5.000/L - JelantahGo',
-    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 3.000-5.000/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥20L.',
+    title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
+    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
     url: 'https://jelantahgo.com/pricing',
     siteName: 'JelantahGO',
     images: [
@@ -35,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Harga Minyak Jelantah Jakarta 2025 | Bayar Langsung Rp 3.000-5.000/L - JelantahGo',
-    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 3.000-5.000/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥20L.',
+    title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
+    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_3_h1mz5u.webp'],
   },
 }

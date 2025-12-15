@@ -3,14 +3,13 @@ import Image from 'next/image'
 import { Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+  title: 'Testimoni Pelanggan JelantahGO | 1000+ Review Positif',
   description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan. Response cepat, bayar langsung!',
-  keywords: 'testimoni jelantahgo, review pelanggan jelantahgo, pengalaman jual jelantah jakarta, testimoni pengepul minyak jelantah, review jual minyak jelantah',
   alternates: {
     canonical: 'https://jelantahgo.com/testimoni',
   },
   openGraph: {
-    title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+    title: 'Testimoni Pelanggan JelantahGO | 1000+ Review Positif',
     description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan. Response cepat, bayar langsung!',
     url: 'https://jelantahgo.com/testimoni',
     siteName: 'JelantahGO',
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Testimoni Pelanggan JelantahGo Jakarta | 1000+ Review Positif Sejak 2020',
+    title: 'Testimoni Pelanggan JelantahGO | 1000+ Review Positif',
     description: '1000+ testimoni nyata pelanggan JelantahGo Jakarta. Ibu rumah tangga dapat Rp 300-400rb/bulan, warung dapat Rp 1-1.2jt/bulan.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp'],
   },

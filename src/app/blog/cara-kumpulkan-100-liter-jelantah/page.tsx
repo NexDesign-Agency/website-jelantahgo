@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 'use client'
 
 import Image from 'next/image'
@@ -7,6 +8,38 @@ import BlogArticleFooter from '@/components/BlogArticleFooter'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import { Users, Store, School, Calendar, Package, Gift, Lightbulb } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: '10 Cara Kumpulkan 100L Jelantah & Raih Rp 800rb/Bulan',
+  description: 'Ingin dapat Rp 800rb/bulan dari jelantah? Pelajari 10 strategi praktis untuk mengumpulkan 100 liter jelantah, dari komunitas RT/RW hingga kerjasama warung.',
+  alternates: {
+    canonical: 'https://jelantahgo.com/blog/cara-kumpulkan-100-liter-jelantah',
+  },
+  openGraph: {
+    title: '10 Cara Kumpulkan 100L Jelantah & Raih Rp 800rb/Bulan',
+    description: 'Ingin dapat Rp 800rb/bulan dari jelantah? Pelajari 10 strategi praktis untuk mengumpulkan 100 liter jelantah, dari komunitas RT/RW hingga kerjasama warung.',
+    url: 'https://jelantahgo.com/blog/cara-kumpulkan-100-liter-jelantah',
+    siteName: 'JelantahGO',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_26_hmnqjl.webp',
+        width: 1200,
+        height: 630,
+        alt: '10 Cara Mengumpulkan 100 Liter Jelantah per Bulan',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'article',
+    publishedTime: '2025-10-01T00:00:00+07:00',
+    modifiedTime: '2025-10-01T00:00:00+07:00',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '10 Cara Kumpulkan 100L Jelantah & Raih Rp 800rb/Bulan',
+    description: 'Ingin dapat Rp 800rb/bulan dari jelantah? Pelajari 10 strategi praktis untuk mengumpulkan 100 liter jelantah.',
+    images: ['https://res.cloudinary.com/dknswj9co/image/upload/f_webp,w_1200,c_fill,q_auto/v1761163998/jelantahgo_26_hmnqjl.webp'],
+  },
+}
 
 export default function CaraKumpulkanPage() {
   return (

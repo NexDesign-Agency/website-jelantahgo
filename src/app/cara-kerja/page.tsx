@@ -21,15 +21,14 @@ interface Step {
 }
 
 export const metadata: Metadata = {
-  title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
-  description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L. Hubungi JelantahGo 0812-2082-1983',
-  keywords: 'cara jual minyak jelantah, jual jelantah jakarta, pengepul minyak jelantah, minyak jelantah jakarta, cara kerja jual minyak jelantah',
+  title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Cepat & Mudah - JelantahGO',
+  description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L. Hubungi JelantahGo 0812-2082-1983',
   alternates: {
     canonical: 'https://jelantahgo.com/cara-kerja',
   },
   openGraph: {
-    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
-    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L. Hubungi JelantahGo 0812-2082-1983',
+    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Cepat & Mudah - JelantahGO',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L. Hubungi JelantahGo 0812-2082-1983',
     url: 'https://jelantahgo.com/cara-kerja',
     siteName: 'JelantahGO',
     images: [
@@ -45,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung - JelantahGo',
-    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L.',
+    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Cepat & Mudah - JelantahGO',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp'],
   },
 }

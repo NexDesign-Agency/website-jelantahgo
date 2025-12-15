@@ -11,15 +11,14 @@ import FAQSchema from '@/components/FAQSchema'
 import HowToSchema from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
-  title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung',
-  description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L. Hubungi JelantahGo 0812-2082-1983',
-  keywords: 'cara jual minyak jelantah, jual minyak jelantah jakarta, pengepul jelantah jakarta, cara menjual jelantah, harga minyak jelantah',
+  title: 'Panduan Cara Jual Minyak Jelantah di Jakarta | JelantahGO',
+  description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L. Hubungi JelantahGo 0812-2082-1983',
   alternates: {
     canonical: 'https://jelantahgo.com/cara-jual-minyak-jelantah',
   },
   openGraph: {
-    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung',
-    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L.',
+    title: 'Panduan Cara Jual Minyak Jelantah di Jakarta | JelantahGO',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L.',
     url: 'https://jelantahgo.com/cara-jual-minyak-jelantah',
     siteName: 'JelantahGO',
     images: [
@@ -35,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cara Jual Minyak Jelantah di Jakarta | Proses Mudah & Bayar Langsung',
-    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥20L.',
+    title: 'Panduan Cara Jual Minyak Jelantah di Jakarta | JelantahGO',
+    description: 'Panduan lengkap cara jual minyak jelantah di Jakarta. Proses cepat 4 langkah, bayar langsung, penjemputan gratis ≥40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp'],
   },
 }

@@ -5,15 +5,14 @@ import ServiceSchema from '@/components/ServiceSchema'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 
 export const metadata: Metadata = {
-  title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
-  description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L. Response 5-30 menit. Cek area Anda!',
-  keywords: 'area layanan jelantahgo jakarta, penjemputan minyak jelantah jakarta utara selatan timur barat pusat, pengepul jelantah jakarta, jual minyak jelantah jakarta',
+  title: 'Area Layanan Penjemputan Minyak Jelantah | Jakarta & Sekitarnya',
+  description: 'JelantahGo melayani seluruh Jakarta & sekitarnya. Penjemputan gratis ≥40L, bayar instant Rp 7.500-8.500/L. Cek area layanan kami!',
   alternates: {
     canonical: 'https://jelantahgo.com/area-layanan',
   },
   openGraph: {
-    title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
-    description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L. Response 5-30 menit.',
+    title: 'Area Layanan Penjemputan Minyak Jelantah | Jakarta & Sekitarnya',
+    description: 'JelantahGo melayani seluruh Jakarta & sekitarnya. Penjemputan gratis ≥40L, bayar instant Rp 7.500-8.500/L. Cek area layanan kami!',
     url: 'https://jelantahgo.com/area-layanan',
     siteName: 'JelantahGO',
     images: [
@@ -29,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Area Layanan JelantahGo Jakarta | Penjemputan Gratis ≥20L di 5 Wilayah Jakarta',
-    description: 'JelantahGo melayani seluruh Jakarta: Utara, Selatan, Timur, Barat, Pusat. Penjemputan gratis ≥20L, bayar instant Rp 3.000-5.000/L.',
+    title: 'Area Layanan Penjemputan Minyak Jelantah | Jakarta & Sekitarnya',
+    description: 'JelantahGo melayani seluruh Jakarta & sekitarnya. Penjemputan gratis ≥40L, bayar instant Rp 7.500-8.500/L. Cek area layanan kami!',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp'],
   },
 }
