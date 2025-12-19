@@ -97,7 +97,7 @@ export default function HomeNew() {
                     "@type": "Service",
                     "name": "Jual Minyak Jelantah Premium (≥200 Liter)"
                   },
-                  "price": "8500",
+                  "price": "7500",
                   "priceCurrency": "IDR",
                   "description": "Harga tertinggi untuk volume besar, minimal 200 liter"
                 },
@@ -107,7 +107,7 @@ export default function HomeNew() {
                     "@type": "Service",
                     "name": "Jual Minyak Jelantah Standar (100-199 Liter)"
                   },
-                  "price": "8000",
+                  "price": "7000",
                   "priceCurrency": "IDR",
                   "description": "Harga untuk volume menengah, 100-199 liter"
                 },
@@ -117,7 +117,7 @@ export default function HomeNew() {
                     "@type": "Service",
                     "name": "Jual Minyak Jelantah Rumah Tangga (40-99 Liter)"
                   },
-                  "price": "7500",
+                  "price": "6500",
                   "priceCurrency": "IDR",
                   "description": "Harga untuk volume kecil, minimal 40 liter"
                 }
@@ -154,18 +154,18 @@ export default function HomeNew() {
             backgroundSize: '8px 8px'
           }}></div>
         </div>
-        
+
         <div className="container-custom relative z-10 py-20 lg:py-28">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-[#D9E3D3] text-[#0F3D2E] px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 💰 PENGEPUL MINYAK JELANTAH TERPERCAYA • JAKARTA & SEKITARNYA
               </div>
-              
+
               <h1 className="text-hero-mobile lg:text-hero-laptop xl:text-hero-desktop font-bold leading-snug mb-4">
                 Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya
               </h1>
-              
+
               <p className="text-lg text-white/90 mb-6 leading-relaxed">
                 Jual minyak jelantah di Jakarta dengan harga tinggi. Jemput gratis, bayar tunai instan. Pengepul #1 terpercaya untuk restoran, katering, UMKM. Proses mudah dan transparan.
               </p>
@@ -256,7 +256,7 @@ export default function HomeNew() {
                 </div>
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-2">100-199 Liter</h3>
                 <div className="flex items-baseline justify-center gap-1 mb-1">
-                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 7.500</span>
+                  <span className="text-4xl font-bold text-[#0F3D2E]">Rp 7.000</span>
                 </div>
                 <span className="text-gray-500 text-sm">per liter</span>
               </div>
@@ -321,7 +321,7 @@ export default function HomeNew() {
             <div>
               <Calculator />
             </div>
-            
+
             {/* Video - Kanan */}
             <div>
               <VideoPlayer />
@@ -412,7 +412,7 @@ export default function HomeNew() {
                 <div className="flex-1 border-l-2 border-[#E8F0E3] pl-4 pb-4">
                   <p className="font-semibold text-gray-800">Tim jemput ke lokasi Anda</p>
                   <p className="text-sm text-gray-500 mt-1">
-                    <strong>Jakarta Barat & Utara: same-day service</strong><br/>
+                    <strong>Jakarta Barat & Utara: same-day service</strong><br />
                     Maksimal 1x24 jam untuk area lain
                   </p>
                 </div>
@@ -647,7 +647,7 @@ export default function HomeNew() {
                 <div className="bg-white rounded-lg p-8 shadow-md text-center hover:shadow-lg transition-shadow">
                   <div className="text-5xl mb-4">💰</div>
                   <h4 className="font-bold text-[#0F3D2E] mb-2 text-lg">Harga Tertinggi</h4>
-                  <p className="text-gray-600 text-sm">Hingga Rp 8.500/liter</p>
+                  <p className="text-gray-600 text-sm">Hingga Rp 7.500/liter</p>
                 </div>
 
                 {/* Keunggulan 2 */}
