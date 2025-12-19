@@ -153,17 +153,17 @@ export default function PricingPage() {
                     },
                     {
                       volume: '40-99 liter',
-                      harga: 'Rp 6.800 - Rp 7.000',
+                      harga: 'Rp 6.500',
                       keterangan: 'Penjemputan GRATIS, cocok untuk warung',
                     },
                     {
                       volume: '100-199 liter',
-                      harga: 'Rp 7.000 - Rp 7.200',
+                      harga: 'Rp 7.000',
                       keterangan: 'Harga nego, cocok untuk restoran kecil',
                     },
                     {
                       volume: '≥200 liter',
-                      harga: 'Rp 7.200 - Rp 7.500',
+                      harga: 'Rp 7.500',
                       keterangan: 'Harga kontrak, untuk restoran menengah',
                     },
                     {
@@ -206,7 +206,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6">1. Kualitas Minyak</h3>
               <div className="space-y-4">
                 <div className="bg-green-50 p-4 rounded-card border-l-4 border-green-500">
-                  <h4 className="font-semibold text-gray-800 mb-2">Harga Maksimal (Rp 7.200 - Rp 7.500/liter)</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Harga Maksimal (Rp 7.500/liter)</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
@@ -231,7 +231,7 @@ export default function PricingPage() {
                   </ul>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-card border-l-4 border-yellow-500">
-                  <h4 className="font-semibold text-gray-800 mb-2">Harga Standar (Rp 6.800 - Rp 7.100/liter)</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Harga Standar (Rp 7.000/liter)</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li className="flex items-start gap-2">
                       <AlertCircle className="w-4 h-4 text-yellow-600 mt-0.5 flex-shrink-0" />
@@ -417,10 +417,10 @@ export default function PricingPage() {
                       'Volume: 40 liter',
                       'Kualitas: Bagus (sudah disaring)',
                       'Metode: Dijemput gratis',
-                      'Harga: Rp 6.800/liter',
+                      'Harga: Rp 6.500/liter',
                     ],
-                    calculation: '40 liter × Rp 6.800 = Rp 272.000',
-                    result: 'Yang Anda Terima: Rp 272.000 tunai/transfer',
+                    calculation: '40 liter × Rp 6.500 = Rp 260.000',
+                    result: 'Yang Anda Terima: Rp 260.000 tunai/transfer',
                   },
                   {
                     title: 'Contoh 3: Restoran Padang',
@@ -428,10 +428,10 @@ export default function PricingPage() {
                       'Volume: 120 liter',
                       'Kualitas: Sangat bagus (bersih, sedikit air)',
                       'Metode: Dijemput, kontrak bulanan',
-                      'Harga: Rp 7.200/liter (harga kontrak)',
+                      'Harga: Rp 7.000/liter (harga kontrak)',
                     ],
-                    calculation: '120 liter × Rp 7.200 = Rp 864.000',
-                    result: 'Yang Anda Terima: Rp 864.000/bulan | Penghasilan Tahunan: Rp 864.000 × 12 = Rp 10.368.000/tahun',
+                    calculation: '120 liter × Rp 7.000 = Rp 840.000',
+                    result: 'Yang Anda Terima: Rp 840.000/bulan | Penghasilan Tahunan: Rp 840.000 × 12 = Rp 10.080.000/tahun',
                   },
                   {
                     title: 'Contoh 4: Hotel Bintang 3',
@@ -510,7 +510,7 @@ export default function PricingPage() {
                 tips: [
                   {
                     subTitle: 'Volume Awal → Volume Target → Kenaikan Harga',
-                    description: '10 liter (Rp 6.500) → 40 liter (Rp 6.800) = +Rp 300/liter | 40 liter (Rp 6.800) → 100 liter (Rp 7.000) = +Rp 200/liter | 100 liter (Rp 7.000) → 200 liter (Rp 7.200) = +Rp 200/liter',
+                    description: '10 liter (Rp 6.500) → 40 liter (Rp 6.500) = Gratis Jemput | 40 liter (Rp 6.500) → 100 liter (Rp 7.000) = +Rp 500/liter | 100 liter (Rp 7.000) → 200 liter (Rp 7.500) = +Rp 500/liter',
                     impact: 'Cara Kumpulkan Volume: Kumpulkan dari tetangga RT, titip jerigen di warung RT, koordinasi dengan PKK/arisan, jadi agen pengumpul lokal',
                   },
                 ],
@@ -648,7 +648,7 @@ export default function PricingPage() {
                     {[
                       { skenario: '1 Rumah', volume: '5L', harga: 'Rp 6.500', bulan: 'Rp 32.500', tahun: 'Rp 390.000' },
                       { skenario: '1 Rumah (rajin masak)', volume: '10L', harga: 'Rp 6.500', bulan: 'Rp 65.000', tahun: 'Rp 780.000' },
-                      { skenario: 'Agen RT (5 rumah)', volume: '50L', harga: 'Rp 6.800', bulan: 'Rp 340.000', tahun: 'Rp 4.080.000' },
+                      { skenario: 'Agen RT (5 rumah)', volume: '50L', harga: 'Rp 6.500', bulan: 'Rp 325.000', tahun: 'Rp 3.900.000' },
                       { skenario: 'Agen RT (15 rumah)', volume: '150L', harga: 'Rp 7.000', bulan: 'Rp 1.050.000', tahun: 'Rp 12.600.000' },
                     ].map((row, index) => (
                       <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
@@ -684,8 +684,8 @@ export default function PricingPage() {
                   <tbody>
                     {[
                       { jenis: 'Warung Nasi', volume: '30L', harga: 'Rp 6.500', bulan: 'Rp 195.000', tahun: 'Rp 2.340.000' },
-                      { jenis: 'Warung Gorengan', volume: '60L', harga: 'Rp 6.800', bulan: 'Rp 408.000', tahun: 'Rp 4.896.000' },
-                      { jenis: 'Restoran Padang', volume: '150L', harga: 'Rp 7.200', bulan: 'Rp 1.080.000', tahun: 'Rp 12.960.000' },
+                      { jenis: 'Warung Gorengan', volume: '60L', harga: 'Rp 6.500', bulan: 'Rp 390.000', tahun: 'Rp 4.680.000' },
+                      { jenis: 'Restoran Padang', volume: '150L', harga: 'Rp 7.000', bulan: 'Rp 1.050.000', tahun: 'Rp 12.600.000' },
                       { jenis: 'Resto Ayam Geprek', volume: '100L', harga: 'Rp 7.000', bulan: 'Rp 700.000', tahun: 'Rp 8.400.000' },
                     ].map((row, index) => (
                       <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>

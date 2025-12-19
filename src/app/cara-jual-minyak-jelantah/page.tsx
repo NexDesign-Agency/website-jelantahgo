@@ -586,16 +586,16 @@ export default function CaraJualMinyakJelantahPage() {
                   <p className="font-semibold text-gray-800 mb-2">Kasus 2: Warung Makan</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Volume: 50 liter</li>
-                    <li>• Harga: Rp 6.800/liter (lebih tinggi karena volume besar)</li>
-                    <li>• <strong>Total: 50 × Rp 6.800 = Rp 340.000</strong></li>
+                    <li>• Harga: Rp 6.500/liter (lebih tinggi karena volume besar)</li>
+                    <li>• <strong>Total: 50 × Rp 6.500 = Rp 325.000</strong></li>
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-card border border-gray-200">
                   <p className="font-semibold text-gray-800 mb-2">Kasus 3: Restoran (Kontrak Rutin)</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Volume: 200 liter/bulan</li>
-                    <li>• Harga: Rp 7.200/liter (harga kontrak lebih baik)</li>
-                    <li>• <strong>Total: 200 × Rp 7.200 = Rp 1.440.000/bulan</strong></li>
+                    <li>• Harga: Rp 7.500/liter (harga kontrak lebih baik)</li>
+                    <li>• <strong>Total: 200 × Rp 7.500 = Rp 1.500.000/bulan</strong></li>
                   </ul>
                 </div>
               </div>
