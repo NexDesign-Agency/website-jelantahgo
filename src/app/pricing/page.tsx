@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { 
-  DollarSign, MessageCircle, Phone, Mail, MapPin, CheckCircle, 
+import {
+  DollarSign, MessageCircle, Phone, Mail, MapPin, CheckCircle,
   AlertCircle, TrendingUp, Calculator as CalculatorIcon, HelpCircle, ExternalLink,
   ArrowRight, Scale, Users, Calendar, Leaf, Home, UtensilsCrossed,
   Building2, Factory, Wallet, Eye, Shield
@@ -12,13 +12,13 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
-  description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L. Cek harga sekarang!',
+  description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 6.500-7.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L. Cek harga sekarang!',
   alternates: {
     canonical: 'https://jelantahgo.com/pricing',
   },
   openGraph: {
     title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
-    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
+    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 6.500-7.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
     url: 'https://jelantahgo.com/pricing',
     siteName: 'JelantahGO',
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Harga Minyak Jelantah Jakarta 2025 | JelantahGO',
-    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 7.500-8.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
+    description: 'Update harga minyak jelantah terbaru di Jakarta 2025: Rp 6.500-7.500/liter. Bayar tunai/transfer langsung, penjemputan gratis ≥40L.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_3_h1mz5u.webp'],
   },
 }
@@ -44,11 +44,11 @@ export default function PricingPage() {
   const faqs = [
     {
       question: 'Berapa harga minyak jelantah hari ini?',
-      answer: 'Harga terbaru berkisar Rp 3.000 - Rp 5.000/liter tergantung kualitas dan volume. Untuk harga exact hari ini, hubungi WhatsApp kami: +62 812-2082-1983',
+      answer: 'Harga terbaru berkisar Rp 6.500 - Rp 7.500/liter tergantung kualitas dan volume. Untuk harga exact hari ini, hubungi WhatsApp kami: +62 812-2082-1983',
     },
     {
       question: 'Apakah harga bisa nego?',
-      answer: 'Volume <20L: Harga fixed. Volume 20-49L: Bisa nego sedikit. Volume ≥50L: Bisa nego lebih baik. Kontrak rutin: Nego harga kontrak jangka panjang.',
+      answer: 'Volume <40L: Harga fixed. Volume 40-99L: Bisa nego sedikit. Volume ≥100L: Bisa nego lebih baik. Kontrak rutin: Nego harga kontrak jangka panjang.',
     },
     {
       question: 'Kenapa harga minyak jelantah berubah-ubah?',
@@ -56,7 +56,7 @@ export default function PricingPage() {
     },
     {
       question: 'Apakah ada biaya tambahan selain harga per liter?',
-      answer: 'TIDAK ADA! Penjemputan ≥20L: GRATIS. Tidak ada biaya admin. Tidak ada potongan tidak jelas. Yang di timbangan = yang Anda terima.',
+      answer: 'TIDAK ADA! Penjemputan ≥40L: GRATIS. Tidak ada biaya admin. Tidak ada potongan tidak jelas. Yang di timbangan = yang Anda terima.',
     },
     {
       question: 'Bagaimana cara dapat harga tertinggi?',
@@ -147,29 +147,29 @@ export default function PricingPage() {
                 <tbody>
                   {[
                     {
-                      volume: '5-19 liter',
-                      harga: 'Rp 3.000 - Rp 3.500',
+                      volume: '5-39 liter',
+                      harga: 'Rp 6.500',
                       keterangan: 'Untuk rumah tangga, antar sendiri ke kantor',
                     },
                     {
-                      volume: '20-49 liter',
-                      harga: 'Rp 3.500 - Rp 4.000',
+                      volume: '40-99 liter',
+                      harga: 'Rp 6.800 - Rp 7.000',
                       keterangan: 'Penjemputan GRATIS, cocok untuk warung',
                     },
                     {
-                      volume: '50-99 liter',
-                      harga: 'Rp 4.000 - Rp 4.500',
+                      volume: '100-199 liter',
+                      harga: 'Rp 7.000 - Rp 7.200',
                       keterangan: 'Harga nego, cocok untuk restoran kecil',
                     },
                     {
-                      volume: '100-199 liter',
-                      harga: 'Rp 4.500 - Rp 5.000',
+                      volume: '≥200 liter',
+                      harga: 'Rp 7.200 - Rp 7.500',
                       keterangan: 'Harga kontrak, untuk restoran menengah',
                     },
                     {
-                      volume: '≥200 liter',
-                      harga: 'Rp 5.000+',
-                      keterangan: 'Harga khusus, untuk hotel/catering/industri',
+                      volume: 'Industri (1000L+)',
+                      harga: 'Hubungi Kami',
+                      keterangan: 'Harga khusus B2B & Partnership',
                     },
                   ].map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
@@ -206,7 +206,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6">1. Kualitas Minyak</h3>
               <div className="space-y-4">
                 <div className="bg-green-50 p-4 rounded-card border-l-4 border-green-500">
-                  <h4 className="font-semibold text-gray-800 mb-2">Harga Maksimal (Rp 4.500 - Rp 5.000/liter)</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Harga Maksimal (Rp 7.200 - Rp 7.500/liter)</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
@@ -231,7 +231,7 @@ export default function PricingPage() {
                   </ul>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-card border-l-4 border-yellow-500">
-                  <h4 className="font-semibold text-gray-800 mb-2">Harga Standar (Rp 3.500 - Rp 4.500/liter)</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Harga Standar (Rp 6.800 - Rp 7.100/liter)</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li className="flex items-start gap-2">
                       <AlertCircle className="w-4 h-4 text-yellow-600 mt-0.5 flex-shrink-0" />
@@ -252,7 +252,7 @@ export default function PricingPage() {
                   </ul>
                 </div>
                 <div className="bg-red-50 p-4 rounded-card border-l-4 border-red-500">
-                  <h4 className="font-semibold text-gray-800 mb-2">Harga Minimal (Rp 3.000 - Rp 3.500/liter)</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Harga Minimal (Rp 6.500/liter)</h4>
                   <ul className="space-y-1 text-sm text-gray-700">
                     <li className="flex items-start gap-2">
                       <span className="text-red-600 font-bold">❌</span>
@@ -286,23 +286,23 @@ export default function PricingPage() {
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-[#0F3D2E]">•</span>
-                  <span><strong>5-19 liter:</strong> Harga terendah (biaya operasional lebih tinggi)</span>
+                  <span><strong>5-39 liter:</strong> Harga dasar (biaya operasional lebih tinggi)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-[#0F3D2E]">•</span>
-                  <span><strong>20-49 liter:</strong> Harga menengah (sudah ekonomis untuk dijemput)</span>
+                  <span><strong>40-99 liter:</strong> Harga menengah (sudah ekonomis untuk dijemput)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-[#0F3D2E]">•</span>
-                  <span><strong>50+ liter:</strong> Harga tinggi (volume besar = efisiensi tinggi)</span>
+                  <span><strong>100+ liter:</strong> Harga tinggi (volume besar = efisiensi tinggi)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-[#0F3D2E]">•</span>
-                  <span><strong>100+ liter:</strong> Harga premium (bisa nego harga kontrak)</span>
+                  <span><strong>500+ liter:</strong> Harga premium (bisa nego harga kontrak)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-[#0F3D2E]">•</span>
-                  <span><strong>200+ liter:</strong> Harga special (partnership jangka panjang)</span>
+                  <span><strong>1000+ liter:</strong> Harga special (partnership jangka panjang)</span>
                 </li>
               </ul>
             </div>
@@ -406,10 +406,10 @@ export default function PricingPage() {
                       'Volume: 15 liter',
                       'Kualitas: Standar (sedikit air)',
                       'Metode: Antar sendiri ke kantor',
-                      'Harga: Rp 3.500/liter',
+                      'Harga: Rp 6.500/liter',
                     ],
-                    calculation: '15 liter × Rp 3.500 = Rp 52.500',
-                    result: 'Yang Anda Terima: Rp 52.500 tunai/transfer',
+                    calculation: '15 liter × Rp 6.500 = Rp 97.500',
+                    result: 'Yang Anda Terima: Rp 97.500 tunai/transfer',
                   },
                   {
                     title: 'Contoh 2: Warung Gorengan',
@@ -417,10 +417,10 @@ export default function PricingPage() {
                       'Volume: 40 liter',
                       'Kualitas: Bagus (sudah disaring)',
                       'Metode: Dijemput gratis',
-                      'Harga: Rp 4.000/liter',
+                      'Harga: Rp 6.800/liter',
                     ],
-                    calculation: '40 liter × Rp 4.000 = Rp 160.000',
-                    result: 'Yang Anda Terima: Rp 160.000 tunai/transfer',
+                    calculation: '40 liter × Rp 6.800 = Rp 272.000',
+                    result: 'Yang Anda Terima: Rp 272.000 tunai/transfer',
                   },
                   {
                     title: 'Contoh 3: Restoran Padang',
@@ -428,10 +428,10 @@ export default function PricingPage() {
                       'Volume: 120 liter',
                       'Kualitas: Sangat bagus (bersih, sedikit air)',
                       'Metode: Dijemput, kontrak bulanan',
-                      'Harga: Rp 4.700/liter (harga kontrak)',
+                      'Harga: Rp 7.200/liter (harga kontrak)',
                     ],
-                    calculation: '120 liter × Rp 4.700 = Rp 564.000',
-                    result: 'Yang Anda Terima: Rp 564.000/bulan | Penghasilan Tahunan: Rp 564.000 × 12 = Rp 6.768.000/tahun',
+                    calculation: '120 liter × Rp 7.200 = Rp 864.000',
+                    result: 'Yang Anda Terima: Rp 864.000/bulan | Penghasilan Tahunan: Rp 864.000 × 12 = Rp 10.368.000/tahun',
                   },
                   {
                     title: 'Contoh 4: Hotel Bintang 3',
@@ -439,10 +439,10 @@ export default function PricingPage() {
                       'Volume: 350 liter',
                       'Kualitas: Premium (dikelola dengan baik)',
                       'Metode: Dijemput 2x/bulan, kontrak 6 bulan',
-                      'Harga: Rp 5.000/liter (harga partnership)',
+                      'Harga: Rp 7.500/liter (harga partnership)',
                     ],
-                    calculation: '350 liter × Rp 5.000 = Rp 1.750.000',
-                    result: 'Yang Anda Terima: Rp 1.750.000/bulan | Penghasilan Tahunan: Rp 1.750.000 × 12 = Rp 21.000.000/tahun',
+                    calculation: '350 liter × Rp 7.500 = Rp 2.625.000',
+                    result: 'Yang Anda Terima: Rp 2.625.000/bulan | Penghasilan Tahunan: Rp 2.625.000 × 12 = Rp 31.500.000/tahun',
                   },
                   {
                     title: 'Contoh 5: Agen Pengumpul RT',
@@ -450,10 +450,10 @@ export default function PricingPage() {
                       'Skenario: Ibu RT mengumpulkan dari 15 rumah tetangga',
                       'Volume: 10 liter/bulan per rumah',
                       'Total: 15 rumah × 10 liter = 150 liter',
-                      'Harga: Rp 4.500/liter (volume besar)',
+                      'Harga: Rp 7.000/liter (volume besar)',
                     ],
-                    calculation: '150 liter × Rp 4.500 = Rp 675.000',
-                    result: 'Margin Agen: Beli dari tetangga Rp 3.000/liter (Modal: Rp 450.000) | Jual ke JelantahGo: Rp 675.000 | Profit: Rp 225.000/bulan | Penghasilan Tahunan: Rp 2.700.000/tahun (Bisnis sampingan yang menguntungkan!)',
+                    calculation: '150 liter × Rp 7.000 = Rp 1.050.000',
+                    result: 'Margin Agen: Beli dari tetangga Rp 5.000/liter (Modal: Rp 750.000) | Jual ke JelantahGo: Rp 1.050.000 | Profit: Rp 300.000/bulan | Penghasilan Tahunan: Rp 3.600.000/tahun (Bisnis sampingan yang menguntungkan!)',
                   },
                 ].map((example, index) => (
                   <div key={index} className="bg-[#F9F8F6] p-6 rounded-card border border-gray-200">
@@ -510,7 +510,7 @@ export default function PricingPage() {
                 tips: [
                   {
                     subTitle: 'Volume Awal → Volume Target → Kenaikan Harga',
-                    description: '10 liter (Rp 3.000) → 30 liter (Rp 3.800) = +Rp 800/liter | 30 liter (Rp 3.800) → 60 liter (Rp 4.300) = +Rp 500/liter | 60 liter (Rp 4.300) → 120 liter (Rp 4.700) = +Rp 400/liter',
+                    description: '10 liter (Rp 6.500) → 40 liter (Rp 6.800) = +Rp 300/liter | 40 liter (Rp 6.800) → 100 liter (Rp 7.000) = +Rp 200/liter | 100 liter (Rp 7.000) → 200 liter (Rp 7.200) = +Rp 200/liter',
                     impact: 'Cara Kumpulkan Volume: Kumpulkan dari tetangga RT, titip jerigen di warung RT, koordinasi dengan PKK/arisan, jadi agen pengumpul lokal',
                   },
                 ],
@@ -596,10 +596,10 @@ export default function PricingPage() {
               </thead>
               <tbody>
                 {[
-                  { aspek: 'Harga', jelantahgo: 'Rp 3.000 - Rp 5.000/L', konvensional: 'Rp 2.000 - Rp 4.000/L' },
+                  { aspek: 'Harga', jelantahgo: 'Rp 6.500 - Rp 7.500/L', konvensional: 'Rp 4.000 - Rp 5.500/L' },
                   { aspek: 'Transparansi', jelantahgo: 'Timbangan digital, Anda lihat', konvensional: 'Sering tidak transparan' },
                   { aspek: 'Pembayaran', jelantahgo: 'Tunai/transfer instant', konvensional: 'Sering tempo/dikurangi' },
-                  { aspek: 'Penjemputan', jelantahgo: 'Gratis ≥20L', konvensional: 'Kadang ada biaya' },
+                  { aspek: 'Penjemputan', jelantahgo: 'Gratis ≥40L', konvensional: 'Kadang ada biaya' },
                   { aspek: 'Response', jelantahgo: '5-30 menit (jam kerja)', konvensional: 'Sering lambat' },
                   { aspek: 'Dokumentasi', jelantahgo: 'Nota resmi, invoice', konvensional: 'Sering tidak ada' },
                   { aspek: 'Kontrak', jelantahgo: 'Bisa kontrak jangka panjang', konvensional: 'Jarang ada sistem kontrak' },
@@ -646,10 +646,10 @@ export default function PricingPage() {
                   </thead>
                   <tbody>
                     {[
-                      { skenario: '1 Rumah', volume: '5L', harga: 'Rp 3.000', bulan: 'Rp 15.000', tahun: 'Rp 180.000' },
-                      { skenario: '1 Rumah (rajin masak)', volume: '10L', harga: 'Rp 3.500', bulan: 'Rp 35.000', tahun: 'Rp 420.000' },
-                      { skenario: 'Agen RT (5 rumah)', volume: '50L', harga: 'Rp 4.000', bulan: 'Rp 200.000', tahun: 'Rp 2.400.000' },
-                      { skenario: 'Agen RT (15 rumah)', volume: '150L', harga: 'Rp 4.500', bulan: 'Rp 675.000', tahun: 'Rp 8.100.000' },
+                      { skenario: '1 Rumah', volume: '5L', harga: 'Rp 6.500', bulan: 'Rp 32.500', tahun: 'Rp 390.000' },
+                      { skenario: '1 Rumah (rajin masak)', volume: '10L', harga: 'Rp 6.500', bulan: 'Rp 65.000', tahun: 'Rp 780.000' },
+                      { skenario: 'Agen RT (5 rumah)', volume: '50L', harga: 'Rp 6.800', bulan: 'Rp 340.000', tahun: 'Rp 4.080.000' },
+                      { skenario: 'Agen RT (15 rumah)', volume: '150L', harga: 'Rp 7.000', bulan: 'Rp 1.050.000', tahun: 'Rp 12.600.000' },
                     ].map((row, index) => (
                       <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                         <td className="p-3 text-sm">{row.skenario}</td>
@@ -683,10 +683,10 @@ export default function PricingPage() {
                   </thead>
                   <tbody>
                     {[
-                      { jenis: 'Warung Nasi', volume: '30L', harga: 'Rp 3.800', bulan: 'Rp 114.000', tahun: 'Rp 1.368.000' },
-                      { jenis: 'Warung Gorengan', volume: '60L', harga: 'Rp 4.200', bulan: 'Rp 252.000', tahun: 'Rp 3.024.000' },
-                      { jenis: 'Restoran Padang', volume: '150L', harga: 'Rp 4.700', bulan: 'Rp 705.000', tahun: 'Rp 8.460.000' },
-                      { jenis: 'Resto Ayam Geprek', volume: '100L', harga: 'Rp 4.500', bulan: 'Rp 450.000', tahun: 'Rp 5.400.000' },
+                      { jenis: 'Warung Nasi', volume: '30L', harga: 'Rp 6.500', bulan: 'Rp 195.000', tahun: 'Rp 2.340.000' },
+                      { jenis: 'Warung Gorengan', volume: '60L', harga: 'Rp 6.800', bulan: 'Rp 408.000', tahun: 'Rp 4.896.000' },
+                      { jenis: 'Restoran Padang', volume: '150L', harga: 'Rp 7.200', bulan: 'Rp 1.080.000', tahun: 'Rp 12.960.000' },
+                      { jenis: 'Resto Ayam Geprek', volume: '100L', harga: 'Rp 7.000', bulan: 'Rp 700.000', tahun: 'Rp 8.400.000' },
                     ].map((row, index) => (
                       <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                         <td className="p-3 text-sm">{row.jenis}</td>
@@ -720,9 +720,9 @@ export default function PricingPage() {
                   </thead>
                   <tbody>
                     {[
-                      { jenis: 'Hotel Bintang 3', volume: '300L', harga: 'Rp 5.000', bulan: 'Rp 1.500.000', tahun: 'Rp 18.000.000' },
-                      { jenis: 'Catering Industri', volume: '500L', harga: 'Rp 5.000', bulan: 'Rp 2.500.000', tahun: 'Rp 30.000.000' },
-                      { jenis: 'Hotel Bintang 4-5', volume: '800L', harga: 'Rp 5.200', bulan: 'Rp 4.160.000', tahun: 'Rp 49.920.000' },
+                      { jenis: 'Hotel Bintang 3', volume: '300L', harga: 'Rp 7.500', bulan: 'Rp 2.250.000', tahun: 'Rp 27.000.000' },
+                      { jenis: 'Catering Industri', volume: '500L', harga: 'Rp 7.500', bulan: 'Rp 3.750.000', tahun: 'Rp 45.000.000' },
+                      { jenis: 'Hotel Bintang 4-5', volume: '800L', harga: 'Rp 7.500', bulan: 'Rp 6.000.000', tahun: 'Rp 72.000.000' },
                     ].map((row, index) => (
                       <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                         <td className="p-3 text-sm">{row.jenis}</td>
@@ -791,7 +791,7 @@ export default function PricingPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               📞 Cara Cek Harga & Jual Minyak Jelantah
             </h2>
-            
+
             <div className="card-premium">
               <h3 className="text-xl font-bold text-[#0F3D2E] mb-6">Langkah Mudah:</h3>
               <div className="space-y-6">
@@ -879,7 +879,7 @@ export default function PricingPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               📍 Lokasi & Kontak
             </h2>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div className="card-premium">
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 flex items-center gap-2">

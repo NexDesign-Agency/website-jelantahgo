@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { 
+import {
   MapPin, Phone, Mail, MessageCircle, Globe, Clock, ExternalLink,
   CheckCircle, HelpCircle, ArrowRight, Home, UtensilsCrossed, Building2,
   Factory, Users, Instagram, Facebook, Video
@@ -11,13 +11,13 @@ import FAQSchema from '@/components/FAQSchema'
 
 export const metadata: Metadata = {
   title: 'Kontak JelantahGO Jakarta | WhatsApp Fast Response',
-  description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
+  description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥40L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
   alternates: {
     canonical: 'https://jelantahgo.com/contact',
   },
   openGraph: {
     title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response',
-    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
+    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥40L, bayar instant. Kantor: Jl. Papanggo 3C No.250, Jakarta Utara',
     url: 'https://jelantahgo.com/contact',
     siteName: 'JelantahGO',
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Kontak JelantahGo Jakarta | WhatsApp Fast Response',
-    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥20L, bayar instant.',
+    description: 'Hubungi JelantahGo sekarang! WhatsApp 0812-2082-1983, response 5-30 menit. Penjemputan gratis ≥40L, bayar instant.',
     images: ['https://res.cloudinary.com/dknswj9co/image/upload/v1761171103/jelantah-go_4_ocrkto.webp'],
   },
 }
@@ -55,11 +55,11 @@ export default function ContactPage() {
     },
     {
       question: 'Bagaimana kalau lokasi saya jauh dari kantor?',
-      answer: 'Tidak masalah! Selama masih di wilayah Jakarta (Utara, Selatan, Barat, Timur, Pusat), kami tetap melayani penjemputan untuk volume ≥20 liter.',
+      answer: 'Tidak masalah! Selama masih di wilayah Jakarta (Utara, Selatan, Barat, Timur, Pusat), kami tetap melayani penjemputan untuk volume ≥40 liter.',
     },
     {
       question: 'Apakah harus datang ke kantor dulu sebelum transaksi?',
-      answer: 'Tidak harus! Anda bisa: Order via WhatsApp → Kami jemput (≥20L), atau antar langsung ke kantor tanpa appointment. Semua proses bisa via remote, Anda tidak perlu datang ke kantor.',
+      answer: 'Tidak harus! Anda bisa: Order via WhatsApp → Kami jemput (≥40L), atau antar langsung ke kantor tanpa appointment. Semua proses bisa via remote, Anda tidak perlu datang ke kantor.',
     },
     {
       question: 'Bisa minta tim JelantahGo survey lokasi dulu?',
@@ -93,7 +93,7 @@ export default function ContactPage() {
             Hubungi JelantahGo Jakarta - Response 5-30 Menit!
           </h1>
           <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Ingin jual minyak jelantah hari ini? Tim JelantahGo siap membantu dengan proses cepat, transparan, dan bayar langsung. <strong>Penjemputan gratis ≥20L di seluruh Jakarta!</strong>
+            Ingin jual minyak jelantah hari ini? Tim JelantahGo siap membantu dengan proses cepat, transparan, dan bayar langsung. <strong>Penjemputan gratis ≥40L di seluruh Jakarta!</strong>
           </p>
         </div>
       </section>
@@ -248,7 +248,7 @@ export default function ContactPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               📍 Alamat Kantor & Gudang
             </h2>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div className="card-premium">
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 flex items-center gap-2">
@@ -387,7 +387,7 @@ export default function ContactPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               🕐 Jam Operasional Lengkap
             </h2>
-            
+
             <div className="card-premium">
               <div className="overflow-x-auto">
                 <table className="w-full">
@@ -662,7 +662,7 @@ Bisa dibantu?`}
             </div>
             <div className="mt-8 text-center">
               <p className="text-gray-700 mb-4">
-                <strong>Catatan:</strong> Penjemputan GRATIS untuk volume ≥20 liter
+                <strong>Catatan:</strong> Penjemputan GRATIS untuk volume ≥40 liter
               </p>
               <Link href="/area-layanan" className="text-[#0F3D2E] font-semibold hover:underline inline-flex items-center gap-2">
                 📍 Lihat Detail Area Layanan

@@ -54,7 +54,7 @@ export default function CaraKerjaPage() {
   const faqsData = [
     {
       question: 'Apakah ada minimal order?',
-      answer: 'Tidak! Mulai dari 5 liter bisa dijual (antar ke kantor). Untuk penjemputan gratis, minimal 20 liter di seluruh area Jakarta.',
+      answer: 'Tidak! Mulai dari 5 liter bisa dijual (antar ke kantor). Untuk penjemputan gratis, minimal 40 liter di seluruh area Jakarta.',
     },
     {
       question: 'Berapa lama prosesnya?',
@@ -62,15 +62,15 @@ export default function CaraKerjaPage() {
     },
     {
       question: 'Apakah harga bisa nego?',
-      answer: 'Untuk volume kecil (<20L), harga sudah fixed. Untuk volume ≥50 liter atau kontrak rutin, bisa nego harga lebih baik. Harga bervariasi Rp 3.000-5.000/liter.',
+      answer: 'Untuk volume kecil (<40L), harga sudah fixed. Untuk volume ≥100 liter atau kontrak rutin, bisa nego harga lebih baik. Harga bervariasi Rp 6.500-7.500/liter.',
     },
     {
       question: 'Area mana saja yang dilayani?',
-      answer: 'Seluruh Jakarta: Utara, Selatan, Barat, Timur, Pusat. Penjemputan gratis untuk volume ≥20 liter ke seluruh area Jakarta.',
+      answer: 'Seluruh Jakarta: Utara, Selatan, Barat, Timur, Pusat. Penjemputan gratis untuk volume ≥40 liter ke seluruh area Jakarta.',
     },
     {
       question: 'Apakah ada biaya tambahan?',
-      answer: 'TIDAK! Penjemputan ≥20L gratis. Tidak ada biaya admin atau potongan. Biaya transfer bank juga gratis (kami yang tanggung).',
+      answer: 'TIDAK! Penjemputan ≥40L gratis. Tidak ada biaya admin atau potongan. Biaya transfer bank juga gratis (kami yang tanggung).',
     },
     {
       question: 'Bagaimana kalau minyak tercampur air?',
@@ -123,9 +123,9 @@ export default function CaraKerjaPage() {
           title: 'Tim Kami Akan:',
           items: [
             'Konfirmasi harga terbaru per liter (update setiap minggu)',
-            'Harga bervariasi Rp 3.000 - Rp 5.000/liter tergantung kualitas & volume',
+            'Harga bervariasi Rp 6.500 - Rp 7.500/liter tergantung kualitas & volume',
             'Cek volume & kualitas minyak jelantah Anda',
-            'Tentukan metode: Kami jemput (≥20L GRATIS) atau antar ke kantor',
+            'Tentukan metode: Kami jemput (≥40L GRATIS) atau antar ke kantor',
             'Jadwalkan waktu sesuai kebutuhan Anda',
           ],
         },
@@ -145,7 +145,7 @@ export default function CaraKerjaPage() {
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_10_rs4pcn.webp',
       sections: [
         {
-          title: 'Jika Kami yang Jemput (≥20L):',
+          title: 'Jika Kami yang Jemput (≥40L):',
           items: [
             'Tim tiba di lokasi sesuai jadwal dengan kendaraan operasional',
             'Verifikasi minyak jelantah dan penimbangan transparan',
@@ -155,7 +155,7 @@ export default function CaraKerjaPage() {
           ],
         },
         {
-          title: 'Jika Anda Antar ke Kantor (<20L):',
+          title: 'Jika Anda Antar ke Kantor (<40L):',
           items: [
             'Alamat: Jl. Papanggo 3C No.250, Papanggo, Jakarta Utara 14340',
             'Jam operasional: Senin-Sabtu, 08.00-17.00 WIB',
@@ -199,7 +199,7 @@ export default function CaraKerjaPage() {
     },
     {
       name: 'Konfirmasi Harga & Jadwal',
-      text: 'Tim kami konfirmasi harga terbaru per liter (Rp 3.000-5.000/liter), cek volume & kualitas, tentukan metode (jemput ≥20L gratis atau antar ke kantor), dan jadwalkan waktu sesuai kebutuhan.',
+      text: 'Tim kami konfirmasi harga terbaru per liter (Rp 6.500-7.500/liter), cek volume & kualitas, tentukan metode (jemput ≥40L gratis atau antar ke kantor), dan jadwalkan waktu sesuai kebutuhan.',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
     },
     {
@@ -254,9 +254,8 @@ export default function CaraKerjaPage() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`flex flex-col lg:flex-row gap-12 items-center ${
-                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-                }`}
+                className={`flex flex-col lg:flex-row gap-12 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                  }`}
               >
                 <div className="flex-1 w-full">
                   <Image

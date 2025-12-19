@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { 
-  Phone, Mail, MapPin, MessageCircle, Clock, Scale, Wallet, 
+import {
+  Phone, Mail, MapPin, MessageCircle, Clock, Scale, Wallet,
   Truck, CheckCircle, XCircle, AlertCircle, ArrowRight, DollarSign,
   Home, UtensilsCrossed, Building2, Factory, Leaf, TrendingUp,
   Users, Calculator, Star, HelpCircle, ExternalLink
@@ -44,7 +44,7 @@ export default function CaraJualMinyakJelantahPage() {
   const faqsData = [
     {
       question: 'Apakah ada minimal order?',
-      answer: 'Tidak! Mulai dari 5 liter bisa dijual (antar ke kantor). Untuk penjemputan gratis, minimal 20 liter.',
+      answer: 'Tidak! Mulai dari 5 liter bisa dijual (antar ke kantor). Untuk penjemputan gratis, minimal 40 liter.',
     },
     {
       question: 'Berapa lama prosesnya?',
@@ -52,7 +52,7 @@ export default function CaraJualMinyakJelantahPage() {
     },
     {
       question: 'Apakah harga bisa nego?',
-      answer: 'Untuk volume kecil (<20L), harga sudah fixed. Untuk volume ≥50 liter atau kontrak rutin, bisa nego harga lebih baik.',
+      answer: 'Untuk volume kecil (<40L), harga sudah fixed. Untuk volume ≥100 liter atau kontrak rutin, bisa nego harga lebih baik.',
     },
     {
       question: 'Area mana saja yang dilayani?',
@@ -60,7 +60,7 @@ export default function CaraJualMinyakJelantahPage() {
     },
     {
       question: 'Apakah ada biaya tambahan?',
-      answer: 'TIDAK! Penjemputan ≥20L gratis. Tidak ada biaya admin atau potongan.',
+      answer: 'TIDAK! Penjemputan ≥40L gratis. Tidak ada biaya admin atau potongan.',
     },
     {
       question: 'Bagaimana kalau minyak tercampur air?',
@@ -76,7 +76,7 @@ export default function CaraJualMinyakJelantahPage() {
     },
     {
       name: 'Konfirmasi Harga & Jadwal',
-      text: 'Tim akan konfirmasi harga terbaru per liter, cek volume & kualitas, tentukan metode (kami jemput gratis untuk ≥20L atau antar ke kantor), dan jadwalkan waktu yang sesuai.',
+      text: 'Tim akan konfirmasi harga terbaru per liter, cek volume & kualitas, tentukan metode (kami jemput gratis untuk ≥40L atau antar ke kantor), dan jadwalkan waktu yang sesuai.',
       image: 'https://res.cloudinary.com/dknswj9co/image/upload/v1761171104/jelantah-go_9_pdl5dv.webp',
     },
     {
@@ -244,7 +244,7 @@ export default function CaraJualMinyakJelantahPage() {
                           <p className="font-semibold text-gray-800 mb-1">1. Konfirmasi Harga</p>
                           <ul className="text-gray-700 text-sm space-y-1 ml-4">
                             <li>• Kami berikan harga terbaru per liter (update setiap minggu)</li>
-                            <li>• Harga bervariasi Rp 3.000 - Rp 5.000/liter tergantung kualitas & volume</li>
+                            <li>• Harga bervariasi Rp 6.500 - Rp 7.500/liter tergantung kualitas & volume</li>
                             <li>• Tidak ada biaya tersembunyi atau potongan tidak jelas</li>
                           </ul>
                         </div>
@@ -259,10 +259,10 @@ export default function CaraJualMinyakJelantahPage() {
                         <div>
                           <p className="font-semibold text-gray-800 mb-1">3. Tentukan Metode</p>
                           <div className="bg-white p-4 rounded-card border border-gray-200 space-y-2">
-                            <p className="font-semibold text-[#0F3D2E]">Opsi A: Kami Jemput (GRATIS untuk ≥20 liter)</p>
+                            <p className="font-semibold text-[#0F3D2E]">Opsi A: Kami Jemput (GRATIS untuk ≥40 liter)</p>
                             <p className="text-sm text-gray-600">Cocok untuk: Restoran, warung, volume besar. Kami datang ke lokasi Anda dengan timbangan digital. Bayar langsung di tempat.</p>
                             <p className="font-semibold text-[#0F3D2E] mt-3">Opsi B: Antar ke Kantor (Semua volume)</p>
-                            <p className="text-sm text-gray-600">Cocok untuk: Rumah tangga, volume kecil (&lt;20 liter). Alamat: Jl. Papanggo 3C No.250, Jakarta Utara. Tetap dibayar sesuai timbangan!</p>
+                            <p className="text-sm text-gray-600">Cocok untuk: Rumah tangga, volume kecil (&lt;40 liter). Alamat: Jl. Papanggo 3C No.250, Jakarta Utara. Tetap dibayar sesuai timbangan!</p>
                           </div>
                         </div>
                         <div>
@@ -508,7 +508,7 @@ export default function CaraJualMinyakJelantahPage() {
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-                  <span>Untuk Penjemputan GRATIS: Minimal 20 liter</span>
+                  <span>Untuk Penjemputan GRATIS: Minimal 40 liter</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
@@ -578,24 +578,24 @@ export default function CaraJualMinyakJelantahPage() {
                   <p className="font-semibold text-gray-800 mb-2">Kasus 1: Rumah Tangga</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Volume: 10 liter</li>
-                    <li>• Harga: Rp 3.500/liter</li>
-                    <li>• <strong>Total: 10 × Rp 3.500 = Rp 35.000</strong></li>
+                    <li>• Harga: Rp 6.500/liter</li>
+                    <li>• <strong>Total: 10 × Rp 6.500 = Rp 65.000</strong></li>
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-card border border-gray-200">
                   <p className="font-semibold text-gray-800 mb-2">Kasus 2: Warung Makan</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Volume: 50 liter</li>
-                    <li>• Harga: Rp 4.000/liter (lebih tinggi karena volume besar)</li>
-                    <li>• <strong>Total: 50 × Rp 4.000 = Rp 200.000</strong></li>
+                    <li>• Harga: Rp 6.800/liter (lebih tinggi karena volume besar)</li>
+                    <li>• <strong>Total: 50 × Rp 6.800 = Rp 340.000</strong></li>
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-card border border-gray-200">
                   <p className="font-semibold text-gray-800 mb-2">Kasus 3: Restoran (Kontrak Rutin)</p>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Volume: 200 liter/bulan</li>
-                    <li>• Harga: Rp 4.500/liter (harga kontrak lebih baik)</li>
-                    <li>• <strong>Total: 200 × Rp 4.500 = Rp 900.000/bulan</strong></li>
+                    <li>• Harga: Rp 7.200/liter (harga kontrak lebih baik)</li>
+                    <li>• <strong>Total: 200 × Rp 7.200 = Rp 1.440.000/bulan</strong></li>
                   </ul>
                 </div>
               </div>
@@ -607,7 +607,7 @@ export default function CaraJualMinyakJelantahPage() {
                 <div className="bg-green-50 p-4 rounded-card border border-green-200">
                   <p className="font-semibold text-green-800 mb-2">Harga Lebih Tinggi jika:</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>✓ Volume besar (≥50 liter)</li>
+                    <li>✓ Volume besar (≥100 liter)</li>
                     <li>✓ Kualitas bagus (tidak banyak air)</li>
                     <li>✓ Kontrak rutin (mingguan/bulanan)</li>
                     <li>✓ Bersih dari sampah</li>
@@ -616,7 +616,7 @@ export default function CaraJualMinyakJelantahPage() {
                 <div className="bg-yellow-50 p-4 rounded-card border border-yellow-200">
                   <p className="font-semibold text-yellow-800 mb-2">Harga Standar jika:</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Volume sedang (20-50 liter)</li>
+                    <li>• Volume sedang (40-99 liter)</li>
                     <li>• Kualitas normal</li>
                     <li>• Transaksi sekali-kali</li>
                   </ul>
@@ -711,29 +711,29 @@ export default function CaraJualMinyakJelantahPage() {
               {
                 title: 'Untuk Rumah Tangga',
                 icon: <Home className="w-8 h-8" />,
-                strategy: 'Kumpulkan di jerigen selama 1-2 bulan. Target: 20 liter untuk penjemputan gratis. Atau kumpulkan dari tetangga untuk volume lebih besar.',
-                volume: '1 rumah: Rp 20.000 - Rp 50.000/bulan\nJadi agen RT (10 rumah): Rp 200.000 - Rp 500.000/bulan',
-                optimal: 'Antar sendiri jika <20L atau tunggu sampai cukup 20L untuk dijemput gratis',
+                strategy: 'Kumpulkan di jerigen selama 1-2 bulan. Target: 40 liter untuk penjemputan gratis. Atau kumpulkan dari tetangga untuk volume lebih besar.',
+                volume: '1 rumah: Rp 32.500 - Rp 65.000/bulan\nJadi agen RT (10 rumah): Rp 390.000 - Rp 780.000/bulan',
+                optimal: 'Antar sendiri jika <40L atau tunggu sampai cukup 40L untuk dijemput gratis',
               },
               {
                 title: 'Untuk Warung/Restoran Kecil',
                 icon: <UtensilsCrossed className="w-8 h-8" />,
                 strategy: 'Sediakan wadah khusus untuk minyak bekas. Pisahkan dari sampah lain. Jadwalkan penjemputan mingguan.',
-                volume: 'Warung nasi: 20-50 liter/bulan\nWarung gorengan: 30-80 liter/bulan\nResto padang: 50-150 liter/bulan\n\nEstimasi pendapatan: Rp 100.000 - Rp 600.000/bulan',
+                volume: 'Warung nasi: 20-50 liter/bulan\nWarung gorengan: 30-80 liter/bulan\nResto padang: 50-150 liter/bulan\n\nEstimasi pendapatan: Rp 130.000 - Rp 1.080.000/bulan',
                 optimal: 'Kontrak rutin bulanan dengan harga tetap',
               },
               {
                 title: 'Untuk Hotel/Catering Besar',
                 icon: <Building2 className="w-8 h-8" />,
                 strategy: 'Tangki penyimpanan khusus di area dapur. Tim kami sediakan wadah (untuk volume besar). Penjemputan terjadwal (2x sebulan atau lebih).',
-                volume: 'Hotel bintang 3-4: 200-500 liter/bulan\nCatering industri: 300-800 liter/bulan\n\nEstimasi pendapatan: Rp 800.000 - Rp 4.000.000/bulan',
+                volume: 'Hotel bintang 3-4: 200-500 liter/bulan\nCatering industri: 300-800 liter/bulan\n\nEstimasi pendapatan: Rp 1.500.000 - Rp 6.000.000/bulan',
                 optimal: 'Kontrak B2B dengan dokumentasi lengkap untuk CSR reporting',
               },
               {
                 title: 'Untuk Industri F&B',
                 icon: <Factory className="w-8 h-8" />,
                 strategy: 'Tangki penyimpanan on-site. Truk khusus untuk volume ratusan liter. Kontrak jangka panjang (6-12 bulan).',
-                volume: '500 - 2.000 liter/bulan\n\nEstimasi pendapatan: Rp 2.000.000 - Rp 10.000.000/bulan',
+                volume: '500 - 2.000 liter/bulan\n\nEstimasi pendapatan: Rp 3.750.000 - Rp 15.000.000/bulan',
                 optimal: 'Partnership dengan terms khusus + reporting berkala',
               },
             ].map((usaha, index) => (

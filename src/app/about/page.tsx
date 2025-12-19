@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { 
+import {
   Users, TrendingUp, Award, Target, Heart, Shield, DollarSign, Zap,
   Clock, MapPin, Phone, Mail, Globe, CheckCircle, Building, Leaf,
   Truck, Scale, Wallet, ArrowRight, Calendar, Users2, TrendingDown,
@@ -111,7 +111,7 @@ export default function AboutPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               Sejarah & Perjalanan Kami
             </h2>
-            
+
             <div className="card-premium mb-8">
               <h3 className="text-2xl font-bold text-[#0F3D2E] mb-4">Awal Mula (2020)</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -175,7 +175,7 @@ export default function AboutPage() {
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
             Visi & Misi
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="card-premium">
               <div className="flex items-center gap-3 mb-4">
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 Menjadi pengepul minyak jelantah terdepan di Indonesia yang menciptakan ekosistem daur ulang berkelanjutan dan memberikan nilai ekonomis maksimal bagi setiap mitra.
               </p>
             </div>
-            
+
             <div className="card-premium">
               <div className="flex items-center gap-3 mb-4">
                 <Zap className="w-8 h-8 text-[#0F3D2E]" />
@@ -221,7 +221,7 @@ export default function AboutPage() {
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
             Nilai-Nilai Perusahaan
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
@@ -272,7 +272,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-700 mb-8 text-lg">
               Apa yang membuat kami berbeda dari pengepul minyak jelantah lainnya?
             </p>
-            
+
             <div className="space-y-6">
               {[
                 {
@@ -338,7 +338,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-600 mb-12">
               Di balik layanan pengepulan minyak jelantah JelantahGo, ada tim solid yang berdedikasi tinggi:
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 {
@@ -390,7 +390,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-700 mb-8">
               Sebagai pengepul minyak jelantah yang bertanggung jawab, kami beroperasi dengan prinsip profesional dan transparan:
             </p>
-            
+
             <div className="card-premium">
               <div className="grid md:grid-cols-2 gap-4">
                 {[
@@ -423,7 +423,7 @@ export default function AboutPage() {
           <p className="text-center text-gray-600 mb-12">
             Sebagai pengepul minyak jelantah yang komprehensif, kami melayani berbagai segmen:
           </p>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               {
@@ -471,7 +471,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-600 mb-12">
               Bagaimana kami beroperasi sebagai pengepul minyak jelantah profesional?
             </p>
-            
+
             <div className="space-y-6">
               {[
                 {
@@ -487,7 +487,7 @@ export default function AboutPage() {
                 {
                   number: '3',
                   title: 'Penjemputan/Antar',
-                  description: 'Min. 20L kami jemput gratis | <20L bisa antar ke kantor kami.',
+                  description: 'Min. 40L kami jemput gratis | <40L bisa antar ke kantor kami.',
                 },
                 {
                   number: '4',
@@ -535,7 +535,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-600 mb-12">
               Lebih dari sekadar pengepul minyak jelantah, kami adalah agen perubahan untuk lingkungan yang lebih baik:
             </p>
-            
+
             <div className="card-premium mb-8">
               <h3 className="text-2xl font-bold text-[#0F3D2E] mb-6 text-center">Dampak Kami di Jakarta - Pencapaian 5 Tahun (2020-2025)</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -593,7 +593,7 @@ export default function AboutPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#0F3D2E] mb-12">
               Lokasi & Area Layanan
             </h2>
-            
+
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="card-premium">
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 flex items-center gap-2">
@@ -646,7 +646,7 @@ export default function AboutPage() {
 
             <div className="card-premium">
               <p className="text-gray-700 mb-2">
-                <strong>Layanan Penjemputan:</strong> Kami menyediakan layanan penjemputan ke seluruh Jakarta untuk volume minimal 20 liter. Untuk volume di bawah itu, Anda bisa antar langsung ke kantor kami.
+                <strong>Layanan Penjemputan:</strong> Kami menyediakan layanan penjemputan ke seluruh Jakarta untuk volume minimal 40 liter. Untuk volume di bawah itu, Anda bisa antar langsung ke kantor kami.
               </p>
               <p className="text-gray-700">
                 <strong>Rencana Ekspansi:</strong> Sebagai pengepul minyak jelantah yang terus berkembang, kami berencana membuka layanan di Tangerang, Bekasi, Depok, dan Bogor dalam waktu dekat. Stay tuned!
@@ -666,7 +666,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-600 mb-8">
               JelantahGo terbuka untuk berbagai bentuk kemitraan:
             </p>
-            
+
             <div className="space-y-6">
               <div className="card-premium">
                 <div className="flex items-center gap-3 mb-4">
@@ -728,7 +728,7 @@ export default function AboutPage() {
             <p className="text-center text-gray-600 mb-12">
               Tertarik bermitra atau ingin menjual minyak jelantah Anda? Tim JelantahGo siap membantu!
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div className="card-premium">
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-4">Kontak Kami:</h3>
@@ -771,7 +771,7 @@ export default function AboutPage() {
                   <p><strong>Senin - Sabtu:</strong> 08.00 - 17.00 WIB</p>
                   <p><strong>Minggu:</strong> Libur (kecuali kontrak khusus)</p>
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-[#0F3D2E] mb-4 mt-6">Media Sosial:</h3>
                 <div className="space-y-2 text-gray-700">
                   <p>📷 <strong>Instagram:</strong> @jelantahgo</p>
