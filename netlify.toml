@@ -1,0 +1,26 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Redirect www to non-www
+[[redirects]]
+  from = "http://www.jelantahgo.com/*"
+  to = "https://jelantahgo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.jelantahgo.com/*"
+  to = "https://jelantahgo.com/:splat"
+  status = 301
+  force = true
+
+# Redirect http to https
+[[redirects]]
+  from = "http://jelantahgo.com/*"
+  to = "https://jelantahgo.com/:splat"
+  status = 301
+  force = true

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate homepage SEO with new title and H1 focusing on ''Harga Tinggi''\n\n- Change title to: Jual Minyak Jelantah di Jakarta Harga Tinggi - Pengepul Terpercaya #1\n- Update H1 heading to emphasize high pricing and trust\n- Revise meta description to target restaurants, catering, UMKM\n- Update OpenGraph and Twitter metadata for consistency\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

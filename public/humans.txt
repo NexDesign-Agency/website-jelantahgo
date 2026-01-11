@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    JelantahGO Team -- https://jelantahgo.com
+
+# THANKS
+
+    Pelanggan setia JelantahGO di Jakarta & sekitarnya
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3, JavaScript (ES6+)
+    Software: Next.js 14, React 18, TypeScript, Tailwind CSS
+    Hosting: Netlify / Vercel
+    CDN: Cloudinary
+    Analytics: (Google Analytics / etc)
+
+# UPDATE HISTORY
+
+    2025-01-XX: Website launch
+    2025-01-XX: SEO optimization, sitemap, robots.txt
+

@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #0F3D2E;
+    --primary-dark: #0A2820;
+    --primary-light: #134E3A;
+    --secondary: #D9E3D3;
+    --secondary-light: #E5EFE0;
+    --beige: #F9F8F6;
+    --beige-light: #FCFBFA;
+    --mint: #D9E3D3;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-800 bg-[#F9F8F6];
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Accessibility: Focus styles for keyboard navigation */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-[#0F3D2E];
+    outline-style: solid;
+  }
+  
+  button:focus-visible,
+  a:focus-visible {
+    @apply ring-2 ring-[#0F3D2E] ring-offset-2;
+  }
+  
+  /* Screen reader only class */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .sr-only:focus {
+    @apply static w-auto h-auto p-0 m-0 overflow-visible whitespace-normal;
+    clip: auto;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-[#0F3D2E] hover:bg-[#134E3A] text-white font-semibold px-6 py-3 rounded-card transition-all duration-300 hover:shadow-soft-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-[#0F3D2E] border-2 border-[#D9E3D3] hover:bg-[#F9F8F6] hover:border-[#0F3D2E] font-semibold px-6 py-3 rounded-card transition-all duration-300 hover:shadow-soft;
+  }
+  
+  .section-beige {
+    @apply bg-[#F9F8F6];
+  }
+  
+  .section-white {
+    @apply bg-white;
+  }
+  
+  .section-cream {
+    @apply bg-[#FCFBFA];
+  }
+  
+  .card-premium {
+    @apply bg-white rounded-card-lg p-6 shadow-layered border border-gray-100 hover:shadow-soft-xl transition-all duration-300;
+  }
+  
+  .card-soft {
+    @apply bg-white rounded-card p-6 shadow-soft border border-gray-50;
+  }
+  
+  .card-mint {
+    @apply bg-[#E8F0E3] rounded-card p-6 border border-[#D9E3D3];
+  }
+  
+  .text-primary {
+    @apply text-[#0F3D2E];
+  }
+  
+  .text-secondary {
+    @apply text-gray-600;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-br from-[#0F3D2E] via-[#134E3A] to-[#0A2820];
+  }
+  
+  .border-primary {
+    @apply border-[#0F3D2E];
+  }
+  
+  .border-soft {
+    @apply border-gray-100;
+  }
+  
+  /* Hero Background with Dot Pattern */
+  .hero-bg-dots {
+    @apply relative bg-[#0F3D2E] text-white overflow-hidden;
+  }
+  
+  .hero-bg-dots::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3) 2.5px, transparent 2.5px);
+    background-size: 8px 8px;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hover-lift {
+    @apply hover:-translate-y-1 transition-smooth;
+  }
+}
+
+/* Footer Mobile Optimization */
+@media (max-width: 768px) {
+  .footer-nav,
+  .area-pages,
+  .company-info {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-nav h4,
+  .area-pages h4 {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    padding-right: 2rem;
+  }
+  
+  .footer-nav h4::after,
+  .area-pages h4::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-nav h4[aria-expanded="true"]::after,
+  .area-pages h4[aria-expanded="true"]::after {
+    content: '−';
+    transform: rotate(180deg);
+  }
+}
