@@ -9,14 +9,14 @@ interface ReviewSchemaProps {
   }>
 }
 
-export default function ReviewSchema({ 
-  ratingValue, 
+export default function ReviewSchema({
+  ratingValue,
   reviewCount,
   reviews = []
 }: ReviewSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'RecyclingCenter',
     '@id': 'https://jelantahgo.com/#organization',
     name: 'JelantahGO',
     aggregateRating: {
