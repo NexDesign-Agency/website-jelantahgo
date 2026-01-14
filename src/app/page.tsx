@@ -61,8 +61,8 @@ export default function HomeNew() {
             "@type": "Service",
             "serviceType": "Pengepul Minyak Jelantah",
             "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://jelantahgo.com/#localbusiness",
+              "@type": "RecyclingCenter",
+              "@id": "https://jelantahgo.com/#organization",
               "name": "JelantahGO",
               "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
               "telephone": "+6285183033995",
