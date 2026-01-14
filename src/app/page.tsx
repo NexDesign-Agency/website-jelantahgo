@@ -63,7 +63,16 @@ export default function HomeNew() {
             "provider": {
               "@type": "LocalBusiness",
               "@id": "https://jelantahgo.com/#localbusiness",
-              "name": "JelantahGO"
+              "name": "JelantahGO",
+              "image": "https://res.cloudinary.com/dknswj9co/image/upload/v1760998331/jelantahgo_6_u3erug.webp",
+              "telephone": "+6285183033995",
+              "priceRange": "Rp 6.500 - Rp 7.500 per liter",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jakarta",
+                "addressRegion": "DKI Jakarta",
+                "addressCountry": "ID"
+              }
             },
             "areaServed": [
               {
