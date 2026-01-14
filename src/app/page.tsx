@@ -69,8 +69,10 @@ export default function HomeNew() {
               "priceRange": "Rp 6.500 - Rp 7.500 per liter",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Jakarta",
-                "addressRegion": "DKI Jakarta",
+                "streetAddress": "Jl. Papanggo 3C No.250, Papanggo",
+                "addressLocality": "Jakarta Utara",
+                "addressRegion": "Daerah Khusus Ibukota Jakarta",
+                "postalCode": "14340",
                 "addressCountry": "ID"
               }
             },
